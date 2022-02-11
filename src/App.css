@@ -132,7 +132,7 @@ input:focus {
 .no-data {
   display: flex;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 8px !important;
   font-weight: 400;
 }
 
@@ -181,10 +181,10 @@ input:focus {
 }
 
 .nextwordle-title {
-  font-size: 15px
+  font-size: 12px
 }
 
 .nextwordle-time {
   margin-top: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }

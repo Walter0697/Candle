@@ -77,7 +77,7 @@ function Game({
                 gameStatus.current = ''
             }
             
-            const savedProgress = record.load(date)
+            const savedProgress = record.load()
             if (savedProgress) {
                 let row = 0
                 for (let i = 0; i < savedProgress.length; i++) {

@@ -40,12 +40,17 @@ const saveCurrentRecord = (data, today) => {
     localStorage.setItem('progress', JSON.stringify(data))
 }
 
-const loadCurrentRecord = (today) => {
+const loadCurrentRecord = () => {
     const data = localStorage.getItem('progress')
     if (data) {
         return JSON.parse(data)
     }
     return null
+}
+
+const getRecordDate = () => {
+    const date = localStorage.getItem('date')
+    return date
 }
 
 const getHistory = () => {
@@ -63,7 +68,7 @@ const saveWinRecord = (date, row) => {
     localStorage.setItem('history', JSON.stringify(history))
 }
 
-const saveLossRecord = (date, row) => {
+const saveLossRecord = (date) => {
     localStorage.setItem('status', 'loss')
     const history = getHistory()
     history.push({ date, row: -1 })
@@ -74,6 +79,7 @@ const record = {
     parse: parseCurrentRecord,
     save: saveCurrentRecord,
     load: loadCurrentRecord,
+    get_date: getRecordDate,
     status: loadCurrentStatus,
     date: getTodayNumber,
     is_today: isRecordToday,

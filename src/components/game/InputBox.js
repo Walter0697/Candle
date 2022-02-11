@@ -80,7 +80,7 @@ function InputBox({
             value={text}
             onChange={onTextChange}
             onKeyUp={onKeyPress}
-            onBlur={() => inputRef.current.focus()}
+            //onBlur={() => inputRef.current.focus()}
         />
     )
 }

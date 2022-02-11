@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -48,11 +48,6 @@ function Statistics({
 
     // sharable content
     const [ isGameFinished, setGameFinished ] = useState(false)
-
-    const hasData = (() => {
-        if (winRate === 0) return false
-        return true
-    }, [])
 
     useEffect(() => {
         if (record.is_today(date)) {
@@ -177,7 +172,7 @@ function Statistics({
                     >
                         估中次數
                     </Grid>
-                    {hasData ? (
+                    {(highestGuess !== 0) ? (
                         <Grid item xs={12} md={12} lg={12}
                             style={{
                                 display: 'flex',
