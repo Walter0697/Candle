@@ -39,9 +39,14 @@ const guess = (words) => {
     }
 }
 
+const correct = () => {
+    return '正確答案'
+}
+
 const validate = {
     exist,
     guess,
+    correct,
 }
 
 export default validate

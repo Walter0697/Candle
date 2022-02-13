@@ -1,19 +1,17 @@
-import React, { useState, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import {
     useSpring,
     config,
     animated,
 } from '@react-spring/web'
 
-import color from '../../utils/color'
-
 function GameTile({ 
     info,
 }) {
-    const backgroundColor = useMemo(() => {
-        if (!info) return color.inactive
-        if (!info.status) return color.inactive
-        return color[info.status]
+    const colorClass = useMemo(() => {
+        if (!info) return ''
+        if (!info.status) return ''
+        return `color-${info.status}`
     }, [info])
 
     const { transform } = useSpring({
@@ -32,17 +30,14 @@ function GameTile({
         >
             <div
                 className={'flippable flipbox front-flipbox'}
-                style={{
-                    backgroundColor: color.inactive,
-                }}
             >
                 {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
             </div> 
             <div
-                className={'flippable flipbox back-flipbox'}
+                className={`flippable flipbox back-flipbox ${colorClass}`}
                 style={{
-                    border: `2px solid ${backgroundColor}`,
-                    backgroundColor: backgroundColor,
+                    //border: `2px solid ${backgroundColor}`,
+                    //backgroundColor: backgroundColor,
                 }}
             >
                 {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}

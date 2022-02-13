@@ -100,8 +100,17 @@ function Game({
 
     useEffect(() => {
         if (!validating.current) {
-            if (gameStatus.current === 'win' || gameStatus.current === 'loss') {
-                setFinished()
+            if (gameStatus.current === 'win') {
+                // winning animation
+                window.setTimeout(() => {
+                    setFinished()
+                }, 1000)
+            }
+            else if (gameStatus.current === 'loss') {
+                enqueueSnackbar(validate.correct(), { autoHideDuration: 1000 })
+                window.setTimeout(() => {
+                    setFinished()
+                }, 1000)
             }
         }
     }, [validating.current, gameStatus.current])
