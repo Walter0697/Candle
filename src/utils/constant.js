@@ -4,6 +4,7 @@ const constant = {
     initial: 'initial',
     final: 'final',
     tone: 'tone',
+    place: 'place',
 }
 
 export default constant

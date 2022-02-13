@@ -4,10 +4,14 @@ import {
 } from '@mui/material'
 import ShareIcon from '@mui/icons-material/Share'
 
+import { useSnackbar } from 'notistack'
+
 import record from '../../utils/record'
 import setting from '../../utils/setting'
+import notification from '../../utils/notification'
 
 function ShareButton() {
+    const { enqueueSnackbar } = useSnackbar()
 
     const copySharableToClipboard = () => {
         const emoji = setting.emoji_list()
@@ -39,6 +43,7 @@ function ShareButton() {
         alert(shareStr)
         console.log(shareStr)
         navigator.clipboard.writeText(shareStr)
+        enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
     }
 
     return (

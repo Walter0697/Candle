@@ -3,12 +3,15 @@ import {
     Grid, 
 } from '@mui/material'
 
+import { useSnackbar } from 'notistack'
+
 import GameRow from './GameRow'
 import InputBox from './InputBox'
 
 import validate from '../../utils/validate'
 import constant from '../../utils/constant'
 import record from '../../utils/record'
+import notification from '../../utils/notification'
 
 const maxLength = 4
 const maxRow = 6
@@ -50,6 +53,8 @@ function Game({
     date,
     setFinished,
 }) {
+    const { enqueueSnackbar } = useSnackbar()
+
     const currentRow = useRef(0)
     const currentGuess = useRef(0)
     const validating = useRef(false)
@@ -107,7 +112,7 @@ function Game({
 
         const currentRowList = wordList[currentRow.current]
         if (currentRowList.length !== maxLength) {
-            // TODO: display error for not enough word
+            enqueueSnackbar(notification.fourWord(), { autoHideDuration: 1000 })
             setRowShake(true)
             return
         }
@@ -120,7 +125,7 @@ function Game({
         // check if it exists in word list
         const exist = validate.exist(guessing)
         if (!exist) {
-            // TODO: display error for not in word list
+            enqueueSnackbar(notification.notInWordList(), { autoHideDuration: 1000 })
             setRowShake(true)
             return
         }
@@ -180,9 +185,14 @@ function Game({
         }, 500)
     }
     
-    // TODO: check if it is more than one word
-    // TODO: check if it is empty
     const setNextGuess = (data) => {
+        if (data.trim() === '') {
+            enqueueSnackbar(notification.emptyWord(), { autoHideDuration: 1000 })
+            return
+        } else if (data.length > 1) {
+            enqueueSnackbar(notification.multipleWord(), { autoHideDuration: 1000 })
+            return
+        }
         const prevLength = wordList[currentRow.current].length
         manipulateList({type: 'add', word: data, row: currentRow.current })
         currentGuess.current = prevLength + 1
