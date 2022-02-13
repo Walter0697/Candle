@@ -19,6 +19,16 @@ const randomStatus = () => {
     if (chance === 5) return constant.place
 }
 
+const randomPronounce = () => {
+    const chance = randomInt(6)
+    if (chance === 0) return 'jat1'
+    if (chance === 1) return 'ji6'
+    if (chance === 2) return 'saam1'
+    if (chance === 3) return 'sei3'
+    if (chance === 4) return 'ng5'
+    if (chance === 5) return 'luk6'
+}
+
 const exist = (words) => {
     // TODO: only for testing
     if (words.startsWith('一')) {
@@ -31,11 +41,25 @@ const guess = (words) => {
     console.log(words)
 
     // TODO: only for testing
-    if (randomWin()) return { win: true }
+    if (randomWin()) 
+        return { 
+            win: true,
+            result: [
+                { status: constant.correct, pronounce: randomPronounce() },
+                { status: constant.correct, pronounce: randomPronounce() },
+                { status: constant.correct, pronounce: randomPronounce() },
+                { status: constant.correct, pronounce: randomPronounce() },
+            ]
+        }
 
     return { 
         win: false,
-        result: [randomStatus(), randomStatus(), randomStatus(), randomStatus()]
+        result: [
+            { status: randomStatus(), pronounce: randomPronounce() },
+            { status: randomStatus(), pronounce: randomPronounce() },
+            { status: randomStatus(), pronounce: randomPronounce() },
+            { status: randomStatus(), pronounce: randomPronounce() },
+        ]
     }
 }
 

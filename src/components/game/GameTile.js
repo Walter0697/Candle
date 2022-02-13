@@ -29,18 +29,26 @@ function GameTile({
             }}
         >
             <div
-                className={'flippable flipbox front-flipbox'}
+                className={'flippable'}
             >
-                {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                <div
+                    className={'flipbox front-flipbox'}
+                >
+                    {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                </div>
+                <div className={'flipbox-pronounce'} />
             </div> 
             <div
-                className={`flippable flipbox back-flipbox ${colorClass}`}
-                style={{
-                    //border: `2px solid ${backgroundColor}`,
-                    //backgroundColor: backgroundColor,
-                }}
+                className={'back-flippable'}
             >
-                {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                <div
+                    className={`flipbox back-flipbox ${colorClass}`}
+                >
+                    {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                </div>
+                <div className={'flipbox-pronounce flipbox-pronounce-display'}>
+                    {(info && info.pronounce) ? <>{info.pronounce}</> : <>&nbsp;</>}
+                </div>
             </div> 
         </animated.div>
     )

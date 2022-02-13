@@ -21,7 +21,7 @@ const wordListReducer = (state, action) => {
         case 'add': {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
-            currentRowList.push({ word: action.word, status: 'inactive' })
+            currentRowList.push({ word: action.word, status: 'inactive', pronounce: '' })
             return list
         }
         case 'remove': {
@@ -34,7 +34,7 @@ const wordListReducer = (state, action) => {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
             const word = currentRowList[action.index].word
-            currentRowList[action.index] = { word: word, status: action.status }
+            currentRowList[action.index] = { word: word, status: action.status, pronounce: action.pronounce }
             return list
         }
         case 'set': {
@@ -145,13 +145,12 @@ function Game({
         const respond = validate.guess(guessing)
         if (respond.win) {
             gameStatus.current = 'win'
-            const result = [constant.correct, constant.correct, constant.correct, constant.correct]
-            const parsedList = record.parse(wordList, currentRow.current, result)
+            const parsedList = record.parse(wordList, currentRow.current, respond.result)
             
             // save the winning record
             record.win(date, currentRow.current + 1)
             record.save(parsedList, date)
-            setWordStatus(0, result)
+            setWordStatus(0, respond.result)
         } else {
             const parsedList = record.parse(wordList, currentRow.current, respond.result)
 
@@ -187,7 +186,8 @@ function Game({
             type: 'checked',
             row: currentRow.current,
             index: index,
-            status: first,
+            status: first.status,
+            pronounce: first.pronounce,
         })
         window.setTimeout(() => {
             setWordStatus(index + 1, resultList)
