@@ -188,3 +188,28 @@ input:focus {
   margin-top: 10px;
   font-size: 25px;
 }
+
+.SnackbarContainer-top {
+  top: 70px !important;
+}
+
+.snackbarContainer {
+  height: 54px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.snackbarItem {
+  height: 100%;
+  width: 200px;
+  background-color: white;
+  pointer-events: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}

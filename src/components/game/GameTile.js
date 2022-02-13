@@ -25,7 +25,7 @@ function GameTile({
     return (
         
         <animated.div 
-            className={'flipbox-wrap'}
+            className={'flipbox-wrap notpaste'}
             style={{
                 transform: transform,
             }}

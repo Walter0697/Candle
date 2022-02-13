@@ -21,7 +21,7 @@ function Header({
                         sx={{ fontSize: '25px', color: '#565758' }}
                     />
                 </div>
-                <div className='title'>粵道</div>
+                <div className='title notpaste'>粵道</div>
                 <div>
                     <BarChartIcon 
                         onClick={openStatistic}

@@ -107,10 +107,11 @@ function Statistics({
             }
             setDistribution(() => guesses)
         }
-    }, [statechange])
+    }, [statechange, date])
 
     return (
         <Dialog
+            className={'notpaste'}
             fullWidth
             maxWidth={'xs'}
             open={open}

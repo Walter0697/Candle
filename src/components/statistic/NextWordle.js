@@ -9,7 +9,6 @@ function NextWordle({}) {
             <div className={'nextwordle-time'}>
                 00:00:00
             </div>
-            
         </div>
     )
 }
