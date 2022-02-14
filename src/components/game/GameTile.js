@@ -58,7 +58,7 @@ function GameTile({
         config: config.gentle,
         from: { celebrateWin: 'translate(0px, 0px)' },
         to: {
-            celebrateWin: ( celebrate ) ? `translate(0px, -${rand.randomInt(10) * 5 + 50}px)` : 'translate(0px, 0px)',
+            celebrateWin: ( celebrate ) ? `translate(0px, -${rand.randomInt(20) + 10}px)` : 'translate(0px, 0px)',
         }
     })
 

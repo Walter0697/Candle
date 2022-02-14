@@ -17,6 +17,8 @@
 
 .container {
   width: 1000px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .header {
@@ -84,7 +86,8 @@
 .flipbox-wrap {
   display: inline-block;
   position: relative;
-  height: 69px;
+  /* flipbox size 54 + pronounce size 15 = nice */
+  height: 69px; 
   width: 54px;
   margin: 3px;
   transform-style: preserve-3d;

@@ -201,7 +201,7 @@ function Statistics({
                         <Grid item xs={12} md={12} lg={12}
                             className={'no-data'}
                         >
-                            無資料，玩左舖先再睇啦
+                            無資料，贏左舖先再睇啦
                         </Grid>
                     )}
                     {isGameFinished && (

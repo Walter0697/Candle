@@ -65,6 +65,14 @@ function InputBox({
         }
     }, [inputRef])
 
+    useEffect(() => {
+        if (canInput) {
+            inputRef.current && inputRef.current.focus()
+        } else {
+            inputRef.current && inputRef.current.blur()
+        }
+    }, [canInput])
+
     const getInputText = () => {
         if (validating) return '幫緊你，幫緊你'
         if (!canInput) return ''

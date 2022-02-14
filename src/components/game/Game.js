@@ -14,6 +14,7 @@ import notification from '../../utils/notification'
 
 const maxLength = 4
 const maxRow = 6
+const rowHeight = 78
 
 const wordListReducer = (state, action) => {
     switch(action.type) {
@@ -61,6 +62,8 @@ function Game({
     setFinished,
 }) {
     const { enqueueSnackbar } = useSnackbar()
+
+    const scrollableDiv = useRef(null)
 
     const currentRow = useRef(0)
     const winningRow = useRef(0)
@@ -113,10 +116,12 @@ function Game({
     useEffect(() => {
         if (!validating.current) {
             if (gameStatus.current === 'win') {
+                scrollableDiv.current.scrollTo({ top:0, behavior:'smooth' })
                 // // winning animation
                 setWinAnimation(0)
             }
             else if (gameStatus.current === 'loss') {
+                scrollableDiv.current.scrollTo({ top:0, behavior:'smooth' })
                 enqueueSnackbar(validate.correct(), { autoHideDuration: 1000 })
                 window.setTimeout(() => {
                     setFinished()
@@ -183,6 +188,8 @@ function Game({
         currentRow.current += 1
         currentGuess.current = 0
         validating.current = false
+        const targetScroll = (currentRow.current - 2) * rowHeight
+        scrollableDiv.current.scrollTo({ top:targetScroll, behavior:'smooth' })
         manipulateList({type: 'refresh'})
     }
 
@@ -260,20 +267,37 @@ function Game({
                             guess={guess}
                         />
                     </Grid>
-                    {wordList.map((data, index) => (
-                        <Grid item xs={12} md={12} lg={12}
-                            key={index}
-                            className='game-row'
+                    <Grid item xs={12} md={12} lg={12}>
+                        <Grid container
+                            ref={scrollableDiv}
+                            style={{
+                                height: '70vh',
+                                overflow: 'auto',
+                            }}
                         >
-                            <GameRow 
-                                list={data}
-                                isFinished={currentRow.current > index}
-                                activeRow={currentRow.current === index}
-                                shake={rowShake}
-                                setShake={setRowShake}
-                            />
+                            {wordList.map((data, index) => (
+                                <Grid item xs={12} md={12} lg={12}
+                                    key={index}
+                                    className='game-row'
+                                >
+                                    <GameRow 
+                                        list={data}
+                                        isFinished={currentRow.current > index}
+                                        activeRow={currentRow.current === index}
+                                        shake={rowShake}
+                                        setShake={setRowShake}
+                                    />
+                                </Grid>
+                            ))}
+                            <Grid item xs={12} md={12} lg={12}
+                                style={{
+                                    height: '50vh',
+                                    width: '100%',
+                                }}
+                            >
+                            </Grid>
                         </Grid>
-                    ))}
+                    </Grid>
                 </Grid>
             </Grid>
         </Grid>    
