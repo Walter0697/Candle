@@ -9,7 +9,6 @@ import GameRow from './GameRow'
 import InputBox from './InputBox'
 
 import validate from '../../utils/validate'
-import constant from '../../utils/constant'
 import record from '../../utils/record'
 import notification from '../../utils/notification'
 
@@ -195,10 +194,7 @@ function Game({
     }
     
     const setNextGuess = (data) => {
-        if (data.trim() === '') {
-            enqueueSnackbar(notification.emptyWord(), { autoHideDuration: 1000 })
-            return
-        } else if (data.length > 1) {
+        if (data.length > 1) {
             enqueueSnackbar(notification.multipleWord(), { autoHideDuration: 1000 })
             return
         }
