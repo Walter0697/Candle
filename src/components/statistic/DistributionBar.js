@@ -3,6 +3,7 @@ import React, { useMemo } from 'react'
 function DistributionBar({
     guess,
     number,
+    current,
     highest,
 }) {
     const barWidth = useMemo(() => {
@@ -18,7 +19,7 @@ function DistributionBar({
                         className={'distribution-bar'}
                         style={{
                             width: barWidth,
-                            backgroundColor: (number === highest) ? '#538d4e' : '#4e4e4e',
+                            backgroundColor: (current === guess) ? '#538d4e' : '#4e4e4e',
                         }}
                     >
                         <div className={'distribution-number'}>

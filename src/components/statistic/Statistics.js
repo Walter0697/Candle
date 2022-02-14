@@ -45,6 +45,7 @@ function Statistics({
     // distribution statistic
     const [ guessDistribution, setDistribution ] = useState({})
     const [ highestGuess, setHighestGuess ] = useState(0)
+    const [ currentWinningRow, setWinningRow ] = useState(0)
 
     // sharable content
     const [ isGameFinished, setGameFinished ] = useState(false)
@@ -53,6 +54,16 @@ function Statistics({
         if (record.is_today(date)) {
             const currentStatus = record.status()
             if (currentStatus === 'win' || currentStatus === 'loss') {
+                const progress = record.load()
+                let winning_row = 0
+                for (let i = 0; i < progress.length; i++) {
+                    if (progress[i].length === 0) {
+                        break
+                    }
+                    winning_row = i + 1
+                }
+                setWinningRow(winning_row)
+
                 setGameFinished(true)
             } else {
                 setGameFinished(false)
@@ -183,6 +194,7 @@ function Statistics({
                             <Distribution 
                                 info={guessDistribution}
                                 highest={highestGuess}
+                                current={currentWinningRow}
                             />
                         </Grid>
                     ) : (
