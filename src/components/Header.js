@@ -9,6 +9,8 @@ import SettingsIcon from '@mui/icons-material/Settings'
 
 function Header({
     openStatistic,
+    openSetting,
+    openTutorial,
 }) {
     return (
         <Grid container>
@@ -17,7 +19,7 @@ function Header({
             >
                 <div>
                     <HelpOutlineIcon 
-                        onClick={() => console.log('tesing')}
+                        onClick={openTutorial}
                         sx={{ fontSize: '25px', color: '#565758' }}
                     />
                 </div>
@@ -28,7 +30,7 @@ function Header({
                         sx={{ fontSize: '25px', color: '#565758', marginRight: '10px'  }}
                     />
                     <SettingsIcon 
-                        onClick={() => console.log('tesing')}
+                        onClick={openSetting}
                         sx={{ fontSize: '25px', color: '#565758' }}
                     />
                 </div>

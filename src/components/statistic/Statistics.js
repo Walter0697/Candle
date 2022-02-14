@@ -15,7 +15,7 @@ import BottomInfo from './BottomInfo'
 import record from '../../utils/record'
 
 const TransitionUp = (props) => {
-    return <Grow {...props} direction='up' />
+    return <Grow {...props} />
 }
 
 function StatisticItem({
