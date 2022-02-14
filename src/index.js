@@ -5,6 +5,9 @@ import App from './App'
 import NotificationWrap from './components/NotificationWrap'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import reportWebVitals from './reportWebVitals'
+import smoothscroll from 'smoothscroll-polyfill'
+
+smoothscroll.polyfill()
 
 ReactDOM.render(
   <React.StrictMode>
