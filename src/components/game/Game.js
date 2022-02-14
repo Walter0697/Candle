@@ -36,6 +36,14 @@ const wordListReducer = (state, action) => {
             currentRowList[action.index] = { word: word, status: action.status, pronounce: action.pronounce }
             return list
         }
+        case 'win': {
+            const list = Object.assign([], state)
+            const currentRowList = list[action.row]
+            const word = currentRowList[action.index].word
+            const pronounce = currentRowList[action.index].pronounce
+            currentRowList[action.index] = { word: word, pronounce: pronounce, status: 'win' }
+            return list
+        }
         case 'set': {
             return action.data
         }
@@ -55,6 +63,7 @@ function Game({
     const { enqueueSnackbar } = useSnackbar()
 
     const currentRow = useRef(0)
+    const winningRow = useRef(0)
     const currentGuess = useRef(0)
     const validating = useRef(false)
     const gameStatus = useRef('')    // win / loss
@@ -72,15 +81,7 @@ function Game({
 
     useEffect(() => {
         if (record.is_today(date)) {
-            // only load record when today progress is being recorded
-            const savedStatus = record.status(date)
-            if (savedStatus) {
-                gameStatus.current = savedStatus
-                setFinished()
-            } else {
-                gameStatus.current = ''
-            }
-            
+            // only load record when today progress is being recorded            
             const savedProgress = record.load()
             if (savedProgress) {
                 let row = 0
@@ -93,6 +94,18 @@ function Game({
 
                 manipulateList({ type: 'set', data: savedProgress })
                 currentRow.current = row
+
+                const savedStatus = record.status(date)
+                if (savedStatus) {
+                    gameStatus.current = savedStatus
+                    setFinished()
+                } else {
+                    gameStatus.current = ''
+                }
+
+                if (savedStatus === 'win') {
+                    winningRow.current = row - 1
+                }
             }
         }
     }, [date])
@@ -100,10 +113,8 @@ function Game({
     useEffect(() => {
         if (!validating.current) {
             if (gameStatus.current === 'win') {
-                // winning animation
-                window.setTimeout(() => {
-                    setFinished()
-                }, 1000)
+                // // winning animation
+                setWinAnimation(0)
             }
             else if (gameStatus.current === 'loss') {
                 enqueueSnackbar(validate.correct(), { autoHideDuration: 1000 })
@@ -147,6 +158,7 @@ function Game({
             const parsedList = record.parse(wordList, currentRow.current, respond.result)
             
             // save the winning record
+            winningRow.current = currentRow.current
             record.win(date, currentRow.current + 1)
             record.save(parsedList, date)
             setWordStatus(0, respond.result)
@@ -190,6 +202,22 @@ function Game({
         })
         window.setTimeout(() => {
             setWordStatus(index + 1, resultList)
+        }, 500)
+    }
+
+    const setWinAnimation = (index) => {
+        if (index === maxLength) {
+            setFinished()
+            return
+        }
+
+        manipulateList({
+            type: 'win',
+            row: winningRow.current,
+            index: index,
+        })
+        window.setTimeout(() => {
+            setWinAnimation(index + 1)
         }, 500)
     }
     

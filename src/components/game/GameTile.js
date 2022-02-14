@@ -5,10 +5,13 @@ import {
     animated,
 } from '@react-spring/web'
 
+import rand from '../../utils/rand'
+
 function GameTile({ 
     info,
 }) {
     const [ pop, setPop ] = useState(false)
+    const [ celebrate, setCelebrate ] = useState(false)
 
     useEffect(() => {
         let timer = null
@@ -19,12 +22,20 @@ function GameTile({
             }, 100)
         }
 
+        if (info && info.status && info.status === 'win') {
+            setCelebrate(true)
+            timer = window.setTimeout(() => {
+                setCelebrate(false)
+            }, 300)
+        }
+
         return () => timer && window.clearTimeout(timer)
     }, [info])
 
     const colorClass = useMemo(() => {
         if (!info) return ''
         if (!info.status) return ''
+        if (info.status === 'win') return 'color-correct'
         return `color-${info.status}`
     }, [info])
 
@@ -39,7 +50,15 @@ function GameTile({
         from: { borderColor: '2px solid #565758', boxScale: 'scale(1, 1) '},
         to: { 
             borderColor: ( info && info.word ) ? '2px solid #9b9b9b' : '2px solid #565758',
-            boxScale: ( pop ) ? 'scale(1.2, 1.2)' : 'scale(1, 1)',
+            boxScale: ( pop ) ? 'scale(1.05, 1.05)' : 'scale(1, 1)',
+        }
+    })
+
+    const { celebrateWin } = useSpring({
+        config: config.gentle,
+        from: { celebrateWin: 'translate(0px, 0px)' },
+        to: {
+            celebrateWin: ( celebrate ) ? `translate(0px, -${rand.randomInt(10) * 5 + 50}px)` : 'translate(0px, 0px)',
         }
     })
 
@@ -68,11 +87,14 @@ function GameTile({
             <div
                 className={'back-flippable'}
             >
-                <div
+                <animated.div
                     className={`flipbox back-flipbox ${colorClass}`}
+                    style={{
+                        transform: celebrateWin,
+                    }}
                 >
                     {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
-                </div>
+                </animated.div>
                 <div className={'flipbox-pronounce flipbox-pronounce-display'}>
                     {(info && info.pronounce) ? <>{info.pronounce}</> : <>&nbsp;</>}
                 </div>
