@@ -3,6 +3,10 @@ import {
   Grid,
 } from '@mui/material'
 
+import { useDispatch } from 'react-redux'
+import { setContrast } from './store/slice/colourSlice'
+import { setAutoScroll } from './store/slice/settingSlice'
+
 import Header from './components/Header'
 import Game from './components/game/Game'
 import Statistics from './components/statistic/Statistics'
@@ -10,8 +14,11 @@ import Settings from './components/setting/Settings'
 import './App.css'
 
 import record from './utils/record'
+import setting from './utils/setting'
 
 function App() {
+  const dispatch = useDispatch()
+
   const [ currentDateNo, setCurrentDate ] = useState('')
   const [ played, setPlayed ] = useState(false)
   const [ openStatistic, setOpenStatistic ] = useState(false)
@@ -21,6 +28,14 @@ function App() {
      // get the date here so that things will be consistant util refresh
     const date = record.date()
     setCurrentDate(date)
+
+    const s = setting.load()
+    if (s.contrast) {
+      dispatch(setContrast({ value: s.contrast }))
+    }
+    if (s.autoscroll) {
+      dispatch(setAutoScroll({ value: s.autoscroll }))
+    }
   }, [])
 
   useEffect(() => {

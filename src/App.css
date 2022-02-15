@@ -281,6 +281,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endCo
 .setting-item-container {
   float: left;
   margin-bottom: 30px;
+  display: block;
 }
 
 .setting-item-title {

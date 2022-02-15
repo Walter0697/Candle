@@ -4,6 +4,7 @@ import {
 } from '@mui/material'
 
 import { useSnackbar } from 'notistack'
+import { useSelector } from 'react-redux'
 
 import GameRow from './GameRow'
 import InputBox from './InputBox'
@@ -62,6 +63,7 @@ function Game({
     setFinished,
 }) {
     const { enqueueSnackbar } = useSnackbar()
+    const autoScroll = useSelector((state) => state.setting.autoScroll)
 
     const scrollableDiv = useRef(null)
 
@@ -110,6 +112,8 @@ function Game({
                     winningRow.current = row - 1
                 }
             }
+        } else {
+            record.reset_status()
         }
     }, [date])
 
@@ -189,7 +193,9 @@ function Game({
         currentGuess.current = 0
         validating.current = false
         const targetScroll = (currentRow.current - 2) * rowHeight
-        scrollableDiv.current.scrollTo({ top:targetScroll, behavior:'smooth' })
+        if (autoScroll) {
+            scrollableDiv.current.scrollTo({ top:targetScroll, behavior:'smooth' })
+        }
         manipulateList({type: 'refresh'})
     }
 

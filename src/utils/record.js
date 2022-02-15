@@ -36,8 +36,11 @@ const parseCurrentRecord = (data, currentIndex, pending) => {
     return list
 }
 
-const saveCurrentRecord = (data, today) => {
+const resetStatus = () => {
     localStorage.setItem('status', '')
+}
+
+const saveCurrentRecord = (data, today) => {
     localStorage.setItem('date', today)
     localStorage.setItem('progress', JSON.stringify(data))
 }
@@ -82,6 +85,7 @@ const record = {
     save: saveCurrentRecord,
     load: loadCurrentRecord,
     get_date: getRecordDate,
+    reset_status: resetStatus,
     status: loadCurrentStatus,
     date: getTodayNumber,
     is_today: isRecordToday,

@@ -12,6 +12,9 @@ import CloseIcon from '@mui/icons-material/Close'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from '../../store/slice/colourSlice'
+import { setAutoScroll } from '../../store/slice/settingSlice'
+
+import setting from '../../utils/setting'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -37,7 +40,7 @@ function SettingToggle({
             <div className={'setting-item-switch'}>
                 <Switch 
                     checked={value}
-                    color={isContrast ? 'warning' : 'default'}
+                    color={isContrast ? 'warning' : 'primary'}
                     onChange={setValue}
                 />
             </div>
@@ -50,6 +53,7 @@ function Settings({
     handleClose,
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
+    const autoScroll = useSelector((state) => state.setting.autoScroll)
     const dispatch = useDispatch()
 
     return (
@@ -96,7 +100,22 @@ function Settings({
                             description={'顏色對比會睇落明顯啲'}
                             isContrast={isContrast}
                             value={isContrast}
-                            setValue={(e) => dispatch(setContrast({ value: e.target.checked }))}
+                            setValue={(e) => {
+                                setting.save('contrast', e.target.checked)
+                                dispatch(setContrast({ value: e.target.checked }))
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}>
+                        <SettingToggle 
+                            label={'自動轉行'}
+                            description={'估完一次之後會唔會自動轉行'}
+                            isContrast={isContrast}
+                            value={autoScroll}
+                            setValue={(e) => {
+                                setting.save('autoscroll', e.target.checked)
+                                dispatch(setAutoScroll({ value: e.target.checked }))
+                            }}
                         />
                     </Grid>
                 </Grid>
