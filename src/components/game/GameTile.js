@@ -4,12 +4,16 @@ import {
     config,
     animated,
 } from '@react-spring/web'
+import { useSelector } from 'react-redux'
 
 import rand from '../../utils/rand'
+import colour from '../../utils/colour'
 
 function GameTile({ 
     info,
 }) {
+    const isContrast = useSelector((state) => state.colour.isContrast)
+
     const [ pop, setPop ] = useState(false)
     const [ celebrate, setCelebrate ] = useState(false)
 
@@ -32,12 +36,13 @@ function GameTile({
         return () => timer && window.clearTimeout(timer)
     }, [info])
 
-    const colorClass = useMemo(() => {
+    const backgroundColor = useMemo(() => {
         if (!info) return ''
         if (!info.status) return ''
-        if (info.status === 'win') return 'color-correct'
-        return `color-${info.status}`
-    }, [info])
+        const data = colour.getColourData(info.status, isContrast)
+        if (!data) return ''
+        return colour.parseColourData(data.colour, data.type)
+    }, [info, isContrast])
 
     const { transform } = useSpring({
         config: config.slow,
@@ -88,8 +93,9 @@ function GameTile({
                 className={'back-flippable'}
             >
                 <animated.div
-                    className={`flipbox back-flipbox ${colorClass}`}
+                    className={'flipbox back-flipbox'}
                     style={{
+                        background: backgroundColor,
                         transform: celebrateWin,
                     }}
                 >

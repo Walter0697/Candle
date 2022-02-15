@@ -11,7 +11,7 @@ import {
 import CloseIcon from '@mui/icons-material/Close'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { toggle } from '../../store/slice/colourSlice'
+import { setContrast } from '../../store/slice/colourSlice'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -20,41 +20,25 @@ const TransitionUp = (props) => {
 function SettingToggle({
     label,
     description,
-    onToggle,
+    isContrast,
+    value,
+    setValue,
 }) {
     return (
         <div>
-            <div 
-                style={{
-                    display: 'inline-block',
-                    float: 'left',
-                }}
-            >
-                <div
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'flex-start',
-                        fontSize: '18px',
-                        fontWeight: '500',
-                    }}
-                    onClick={onToggle}
-                >{label}</div>
-                <div
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'flex-start',
-                        fontSize: '12px',
-                        color: 'grey',
-                        marginTop: '2px',
-                    }}
-                >{description}</div>
+            <div className={'setting-item-container'}>
+                <div className={'setting-item-title'}>
+                    {label}
+                </div>
+                <div className={'setting-item-description'}>
+                    {description}
+                </div>
             </div>
-            <div style={{
-                display: 'inline-block',
-                float: 'right'
-            }}>
+            <div className={'setting-item-switch'}>
                 <Switch 
-                    color='warning'
+                    checked={value}
+                    color={isContrast ? 'warning' : 'default'}
+                    onChange={setValue}
                 />
             </div>
         </div>
@@ -65,7 +49,7 @@ function Settings({
     open,
     handleClose,
 }) {
-    const contrast = useSelector((state) => state.colour.contrast)
+    const isContrast = useSelector((state) => state.colour.isContrast)
     const dispatch = useDispatch()
 
     return (
@@ -110,7 +94,9 @@ function Settings({
                         <SettingToggle 
                             label={'高對比顏色'}
                             description={'顏色對比會睇落明顯啲'}
-                            onToggle={() => dispatch(toggle({value : !contrast}))}
+                            isContrast={isContrast}
+                            value={isContrast}
+                            setValue={(e) => dispatch(setContrast({ value: e.target.checked }))}
                         />
                     </Grid>
                 </Grid>

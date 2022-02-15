@@ -3,15 +3,15 @@ import { createSlice } from '@reduxjs/toolkit'
 export const colourSlice = createSlice({
     name: 'colour',
     initialState: {
-        contrast: false,
+        isContrast: false,
     },
     reducers: {
-        toggle: (state, action) => {
-            state.contrast = action.payload.value
+        setContrast: (state, action) => {
+            state.isContrast = action.payload.value
         },
     },
 })
 
-export const { toggle } = colourSlice.actions
+export const { setContrast } = colourSlice.actions
 
 export default colourSlice.reducer

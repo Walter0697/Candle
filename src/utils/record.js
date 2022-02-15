@@ -37,6 +37,7 @@ const parseCurrentRecord = (data, currentIndex, pending) => {
 }
 
 const saveCurrentRecord = (data, today) => {
+    localStorage.setItem('status', '')
     localStorage.setItem('date', today)
     localStorage.setItem('progress', JSON.stringify(data))
 }
