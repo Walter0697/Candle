@@ -236,51 +236,22 @@ input:focus {
   font-size: 20px;
 }
 
-.color-inactive {
-  background-color: #191b20;
-}
-
-.color-correct {
-  background-color: #538d4e;
-}
-
-.color-incorrect {
-  background-color: #303030;
-}
-
-.color-place {
-  background-color: #b59f3b;
-}
-
-.color-initial {
-  background: rgb(181,159,59);
-background: -moz-linear-gradient(90deg, rgba(181,159,59,1) 0%, rgba(181,159,59,1) 50%, rgba(48,48,48,1) 50%, rgba(48,48,48,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(181,159,59,1) 0%, rgba(181,159,59,1) 50%, rgba(48,48,48,1) 50%, rgba(48,48,48,1) 100%);
-background: linear-gradient(90deg, rgba(181,159,59,1) 0%, rgba(181,159,59,1) 50%, rgba(48,48,48,1) 50%, rgba(48,48,48,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b59f3b",endColorstr="#303030",GradientType=1);
-}
-
-.color-final {
-  background: rgb(48,48,48);
-background: -moz-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 50%, rgba(181,159,59,1) 50%, rgba(181,159,59,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 50%, rgba(181,159,59,1) 50%, rgba(181,159,59,1) 100%);
-background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 50%, rgba(181,159,59,1) 50%, rgba(181,159,59,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endColorstr="#b59f3b",GradientType=1);
-}
-
-.color-tone {
-  background-color: #88eb81;
-}
-
 .setting-title {
   display: flex;
   justify-content: center;
   font-size: 20px;
 }
 
+.setting-item-wrap {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(73, 73, 73);
+}
+
 .setting-item-container {
   float: left;
-  margin-bottom: 30px;
   display: block;
 }
 
@@ -301,4 +272,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303030",endCo
 
 .setting-item-switch {
   float: right;
+}
+
+.setting-item-link {
+  float: right;
+  color: grey;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.setting-item-clickable {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: blue;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.clickable {
+  cursor: pointer;
 }

@@ -19,6 +19,7 @@ function Header({
             >
                 <div>
                     <HelpOutlineIcon 
+                        className='clickable'
                         onClick={openTutorial}
                         sx={{ fontSize: '25px', color: '#565758' }}
                     />
@@ -26,10 +27,12 @@ function Header({
                 <div className='title notpaste'>粵道</div>
                 <div>
                     <BarChartIcon 
+                        className='clickable'
                         onClick={openStatistic}
                         sx={{ fontSize: '25px', color: '#565758', marginRight: '10px'  }}
                     />
                     <SettingsIcon 
+                        className='clickable'
                         onClick={openSetting}
                         sx={{ fontSize: '25px', color: '#565758' }}
                     />
