@@ -64,6 +64,16 @@
   align-items: center;
 }
 
+.templatebox {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .back-flippable {
   position: absolute;
   -webkit-backface-visibility: hidden; /* Safari */
@@ -74,13 +84,24 @@
 .front-flipbox {
   height: 50px;
   width: 50px;
-  /* border: 2px solid #9b9b9b; */
+  background-color: #191b20;
+}
+
+.front-templatebox {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #565758;
   background-color: #191b20;
 }
 
 .back-flipbox {
   height: 54px;
   width: 54px;
+}
+
+.back-templatebox {
+  height: 32px;
+  width: 32px;
 }
 
 .flipbox-wrap {
@@ -94,8 +115,24 @@
   transform-origin: center center;
 }
 
+.tutorialbox-wrap {
+  display: inline-block;
+  position: relative;
+  /* flipbox size 32 + pronounce size = 10 = 42 */
+  height: 42px;
+  width: 32px;
+  margin: 1px;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+}
+
 .flipbox-pronounce {
   height: 15px;
+}
+
+.tutorialbox-pronounce {
+  height: 10px;
+  font-size: 10px;
 }
 
 .flipbox-pronounce-display {
@@ -292,4 +329,28 @@ input:focus {
 
 .clickable {
   cursor: pointer;
+}
+
+.tutorial-intro {
+  text-align: left;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.tutorial-container {
+  border-bottom: 1px solid rgb(73, 73, 73);
+  margin-bottom: 20px;
+}
+
+.tutorial-example-container {
+  border-bottom: 1px solid rgb(73, 73, 73);
+  margin-bottom: 15px;
+}
+
+.tutorial-row {
+  padding-bottom: 20px;
+}
+
+.tutorial-row-end {
+  padding-bottom: 10px;
 }

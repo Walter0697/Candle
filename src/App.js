@@ -11,6 +11,7 @@ import Header from './components/Header'
 import Game from './components/game/Game'
 import Statistics from './components/statistic/Statistics'
 import Settings from './components/setting/Settings'
+import Tutorial from './components/tutorial/Tutorial'
 import './App.css'
 
 import record from './utils/record'
@@ -23,6 +24,7 @@ function App() {
   const [ played, setPlayed ] = useState(false)
   const [ openStatistic, setOpenStatistic ] = useState(false)
   const [ openSetting, setOpenSetting ] = useState(false)
+  const [ openTutorial, setOpenTutorial ] = useState(false)
 
   useEffect(() => {
      // get the date here so that things will be consistant util refresh
@@ -53,6 +55,7 @@ function App() {
               <Header 
                 openStatistic={() => setOpenStatistic(true)}
                 openSetting={() => setOpenSetting(true)}
+                openTutorial={() => setOpenTutorial(true)}
               />
             </Grid>
             <Grid item xs={12} md={12} lg={12}>
@@ -73,6 +76,10 @@ function App() {
       <Settings
         open={openSetting}
         handleClose={() => setOpenSetting(false)}
+      />
+      <Tutorial
+        open={openTutorial}
+        handleClose={() => setOpenTutorial(false)}
       />
     </>
   );
