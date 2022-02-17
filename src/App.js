@@ -38,6 +38,11 @@ function App() {
     if (s.autoscroll) {
       dispatch(setAutoScroll({ value: s.autoscroll }))
     }
+
+    const hasHistory = record.history()
+    if (hasHistory.length === 0) {
+      setOpenTutorial(true)
+    }
   }, [])
 
   useEffect(() => {

@@ -1,4 +1,5 @@
 import dayjs from 'dayjs'
+const gameLaunchTime = '2022-02-10 00:00:00'
 
 const zeroPad = (num, places) => {
     const zero = places - num.toString().length + 1;
@@ -6,7 +7,7 @@ const zeroPad = (num, places) => {
 }
 
 const getTodayNumber = () => {
-    const startDate = dayjs('2022-02-10')
+    const startDate = dayjs(gameLaunchTime, "MM-DD-YYYY HH:mm:ss")
     const today = dayjs()
     const days = today.diff(startDate, 'day')
     const dayStr = zeroPad(days, 3)

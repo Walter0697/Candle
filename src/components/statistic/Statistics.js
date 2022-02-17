@@ -204,7 +204,7 @@ function Statistics({
                             無資料，贏左舖先再睇啦
                         </Grid>
                     )}
-                    {isGameFinished && (
+                    {isGameFinished && open && (
                         <Grid item xs={12} md={12} lg={12}
                             style={{
                                 display: 'flex',

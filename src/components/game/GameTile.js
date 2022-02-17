@@ -39,7 +39,8 @@ function GameTile({
     const backgroundColor = useMemo(() => {
         if (!info) return ''
         if (!info.status) return ''
-        const data = colour.getColourData(info.status, isContrast)
+        const currentStatus = info.status === 'win' ? 'correct' : info.status
+        const data = colour.getColourData(currentStatus, isContrast)
         if (!data) return ''
         return colour.parseColourData(data.colour, data.type)
     }, [info, isContrast])
