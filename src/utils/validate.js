@@ -89,13 +89,16 @@ const guessValidator = (guess, answer) => {
         return resultObj
 
     resultObj.valid = true
+    // set pronounce
+    resultObj.result.forEach((word, idx) => {
+        word.pronounce = guessObj[`w${idx}`]
+    })
     
     // Case 2: win
     if (answer === guess) {
         resultObj.win = true
-        resultObj.result.forEach((word, idx) => {
+        resultObj.result.forEach((word) => {
             word.status = constant.correct
-            word.pronounce = answerObj[`w${idx}`]
         })
         return resultObj
     }
