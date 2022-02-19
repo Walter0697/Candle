@@ -1,12 +1,10 @@
 const constant = {
     correct: 'correct',
     incorrect: 'incorrect',
-    initial: 'initial',
-    final: 'final',
+    rightInitial: 'rightInitial',
+    rightFinal: 'rightFinal',
     wrongTone: 'wrongTone',
-    placeBoth: 'placeBoth',
-    placeInitial: 'placeInitial',
-    placeFinal: 'placeFinal',
+    wrongPlace: 'wrongPlace',
 }
 
 export default constant

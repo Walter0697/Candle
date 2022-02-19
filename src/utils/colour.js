@@ -9,7 +9,7 @@ const colourList = {
         normal: { colour: '#538d4e', type: 'single' },
         contrast: { colour: '#f5793a', type: 'single' },
     },
-    place: {
+    wrongPlace: {
         normal: { colour: '#b59f3b', type: 'single' },
         contrast: { colour: '#85c0f9', type: 'single' },
     },
@@ -17,15 +17,15 @@ const colourList = {
         normal: { colour: '#303030', type: 'single' },
         contrast: { colour: '#303030', type: 'single' },
     },
-    initial: {
+    rightInitial: {
         normal: { colour: '#b59f3b', type: 'left' },
         contrast: { colour: '#85c0f9', type: 'left' },
     },
-    final: {
+    rightFinal: {
         normal: { colour: '#b59f3b', type: 'right' },
         contrast: { colour: '#85c0f9', type: 'right' },
     },
-    tone: {
+    wrongTone: {
         normal: { colour: '#994dad', type: 'single' },
         contrast: { colour: '#cc00ff', type: 'top' },
     }

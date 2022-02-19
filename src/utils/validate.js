@@ -14,10 +14,10 @@ const randomStatus = () => {
     const chance = randomInt(6)
     if (chance === 0) return constant.incorrect
     if (chance === 1) return constant.incorrect
-    if (chance === 2) return constant.initial
-    if (chance === 3) return constant.final
-    if (chance === 4) return constant.tone
-    if (chance === 5) return constant.place
+    if (chance === 2) return constant.rightInitial
+    if (chance === 3) return constant.rightFinal
+    if (chance === 4) return constant.wrongTone
+    if (chance === 5) return constant.wrongPlace
 }
 
 const randomPronounce = () => {
