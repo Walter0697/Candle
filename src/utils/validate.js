@@ -31,8 +31,8 @@ const randomPronounce = () => {
 }
 
 const exist = (words) => {
-    // TODO: only for testing
-    if (words.startsWith('一')) {
+    const guessObj = dictionary.find(obj => obj.phrase === words)
+    if (!guessObj) {
         return false
     }
     return true
@@ -141,9 +141,9 @@ const guessValidator = (guess, answer) => {
         else if (initialMatched && finalMatched)
             resultObj.result[i].status = constant.wrongTone
         else if (initialMatched)
-            resultObj.result[i].status = constant.initial
+            resultObj.result[i].status = constant.rightInitial
         else if (finalMatched)
-            resultObj.result[i].status = constant.final
+            resultObj.result[i].status = constant.rightFinal
 
     }
 
@@ -153,20 +153,19 @@ const guessValidator = (guess, answer) => {
         if (isChecked[`w${i}`] === true)
             return
         
-        let matchedWordIndex = null
         for (let j = 0; j < 4; j++) {
             if (givenHints[`w${j}`] === true)
                 return
             
             if ((guessObj[`w${j}`].initial === answerObj[`w${i}`].initial) && (guessObj[`w${j}`].final === answerObj[`w${i}`].final)) {
-                matchedWordIndex = j
-                resultObj.result[j].status = constant.placeBoth
+                resultObj.result[j].status = constant.wrongPlace
                 isChecked[`w${i}`] = true
                 givenHints[`w${j}`] = true
             }
         }
     }
 
+    /*
     // Step 2: check if a guess word has the same initial OR final
     for (let i = 0; i < 4; i++) {
         if (isChecked[`w${i}`] === true)
@@ -176,13 +175,11 @@ const guessValidator = (guess, answer) => {
         
         // ! LOGIC: if a guess word has given hints of "misplaced initial" (i.e. placeInitial), then it won't be checked for "misplaced final" (i.e. placeFinal)
         // Check initial
-        let matchedInitIndex = null
         for (let j = 0; j < 4; j++) {
             if (givenHints[`w${j}`] === true)
                 return
             
             if (guessObj[`w${j}`].initial === answerObj[`w${i}`].initial) {
-                matchedInitIndex = j
                 resultObj.result[j].status = constant.placeInitial
                 isCheckedTemp = true
                 givenHints[`w${j}`] = true
@@ -190,13 +187,11 @@ const guessValidator = (guess, answer) => {
         }
 
         // Check final
-        let matchedFinalIndex = null
         for (let j = 0; j < 4; j++) {
             if (givenHints[`w${j}`] === true)
                 return
             
             if (guessObj[`w${j}`].final === answerObj[`w${i}`].final) {
-                matchedFinalIndex = j
                 resultObj.result[j].status = constant.placeFinal
                 isCheckedTemp = true
                 givenHints[`w${j}`] = true
@@ -205,6 +200,7 @@ const guessValidator = (guess, answer) => {
 
         isChecked[`w${i}`] = isCheckedTemp
     }
+    */
 
     return resultObj
 }
