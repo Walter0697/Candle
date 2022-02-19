@@ -85,35 +85,37 @@ function Game({
     }, [validating.current, gameStatus.current])
 
     useEffect(() => {
-        if (record.is_today(date)) {
-            // only load record when today progress is being recorded            
-            const savedProgress = record.load()
-            if (savedProgress) {
-                let row = 0
-                for (let i = 0; i < savedProgress.length; i++) {
-                    if (savedProgress[i].length === 0) {
-                        row = i
-                        break
+        if (date) {
+            if (record.is_today(date)) {
+                // only load record when today progress is being recorded            
+                const savedProgress = record.load()
+                if (savedProgress) {
+                    let row = 0
+                    for (let i = 0; i < savedProgress.length; i++) {
+                        if (savedProgress[i].length === 0) {
+                            row = i
+                            break
+                        }
+                    }
+    
+                    manipulateList({ type: 'set', data: savedProgress })
+                    currentRow.current = row
+    
+                    const savedStatus = record.status(date)
+                    if (savedStatus) {
+                        gameStatus.current = savedStatus
+                        setFinished()
+                    } else {
+                        gameStatus.current = ''
+                    }
+    
+                    if (savedStatus === 'win') {
+                        winningRow.current = row - 1
                     }
                 }
-
-                manipulateList({ type: 'set', data: savedProgress })
-                currentRow.current = row
-
-                const savedStatus = record.status(date)
-                if (savedStatus) {
-                    gameStatus.current = savedStatus
-                    setFinished()
-                } else {
-                    gameStatus.current = ''
-                }
-
-                if (savedStatus === 'win') {
-                    winningRow.current = row - 1
-                }
+            } else {
+                record.reset_status()
             }
-        } else {
-            record.reset_status()
         }
     }, [date])
 

@@ -3,12 +3,17 @@ import {
     Dialog,
     DialogContent,
     DialogTitle,
+    DialogActions,
     Grow,
     IconButton,
     Grid,
     Switch,
 } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
+
+import dayjs from 'dayjs'
+
+import Emoji from './Emoji'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from '../../store/slice/colourSlice'
@@ -18,6 +23,37 @@ import setting from '../../utils/setting'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
+}
+
+function SettingLink({
+    label,
+    linkLabel,
+    link,
+    onClick,
+}) {
+    return (
+        <div>
+            <div className={'setting-item-container'}>
+                <div className={'setting-item-title'}>
+                    {label}
+                </div>
+            </div>
+            {onClick ? (
+                <div className={'setting-item-link'}>
+                    <div 
+                        className={'setting-item-clickable'}
+                        onClick={onClick}>
+                            {linkLabel}
+                    </div>
+                </div>
+            ) : (
+                <div className={'setting-item-link'}>
+                    <a href={link}>{linkLabel}</a>
+                </div>
+            )}
+            
+        </div>
+    )
 }
 
 function SettingToggle({
@@ -37,13 +73,15 @@ function SettingToggle({
                     {description}
                 </div>
             </div>
-            <div className={'setting-item-switch'}>
-                <Switch 
-                    checked={value}
-                    color={isContrast ? 'warning' : 'primary'}
-                    onChange={setValue}
-                />
-            </div>
+            {setValue && (
+                <div className={'setting-item-switch'}>
+                    <Switch 
+                        checked={value}
+                        color={isContrast ? 'warning' : 'primary'}
+                        onChange={setValue}
+                    />
+                </div>
+            )}
         </div>
     )
 }
@@ -55,6 +93,20 @@ function Settings({
     const isContrast = useSelector((state) => state.colour.isContrast)
     const autoScroll = useSelector((state) => state.setting.autoScroll)
     const dispatch = useDispatch()
+
+    const [ openEmoji, setOpenEmoji ] = useState(false)
+    const [ emojiList, setEmoji ] = useState(setting.default_emoji)
+
+    useEffect(() => {
+        refreshEmoji()
+    }, [])
+
+    const refreshEmoji = () => {
+        const s = setting.load()
+        if (s.emoji) {
+            setEmoji(s.emoji)
+        }
+    }
 
     return (
         <Dialog
@@ -94,7 +146,17 @@ function Settings({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
-                    <Grid item xs={12} md={12} lg={12}>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingToggle
+                            label={'困難模式'}
+                            description={'我地玩法咁唔同，好難做困難模式啵'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
                         <SettingToggle 
                             label={'高對比顏色'}
                             description={'顏色對比會睇落明顯啲'}
@@ -106,7 +168,9 @@ function Settings({
                             }}
                         />
                     </Grid>
-                    <Grid item xs={12} md={12} lg={12}>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
                         <SettingToggle 
                             label={'自動轉行'}
                             description={'估完一次之後會唔會自動轉行'}
@@ -118,8 +182,40 @@ function Settings({
                             }}
                         />
                     </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingLink 
+                            label={`分享訊息: ${emojiList}`}
+                            linkLabel={'按此修改'}
+                            onClick={() => setOpenEmoji(true)}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingLink 
+                            label={'提出建議'}
+                            linkLabel={'Email'}
+                            link={'mailto:wallywai.walter@gmail.com'}
+                        />
+                    </Grid>
                 </Grid>
             </DialogContent>
+            <DialogActions>
+                <div style={{ 
+                    fontSize: '8px',
+                }}>
+                Copyright Josh Wardle 2021-{dayjs().format('YYYY')}, the original creator for Wordle! All Rights Reserved.
+                </div>
+            </DialogActions>
+            <Emoji
+                open={openEmoji}
+                handleClose={() => {
+                    refreshEmoji()
+                    setOpenEmoji(false)
+                }}
+            />
         </Dialog>
     )
 }
