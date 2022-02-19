@@ -3,8 +3,10 @@ const constant = {
     incorrect: 'incorrect',
     initial: 'initial',
     final: 'final',
-    tone: 'tone',
-    place: 'place',
+    wrongTone: 'wrongTone',
+    placeBoth: 'placeBoth',
+    placeInitial: 'placeInitial',
+    placeFinal: 'placeFinal',
 }
 
 export default constant
