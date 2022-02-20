@@ -103,7 +103,7 @@ function GameTile({
                     {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
                 </animated.div>
                 <div className={'flipbox-pronounce flipbox-pronounce-display'}>
-                    {(info && info.pronounce) ? <>{info.pronounce}</> : <>&nbsp;</>}
+                    {(info && info.pronounce) ? <>{info.pronounce.initial}{info.pronounce.final}{info.pronounce.tone}</> : <>&nbsp;</>}
                 </div>
             </div> 
         </animated.div>

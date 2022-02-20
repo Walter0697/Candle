@@ -1,6 +1,9 @@
 import constant from './constant'
 import dictionary from './dictionary'
 
+// TODO: use temp word for correct answer for now
+let tempWord = ''
+
 const randomInt = (max) => {
     return Math.floor(Math.random() * max)
 }
@@ -30,8 +33,15 @@ const randomPronounce = () => {
     if (chance === 5) return 'luk6'
 }
 
+const getCurrentWord = () => {
+    if (tempWord) return tempWord
+    const index = randomInt(dictionary.length)
+    tempWord = dictionary[index].idiom
+    return tempWord
+}
+
 const exist = (words) => {
-    const guessObj = dictionary.find(obj => obj.phrase === words)
+    const guessObj = dictionary.find(obj => obj.idiom === words)
     if (!guessObj) {
         return false
     }
@@ -39,41 +49,33 @@ const exist = (words) => {
 }
 
 const guess = (words) => {
-    console.log(words)
+    const answer = getCurrentWord()
 
-    // TODO: only for testing
-    if (randomWin()) 
-        return { 
-            win: true,
-            result: [
-                { status: constant.correct, pronounce: randomPronounce() },
-                { status: constant.correct, pronounce: randomPronounce() },
-                { status: constant.correct, pronounce: randomPronounce() },
-                { status: constant.correct, pronounce: randomPronounce() },
-            ]
-        }
+    const result = guessValidator(words, answer)
+    
+    console.log(result) 
+    // DEBUG: sometimes this provided us incorrect pronounce
+    // and sometimes it is undefined
 
-    return { 
-        win: false,
-        result: [
-            { status: randomStatus(), pronounce: randomPronounce() },
-            { status: randomStatus(), pronounce: randomPronounce() },
-            { status: randomStatus(), pronounce: randomPronounce() },
-            { status: randomStatus(), pronounce: randomPronounce() },
-        ]
-    }
+    return result
 }
 
 const correct = () => {
-    return '正確答案'
+    return getCurrentWord()
 }
 
 const guessValidator = (guess, answer) => {
-    // check if answer is in the dictionary
-    const guessObj = dictionary.find(obj => obj.phrase === guess)
-    const answerObj = dictionary.find(obj => obj.phrase === answer)
+    console.log(guess)
+    console.log(answer)
 
-    const resultObj = { 
+    // check if answer is in the dictionary
+    let guessObj = dictionary.find(obj => obj.idiom === guess)
+    let answerObj = dictionary.find(obj => obj.idiom === answer)
+
+    console.log(guessObj)   // DEBUG: sometimes the pronounce of this will be boolean
+    console.log(answerObj)
+
+    let resultObj = { 
         valid: false,
         win: false,
         result: [
@@ -104,7 +106,7 @@ const guessValidator = (guess, answer) => {
     }
 
     // Case 3: others
-    const guessCheck = dictionary.find(obj => obj.phrase === guess)
+    const guessCheck = dictionary.find(obj => obj.idiom === guess)
     
     // this is for answer
     const isChecked = {
