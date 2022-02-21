@@ -69,8 +69,8 @@ const guessValidator = (guess, answer) => {
     console.log(answer)
 
     // check if answer is in the dictionary
-    let guessObj = dictionary.find(obj => obj.idiom === guess)
-    let answerObj = dictionary.find(obj => obj.idiom === answer)
+    let guessObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === guess)))
+    let answerObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === answer)))
 
     console.log(guessObj)   // DEBUG: sometimes the pronounce of this will be boolean
     console.log(answerObj)
@@ -106,7 +106,7 @@ const guessValidator = (guess, answer) => {
     }
 
     // Case 3: others
-    const guessCheck = dictionary.find(obj => obj.idiom === guess)
+    const guessCheck = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === guess)))
     
     // this is for answer
     const isChecked = {
@@ -152,17 +152,13 @@ const guessValidator = (guess, answer) => {
     // Check misplaced words / initials / finals
     // Step 1: check if a guess word has the same initial & final
     for (let i = 0; i < 4; i++) {
-        if (isChecked[`w${i}`] === true)
-            return
-        
-        for (let j = 0; j < 4; j++) {
-            if (givenHints[`w${j}`] === true)
-                return
-            
-            if ((guessObj[`w${j}`].initial === answerObj[`w${i}`].initial) && (guessObj[`w${j}`].final === answerObj[`w${i}`].final)) {
-                resultObj.result[j].status = constant.wrongPlace
-                isChecked[`w${i}`] = true
-                givenHints[`w${j}`] = true
+        if (isChecked[`w${i}`] !== true) {
+            for (let j = 0; j < 4; j++) {
+                if ((givenHints[`w${j}`] !== true) && (guessObj[`w${j}`].initial === answerObj[`w${i}`].initial) && (guessObj[`w${j}`].final === answerObj[`w${i}`].final)) {
+                    resultObj.result[j].status = constant.wrongPlace
+                    isChecked[`w${i}`] = true
+                    givenHints[`w${j}`] = true
+                }
             }
         }
     }
@@ -170,37 +166,30 @@ const guessValidator = (guess, answer) => {
     /*
     // Step 2: check if a guess word has the same initial OR final
     for (let i = 0; i < 4; i++) {
-        if (isChecked[`w${i}`] === true)
-            return
-
-        let isCheckedTemp = false
-        
-        // ! LOGIC: if a guess word has given hints of "misplaced initial" (i.e. placeInitial), then it won't be checked for "misplaced final" (i.e. placeFinal)
-        // Check initial
-        for (let j = 0; j < 4; j++) {
-            if (givenHints[`w${j}`] === true)
-                return
+        if (isChecked[`w${i}`] !== true) {
+            let isCheckedTemp = false
             
-            if (guessObj[`w${j}`].initial === answerObj[`w${i}`].initial) {
-                resultObj.result[j].status = constant.placeInitial
-                isCheckedTemp = true
-                givenHints[`w${j}`] = true
+            // ! LOGIC: if a guess word has given hints of "misplaced initial" (i.e. placeInitial), then it won't be checked for "misplaced final" (i.e. placeFinal)
+            // Check initial
+            for (let j = 0; j < 4; j++) {
+                if ((givenHints[`w${j}`] !== true) && (guessObj[`w${j}`].initial === answerObj[`w${i}`].initial)) {
+                    resultObj.result[j].status = constant.placeInitial
+                    isCheckedTemp = true
+                    givenHints[`w${j}`] = true
+                }
             }
-        }
-
-        // Check final
-        for (let j = 0; j < 4; j++) {
-            if (givenHints[`w${j}`] === true)
-                return
-            
-            if (guessObj[`w${j}`].final === answerObj[`w${i}`].final) {
-                resultObj.result[j].status = constant.placeFinal
-                isCheckedTemp = true
-                givenHints[`w${j}`] = true
+    
+            // Check final
+            for (let j = 0; j < 4; j++) {
+                if ((givenHints[`w${j}`] !== true) && (guessObj[`w${j}`].final === answerObj[`w${i}`].final)) {
+                    resultObj.result[j].status = constant.placeFinal
+                    isCheckedTemp = true
+                    givenHints[`w${j}`] = true
+                }
             }
+    
+            isChecked[`w${i}`] = isCheckedTemp
         }
-
-        isChecked[`w${i}`] = isCheckedTemp
     }
     */
 
