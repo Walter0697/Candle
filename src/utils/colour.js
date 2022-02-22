@@ -18,12 +18,12 @@ const colourList = {
         contrast: { colour: '#303030', type: 'single' },
     },
     rightInitial: {
-        normal: { colour: '#b59f3b', type: 'left' },
-        contrast: { colour: '#85c0f9', type: 'left' },
+        normal: { colour: '#538d4e', type: 'left' },
+        contrast: { colour: '#f5793a', type: 'left' },
     },
     rightFinal: {
-        normal: { colour: '#b59f3b', type: 'right' },
-        contrast: { colour: '#85c0f9', type: 'right' },
+        normal: { colour: '#538d4e', type: 'right' },
+        contrast: { colour: '#f5793a', type: 'right' },
     },
     wrongTone: {
         normal: { colour: '#994dad', type: 'single' },
