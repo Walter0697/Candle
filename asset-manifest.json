@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/candle/static/css/main.191677cd.css",
+    "main.js": "/candle/static/js/main.78560adb.js",
+    "static/js/377.2bd88bb0.chunk.js": "/candle/static/js/377.2bd88bb0.chunk.js",
+    "service-worker.js": "/candle/service-worker.js",
+    "index.html": "/candle/index.html",
+    "main.191677cd.css.map": "/candle/static/css/main.191677cd.css.map",
+    "main.78560adb.js.map": "/candle/static/js/main.78560adb.js.map",
+    "377.2bd88bb0.chunk.js.map": "/candle/static/js/377.2bd88bb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.191677cd.css",
+    "static/js/main.78560adb.js"
+  ]
+}
