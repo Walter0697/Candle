@@ -20,6 +20,8 @@ import { setContrast } from '../../store/slice/colourSlice'
 import { setAutoScroll } from '../../store/slice/settingSlice'
 
 import setting from '../../utils/setting'
+import record from '../../utils/record'
+import config from '../../utils/configuration'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -87,6 +89,7 @@ function SettingToggle({
 }
 
 function Settings({
+    dateIndex,
     open,
     handleClose,
 }) {
@@ -204,9 +207,20 @@ function Settings({
             </DialogContent>
             <DialogActions>
                 <div style={{ 
-                    fontSize: '8px',
+                    fontSize: '9px',
                 }}>
-                Copyright Josh Wardle 2021-{dayjs().format('YYYY')}, the original creator for Wordle! All Rights Reserved.
+                    <div style={{
+                        display: 'block',
+                        float: 'right',
+                    }}>
+                        #{dateIndex} version {config.version}
+                    </div>
+                    <div style={{
+                        display: 'block',
+                        float: 'right',
+                    }}>
+                        Copyright Josh Wardle 2021-{dayjs().format('YYYY')}, the original creator for Wordle! All Rights Reserved.
+                    </div>
                 </div>
             </DialogActions>
             <Emoji

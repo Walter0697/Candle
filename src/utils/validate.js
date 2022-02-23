@@ -1,43 +1,19 @@
 import constant from './constant'
 import dictionary from './dictionary'
+import config from './configuration'
+import * as seedrandom from 'seedrandom'
 
-// TODO: use temp word for correct answer for now
-let tempWord = ''
-
-const randomInt = (max) => {
-    return Math.floor(Math.random() * max)
+const getTodayIndex = (dateIndex) => {
+    const token = config.seedToken
+    const rng = seedrandom(`${token}-${dateIndex}`)
+    const max = dictionary.length
+    return Math.floor(rng() * max)
 }
 
-const randomWin = () => {
-    const chance = randomInt(5)
-    return chance === 3
-}
-
-const randomStatus = () => {
-    const chance = randomInt(6)
-    if (chance === 0) return constant.incorrect
-    if (chance === 1) return constant.incorrect
-    if (chance === 2) return constant.rightInitial
-    if (chance === 3) return constant.rightFinal
-    if (chance === 4) return constant.wrongTone
-    if (chance === 5) return constant.wrongPlace
-}
-
-const randomPronounce = () => {
-    const chance = randomInt(6)
-    if (chance === 0) return 'jat1'
-    if (chance === 1) return 'ji6'
-    if (chance === 2) return 'saam1'
-    if (chance === 3) return 'sei3'
-    if (chance === 4) return 'ng5'
-    if (chance === 5) return 'luk6'
-}
-
-const getCurrentWord = () => {
-    if (tempWord) return tempWord
-    const index = randomInt(dictionary.length)
-    tempWord = dictionary[index].idiom
-    return tempWord
+const getCurrentWord = (dateIndex) => {
+    const todayIndex = getTodayIndex(dateIndex)
+    const currentWord = dictionary[todayIndex].idiom
+    return currentWord
 }
 
 const exist = (words) => {
@@ -48,32 +24,27 @@ const exist = (words) => {
     return true
 }
 
-const guess = (words) => {
-    const answer = getCurrentWord()
+const guess = (words, dateIndex) => {
+    const answer = getCurrentWord(dateIndex)
 
     const result = guessValidator(words, answer)
     
-    console.log(result) 
-    // DEBUG: sometimes this provided us incorrect pronounce
-    // and sometimes it is undefined
-
     return result
 }
 
-const correct = () => {
-    return getCurrentWord()
+const correct = (dateIndex) => {
+    return getCurrentWord(dateIndex)
+}
+
+const first = (dateIndex) => {
+    const correctans = getCurrentWord(dateIndex)
+    return correctans.charAt(0)
 }
 
 const guessValidator = (guess, answer) => {
-    console.log(guess)
-    console.log(answer)
-
     // check if answer is in the dictionary
     let guessObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === guess)))
     let answerObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === answer)))
-
-    console.log(guessObj)   // DEBUG: sometimes the pronounce of this will be boolean
-    console.log(answerObj)
 
     let resultObj = { 
         valid: false,
@@ -201,6 +172,7 @@ const validate = {
     guess,
     correct,
     guessValidator,
+    first,
 }
 
 export default validate

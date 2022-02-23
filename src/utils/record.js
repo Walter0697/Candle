@@ -1,5 +1,6 @@
 import dayjs from 'dayjs'
-const gameLaunchTime = '2022-02-10 00:00:00'
+import config from './configuration'
+const gameLaunchTime = config.gameLaunchTime
 
 const zeroPad = (num, places) => {
     const zero = places - num.toString().length + 1;

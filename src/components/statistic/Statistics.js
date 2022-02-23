@@ -13,6 +13,7 @@ import Distribution from './Distribution'
 import BottomInfo from './BottomInfo'
 
 import record from '../../utils/record'
+import config from '../../utils/configuration'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -72,13 +73,9 @@ function Statistics({
 
         const history = record.history()
         const played = history.length
-        let guesses = {
-            1: 0,
-            2: 0,
-            3: 0,
-            4: 0,
-            5: 0,
-            6: 0,
+        let guesses = {}
+        for (let i = 1; i <= config.maxRow; i++) {
+            guesses[i] = 0
         }
         if (played !== 0) {
             setTotal(history.length)

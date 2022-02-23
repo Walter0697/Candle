@@ -12,10 +12,11 @@ import InputBox from './InputBox'
 import validate from '../../utils/validate'
 import record from '../../utils/record'
 import notification from '../../utils/notification'
+import config from '../../utils/configuration'
 
-const maxLength = 4
-const maxRow = 6
-const rowHeight = 78
+const maxLength = config.maxLength
+const maxRow = config.maxRow
+const rowHeight = config.rowHeight
 
 const wordListReducer = (state, action) => {
     switch(action.type) {
@@ -72,9 +73,7 @@ function Game({
     const currentGuess = useRef(0)
     const validating = useRef(false)
     const gameStatus = useRef('')    // win / loss
-    const [ wordList, manipulateList ] = useReducer(wordListReducer, [
-        [], [], [], [], [], [],
-    ])
+    const [ wordList, manipulateList ] = useReducer(wordListReducer, JSON.parse(JSON.stringify(Array(maxRow).fill([]))) )
 
     const [ rowShake, setRowShake ] = useState(false)
 
@@ -128,7 +127,7 @@ function Game({
             }
             else if (gameStatus.current === 'loss') {
                 scrollableDiv.current.scrollTo({ top:0, behavior:'smooth' })
-                enqueueSnackbar(validate.correct(), { autoHideDuration: 1000 })
+                enqueueSnackbar(validate.correct(date), { autoHideDuration: 1000 })
                 window.setTimeout(() => {
                     setFinished()
                 }, 1000)
@@ -142,7 +141,7 @@ function Game({
 
         const currentRowList = wordList[currentRow.current]
         if (currentRowList.length !== maxLength) {
-            enqueueSnackbar(notification.fourWord(), { autoHideDuration: 1000 })
+            enqueueSnackbar(notification.fourWord(date), { autoHideDuration: 1000 })
             setRowShake(true)
             return
         }
@@ -163,7 +162,7 @@ function Game({
         // start checking the vocabs
         validating.current = true
 
-        const respond = validate.guess(guessing)
+        const respond = validate.guess(guessing, date)
         if (respond.win) {
             gameStatus.current = 'win'
             const parsedList = record.parse(wordList, currentRow.current, respond.result)
@@ -279,7 +278,7 @@ function Game({
                         <Grid container
                             ref={scrollableDiv}
                             style={{
-                                height: '70vh',
+                                height: '85vh',
                                 overflow: 'auto',
                             }}
                         >

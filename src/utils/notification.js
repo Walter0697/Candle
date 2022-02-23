@@ -1,8 +1,11 @@
+import validate from './validate'
+
 let fwCount = 0
 
-const fourWord = () => {
+const fourWord = (date) => {
     fwCount++
     if (fwCount === 803) {
+        return validate.first(date)
         // provide hint and give out first letter
     }
     switch(fwCount) {

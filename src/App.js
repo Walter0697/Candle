@@ -79,6 +79,7 @@ function App() {
         handleClose={() => setOpenStatistic(false)}
       />
       <Settings
+        dateIndex={currentDateNo}
         open={openSetting}
         handleClose={() => setOpenSetting(false)}
       />
