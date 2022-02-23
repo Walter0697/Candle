@@ -14,9 +14,9 @@ const fourWord = (date) => {
         case 65:
             return '試下冷靜啲諗下'
         case 70:
-            return '係咁㩒都無用嫁啵'
+            return '係咁撳都無用嫁啵'
         case 100:
-            return '你㩒左一百下啦啵'
+            return '你撳左一百下啦啵'
         case 120:
             return '有無諗過個掣既感受'
         case 150:

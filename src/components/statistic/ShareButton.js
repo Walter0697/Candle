@@ -37,7 +37,7 @@ function ShareButton() {
             }
         }
         
-        let shareStr = `粵道 ${date} ${winning_row}/6\n\n`
+        let shareStr = `粵道 ${date} ${winning_row}/9\n\n`
         shareStr += progress_row.join('\n')
 
         if (navigator.share) {

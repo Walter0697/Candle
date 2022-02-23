@@ -71,7 +71,7 @@ function Tutorial({
                             <Grid item xs={12} md={12} lg={12}
                                 className={'tutorial-intro'}
                             >
-                                係六次之內估中一個四字成語！
+                                係九次之內估中一個四字成語！（六次太難啦）
                             </Grid>
                             <Grid item xs={12} md={12} lg={12}
                                 className={'tutorial-intro'}
@@ -166,7 +166,7 @@ function Tutorial({
                             <Grid item xs={12} md={12} lg={12}
                                 className={'tutorial-intro'}
                             >
-                                「WORDLE」係由Josh Wardle所設計，後期香港有人創作左倉頡版嘅「JNDLE字道」同埋粵拼版既「ZIDOU」。但係小弟覺得可以做個更加中文嘅版本，所以就創作左呢隻四字成語版嘅「粵道」啦。
+                                「WORDLE」係由Josh Wardle所設計，後期香港有人創作左倉頡版嘅「JNDLE字道」同埋粵拼版既「ZIDOU」。但係小弟覺得可以做個更加適合用中文玩嘅版本，所以就創作左呢隻四字成語版嘅「粵道」啦。
                             </Grid>
                         </Grid>
                     </Grid>

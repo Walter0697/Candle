@@ -76,8 +76,8 @@ function InputBox({
     const getInputText = () => {
         if (validating) return '幫緊你，幫緊你'
         if (!canInput) return ''
-        if (currentIndex === 4) return '㩒ENTER估'
-        return '要打字，㩒呢度'
+        if (currentIndex === 4) return '撳ENTER估'
+        return '要打字，撳呢度'
     }
 
     return (
