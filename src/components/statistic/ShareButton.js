@@ -13,7 +13,7 @@ import notification from '../../utils/notification'
 function ShareButton() {
     const { enqueueSnackbar } = useSnackbar()
 
-    const copySharableToClipboard = () => {
+    const copySharableToClipboard = async () => {
         const emoji = setting.emoji_list()
         const progress = record.load()
         const date = record.get_date()
@@ -39,11 +39,18 @@ function ShareButton() {
         
         let shareStr = `粵道 ${date} ${winning_row}/6\n\n`
         shareStr += progress_row.join('\n')
-        // clipboard API can only be used through https so alert the result
-        alert(shareStr)
-        console.log(shareStr)
-        navigator.clipboard.writeText(shareStr)
-        enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
+
+        if (navigator.share) {
+            const result = await navigator.share({
+                text: shareStr,
+            })
+            console.log(result)
+        } else {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(shareStr)
+            }
+            enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
+        }
     }
 
     return (
