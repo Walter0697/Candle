@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/candle_wordle/static/css/main.191677cd.css",
-    "main.js": "/candle_wordle/static/js/main.13bc315d.js",
-    "static/js/377.2bd88bb0.chunk.js": "/candle_wordle/static/js/377.2bd88bb0.chunk.js",
-    "service-worker.js": "/candle_wordle/service-worker.js",
-    "index.html": "/candle_wordle/index.html",
-    "main.191677cd.css.map": "/candle_wordle/static/css/main.191677cd.css.map",
-    "main.13bc315d.js.map": "/candle_wordle/static/js/main.13bc315d.js.map",
-    "377.2bd88bb0.chunk.js.map": "/candle_wordle/static/js/377.2bd88bb0.chunk.js.map"
+    "main.css": "/Candle/static/css/main.191677cd.css",
+    "main.js": "/Candle/static/js/main.000a00fa.js",
+    "static/js/377.2bd88bb0.chunk.js": "/Candle/static/js/377.2bd88bb0.chunk.js",
+    "service-worker.js": "/Candle/service-worker.js",
+    "index.html": "/Candle/index.html",
+    "main.191677cd.css.map": "/Candle/static/css/main.191677cd.css.map",
+    "main.000a00fa.js.map": "/Candle/static/js/main.000a00fa.js.map",
+    "377.2bd88bb0.chunk.js.map": "/Candle/static/js/377.2bd88bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.191677cd.css",
-    "static/js/main.13bc315d.js"
+    "static/js/main.000a00fa.js"
   ]
 }
