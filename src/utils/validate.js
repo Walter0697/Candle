@@ -1,5 +1,7 @@
 import constant from './constant'
-import dictionary from './dictionary'
+import dictionary from '../dictionaries/dictionary'
+import duplicates from '../dictionaries/duplicates'
+import wordbank from '../dictionaries/wordbank'
 import config from './configuration'
 import * as seedrandom from 'seedrandom'
 
@@ -17,7 +19,7 @@ const getCurrentWord = (dateIndex) => {
 }
 
 const exist = (words) => {
-    const guessObj = dictionary.find(obj => obj.idiom === words)
+    const guessObj = wordbank.find(obj => obj.idiom === words)
     if (!guessObj) {
         return false
     }
@@ -33,7 +35,15 @@ const guess = (words, dateIndex) => {
 }
 
 const correct = (dateIndex) => {
-    return getCurrentWord(dateIndex)
+    const answer = getCurrentWord(dateIndex)
+    const duplicatedAns = duplicates.find(dup => dup.idiom2 === answer)
+
+    let answerString = `${answer}`
+    if (duplicatedAns) {
+        answerString += ` / ${duplicatedAns.idiom}`
+    }
+
+    return answerString
 }
 
 const first = (dateIndex) => {
@@ -42,9 +52,9 @@ const first = (dateIndex) => {
 }
 
 const guessValidator = (guess, answer) => {
-    // check if answer is in the dictionary
-    let guessObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === guess)))
-    let answerObj = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === answer)))
+    // check if answer is in the wordbank
+    let guessObj = JSON.parse(JSON.stringify(wordbank.find(obj => obj.idiom === guess)))
+    let answerObj = JSON.parse(JSON.stringify(wordbank.find(obj => obj.idiom === answer)))
 
     let resultObj = { 
         valid: false,
@@ -57,7 +67,7 @@ const guessValidator = (guess, answer) => {
         ]
     }
 
-    // Case 1: either the answer or the guess is not in the dictionary
+    // Case 1: either the answer or the guess is not in the wordbank
     if (!answerObj || !guessObj)
         return resultObj
 
@@ -68,7 +78,11 @@ const guessValidator = (guess, answer) => {
     })
     
     // Case 2: win
-    if (answer === guess) {
+    // TODO: varify by pronounce
+    // if (JSON. answerObj.w0)
+    const guessPronunce = [guessObj.w0, guessObj.w1, guessObj.w2, guessObj.w3]
+    const answerPronunce = [answerObj.w0, answerObj.w1, answerObj.w2, answerObj.w3]
+    if ((answer === guess) || (JSON.stringify(guessPronunce) === JSON.stringify(answerPronunce))) {
         resultObj.win = true
         resultObj.result.forEach((word) => {
             word.status = constant.correct
@@ -77,7 +91,7 @@ const guessValidator = (guess, answer) => {
     }
 
     // Case 3: others
-    const guessCheck = JSON.parse(JSON.stringify(dictionary.find(obj => obj.idiom === guess)))
+    const guessCheck = JSON.parse(JSON.stringify(wordbank.find(obj => obj.idiom === guess)))
     
     // this is for answer
     const isChecked = {

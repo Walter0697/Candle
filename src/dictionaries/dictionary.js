@@ -2116,29 +2116,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"膽戰心驚",
-        "w0":{
-            "initial":"d",
-            "final":"aam",
-            "tone":"2"
-        },
-        "w1":{
-            "initial":"z",
-            "final":"in",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"s",
-            "final":"am",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"g",
-            "final":"eng",
-            "tone":"1"
-        }
-    },
-    {
         "idiom":"聳人聽聞",
         "w0":{
             "initial":"s",
@@ -3289,29 +3266,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"興高彩烈",
-        "w0":{
-            "initial":"h",
-            "final":"ing",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"g",
-            "final":"ou",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"c",
-            "final":"oi",
-            "tone":"2"
-        },
-        "w3":{
-            "initial":"l",
-            "final":"it",
-            "tone":"6"
-        }
-    },
-    {
         "idiom":"興高采烈",
         "w0":{
             "initial":"h",
@@ -4390,29 +4344,6 @@ const dictionary = [
             "initial":"m",
             "final":"ou",
             "tone":"5"
-        }
-    },
-    {
-        "idiom":"盤根錯節",
-        "w0":{
-            "initial":"p",
-            "final":"un",
-            "tone":"4"
-        },
-        "w1":{
-            "initial":"g",
-            "final":"an",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"c",
-            "final":"o",
-            "tone":"3"
-        },
-        "w3":{
-            "initial":"z",
-            "final":"it",
-            "tone":"3"
         }
     },
     {
@@ -7797,29 +7728,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"義正詞嚴",
-        "w0":{
-            "initial":"j",
-            "final":"i",
-            "tone":"6"
-        },
-        "w1":{
-            "initial":"z",
-            "final":"ing",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"c",
-            "final":"i",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"j",
-            "final":"im",
-            "tone":"4"
-        }
-    },
-    {
         "idiom":"義不容辭",
         "w0":{
             "initial":"j",
@@ -8327,29 +8235,6 @@ const dictionary = [
     },
     {
         "idiom":"暗渡陳倉",
-        "w0":{
-            "initial":"",
-            "final":"am",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"d",
-            "final":"ou",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"c",
-            "final":"an",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"c",
-            "final":"ong",
-            "tone":"1"
-        }
-    },
-    {
-        "idiom":"暗度陳倉",
         "w0":{
             "initial":"",
             "final":"am",
@@ -11152,52 +11037,6 @@ const dictionary = [
             "initial":"l",
             "final":"au",
             "tone":"5"
-        }
-    },
-    {
-        "idiom":"孳孳不倦",
-        "w0":{
-            "initial":"z",
-            "final":"i",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"z",
-            "final":"i",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"b",
-            "final":"at",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"g",
-            "final":"yun",
-            "tone":"6"
-        }
-    },
-    {
-        "idiom":"壹敗塗地",
-        "w0":{
-            "initial":"j",
-            "final":"at",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"b",
-            "final":"aai",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"t",
-            "final":"ou",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"d",
-            "final":"ei",
-            "tone":"6"
         }
     },
     {
@@ -14720,29 +14559,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"骨瘦如豺",
-        "w0":{
-            "initial":"gw",
-            "final":"at",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"s",
-            "final":"au",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"j",
-            "final":"yu",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"c",
-            "final":"aai",
-            "tone":"4"
-        }
-    },
-    {
         "idiom":"骨瘦如柴",
         "w0":{
             "initial":"gw",
@@ -16284,29 +16100,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"氣宇軒昂",
-        "w0":{
-            "initial":"h",
-            "final":"ei",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"j",
-            "final":"yu",
-            "tone":"5"
-        },
-        "w2":{
-            "initial":"h",
-            "final":"in",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"ng",
-            "final":"ong",
-            "tone":"4"
-        }
-    },
-    {
         "idiom":"殷鑒不遠",
         "w0":{
             "initial":"j",
@@ -16533,29 +16326,6 @@ const dictionary = [
         "w3":{
             "initial":"z",
             "final":"aau",
-            "tone":"2"
-        }
-    },
-    {
-        "idiom":"挺而走險",
-        "w0":{
-            "initial":"t",
-            "final":"ing",
-            "tone":"5"
-        },
-        "w1":{
-            "initial":"j",
-            "final":"i",
-            "tone":"4"
-        },
-        "w2":{
-            "initial":"z",
-            "final":"au",
-            "tone":"2"
-        },
-        "w3":{
-            "initial":"h",
-            "final":"im",
             "tone":"2"
         }
     },
@@ -17297,29 +17067,6 @@ const dictionary = [
     },
     {
         "idiom":"風雨飄搖",
-        "w0":{
-            "initial":"f",
-            "final":"ung",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"j",
-            "final":"yu",
-            "tone":"5"
-        },
-        "w2":{
-            "initial":"p",
-            "final":"iu",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"j",
-            "final":"iu",
-            "tone":"4"
-        }
-    },
-    {
-        "idiom":"風雨漂搖",
         "w0":{
             "initial":"f",
             "final":"ung",
@@ -18998,29 +18745,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"按步就班",
-        "w0":{
-            "initial":"",
-            "final":"on",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"b",
-            "final":"ou",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"z",
-            "final":"au",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"b",
-            "final":"aan",
-            "tone":"1"
-        }
-    },
-    {
         "idiom":"按兵不動",
         "w0":{
             "initial":"",
@@ -20540,29 +20264,6 @@ const dictionary = [
     },
     {
         "idiom":"虎踞龍蟠",
-        "w0":{
-            "initial":"f",
-            "final":"u",
-            "tone":"2"
-        },
-        "w1":{
-            "initial":"g",
-            "final":"eoi",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"l",
-            "final":"ung",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"p",
-            "final":"un",
-            "tone":"4"
-        }
-    },
-    {
-        "idiom":"虎踞龍盤",
         "w0":{
             "initial":"f",
             "final":"u",
@@ -22241,29 +21942,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"披星帶月",
-        "w0":{
-            "initial":"p",
-            "final":"ei",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"s",
-            "final":"ing",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"d",
-            "final":"aai",
-            "tone":"3"
-        },
-        "w3":{
-            "initial":"j",
-            "final":"yut",
-            "tone":"6"
-        }
-    },
-    {
         "idiom":"披肝瀝膽",
         "w0":{
             "initial":"p",
@@ -22564,29 +22242,6 @@ const dictionary = [
     },
     {
         "idiom":"孤苦零丁",
-        "w0":{
-            "initial":"g",
-            "final":"u",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"f",
-            "final":"u",
-            "tone":"2"
-        },
-        "w2":{
-            "initial":"l",
-            "final":"ing",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"d",
-            "final":"ing",
-            "tone":"1"
-        }
-    },
-    {
-        "idiom":"孤苦伶仃",
         "w0":{
             "initial":"g",
             "final":"u",
@@ -23020,29 +22675,6 @@ const dictionary = [
             "initial":"d",
             "final":"ei",
             "tone":"6"
-        }
-    },
-    {
-        "idiom":"卷土重來",
-        "w0":{
-            "initial":"g",
-            "final":"yun",
-            "tone":"2"
-        },
-        "w1":{
-            "initial":"t",
-            "final":"ou",
-            "tone":"2"
-        },
-        "w2":{
-            "initial":"c",
-            "final":"ung",
-            "tone":"4"
-        },
-        "w3":{
-            "initial":"l",
-            "final":"oi",
-            "tone":"4"
         }
     },
     {
@@ -24219,29 +23851,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"秀外慧中",
-        "w0":{
-            "initial":"s",
-            "final":"au",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"ng",
-            "final":"oi",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"w",
-            "final":"ai",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"z",
-            "final":"ung",
-            "tone":"1"
-        }
-    },
-    {
         "idiom":"秀外惠中",
         "w0":{
             "initial":"s",
@@ -24335,29 +23944,6 @@ const dictionary = [
     },
     {
         "idiom":"沉魚落雁",
-        "w0":{
-            "initial":"c",
-            "final":"am",
-            "tone":"4"
-        },
-        "w1":{
-            "initial":"j",
-            "final":"yu",
-            "tone":"4"
-        },
-        "w2":{
-            "initial":"l",
-            "final":"ok",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"ng",
-            "final":"aan",
-            "tone":"6"
-        }
-    },
-    {
-        "idiom":"沈魚落雁",
         "w0":{
             "initial":"c",
             "final":"am",
@@ -26239,29 +25825,6 @@ const dictionary = [
         "w3":{
             "initial":"f",
             "final":"uk",
-            "tone":"1"
-        }
-    },
-    {
-        "idiom":"作姦犯科",
-        "w0":{
-            "initial":"z",
-            "final":"ok",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"g",
-            "final":"aan",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"f",
-            "final":"aan",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"f",
-            "final":"o",
             "tone":"1"
         }
     },
@@ -29555,29 +29118,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"再接再礪",
-        "w0":{
-            "initial":"z",
-            "final":"oi",
-            "tone":"3"
-        },
-        "w1":{
-            "initial":"z",
-            "final":"ip",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"z",
-            "final":"oi",
-            "tone":"3"
-        },
-        "w3":{
-            "initial":"l",
-            "final":"ai",
-            "tone":"6"
-        }
-    },
-    {
         "idiom":"再接再厲",
         "w0":{
             "initial":"z",
@@ -31326,29 +30866,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"叱吒風雲",
-        "w0":{
-            "initial":"c",
-            "final":"ik",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"c",
-            "final":"aak",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"f",
-            "final":"ung",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"w",
-            "final":"an",
-            "tone":"4"
-        }
-    },
-    {
         "idiom":"另眼相看",
         "w0":{
             "initial":"l",
@@ -31599,29 +31116,6 @@ const dictionary = [
             "initial":"z",
             "final":"oeng",
             "tone":"6"
-        }
-    },
-    {
-        "idiom":"包藏禍心",
-        "w0":{
-            "initial":"b",
-            "final":"aau",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"c",
-            "final":"ong",
-            "tone":"4"
-        },
-        "w2":{
-            "initial":"w",
-            "final":"o",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"s",
-            "final":"am",
-            "tone":"1"
         }
     },
     {
@@ -32430,29 +31924,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"水洩不通",
-        "w0":{
-            "initial":"s",
-            "final":"eoi",
-            "tone":"2"
-        },
-        "w1":{
-            "initial":"s",
-            "final":"it",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"b",
-            "final":"at",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"t",
-            "final":"ung",
-            "tone":"1"
-        }
-    },
-    {
         "idiom":"水泄不通",
         "w0":{
             "initial":"s",
@@ -33094,29 +32565,6 @@ const dictionary = [
             "initial":"h",
             "final":"iu",
             "tone":"2"
-        }
-    },
-    {
-        "idiom":"心驚膽顫",
-        "w0":{
-            "initial":"s",
-            "final":"am",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"g",
-            "final":"eng",
-            "tone":"1"
-        },
-        "w2":{
-            "initial":"d",
-            "final":"aam",
-            "tone":"2"
-        },
-        "w3":{
-            "initial":"z",
-            "final":"in",
-            "tone":"3"
         }
     },
     {
@@ -34566,29 +34014,6 @@ const dictionary = [
             "initial":"c",
             "final":"yu",
             "tone":"5"
-        }
-    },
-    {
-        "idiom":"不辯菽麥",
-        "w0":{
-            "initial":"b",
-            "final":"at",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"b",
-            "final":"in",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"s",
-            "final":"uk",
-            "tone":"6"
-        },
-        "w3":{
-            "initial":"m",
-            "final":"ak",
-            "tone":"6"
         }
     },
     {
@@ -38065,29 +37490,6 @@ const dictionary = [
         }
     },
     {
-        "idiom":"一箭雙鵰",
-        "w0":{
-            "initial":"j",
-            "final":"at",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"z",
-            "final":"in",
-            "tone":"3"
-        },
-        "w2":{
-            "initial":"s",
-            "final":"oeng",
-            "tone":"1"
-        },
-        "w3":{
-            "initial":"d",
-            "final":"iu",
-            "tone":"1"
-        }
-    },
-    {
         "idiom":"一箭雙雕",
         "w0":{
             "initial":"j",
@@ -39051,29 +38453,6 @@ const dictionary = [
             "initial":"g",
             "final":"am",
             "tone":"1"
-        }
-    },
-    {
-        "idiom":"一目瞭然",
-        "w0":{
-            "initial":"j",
-            "final":"at",
-            "tone":"1"
-        },
-        "w1":{
-            "initial":"m",
-            "final":"uk",
-            "tone":"6"
-        },
-        "w2":{
-            "initial":"l",
-            "final":"iu",
-            "tone":"5"
-        },
-        "w3":{
-            "initial":"j",
-            "final":"in",
-            "tone":"4"
         }
     },
     {
