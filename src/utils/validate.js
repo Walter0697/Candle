@@ -29,9 +29,9 @@ const exist = (words) => {
 const guess = (words, dateIndex) => {
     const answer = getCurrentWord(dateIndex)
 
-    const result = guessValidator(words, answer)
+    const resultObj = guessValidator(words, answer)
     
-    return result
+    return JSON.parse(JSON.stringify(resultObj))
 }
 
 const correct = (dateIndex) => {
@@ -51,7 +51,7 @@ const first = (dateIndex) => {
     return correctans.charAt(0)
 }
 
-const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, statusArray) => {
+const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, statusObject) => {
     let compareType = null
     switch (pronounceIndex) {
         case 0:
@@ -89,22 +89,24 @@ const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, status
     
     // Check green
     for (let i = 0; i < 4; i++) {
-        const pronouncePartMatched = guessObj[`w${i}`][compareType] === answerObj[`w${i}`][compareType]
-        isChecked[`w${i}`] = pronouncePartMatched
-        givenHints[`w${i}`] = pronouncePartMatched
-        resultObj.result[i].status = constant[setCharAt(statusArray[i], pronounceIndex, "g")]
-        statusArray[i] = setCharAt(statusArray[i], pronounceIndex, "g")
+        const pronouncePartMatched = (guessObj[`w${i}`][compareType] == answerObj[`w${i}`][compareType])
+        if (pronouncePartMatched) {
+            givenHints[`w${i}`] = true
+            isChecked[`w${i}`] = true
+            resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "g")]
+            statusObject.array[i] = setCharAt(statusObject.array[i], pronounceIndex, "g")
+        }
     }
 
     // Check yellow
     for (let i = 0; i < 4; i++) {
-        if (!isChecked[`w${i}`]) {
+        if (!givenHints[`w${i}`]) {
             for (let j = 0; j < 4; j++) {
-                if (!givenHints[`w${i}`] && (answerObj[`w${i}`][compareType] === guessObj[`w${j}`][compareType])) {
-                    isChecked[`w${i}`] = true
-                    givenHints[`w${j}`] = true
-                    resultObj.result[j].status = constant[setCharAt(statusArray[j], pronounceIndex, "y")]
-                    statusArray[j] = setCharAt(statusArray[j], pronounceIndex, "y")
+                if (!isChecked[`w${j}`] && (answerObj[`w${j}`][compareType] == guessObj[`w${i}`][compareType])) {
+                    givenHints[`w${i}`] = true
+                    isChecked[`w${j}`] = true
+                    resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "y")]
+                    statusObject.array[i] = setCharAt(statusObject.array[i], pronounceIndex, "y")
                 }
             }
         }
@@ -149,10 +151,10 @@ const guessValidator = (guess, answer) => {
     }
 
     // Case 3: compare pronounce
-    let statusArray = ["xxx", "xxx", "xxx", "xxx"]
-    comparePronounce(guessObj, answerObj, 0, resultObj, statusArray)
-    comparePronounce(guessObj, answerObj, 1, resultObj, statusArray)
-    comparePronounce(guessObj, answerObj, 2, resultObj, statusArray)
+    let statusObject = { array: ["xxx", "xxx", "xxx", "xxx"]}
+    comparePronounce(guessObj, answerObj, 0, resultObj, statusObject)
+    comparePronounce(guessObj, answerObj, 1, resultObj, statusObject)
+    comparePronounce(guessObj, answerObj, 2, resultObj, statusObject)
     return resultObj
 }
 

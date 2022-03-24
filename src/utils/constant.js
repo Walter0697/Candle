@@ -1,14 +1,31 @@
 const constant = {
-    xxx: 'incorrect', // full grey
-    ggg: 'correct', // full green
-    yyy: 'wrongPlace', // full yellow
-    ggx: 'wrongTone', // bottom green
-    yyx: 'wrongTone', // bottom yellow
-    gxx: 'rightInitial', // left green
-    xgx: 'rightFinal', // right green
-    yxx: 'rightInitial', // left yellow
-    xyx: 'rightFinal', // right yellow
-    xyx: 'rightFinal', // left green right yellow
+    xxx: 'xxx', // full grey
+    ggg: 'ggg', // full green
+    yyy: 'yyy', // full yellow
+    ggx: 'ggx',
+    gxg: 'gxg',
+    xgg: 'xgg',
+    yyx: 'yyx',
+    yxy: 'yxy',
+    xyy: 'xyy',
+    gyx: 'gyx',
+    ygx: 'ygx',
+    gxy: 'gxy',
+    yxg: 'yxg',
+    xgy: 'xgy',
+    xyg: 'xyg',
+    xxg: 'xxg',
+    xgx: 'xgx',
+    gxx: 'gxx',
+    xxy: 'xxy',
+    xyx: 'xyx',
+    yxx: 'yxx',
+    ggy: 'ggy',
+    gyg: 'gyg',
+    ygg: 'ygg',
+    yyg: 'yyg',
+    ygy: 'ygy',
+    gyy: 'gyy',
 }
 
 export default constant
