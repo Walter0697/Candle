@@ -96,9 +96,7 @@ function Emoji({
             <DialogContent>
                 <Grid container>
                     <EmojiChoice value={'🟢🌚🌕🌗🌓🟣'} selected={emojiList} setValue={setToCurrentEmoji}/>
-                    <EmojiChoice value={'👍👎✋👈👉🤌'} selected={emojiList} setValue={setToCurrentEmoji}/>
                     <EmojiChoice value={'正錯位聲韻調'} selected={emojiList} setValue={setToCurrentEmoji}/>
-                    <EmojiChoice value={'🌝🌚🌎🌗🌓🌕'} selected={emojiList} setValue={setToCurrentEmoji}/>
                 </Grid>
             </DialogContent>
         </Dialog>

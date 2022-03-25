@@ -39,10 +39,8 @@ function GameTile({
     const backgroundColor = useMemo(() => {
         if (!info) return ''
         if (!info.status) return ''
-        const currentStatus = info.status === 'win' ? 'correct' : info.status
-        const data = colour.getColourData(currentStatus, isContrast)
-        if (!data) return ''
-        return colour.parseColourData(data.colour, data.type)
+        const currentStatus = info.status === 'win' ? 'ggg' : info.status
+        return colour.getColourData(currentStatus, isContrast)
     }, [info, isContrast])
 
     const { transform } = useSpring({

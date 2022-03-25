@@ -16,10 +16,7 @@ function TutorialTile({
     const isContrast = useSelector((state) => state.colour.isContrast)
 
     const backgroundColor = useMemo(() => {
-        if (!status) return ''
-        const data = colour.getColourData(status, isContrast)
-        if (!data) return ''
-        return colour.parseColourData(data.colour, data.type)
+        return colour.getColourData(status, isContrast)
     }, [status, isContrast])
 
     const { transform } = useSpring({

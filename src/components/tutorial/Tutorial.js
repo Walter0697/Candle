@@ -100,7 +100,7 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'認真如初'}
                                     pronounces={['jing6', 'zan1', 'jyu4', 'co1']}
-                                    sampleStatus={'correct'}
+                                    sampleStatus={'ggg'}
                                     explain={'答案入面有「{target}」呢個字，而且位置正確'}
                                 />
                             </Grid>
@@ -110,7 +110,7 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'斷絕來往'}
                                     pronounces={['tyun5', 'zyut6', 'loi4', 'wong5']}
-                                    sampleStatus={'wrongTone'}
+                                    sampleStatus={'ggx'}
                                     explain={'「{target}」呢個字岩音，但係聲調唔岩'}
                                 />
                             </Grid>
@@ -120,7 +120,7 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'永久保存'}
                                     pronounces={['wing5', 'gau2', 'bou2', 'cyun4']}
-                                    sampleStatus={'rightInitial'}
+                                    sampleStatus={'gxx'}
                                     explain={'「{target}」呢個字位置正確，但係只有聲母相同'}
                                 />
                             </Grid>
@@ -130,18 +130,8 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'別來無恙'}
                                     pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
-                                    sampleStatus={'rightFinal'}
+                                    sampleStatus={'xgx'}
                                     explain={'「{target}」呢個字位置正確，但係只有韻母相同'}
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6} lg={6}
-                                className={'tutorial-row-end'}
-                            >
-                                <TutorialRow 
-                                    words={'別怕失去'}
-                                    pronounces={['bit6', 'paa3', 'sat1', 'heoi3']}
-                                    sampleStatus={'wrongPlace'}
-                                    explain={'答案入面有「{target}」呢個字，但係位置唔岩（注意呢度未查聲調）'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -150,7 +140,7 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'閱後即焚'}
                                     pronounces={['jyut6', 'hau6', 'zik1', 'fan4']}
-                                    sampleStatus={'incorrect'}
+                                    sampleStatus={'xxx'}
                                     explain={'「{target}」呢度聲母同韻母都唔岩'}
                                 />
                             </Grid>

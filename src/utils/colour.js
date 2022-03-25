@@ -1,45 +1,58 @@
 const baseColour = '#303030'
 
-const colourList = {
-    inactive: {
-        normal: { colour: '#191b20', type: 'single' },
-        contrast: { colour: '#191b20', type: 'single' },
-    },
-    correct: {
-        normal: { colour: '#538d4e', type: 'single' },
-        contrast: { colour: '#f5793a', type: 'single' },
-    },
-    wrongPlace: {
-        normal: { colour: '#b59f3b', type: 'single' },
-        contrast: { colour: '#85c0f9', type: 'single' },
-    },
-    incorrect: {
-        normal: { colour: '#303030', type: 'single' },
-        contrast: { colour: '#303030', type: 'single' },
-    },
-    rightInitial: {
-        normal: { colour: '#538d4e', type: 'left' },
-        contrast: { colour: '#f5793a', type: 'left' },
-    },
-    rightFinal: {
-        normal: { colour: '#538d4e', type: 'right' },
-        contrast: { colour: '#f5793a', type: 'right' },
-    },
-    wrongTone: {
-        normal: { colour: '#994dad', type: 'single' },
-        contrast: { colour: '#cc00ff', type: 'top' },
-    }
+const incorrectColour = {
+    normal: '#303030',
+    contrast: '#303030',
+}
+const correctColour = {
+    normal: '#538d4e',
+    contrast: '#f5793a',
+}
+const wrongPlaceColour = {
+    normal: '#b59f3b',
+    contrast: '#85c0f9',
 }
 
-const getColourData = (type, isContrast) => {
-    const current = colourList[type]
-    if (current) {
-        if (isContrast) {
-            return current.contrast
+const getColourData = (data, isContrast) => {
+    if (data.startsWith('xx')) {
+        // if first two is inactive, we will see if tone is correct
+        let topColour = incorrectColour
+
+        let topLetter = data.charAt(2)
+        if (topLetter === 'g') {
+            topColour = correctColour
+        } else if (topLetter === 'y') {
+            topColour = wrongPlaceColour
         }
-        return current.normal
-    } 
-    return null
+
+        if (isContrast) {
+            return topbottom(topColour.contrast, incorrectColour.contrast)
+        }
+        return topbottom(topColour.normal, incorrectColour.normal)
+
+    } else {
+        let leftColour = incorrectColour
+        let rightColour = incorrectColour
+
+        const leftLetter = data.charAt(0)
+        const rightLetter = data.charAt(1)
+        if (leftLetter === 'g') {
+            leftColour = correctColour
+        } else if (leftLetter === 'y') {
+            leftColour = wrongPlaceColour
+        }
+
+        if (rightLetter === 'g') {
+            rightColour = correctColour
+        } else if (rightLetter === 'y') {
+            rightColour = wrongPlaceColour
+        }
+
+        if (isContrast) {
+            return split(leftColour.contrast, rightColour.contrast)
+        }
+        return split(leftColour.normal, rightColour.normal)
+    }
 }
 
 const parseColourData = (c, type) => {
