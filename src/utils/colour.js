@@ -12,11 +12,16 @@ const wrongPlaceColour = {
     normal: '#b59f3b',
     contrast: '#85c0f9',
 }
+const toneColour = {
+    normal: '#994dad',
+    contrast: '#cc00ff',
+}
 
 const getColourData = (data, isContrast) => {
-    if (data.startsWith('xx')) {
+    if (data.charAt(0) === data.charAt(1)) {
         // if first two is inactive, we will see if tone is correct
         let topColour = incorrectColour
+        let bottomColour = incorrectColour
 
         let topLetter = data.charAt(2)
         if (topLetter === 'g') {
@@ -25,10 +30,17 @@ const getColourData = (data, isContrast) => {
             topColour = wrongPlaceColour
         }
 
-        if (isContrast) {
-            return topbottom(topColour.contrast, incorrectColour.contrast)
+        let bottomLetter = data.charAt(0)
+        if (bottomLetter === 'g') {
+            bottomColour = correctColour
+        } else if (bottomLetter === 'y') {
+            bottomColour = wrongPlaceColour
         }
-        return topbottom(topColour.normal, incorrectColour.normal)
+
+        if (isContrast) {
+            return topbottom(topColour.contrast, bottomColour.contrast)
+        }
+        return topbottom(topColour.normal, bottomColour.normal)
 
     } else {
         let leftColour = incorrectColour
