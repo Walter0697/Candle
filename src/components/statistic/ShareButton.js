@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import {
     Button,
 } from '@mui/material'
+import { useSelector } from 'react-redux'
+
 import ShareIcon from '@mui/icons-material/Share'
 
 import { useSnackbar } from 'notistack'
@@ -11,10 +13,25 @@ import setting from '../../utils/setting'
 import notification from '../../utils/notification'
 
 function ShareButton() {
+    const isContrast = useSelector((state) => state.colour.isContrast)
+
+    const correctColor = useMemo(() => {
+        if (isContrast) return '🟧'
+        return '🟩'
+    }, [isContrast])
+
+    const placeColor = useMemo(() => {
+        if (isContrast) return '🟦'
+        return '🟨'
+    }, [isContrast])
+
+    const incorrectColor = useMemo(() => {
+        return '⬛'
+    }, [])
+    
     const { enqueueSnackbar } = useSnackbar()
 
     const copySharableToClipboard = async () => {
-        const emoji = setting.emoji_list()
         const progress = record.load()
         const date = record.get_date()
 
@@ -25,10 +42,17 @@ function ShareButton() {
             let is_winning_row = true
             let current_progress = ''
             for (let j = 0; j < row.length; j++) {
-                if (row[j].status !== 'correct') {
+                if (row[j].status !== 'ggg') {
                     is_winning_row = false
                 }
-                current_progress += emoji[row[j].status]
+
+                if (row[j].status === 'ggg') {
+                    current_progress += correctColor
+                } else if (row[j].status === 'xxx') {
+                    current_progress += incorrectColor
+                } else {
+                    current_progress += placeColor
+                }
             }
             progress_row.push(current_progress)
             if (is_winning_row) {
@@ -44,7 +68,6 @@ function ShareButton() {
             const result = await navigator.share({
                 text: shareStr,
             })
-            console.log(result)
         } else {
             if (navigator.clipboard) {
                 navigator.clipboard.writeText(shareStr)

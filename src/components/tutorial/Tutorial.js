@@ -23,8 +23,6 @@ function Tutorial({
     open,
     handleClose,
 }) {
-    const isContrast = useSelector((state) => state.colour.isContrast)
-
     return (
         <Dialog
             className={'notpaste'}
@@ -121,7 +119,7 @@ function Tutorial({
                                     words={'永久保存'}
                                     pronounces={['wing5', 'gau2', 'bou2', 'cyun4']}
                                     sampleStatus={'gxx'}
-                                    explain={'「{target}」呢個字位置正確，但係只有聲母相同'}
+                                    explain={'「{target}」呢個字位置正確，但係只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -130,8 +128,8 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'別來無恙'}
                                     pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
-                                    sampleStatus={'xgx'}
-                                    explain={'「{target}」呢個字位置正確，但係只有韻母相同'}
+                                    sampleStatus={'xxy'}
+                                    explain={'如果有黃色，就代表呢個係錯位，例如呢度，「{target}」呢個字就有聲調岩，而且位置錯左'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}

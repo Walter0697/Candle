@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -7,9 +7,9 @@ import {
     IconButton,
     Grid,
 } from '@mui/material'
-import CloseIcon from '@mui/icons-material/Close'
+import { useSelector } from 'react-redux'
 
-import setting from '../../utils/setting'
+import CloseIcon from '@mui/icons-material/Close'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -44,19 +44,21 @@ function Emoji({
     open,
     handleClose,
 }) {
-    const [ emojiList, setEmoji ] = useState(setting.default_emoji)
+    const isContrast = useSelector((state) => state.colour.isContrast)
 
-    useEffect(() => {
-        const s = setting.load()
-        if (s.emoji) {
-            setEmoji(s.emoji)
-        }
+    const correctColor = useMemo(() => {
+        if (isContrast) return '🟧'
+        return '🟩'
+    }, [isContrast])
+
+    const placeColor = useMemo(() => {
+        if (isContrast) return '🟦'
+        return '🟨'
+    }, [isContrast])
+
+    const incorrectColor = useMemo(() => {
+        return '⬛'
     }, [])
-
-    const setToCurrentEmoji = (value) => {
-        setting.save('emoji', value)
-        setEmoji(value)
-    }
 
     return (
         <Dialog
@@ -79,7 +81,7 @@ function Emoji({
             <DialogTitle>
                 <div
                     className={'setting-title'}
-                >分享訊息設定</div>
+                >關於分享訊息</div>
                 <IconButton
                     aria-label="close"
                     onClick={handleClose}
@@ -95,8 +97,33 @@ function Emoji({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
-                    <EmojiChoice value={'🟢🌚🌕🌗🌓🟣'} selected={emojiList} setValue={setToCurrentEmoji}/>
-                    <EmojiChoice value={'正錯位聲韻調'} selected={emojiList} setValue={setToCurrentEmoji}/>
+                    <Grid item xs={12}>
+                        <div className={'notpaste emoji-container'}>
+                            由於本作同其他作品都好唔同，包含左錯一邊岩一邊錯嘅制度，所以分享嘅訊息都好難諗。
+                        </div>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div className={'notpaste emoji-container'}>
+                            再加上我地試左好多唔同其他emoji，最後唔同電話都未必show到出黎。
+                        </div>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div className={'notpaste emoji-container'}>
+                            所以我地決定用番本來嘅分享訊息，不過你地岩同錯嘅資訊就會相對地簡化左。
+                        </div>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div className={'notpaste emoji-container'}>
+                            依家分享訊息會係咁樣：如果一個格係全對，就會有{correctColor}，全錯，就會有{incorrectColor}，其餘嘅，就係{placeColor}
+                        </div>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div className={'notpaste emoji-container'}>
+                            如果你有更加好嘅idea，歡迎email話我地知！
+                        </div>
+                    </Grid>
+                    {/* <EmojiChoice value={'🟢🌚🌕🌗🌓🟣'} selected={emojiList} setValue={setToCurrentEmoji}/>
+                    <EmojiChoice value={'正錯位聲韻調'} selected={emojiList} setValue={setToCurrentEmoji}/> */}
                 </Grid>
             </DialogContent>
         </Dialog>

@@ -354,3 +354,7 @@ input:focus {
 .tutorial-row-end {
   padding-bottom: 10px;
 }
+
+.emoji-container {
+  margin-bottom: 20px;
+}

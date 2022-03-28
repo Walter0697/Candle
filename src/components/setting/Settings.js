@@ -189,8 +189,8 @@ function Settings({
                         className={'setting-item-wrap'}
                     >
                         <SettingLink 
-                            label={`分享訊息: ${emojiList}`}
-                            linkLabel={'按此修改'}
+                            label={`分享訊息`}
+                            linkLabel={'關於'}
                             onClick={() => setOpenEmoji(true)}
                         />
                     </Grid>
