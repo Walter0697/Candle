@@ -4,6 +4,7 @@ import {
 } from '@mui/material'
 
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
+import TranslateIcon from '@mui/icons-material/Translate'
 import BarChartIcon from '@mui/icons-material/BarChart'
 import SettingsIcon from '@mui/icons-material/Settings'
 
@@ -11,6 +12,7 @@ function Header({
     openStatistic,
     openSetting,
     openTutorial,
+    openDictionary,
 }) {
     return (
         <Grid container>
@@ -22,6 +24,11 @@ function Header({
                         className='clickable'
                         onClick={openTutorial}
                         sx={{ fontSize: '25px', color: '#565758' }}
+                    />
+                    <TranslateIcon 
+                        className='clickable'
+                        onClick={openDictionary}
+                        sx={{ fontSize: '25px', color: '#565758', marginLeft: '10px' }}
                     />
                 </div>
                 <div className='title notpaste'>粵道</div>
