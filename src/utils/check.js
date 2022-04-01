@@ -8,7 +8,12 @@ const wordByPronunciation = (p) => {
 }
 
 const getRandomPronunciation = () => {
-
+    const keys = Object.keys(pronunciation)
+    const randomKey = keys[keys.length * Math.random() << 0]
+    return {
+        pronunciation: randomKey,
+        words: pronunciation[randomKey]
+    }
 }
 
 const check = {

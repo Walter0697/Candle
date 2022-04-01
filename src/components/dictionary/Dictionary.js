@@ -19,6 +19,38 @@ function Dictionary({
     open,
     handleClose,
 }) {
+    const [ searchingText, setText ] = useState('')
+    const [ searchingResult, setResult ] = useState([])
+
+    const [ resultText, setResultText ] = useState('')
+    const [ errorMessage, setError ] = useState('')
+
+    const searchWord = () => {
+        const result = check.wordByPronunciation(searchingText)
+        if (result) {
+            setError('')
+            setResult(result)
+            setResultText(`${searchingText}嘅可能性係：`)
+        } else {
+            setError(`我地字庫中似乎無任何字嘅發音係${searchingText}`)
+            setResult([])
+            setResultText('')
+        }
+    }
+    
+    const onKeyPress = (e) => {
+        e.preventDefault()
+        if (e.keyCode === 13) {
+            searchWord()
+        }
+    }
+
+    useEffect(() => {
+        const randomStart = check.getRandomPronunciation()
+        setText(randomStart.pronunciation)
+        setResult(randomStart.words)
+    }, [])
+
     return (
         <Dialog
             className={'notpaste'}
@@ -30,7 +62,7 @@ function Dictionary({
             TransitionComponent={TransitionUp}
             PaperProps={{
                 style: {
-                    height: '100%',
+                    height: '50%',
                     backgroundColor: '#202020',
                     borderRadius: '10px',
                     textAlign: 'center',
@@ -57,6 +89,65 @@ function Dictionary({
                 </IconButton>
             </DialogTitle>
             <DialogContent>
+                <Grid container>
+                    <Grid item xs={12} md={12} lg={12}>
+                        <div 
+                            style={{
+                                marginBottom: '10px',
+                                display: 'flex',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            我想查下：
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}>
+                        <div
+                            style={{
+                                marginBottom: '15px',
+                                display: 'flex',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            <input
+                                className={'search-input-box'}
+                                value={searchingText}
+                                onChange={(e) => setText(e.target.value)}
+                                onKeyUp={onKeyPress}
+                            />
+                        </div>
+                    </Grid>
+                    {errorMessage && (
+                        <Grid item xs={12} md={12} lg={12}
+                            style={{
+                                marginBottom: '10px',
+                                display: 'flex',
+                                justifyContent: 'center',
+                                color: 'red',
+                            }}
+                        >
+                            {errorMessage}
+                        </Grid>
+                    )}
+                    {resultText && (
+                        <Grid item xs={12} md={12} lg={12}
+                            style={{
+                                marginBottom: '10px',
+                                display: 'flex',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            {resultText}
+                        </Grid>
+                    )}
+                    <Grid item xs={12} md={12} lg={12}>
+                        {searchingResult.map((result, index) => (
+                            <div key={index}>
+                                {result}
+                            </div>
+                        ))}
+                    </Grid>
+                </Grid>
             </DialogContent>
         </Dialog>
     )
