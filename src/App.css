@@ -290,6 +290,7 @@ input:focus {
 .setting-item-container {
   float: left;
   display: block;
+  width: 80%;
 }
 
 .setting-item-title {
@@ -305,6 +306,7 @@ input:focus {
   font-size: 12px;
   color: grey;
   margin-top: 2px;
+  text-align: left;
 }
 
 .setting-item-switch {

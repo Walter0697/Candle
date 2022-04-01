@@ -17,10 +17,9 @@ import Emoji from './Emoji'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from '../../store/slice/colourSlice'
-import { setAutoScroll } from '../../store/slice/settingSlice'
+import { setAutoScroll, setSmoothInput } from '../../store/slice/settingSlice'
 
 import setting from '../../utils/setting'
-import record from '../../utils/record'
 import config from '../../utils/configuration'
 
 const TransitionUp = (props) => {
@@ -95,21 +94,10 @@ function Settings({
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const autoScroll = useSelector((state) => state.setting.autoScroll)
+    const smoothInput = useSelector((state) => state.setting.smoothInput)
     const dispatch = useDispatch()
 
     const [ openEmoji, setOpenEmoji ] = useState(false)
-    const [ emojiList, setEmoji ] = useState(setting.default_emoji)
-
-    useEffect(() => {
-        refreshEmoji()
-    }, [])
-
-    const refreshEmoji = () => {
-        const s = setting.load()
-        if (s.emoji) {
-            setEmoji(s.emoji)
-        }
-    }
 
     return (
         <Dialog
@@ -175,6 +163,20 @@ function Settings({
                         className={'setting-item-wrap'}
                     >
                         <SettingToggle 
+                            label={'順暢輸入'}
+                            description={'打完一個字就會直接輸入，唔洗㩒多次ENTER(部份電話開左呢個功能可能會打唔到字，會就熄番佢)'}
+                            isContrast={isContrast}
+                            value={smoothInput}
+                            setValue={(e) => {
+                                setting.save('smoothinput', e.target.checked)
+                                dispatch(setSmoothInput({ value: e.target.checked }))
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingToggle 
                             label={'自動轉行'}
                             description={'估完一次之後會唔會自動轉行'}
                             isContrast={isContrast}
@@ -226,7 +228,6 @@ function Settings({
             <Emoji
                 open={openEmoji}
                 handleClose={() => {
-                    refreshEmoji()
                     setOpenEmoji(false)
                 }}
             />

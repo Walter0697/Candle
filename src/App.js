@@ -5,7 +5,7 @@ import {
 
 import { useDispatch } from 'react-redux'
 import { setContrast } from './store/slice/colourSlice'
-import { setAutoScroll } from './store/slice/settingSlice'
+import { setAutoScroll, setSmoothInput } from './store/slice/settingSlice'
 
 import Header from './components/Header'
 import Game from './components/game/Game'
@@ -37,6 +37,9 @@ function App() {
     }
     if (s.autoscroll) {
       dispatch(setAutoScroll({ value: s.autoscroll }))
+    }
+    if (s.smoothinput) {
+      dispatch(setSmoothInput({ value: s.smoothinput }))
     }
 
     const hasHistory = record.history()

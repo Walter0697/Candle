@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux'
 
 import GameRow from './GameRow'
 import InputBox from './InputBox'
+import NormalInput from './NormalInput'
 
 import validate from '../../utils/validate'
 import record from '../../utils/record'
@@ -65,6 +66,7 @@ function Game({
 }) {
     const { enqueueSnackbar } = useSnackbar()
     const autoScroll = useSelector((state) => state.setting.autoScroll)
+    const smoothInput = useSelector((state) => state.setting.smoothInput) 
 
     const scrollableDiv = useRef(null)
 
@@ -238,11 +240,12 @@ function Game({
     const setNextGuess = (data) => {
         if (data.length > 1) {
             enqueueSnackbar(notification.multipleWord(), { autoHideDuration: 1000 })
-            return
+            return false
         }
         const prevLength = wordList[currentRow.current].length
         manipulateList({type: 'add', word: data, row: currentRow.current })
         currentGuess.current = prevLength + 1
+        return true
     }
 
     const clearPreviousGuess = () => {
@@ -265,14 +268,25 @@ function Game({
                             justifyContent: 'center',
                         }}
                     >
-                        <InputBox 
-                            setValue={setNextGuess}
-                            clearPrevious={clearPreviousGuess}
-                            currentIndex={wordList[currentRow.current].length}
-                            canInput={canInput}
-                            validating={validating.current}
-                            guess={guess}
-                        />
+                        {smoothInput ? (
+                            <InputBox 
+                                setValue={setNextGuess}
+                                clearPrevious={clearPreviousGuess}
+                                currentIndex={wordList[currentRow.current].length}
+                                canInput={canInput}
+                                validating={validating.current}
+                                guess={guess}
+                            />
+                        ) : (
+                            <NormalInput 
+                                setValue={setNextGuess}
+                                clearPrevious={clearPreviousGuess}
+                                currentIndex={wordList[currentRow.current].length}
+                                canInput={canInput}
+                                validating={validating.current}
+                                guess={guess}
+                            />
+                        )}
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}>
                         <Grid container
