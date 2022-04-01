@@ -9,6 +9,8 @@ import {
 } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 
+import DictionaryTile from './DictionaryTile'
+
 import check from '../../utils/check'
 
 const TransitionUp = (props) => {
@@ -62,7 +64,7 @@ function Dictionary({
             TransitionComponent={TransitionUp}
             PaperProps={{
                 style: {
-                    height: '50%',
+                    height: '70%',
                     backgroundColor: '#202020',
                     borderRadius: '10px',
                     textAlign: 'center',
@@ -91,23 +93,13 @@ function Dictionary({
             <DialogContent>
                 <Grid container>
                     <Grid item xs={12} md={12} lg={12}>
-                        <div 
-                            style={{
-                                marginBottom: '10px',
-                                display: 'flex',
-                                justifyContent: 'center',
-                            }}
+                        <div className={'dictionarytitle'}
                         >
                             我想查下：
                         </div>
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}>
-                        <div
-                            style={{
-                                marginBottom: '15px',
-                                display: 'flex',
-                                justifyContent: 'center',
-                            }}
+                        <div className={'dictionary-input-container'}
                         >
                             <input
                                 className={'search-input-box'}
@@ -118,33 +110,25 @@ function Dictionary({
                         </div>
                     </Grid>
                     {errorMessage && (
-                        <Grid item xs={12} md={12} lg={12}
-                            style={{
-                                marginBottom: '10px',
-                                display: 'flex',
-                                justifyContent: 'center',
-                                color: 'red',
-                            }}
-                        >
-                            {errorMessage}
+                        <Grid item xs={12} md={12} lg={12}>
+                             <div className={'dictionary-error'}>
+                                {errorMessage}
+                            </div>
                         </Grid>
                     )}
                     {resultText && (
-                        <Grid item xs={12} md={12} lg={12}
-                            style={{
-                                marginBottom: '10px',
-                                display: 'flex',
-                                justifyContent: 'center',
-                            }}
-                        >
-                            {resultText}
+                        <Grid item xs={12} md={12} lg={12}>
+                            <div className={'dictionary-success'}>
+                                {resultText}
+                            </div>
                         </Grid>
                     )}
                     <Grid item xs={12} md={12} lg={12}>
                         {searchingResult.map((result, index) => (
-                            <div key={index}>
-                                {result}
-                            </div>
+                            <DictionaryTile 
+                                key={index}
+                                word={result}
+                            />
                         ))}
                     </Grid>
                 </Grid>
