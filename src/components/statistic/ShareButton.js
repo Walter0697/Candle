@@ -9,8 +9,7 @@ import ShareIcon from '@mui/icons-material/Share'
 import { useSnackbar } from 'notistack'
 
 import record from '../../utils/record'
-import setting from '../../utils/setting'
-import notification from '../../utils/notification'
+import colour from '../../utils/colour'
 
 function ShareButton() {
     const isContrast = useSelector((state) => state.colour.isContrast)
@@ -28,6 +27,10 @@ function ShareButton() {
     const incorrectColor = useMemo(() => {
         return '⬛'
     }, [])
+
+    const buttonColor = useMemo(() => {
+        return colour.getCorrectColour(isContrast)
+    }, [isContrast])
     
     const { enqueueSnackbar } = useSnackbar()
 
@@ -82,7 +85,7 @@ function ShareButton() {
                 variant='contained'
                 style={{
                     marginTop: '5px',
-                    backgroundColor: '#538d4e',
+                    backgroundColor: buttonColor,
                     fontSize: '20px',
                     width: '80%',
                     fontWeight: '700',

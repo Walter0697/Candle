@@ -1,8 +1,9 @@
 import pronunciation from '../dictionaries/pronunciation'
 
 const wordByPronunciation = (p) => {
-    if (pronunciation[p]) {
-        return pronunciation[p]
+    const pronounce = p.toLowerCase()
+    if (pronunciation[pronounce]) {
+        return pronunciation[pronounce]
     }
     return false
 }

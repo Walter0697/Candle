@@ -104,10 +104,16 @@ const getNonSameWordColour = (isContrast) => {
     return notSameWordColour.normal
 }
 
+const getCorrectColour = (isContrast) => {
+    if (isContrast) return correctColour.contrast
+    return correctColour.normal
+}
+
 const colour = {
     getColourData,
     parseColourData,
     getNonSameWordColour,
+    getCorrectColour,
 }
 
 export default colour
