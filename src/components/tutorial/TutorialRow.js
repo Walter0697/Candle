@@ -8,6 +8,7 @@ function TutorialRow({
     words,
     pronounces,
     sampleStatus,
+    sameWord,
     explain,
 }) {
     const [ targetPosition, setTarget ] = useState(-1)
@@ -30,10 +31,10 @@ function TutorialRow({
                     marginBottom: '10px',
                 }}
             >
-                <TutorialTile word={words.charAt(0)} pronounce={pronounces[0]} status={(targetPosition === 0) ? sampleStatus: ''}/>
-                <TutorialTile word={words.charAt(1)} pronounce={pronounces[1]} status={(targetPosition === 1) ? sampleStatus: ''}/>
-                <TutorialTile word={words.charAt(2)} pronounce={pronounces[2]} status={(targetPosition === 2) ? sampleStatus: ''}/>
-                <TutorialTile word={words.charAt(3)} pronounce={pronounces[3]} status={(targetPosition === 3) ? sampleStatus: ''}/>
+                <TutorialTile word={words.charAt(0)} pronounce={pronounces[0]} status={(targetPosition === 0) ? sampleStatus: ''} sameWord={sameWord} />
+                <TutorialTile word={words.charAt(1)} pronounce={pronounces[1]} status={(targetPosition === 1) ? sampleStatus: ''} sameWord={sameWord} />
+                <TutorialTile word={words.charAt(2)} pronounce={pronounces[2]} status={(targetPosition === 2) ? sampleStatus: ''} sameWord={sameWord} />
+                <TutorialTile word={words.charAt(3)} pronounce={pronounces[3]} status={(targetPosition === 3) ? sampleStatus: ''} sameWord={sameWord} />
             </div>
             <div className={'tutorial-intro'}>{text}</div>
         </>

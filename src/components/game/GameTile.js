@@ -43,6 +43,20 @@ function GameTile({
         return colour.getColourData(currentStatus, isContrast)
     }, [info, isContrast])
 
+    const dimension = useMemo(() => {
+        if (!info) return '54px'
+        if (!info.status) return ''
+        if (info.status === 'ggg' && !info.sameWord) return '50px'
+        return '54px'
+    }, [info])
+
+    const backborderColor = useMemo(() => {
+        if (!info) return ''
+        if (!info.status) return ''
+        if (info.status === 'ggg' && !info.sameWord) return `2px solid ${colour.getNonSameWordColour(isContrast)}`
+        return ''
+    }, [info, isContrast])
+
     const { transform } = useSpring({
         config: config.slow,
         from: { transform: 'rotateY(0deg)' },
@@ -92,10 +106,14 @@ function GameTile({
                 className={'back-flippable'}
             >
                 <animated.div
-                    className={'flipbox back-flipbox'}
+                    // className={'flipbox back-flipbox'}
+                    className={'flipbox'}
                     style={{
                         background: backgroundColor,
                         transform: celebrateWin,
+                        border: backborderColor,
+                        height: dimension,
+                        width: dimension,
                     }}
                 >
                     {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}

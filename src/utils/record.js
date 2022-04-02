@@ -31,8 +31,9 @@ const parseCurrentRecord = (data, currentIndex, pending) => {
     for (let i = 0; i < 4; i++) {
         const word = currentRowList[i].word
         const status = pending[i].status
+        const sameWord = pending[i].sameWord
         const pronounce = pending[i].pronounce
-        currentRowList[i] = { word: word, status: status, pronounce: pronounce }
+        currentRowList[i] = { word: word, status: status, pronounce: pronounce, sameWord: sameWord }
     }
     list[currentIndex] = currentRowList
     return list

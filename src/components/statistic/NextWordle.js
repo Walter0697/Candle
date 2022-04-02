@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import dayjs from 'dayjs'
 
-function NextWordle({}) {
+function NextWordle() {
     const [ remainingTime, setRemaining ] = useState()
 
     useEffect(() => {

@@ -17,6 +17,11 @@ const toneColour = {
     contrast: '#cc00ff',
 }
 
+const notSameWordColour = {
+    normal: '#ff1a1a',
+    contrast: '#3af5eb',
+}
+
 const getColourData = (data, isContrast) => {
     if (data.charAt(0) === data.charAt(1)) {
         // if first two is inactive, we will see if tone is correct
@@ -94,11 +99,15 @@ const topbottom = (colour1, colour2) => {
     return `${prefix}${gradient}`
 }
 
-// 270deg for top one
+const getNonSameWordColour = (isContrast) => {
+    if (isContrast) return notSameWordColour.contrast
+    return notSameWordColour.normal
+}
 
 const colour = {
     getColourData,
     parseColourData,
+    getNonSameWordColour,
 }
 
 export default colour

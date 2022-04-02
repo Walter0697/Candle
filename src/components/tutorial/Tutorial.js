@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import {
     Dialog,
     DialogContent,
@@ -7,13 +7,11 @@ import {
     IconButton,
     Grid,
 } from '@mui/material'
-import CloseIcon from '@mui/icons-material/Close'
 
-import { useSelector } from 'react-redux'
+import CloseIcon from '@mui/icons-material/Close'
+import TranslateIcon from '@mui/icons-material/Translate'
 
 import TutorialRow from './TutorialRow'
-
-import record from '../../utils/record'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -81,6 +79,11 @@ function Tutorial({
                             >
                                 估完之後，就會比番啲色你睇下估唔估得中。同其他WORDLE唔同既係，我地仲會用聲母，韻母同聲調黎比較接唔接近嫁。
                             </Grid>
+                            <Grid item xs={12} md={12} lg={12}
+                                className={'tutorial-intro'}
+                            >
+                                如果你想查下呢個發音會係咩中文字，可以試下 <TranslateIcon sx={{ color: '#565758', fontSize: '12px', backgroundColor: '#191b20', verticalAlign: 'bottom', padding: '5px', borderRadius: '3px' }}/> 嘅查字功能
+                            </Grid>
                         </Grid>
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}>
@@ -99,7 +102,19 @@ function Tutorial({
                                     words={'認真如初'}
                                     pronounces={['jing6', 'zan1', 'jyu4', 'co1']}
                                     sampleStatus={'ggg'}
+                                    sameWord={true}
                                     explain={'答案入面有「{target}」呢個字，而且位置正確'}
+                                />
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={6}
+                                className={'tutorial-row'}
+                            >
+                                <TutorialRow 
+                                    words={'回眸一笑'}
+                                    pronounces={['wui4', 'mau4', 'jat1', 'siu3']}
+                                    sampleStatus={'ggg'}
+                                    sameWord={false}
+                                    explain={'「{target}」聲母，韻母，聲調，同位置都正確，不過唔係呢個字'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -109,6 +124,7 @@ function Tutorial({
                                     words={'斷絕來往'}
                                     pronounces={['tyun5', 'zyut6', 'loi4', 'wong5']}
                                     sampleStatus={'ggx'}
+                                    sameWord={false}
                                     explain={'「{target}」呢個字岩音，但係聲調唔岩'}
                                 />
                             </Grid>
@@ -119,6 +135,7 @@ function Tutorial({
                                     words={'永久保存'}
                                     pronounces={['wing5', 'gau2', 'bou2', 'cyun4']}
                                     sampleStatus={'gxx'}
+                                    sameWord={false}
                                     explain={'「{target}」呢個字位置正確，但係只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
                                 />
                             </Grid>
@@ -129,6 +146,7 @@ function Tutorial({
                                     words={'別來無恙'}
                                     pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
                                     sampleStatus={'xxy'}
+                                    sameWord={false}
                                     explain={'如果有黃色，就代表呢個係錯位，例如呢度，「{target}」呢個字就有聲調岩，而且位置錯左'}
                                 />
                             </Grid>
@@ -139,6 +157,7 @@ function Tutorial({
                                     words={'閱後即焚'}
                                     pronounces={['jyut6', 'hau6', 'zik1', 'fan4']}
                                     sampleStatus={'xxx'}
+                                    sameWord={false}
                                     explain={'「{target}」呢度聲母同韻母都唔岩'}
                                 />
                             </Grid>
@@ -155,6 +174,11 @@ function Tutorial({
                                 className={'tutorial-intro'}
                             >
                                 「WORDLE」係由Josh Wardle所設計，後期香港有人創作左倉頡版嘅「JNDLE字道」同埋粵拼版既「ZIDOU」。但係小弟覺得可以做個更加適合用中文玩嘅版本，所以就創作左呢隻四字成語版嘅「粵道」啦。
+                            </Grid>
+                            <Grid item xs={12} md={12} lg={12}
+                                className={'tutorial-intro'}
+                            >
+                                註：以上示範嘅四字詞語唔一定會係字庫入面
                             </Grid>
                         </Grid>
                     </Grid>
