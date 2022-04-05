@@ -21,6 +21,7 @@ import { setAutoScroll, setSmoothInput } from '../../store/slice/settingSlice'
 
 import setting from '../../utils/setting'
 import config from '../../utils/configuration'
+import display from '../../utils/display'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -154,6 +155,7 @@ function Settings({
                             isContrast={isContrast}
                             value={isContrast}
                             setValue={(e) => {
+                                display.favicon(e.target.checked)
                                 setting.save('contrast', e.target.checked)
                                 dispatch(setContrast({ value: e.target.checked }))
                             }}

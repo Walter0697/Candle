@@ -68,7 +68,7 @@ function ShareButton() {
         shareStr += progress_row.join('\n')
 
         if (navigator.share) {
-            const result = await navigator.share({
+            await navigator.share({
                 text: shareStr,
             })
         } else {

@@ -17,6 +17,7 @@ import './App.css'
 
 import record from './utils/record'
 import setting from './utils/setting'
+import display from './utils/display'
 
 function App() {
   const dispatch = useDispatch()
@@ -35,6 +36,7 @@ function App() {
 
     const s = setting.load()
     if (s.contrast) {
+      display.favicon(s.contrast)
       dispatch(setContrast({ value: s.contrast }))
     }
     if (s.autoscroll) {

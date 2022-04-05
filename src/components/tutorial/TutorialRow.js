@@ -15,7 +15,7 @@ function TutorialRow({
     const text = useMemo(() => {
         const word = targetPosition === -1 ? '' : words.charAt(targetPosition)
         return explain.replace('{target}', word)
-    }, [explain, targetPosition])
+    }, [explain, targetPosition, words])
 
     useEffect(() => {
         window.setTimeout(() => {
