@@ -70,7 +70,7 @@ const emptyWord = () => {
 }
 
 const multipleWord = () => {
-    return '一隻一隻字打啦'
+    return '夠矖四個字啦啵'
 }
 
 const notification = {

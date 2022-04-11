@@ -27,6 +27,14 @@ const wordListReducer = (state, action) => {
             currentRowList.push({ word: action.word, status: 'inactive', pronounce: '', sameWord: false })
             return list
         }
+        case 'addmulti': {
+            const list = Object.assign([], state)
+            const currentRowList = list[action.row]
+            for (let i = 0; i < action.words.length; i++) {
+                currentRowList.push({ word: action.words[i], status: 'inactive', pronounce: '', sameWord: false })
+            }
+            return list
+        }
         case 'remove': {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
@@ -240,14 +248,27 @@ function Game({
     }
     
     const setNextGuess = (data) => {
-        if (data.length > 1) {
+        let inserted = false
+
+        let currentLength = wordList[currentRow.current].length
+        const remainingSpace = 4 - currentLength
+
+        let loopingIndex = remainingSpace
+        if (data.length <= remainingSpace) {
+            loopingIndex = data.length
+        } else {
             enqueueSnackbar(notification.multipleWord(), { autoHideDuration: 1000 })
-            return false
         }
-        const prevLength = wordList[currentRow.current].length
-        manipulateList({type: 'add', word: data, row: currentRow.current })
-        currentGuess.current = prevLength + 1
-        return true
+
+        let toadd = []
+        for (let i = 0; i < loopingIndex; i++) {
+            toadd.push(data.charAt(i))
+            inserted = true
+        }
+
+        manipulateList({type: 'addmulti', words: toadd, row: currentRow.current })
+        currentGuess.current += loopingIndex
+        return inserted
     }
 
     const clearPreviousGuess = () => {
