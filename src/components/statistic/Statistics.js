@@ -54,7 +54,7 @@ function Statistics({
     useEffect(() => {
         if (record.is_today(date)) {
             const currentStatus = record.status()
-            if (currentStatus === 'win' || currentStatus === 'loss') {
+            if (currentStatus === 'win') {
                 const progress = record.load()
                 let winning_row = 0
                 for (let i = 0; i < progress.length; i++) {
@@ -64,6 +64,10 @@ function Statistics({
                     winning_row = i + 1
                 }
                 setWinningRow(winning_row)
+
+                setGameFinished(true)
+            } else if (currentStatus === 'loss') {
+                setWinningRow(-1)
 
                 setGameFinished(true)
             } else {
