@@ -103,18 +103,7 @@ function Tutorial({
                                     pronounces={['jing6', 'zan1', 'jyu4', 'co1']}
                                     sampleStatus={'ggg'}
                                     sameWord={true}
-                                    explain={'答案入面有「{target}」呢個字，而且位置正確'}
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6} lg={6}
-                                className={'tutorial-row'}
-                            >
-                                <TutorialRow 
-                                    words={'回眸一笑'}
-                                    pronounces={['wui4', 'mau4', 'jat1', 'siu3']}
-                                    sampleStatus={'ggg'}
-                                    sameWord={false}
-                                    explain={'「{target}」聲母，韻母，聲調，同位置都正確，不過唔係呢個字'}
+                                    explain={'格仔入面有呢隻色，就代表答案入面有「{target}」呢個字，而且位置正確'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -123,9 +112,20 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'斷絕來往'}
                                     pronounces={['tyun5', 'zyut6', 'loi4', 'wong5']}
-                                    sampleStatus={'ggx'}
+                                    sampleStatus={'yyy'}
                                     sameWord={false}
-                                    explain={'「{target}」呢個字岩音，但係聲調唔岩'}
+                                    explain={'如果係呢隻色嘅話，就代表答案入面有「{target}」呢個字，不過位置錯誤'}
+                                />
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={6}
+                                className={'tutorial-row'}
+                            >
+                                <TutorialRow 
+                                    words={'別來無恙'}
+                                    pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
+                                    sampleStatus={'xxg'}
+                                    sameWord={false}
+                                    explain={'格仔入面呢個位置出現顏色，代表「{target}」呢個嘅聲調正確'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -136,18 +136,7 @@ function Tutorial({
                                     pronounces={['wing5', 'gau2', 'bou2', 'cyun4']}
                                     sampleStatus={'gxx'}
                                     sameWord={false}
-                                    explain={'「{target}」呢個字位置正確，但係只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6} lg={6}
-                                className={'tutorial-row'}
-                            >
-                                <TutorialRow 
-                                    words={'別來無恙'}
-                                    pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
-                                    sampleStatus={'xxy'}
-                                    sameWord={false}
-                                    explain={'如果有黃色，就代表呢個係錯位，例如呢度，「{target}」呢個字就有聲調岩，而且位置錯左'}
+                                    explain={'「{target}」呢個字只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -158,7 +147,18 @@ function Tutorial({
                                     pronounces={['jyut6', 'hau6', 'zik1', 'fan4']}
                                     sampleStatus={'xxx'}
                                     sameWord={false}
-                                    explain={'「{target}」呢度聲母同韻母都唔岩'}
+                                    explain={'「{target}」呢度聲母同韻母都唔正確'}
+                                />
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={6}
+                                className={'tutorial-row'}
+                            >
+                                <TutorialRow 
+                                    words={'回眸一笑'}
+                                    pronounces={['wui4', 'mau4', 'jat1', 'siu3']}
+                                    sampleStatus={'ggg'}
+                                    sameWord={false}
+                                    explain={'特別啲嘅情況就係呢種，「{target}」聲母，韻母，聲調，同位置都正確，不過唔係呢個字'}
                                 />
                             </Grid>
                         </Grid>

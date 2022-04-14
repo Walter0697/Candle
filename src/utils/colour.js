@@ -22,6 +22,33 @@ const notSameWordColour = {
     contrast: '#3af5eb',
 }
 
+const getSingleColourData = (data, position, isContrast) => {
+    let dataStatus = ''
+    let colourData = incorrectColour
+    if (position === 'top') {
+        dataStatus = data.charAt(2)
+    } else if (position === 'left') {
+        dataStatus = data.charAt(0)
+    } else if (position === 'right') {
+        dataStatus = data.charAt(1)
+    }
+
+    if (!dataStatus) return ''
+
+    if (dataStatus === 'g') {
+        colourData = correctColour
+    } else if (dataStatus === 'y') {
+        colourData = wrongPlaceColour
+    } else {
+        colourData = incorrectColour
+    }
+
+    if (isContrast) {
+        return colourData.contrast
+    }
+    return colourData.normal
+}
+
 const getColourData = (data, isContrast) => {
     if (data.charAt(0) === data.charAt(1)) {
         // if first two is inactive, we will see if tone is correct
@@ -110,6 +137,7 @@ const getCorrectColour = (isContrast) => {
 }
 
 const colour = {
+    getSingleColourData,
     getColourData,
     parseColourData,
     getNonSameWordColour,

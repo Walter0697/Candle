@@ -36,11 +36,33 @@ function GameTile({
         return () => timer && window.clearTimeout(timer)
     }, [info])
 
-    const backgroundColor = useMemo(() => {
+    // using top, left and right colour to replace this color representation
+    // const backgroundColor = useMemo(() => {
+    //     if (!info) return ''
+    //     if (!info.status) return ''
+    //     const currentStatus = info.status === 'win' ? 'ggg' : info.status
+    //     return colour.getColourData(currentStatus, isContrast)
+    // }, [info, isContrast])
+
+    const topColor = useMemo(() => {
         if (!info) return ''
         if (!info.status) return ''
         const currentStatus = info.status === 'win' ? 'ggg' : info.status
-        return colour.getColourData(currentStatus, isContrast)
+        return colour.getSingleColourData(currentStatus, 'top', isContrast)
+    }, [info, isContrast])
+
+    const leftColor = useMemo(() => {
+        if (!info) return ''
+        if (!info.status) return ''
+        const currentStatus = info.status === 'win' ? 'ggg' : info.status
+        return colour.getSingleColourData(currentStatus, 'left', isContrast)
+    }, [info, isContrast])
+
+    const rightColor = useMemo(() => {
+        if (!info) return ''
+        if (!info.status) return ''
+        const currentStatus = info.status === 'win' ? 'ggg' : info.status
+        return colour.getSingleColourData(currentStatus, 'right', isContrast)
     }, [info, isContrast])
 
     const dimension = useMemo(() => {
@@ -109,14 +131,35 @@ function GameTile({
                     // className={'flipbox back-flipbox'}
                     className={'flipbox'}
                     style={{
-                        background: backgroundColor,
+                        //background: backgroundColor,
                         transform: celebrateWin,
                         border: backborderColor,
                         height: dimension,
                         width: dimension,
                     }}
                 >
-                    {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                    <div
+                        className={'topbox'}
+                        style={{
+                            backgroundColor: topColor,
+                        }}
+                    />
+                    <div
+                        className={'leftbox'}
+                        style={{
+                            backgroundColor: leftColor,
+                        }}
+                    />
+                    <div
+                        className={'rightbox'}
+                        style={{
+                            backgroundColor: rightColor,
+                        }}
+                    />
+
+                    <div className={'textbox'}>
+                        {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                    </div>
                 </animated.div>
                 <div className={'flipbox-pronounce flipbox-pronounce-display'}>
                     {(info && info.pronounce) ? <>{info.pronounce.initial}{info.pronounce.final}{info.pronounce.tone}</> : <>&nbsp;</>}

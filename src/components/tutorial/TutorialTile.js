@@ -16,8 +16,21 @@ function TutorialTile({
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
 
-    const backgroundColor = useMemo(() => {
-        return colour.getColourData(status, isContrast)
+    // using top, left and right colour to replace this color representation
+    // const backgroundColor = useMemo(() => {
+    //     return colour.getColourData(status, isContrast)
+    // }, [status, isContrast])
+
+    const topColor = useMemo(() => {
+        return colour.getSingleColourData(status, 'top', isContrast)
+    }, [status, isContrast])
+
+    const leftColor = useMemo(() => {
+        return colour.getSingleColourData(status, 'left', isContrast)
+    }, [status, isContrast])
+
+    const rightColor = useMemo(() => {
+        return colour.getSingleColourData(status, 'right', isContrast)
     }, [status, isContrast])
 
     const { transform } = useSpring({
@@ -62,13 +75,35 @@ function TutorialTile({
                     // className={'templatebox back-templatebox'}
                     className={'templatebox'}
                     style={{
-                        background: backgroundColor,
+                        //background: backgroundColor,
                         border: backborderColor,
                         height: dimension,
                         width: dimension,
                     }}
                 >
-                    {word ? <>{word}</> : <>&nbsp;</>}
+                    <div
+                        className={'topbox'}
+                        style={{
+                            backgroundColor: topColor,
+                        }}
+                    />
+                    <div
+                        className={'leftbox'}
+                        style={{
+                            backgroundColor: leftColor,
+                        }}
+                    />
+                    <div
+                        className={'rightbox'}
+                        style={{
+                            backgroundColor: rightColor,
+                        }}
+                    />
+
+                    <div className={'textbox'}>
+                        {word ? <>{word}</> : <>&nbsp;</>}
+                    </div>
+                    
                 </div>
                 <div className={'tutorialbox-pronounce flipbox-pronounce-display'}>
                     {pronounce ? <>{pronounce}</> : <>&nbsp;</>}
