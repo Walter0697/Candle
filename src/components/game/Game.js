@@ -18,6 +18,7 @@ import config from '../../utils/configuration'
 const maxLength = config.maxLength
 const maxRow = config.maxRow
 const rowHeight = config.rowHeight
+const hintStartRow = config.hintStartRow
 
 const wordListReducer = (state, action) => {
     switch(action.type) {
@@ -92,6 +93,11 @@ function Game({
         if (gameStatus.current === 'win' || gameStatus.current === 'loss') return false
         return true
     }, [validating.current, gameStatus.current])
+
+    const shouldGiveHint = useMemo(() => {
+        if (currentRow.current >= hintStartRow) return true
+        return false
+    }, [currentRow.current])
 
     useEffect(() => {
         if (date) {
@@ -330,6 +336,7 @@ function Game({
                                         activeRow={currentRow.current === index}
                                         shake={rowShake}
                                         setShake={setRowShake}
+                                        shouldGiveHint={shouldGiveHint}
                                     />
                                 </Grid>
                             ))}

@@ -143,6 +143,12 @@
   font-weight: 500;
 }
 
+.flipbox-pronounce-hint {
+  color: grey;
+  padding-left: 10%;
+  font-weight: 500;
+}
+
 .input-box {
   height: 30px;
   width: 100%;
@@ -485,7 +491,7 @@ input:focus {
   float: right;
 }
 
-.difficulty-container {
+.difficulty-list-container {
   height: 100%;
 }
 

@@ -11,6 +11,8 @@ import colour from '../../utils/colour'
 
 function GameTile({ 
     info,
+    wordHint,
+    initialHint,
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
 
@@ -43,6 +45,17 @@ function GameTile({
     //     const currentStatus = info.status === 'win' ? 'ggg' : info.status
     //     return colour.getColourData(currentStatus, isContrast)
     // }, [info, isContrast])
+
+    const displayWord = useMemo(() => {
+        if (info && info.word) return info.word
+        if (wordHint) return wordHint
+        return ''
+    }, [info, wordHint])
+
+    const wordColor = useMemo(() => {
+        if (info && info.word) return 'white'
+        return 'gray'
+    }, [info, wordHint])
 
     const topColor = useMemo(() => {
         if (!info) return ''
@@ -118,11 +131,12 @@ function GameTile({
                     style={{
                         border: borderColor,
                         transform: boxScale,
+                        color: wordColor,
                     }}
                 >
-                    {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
+                    {(displayWord) ? <>{displayWord}</> : <>&nbsp;</>}
                 </animated.div>
-                <div className={'flipbox-pronounce'} />
+                <div className={'flipbox-pronounce flipbox-pronounce-hint'}>{initialHint}</div>
             </div> 
             <div
                 className={'back-flippable'}

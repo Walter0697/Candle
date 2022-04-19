@@ -114,11 +114,17 @@ function Settings({
     }, [difficulty])
 
     const difficultyLabel = useMemo(() => {
-        return difficultyInfo.label
+        if (difficultyInfo) {
+            return difficultyInfo.label
+        }
+        return ''
     }, [difficultyInfo])
 
     const difficultyDescription = useMemo(() => {
-        return difficultyInfo.description
+        if (difficultyInfo) {
+            return difficultyInfo.description
+        }
+        return ''
     }, [difficultyInfo])
 
     return (

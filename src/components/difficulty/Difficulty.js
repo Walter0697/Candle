@@ -78,7 +78,7 @@ function Difficulty({
                 )}
             </DialogTitle>
             <DialogContent>
-                <Grid container className={'difficulty-container'}>
+                <Grid container className={'difficulty-list-container'}>
                     <Grid item xs={12} md={12} lg={12}>
                         <DifficultyButton 
                             difficultySetting={'easy'}

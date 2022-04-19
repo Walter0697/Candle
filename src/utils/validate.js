@@ -51,6 +51,21 @@ const first = (dateIndex) => {
     return correctans.charAt(0)
 }
 
+const last = (dateIndex) => {
+    const correctans = getCurrentWord(dateIndex)
+    return correctans.charAt(3)
+}
+
+const allInitial = (dateIndex) => {
+    const todayIndex = getTodayIndex(dateIndex)
+    const currentWord = dictionary[todayIndex]
+    let initials = []
+    for (let i = 0; i < 4; i++) {
+        initials.push(currentWord[`w${i}`].initial)
+    }
+    return initials
+}
+
 const sameWordChecking = (guessObj, answerObj, resultObj) => {
     resultObj.result.forEach((r, index) => {
         r.sameWord = (guessObj.idiom.charAt(index) == answerObj.idiom.charAt(index))
@@ -356,6 +371,8 @@ const validate = {
     guessValidatorOld,
     guessValidator,
     first,
+    last,
+    allInitial,
 }
 
 export default validate

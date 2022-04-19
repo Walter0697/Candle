@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useMemo, useCallback } from 'react'
 import {
     useSpring,
     animated
@@ -6,12 +6,39 @@ import {
 
 import GameTile from './GameTile'
 
+import { useSelector } from 'react-redux'
+
+import validate from '../../utils/validate'
+
 function GameRow({ 
     list,
     activeRow,
     shake,
     setShake,
+    shouldGiveHint,
 }) {
+    const difficulty = useSelector((state) => state.setting.difficulty)
+
+    const firstWordHint = useMemo(() => {
+        if (difficulty !== 'easy') return false
+        if (!shouldGiveHint) return false
+        const word = validate.first()
+        return word
+    }, [shouldGiveHint, difficulty])
+
+    const initialHint = useMemo(() => {
+        if (difficulty !== 'middle') return false
+        if (!shouldGiveHint) return false
+        const initials = validate.allInitial()
+        return initials
+    }, [shouldGiveHint, difficulty])
+
+    const getInitial = useCallback((index) => {
+        if (!initialHint) return false
+        if (initialHint.length < index) return false
+        return initialHint[index] 
+    }, [initialHint])
+
     useEffect(() => {
         let timer = null
         if (shake) {
@@ -44,10 +71,10 @@ function GameRow({
                     .to(x => `translate(${x}px, 0px)`)
             }}
         >
-            <GameTile info={getInfo(0)} />
-            <GameTile info={getInfo(1)} />
-            <GameTile info={getInfo(2)} />
-            <GameTile info={getInfo(3)} />
+            <GameTile info={getInfo(0)} wordHint={firstWordHint} initialHint={getInitial(0)}/>
+            <GameTile info={getInfo(1)} initialHint={getInitial(1)}/>
+            <GameTile info={getInfo(2)} initialHint={getInitial(2)}/>
+            <GameTile info={getInfo(3)} initialHint={getInitial(3)}/>
         </animated.div>
     )
 }

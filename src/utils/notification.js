@@ -5,7 +5,7 @@ let fwCount = 0
 const fourWord = (date) => {
     fwCount++
     if (fwCount === 803) {
-        return validate.first(date)
+        return validate.last(date)
         // provide hint and give out first letter
     }
     switch(fwCount) {
@@ -54,7 +54,7 @@ const fourWord = (date) => {
         case 801:
             return 'Fine我認輸'
         case 802:
-            return '比頭一隻字你'
+            return '比最後一隻字你'
         default:
             return '唔夠四個字啵'
     }
