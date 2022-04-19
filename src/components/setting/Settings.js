@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useMemo } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -29,6 +29,7 @@ const TransitionUp = (props) => {
 
 function SettingLink({
     label,
+    description,
     linkLabel,
     link,
     onClick,
@@ -39,6 +40,11 @@ function SettingLink({
                 <div className={'setting-item-title'}>
                     {label}
                 </div>
+                {description && (
+                     <div className={'setting-item-description'}>
+                        {description}
+                    </div>
+                )}
             </div>
             {onClick ? (
                 <div className={'setting-item-link'}>
@@ -91,14 +97,29 @@ function SettingToggle({
 function Settings({
     dateIndex,
     open,
+    openDifficulty,
     handleClose,
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const autoScroll = useSelector((state) => state.setting.autoScroll)
     const smoothInput = useSelector((state) => state.setting.smoothInput)
+    const difficulty = useSelector((state) => state.setting.difficulty)
     const dispatch = useDispatch()
 
     const [ openEmoji, setOpenEmoji ] = useState(false)
+
+    const difficultyInfo = useMemo(() => {
+        const info = display.difficulty()
+        return info[difficulty]
+    }, [difficulty])
+
+    const difficultyLabel = useMemo(() => {
+        return difficultyInfo.label
+    }, [difficultyInfo])
+
+    const difficultyDescription = useMemo(() => {
+        return difficultyInfo.description
+    }, [difficultyInfo])
 
     return (
         <Dialog
@@ -141,9 +162,11 @@ function Settings({
                     <Grid item xs={12} md={12} lg={12}
                         className={'setting-item-wrap'}
                     >
-                        <SettingToggle
-                            label={'困難模式'}
-                            description={'我地玩法咁唔同，好難做困難模式啵'}
+                        <SettingLink
+                            label={'難易度：' + difficultyLabel}
+                            description={difficultyDescription}
+                            linkLabel={'更改'}
+                            onClick={openDifficulty}
                         />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}
@@ -210,19 +233,11 @@ function Settings({
                 </Grid>
             </DialogContent>
             <DialogActions>
-                <div style={{ 
-                    fontSize: '9px',
-                }}>
-                    <div style={{
-                        display: 'block',
-                        float: 'right',
-                    }}>
+                <div className={'credit-container'}>
+                    <div className={'credit-item'}>
                         #{dateIndex} version {config.version}
                     </div>
-                    <div style={{
-                        display: 'block',
-                        float: 'right',
-                    }}>
+                    <div className={'credit-item'}>
                         Copyright Josh Wardle 2021-{dayjs().format('YYYY')}, the original creator for Wordle! All Rights Reserved.
                     </div>
                 </div>

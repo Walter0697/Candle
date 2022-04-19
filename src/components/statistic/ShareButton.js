@@ -10,9 +10,11 @@ import { useSnackbar } from 'notistack'
 
 import record from '../../utils/record'
 import colour from '../../utils/colour'
+import display from '../../utils/display'
 
 function ShareButton() {
     const isContrast = useSelector((state) => state.colour.isContrast)
+    const difficulty = useSelector((state) => state.setting.difficulty)
 
     const correctColor = useMemo(() => {
         if (isContrast) return '🟧'
@@ -64,7 +66,9 @@ function ShareButton() {
             }
         }
         
-        let shareStr = `粵道 ${date} ${winning_row}/9\n\n`
+        const difficultyInfo = display.difficulty()
+        const difficultyText = difficultyInfo[difficulty].label
+        let shareStr = `粵道 ${date} ${difficultyText} ${winning_row}/9\n\n`
         shareStr += progress_row.join('\n')
 
         if (navigator.share) {

@@ -136,12 +136,18 @@ const getCorrectColour = (isContrast) => {
     return correctColour.normal
 }
 
+const getIncorrectColour = (isContrast) => {
+    if (isContrast) return incorrectColour.contrast
+    return incorrectColour.normal
+}
+
 const colour = {
     getSingleColourData,
     getColourData,
     parseColourData,
     getNonSameWordColour,
     getCorrectColour,
+    getIncorrectColour,
 }
 
 export default colour

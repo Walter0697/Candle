@@ -3,9 +3,9 @@ import {
   Grid,
 } from '@mui/material'
 
-import { useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from './store/slice/colourSlice'
-import { setAutoScroll, setSmoothInput } from './store/slice/settingSlice'
+import { setAutoScroll, setSmoothInput, setDifficulty } from './store/slice/settingSlice'
 
 import Header from './components/Header'
 import Game from './components/game/Game'
@@ -13,6 +13,7 @@ import Statistics from './components/statistic/Statistics'
 import Settings from './components/setting/Settings'
 import Tutorial from './components/tutorial/Tutorial'
 import Dictionary from './components/dictionary/Dictionary'
+import Difficulty from './components/difficulty/Difficulty'
 import './App.css'
 
 import record from './utils/record'
@@ -28,6 +29,7 @@ function App() {
   const [ openSetting, setOpenSetting ] = useState(false)
   const [ openTutorial, setOpenTutorial ] = useState(false)
   const [ openDictionary, setOpenDictionary ] = useState(false)
+  const [ openDifficulty, setOpenDifficulty ] = useState(false)
 
   useEffect(() => {
      // get the date here so that things will be consistant util refresh
@@ -44,6 +46,11 @@ function App() {
     }
     if (s.smoothinput) {
       dispatch(setSmoothInput({ value: s.smoothinput }))
+    }
+    if (s.difficulty) {
+      dispatch(setDifficulty({ value: s.difficulty }))
+    } else {
+      setOpenDifficulty(true)
     }
 
     const hasHistory = record.history()
@@ -89,6 +96,7 @@ function App() {
       <Settings
         dateIndex={currentDateNo}
         open={openSetting}
+        openDifficulty={() => setOpenDifficulty(true)}
         handleClose={() => setOpenSetting(false)}
       />
       <Tutorial
@@ -98,6 +106,10 @@ function App() {
       <Dictionary
         open={openDictionary}
         handleClose={() => setOpenDictionary(false)}
+      />
+      <Difficulty
+        open={openDifficulty}
+        handleClose={() => setOpenDifficulty(false)}
       />
     </>
   );
