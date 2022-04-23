@@ -15,6 +15,7 @@ function GameRow({
     activeRow,
     shake,
     setShake,
+    currentDate,
     shouldGiveHint,
 }) {
     const difficulty = useSelector((state) => state.setting.difficulty)
@@ -22,16 +23,16 @@ function GameRow({
     const firstWordHint = useMemo(() => {
         if (difficulty !== 'easy') return false
         if (!shouldGiveHint) return false
-        const word = validate.first()
+        const word = validate.first(currentDate)
         return word
-    }, [shouldGiveHint, difficulty])
+    }, [shouldGiveHint, difficulty, currentDate])
 
     const initialHint = useMemo(() => {
         if (difficulty !== 'middle') return false
         if (!shouldGiveHint) return false
-        const initials = validate.allInitial()
+        const initials = validate.allInitial(currentDate)
         return initials
-    }, [shouldGiveHint, difficulty])
+    }, [shouldGiveHint, difficulty, currentDate])
 
     const getInitial = useCallback((index) => {
         if (!initialHint) return false

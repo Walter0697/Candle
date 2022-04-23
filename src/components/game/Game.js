@@ -336,6 +336,7 @@ function Game({
                                         activeRow={currentRow.current === index}
                                         shake={rowShake}
                                         setShake={setRowShake}
+                                        currentDate={date}
                                         shouldGiveHint={shouldGiveHint}
                                     />
                                 </Grid>
