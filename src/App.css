@@ -369,6 +369,10 @@ input:focus {
   margin-bottom: 20px;
 }
 
+.about-container {
+  margin-bottom: 20px;
+}
+
 .search-input-box {
   height: 50px;
   width: 50%;
@@ -517,5 +521,5 @@ input:focus {
 .difficulty-description {
   position: absolute;
   bottom: 0;
-  font-size: 12px;
+  font-size: 10px;
 }

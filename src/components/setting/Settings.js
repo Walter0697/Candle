@@ -14,6 +14,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import dayjs from 'dayjs'
 
 import Emoji from './Emoji'
+import About from './About'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from '../../store/slice/colourSlice'
@@ -107,6 +108,7 @@ function Settings({
     const dispatch = useDispatch()
 
     const [ openEmoji, setOpenEmoji ] = useState(false)
+    const [ openAbout, setOpenAbout ] = useState(false)
 
     const difficultyInfo = useMemo(() => {
         const info = display.difficulty()
@@ -231,6 +233,15 @@ function Settings({
                         className={'setting-item-wrap'}
                     >
                         <SettingLink 
+                            label={`關於粵道`}
+                            linkLabel={'按此'}
+                            onClick={() => setOpenAbout(true)}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingLink 
                             label={'提出建議'}
                             linkLabel={'Email'}
                             link={'mailto:wallywai.walter@gmail.com'}
@@ -252,6 +263,12 @@ function Settings({
                 open={openEmoji}
                 handleClose={() => {
                     setOpenEmoji(false)
+                }}
+            />
+            <About 
+                open={openAbout}
+                handleClose={() => {
+                    setOpenAbout(false)
                 }}
             />
         </Dialog>
