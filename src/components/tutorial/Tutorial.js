@@ -12,6 +12,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import TranslateIcon from '@mui/icons-material/Translate'
 
 import TutorialRow from './TutorialRow'
+import BigTile from './BigTile'
 
 const TransitionUp = (props) => {
     return <Grow {...props} />
@@ -95,15 +96,25 @@ function Tutorial({
                             >
                                 例子
                             </Grid>
+                            <Grid item xs={12} md={12} lg={12}
+                                className={'bigtile-row'}
+                            >
+                                <BigTile 
+                                    word={'粵'}
+                                    initial={'j'}
+                                    final={'yut'}
+                                    tone={'6'}
+                                />
+                            </Grid>
                             <Grid item xs={12} md={6} lg={6}
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
                                     words={'認真如初'}
                                     pronounces={['jing6', 'zan1', 'jyu4', 'co1']}
-                                    sampleStatus={'ggg'}
+                                    sampleStatus={'gxx'}
                                     sameWord={true}
-                                    explain={'格仔入面有呢隻色，就代表答案入面有「{target}」呢個字，而且位置正確'}
+                                    explain={'格仔入面有呢隻色，就代表答案入面「{target}」聲母嘅位置正確'}
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} lg={6}
@@ -112,12 +123,12 @@ function Tutorial({
                                 <TutorialRow 
                                     words={'斷絕來往'}
                                     pronounces={['tyun5', 'zyut6', 'loi4', 'wong5']}
-                                    sampleStatus={'yyy'}
+                                    sampleStatus={'xyx'}
                                     sameWord={false}
-                                    explain={'如果係呢隻色嘅話，就代表答案入面有「{target}」呢個字，不過位置錯誤'}
+                                    explain={'格仔入面有呢隻色，就代表答案入面「{target}」韻母存在係呢個答案度，但係位置唔正確'}
                                 />
                             </Grid>
-                            <Grid item xs={12} md={6} lg={6}
+                            {/* <Grid item xs={12} md={6} lg={6}
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
@@ -138,7 +149,7 @@ function Tutorial({
                                     sameWord={false}
                                     explain={'「{target}」呢個字只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
                                 />
-                            </Grid>
+                            </Grid> */}
                             <Grid item xs={12} md={6} lg={6}
                                 className={'tutorial-row-end'}
                             >

@@ -523,3 +523,64 @@ input:focus {
   bottom: 0;
   font-size: 10px;
 }
+
+.bigtile-row {
+  padding-bottom: 40px;
+}
+
+.bigtile-description {
+  padding-bottom: 15px;
+}
+
+.bigtilebox-text {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigtile-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.bigtilebox {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.bigtile-wrap {
+  transform-style: preserve-3d;
+  transform-origin: center center;
+}
+
+.bigtile-text {
+  border: 3px solid #565758;
+  background-color: #191b20;
+  height: 94px;
+  width: 94px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigtile-pronounce {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bigtile-detail {
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+}
