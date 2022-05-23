@@ -110,7 +110,23 @@ function TutorialTile({
                     
                 </div>
                 <div className={'tutorialbox-pronounce flipbox-pronounce-display'}>
-                    {pronounce ? <>{pronounce}</> : <>&nbsp;</>}
+                    {pronounce ? <>
+                        <span
+                            style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}
+                        >
+                            {pronounce.initial}
+                        </span>
+                        <span 
+                            style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}
+                        >
+                            {pronounce.final}
+                        </span>
+                        <span 
+                            style={{ color: topColor === incorrectColour ? 'white' : topColor }}
+                        >
+                            {pronounce.tone}
+                        </span>
+                    </> : <>&nbsp;</>}
                 </div>
             </div>
         </animated.div>

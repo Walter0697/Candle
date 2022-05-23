@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -14,6 +14,8 @@ import TranslateIcon from '@mui/icons-material/Translate'
 import TutorialRow from './TutorialRow'
 import BigTile from './BigTile'
 
+import setting from '../../utils/setting'
+
 const TransitionUp = (props) => {
     return <Grow {...props} />
 }
@@ -22,6 +24,10 @@ function Tutorial({
     open,
     handleClose,
 }) {
+    const tutorialWords = useMemo(() => {
+        return setting.rand_tutorial()
+    }, [])
+
     return (
         <Dialog
             className={'notpaste'}
@@ -110,8 +116,7 @@ function Tutorial({
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
-                                    words={'認真如初'}
-                                    pronounces={['jing6', 'zan1', 'jyu4', 'co1']}
+                                    info={tutorialWords[0]}
                                     sampleStatus={'gxx'}
                                     sameWord={true}
                                     explain={'格仔入面有呢隻色，就代表答案入面「{target}」聲母嘅位置正確'}
@@ -121,8 +126,7 @@ function Tutorial({
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
-                                    words={'斷絕來往'}
-                                    pronounces={['tyun5', 'zyut6', 'loi4', 'wong5']}
+                                    info={tutorialWords[1]}
                                     sampleStatus={'xyx'}
                                     sameWord={false}
                                     explain={'格仔入面有呢隻色，就代表答案入面「{target}」韻母存在係呢個答案度，但係位置唔正確'}
@@ -132,8 +136,7 @@ function Tutorial({
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
-                                    words={'別來無恙'}
-                                    pronounces={['bit6', 'loi4', 'mou4', 'joeng6']}
+                                    info={tutorialWords[2]}
                                     sampleStatus={'xxg'}
                                     sameWord={false}
                                     explain={'格仔入面呢個位置出現顏色，代表「{target}」呢個嘅聲調正確'}
@@ -143,8 +146,7 @@ function Tutorial({
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
-                                    words={'永久保存'}
-                                    pronounces={['wing5', 'gau2', 'bou2', 'cyun4']}
+                                    info={tutorialWords[3]}
                                     sampleStatus={'gxx'}
                                     sameWord={false}
                                     explain={'「{target}」呢個字只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
@@ -154,8 +156,7 @@ function Tutorial({
                                 className={'tutorial-row-end'}
                             >
                                 <TutorialRow 
-                                    words={'閱後即焚'}
-                                    pronounces={['jyut6', 'hau6', 'zik1', 'fan4']}
+                                    info={tutorialWords[4]}
                                     sampleStatus={'xxx'}
                                     sameWord={false}
                                     explain={'「{target}」呢度聲母同韻母都唔正確'}
@@ -165,8 +166,7 @@ function Tutorial({
                                 className={'tutorial-row'}
                             >
                                 <TutorialRow 
-                                    words={'回眸一笑'}
-                                    pronounces={['wui4', 'mau4', 'jat1', 'siu3']}
+                                    info={tutorialWords[5]}
                                     sampleStatus={'ggg'}
                                     sameWord={false}
                                     explain={'特別啲嘅情況就係呢種，「{target}」聲母，韻母，聲調，同位置都正確，不過唔係呢個字'}
