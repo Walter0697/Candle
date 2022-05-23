@@ -41,6 +41,10 @@ function BigTile({
         return colour.getSingleColourData(status, 'right', isContrast)
     }, [status, isContrast])
 
+    const incorrectColour = useMemo(() => {
+        return colour.getIncorrectColour(isContrast)
+    }, [isContrast])
+
     const { transform } = useSpring({
         config: config.slow,
         from: { transform: 'rotateY(0deg)' },
@@ -101,9 +105,9 @@ function BigTile({
                                 {word ? <>{word}</> : <>&nbsp;</>}
                             </div>
                             <div className={'bigtile-pronounce'}>
-                                <span style={{ color: leftColor}}>{initial}</span>
-                                <span style={{ color: rightColor }}>{final}</span>
-                                <span style={{ color: topColor }}>{tone}</span>
+                                <span style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}>{initial}</span>
+                                <span style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}>{final}</span>
+                                <span style={{ color: topColor === incorrectColour ? 'white' : topColor }}>{tone}</span>
                             </div>
                         </div>
                         

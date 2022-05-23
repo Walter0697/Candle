@@ -78,6 +78,10 @@ function GameTile({
         return colour.getSingleColourData(currentStatus, 'right', isContrast)
     }, [info, isContrast])
 
+    const incorrectColour = useMemo(() => {
+        return colour.getIncorrectColour(isContrast)
+    }, [isContrast])
+
     const dimension = useMemo(() => {
         if (!info) return '54px'
         if (!info.status) return ''
@@ -176,7 +180,23 @@ function GameTile({
                     </div>
                 </animated.div>
                 <div className={'flipbox-pronounce flipbox-pronounce-display'}>
-                    {(info && info.pronounce) ? <>{info.pronounce.initial}{info.pronounce.final}{info.pronounce.tone}</> : <>&nbsp;</>}
+                    {(info && info.pronounce) ? <>
+                        <span
+                            style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}
+                        >
+                            {info.pronounce.initial}
+                        </span>
+                        <span 
+                            style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}
+                        >
+                            {info.pronounce.final}
+                        </span>
+                        <span 
+                            style={{ color: topColor === incorrectColour ? 'white' : topColor }}
+                        >
+                            {info.pronounce.tone}
+                        </span>
+                    </> : <>&nbsp;</>}
                 </div>
             </div> 
         </animated.div>

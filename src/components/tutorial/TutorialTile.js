@@ -33,6 +33,10 @@ function TutorialTile({
         return colour.getSingleColourData(status, 'right', isContrast)
     }, [status, isContrast])
 
+    const incorrectColour = useMemo(() => {
+        return colour.getIncorrectColour(isContrast)
+    }, [isContrast])
+    
     const { transform } = useSpring({
         config: config.slow,
         from: { transform: 'rotateY(0deg)' },
