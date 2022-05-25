@@ -77,7 +77,7 @@
 }
 
 .back-flippable {
-  position: absolute;
+  position: relative;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   transform: rotateY(180deg);
