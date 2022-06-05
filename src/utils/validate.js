@@ -227,7 +227,7 @@ const guessValidator = (guess, answer) => {
         }
     }
     sameWordChecking(guessObj, answerObj, resultObj)
-    allGreenYellowCheck(guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject)
+    //allGreenYellowCheck(guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 0, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 1, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 2, resultObj, statusObject, allGreenYellowCheckObject)
@@ -261,8 +261,6 @@ const guessValidatorOld = (guess, answer) => {
     })
     
     // Case 2: win
-    // TODO: varify by pronounce
-    // if (JSON. answerObj.w0)
     const guessPronunce = [guessObj.w0, guessObj.w1, guessObj.w2, guessObj.w3]
     const answerPronunce = [answerObj.w0, answerObj.w1, answerObj.w2, answerObj.w3]
     if ((answer === guess) || (JSON.stringify(guessPronunce) === JSON.stringify(answerPronunce))) {

@@ -930,8 +930,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "6"
         }
     },
@@ -2640,30 +2640,6 @@ const duplicates = [
         }
     },
     {
-        "idiom": "等閒之輩",
-        "idiom2": "等閑之輩",
-        "w0": {
-            "initial": "d",
-            "final": "ang",
-            "tone": "2"
-        },
-        "w1": {
-            "initial": "h",
-            "final": "aan",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "z",
-            "final": "i",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "b",
-            "final": "ui",
-            "tone": "3"
-        }
-    },
-    {
         "idiom": "斗零都冇",
         "idiom2": "斗令都冇",
         "w0": {
@@ -3752,8 +3728,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -3776,8 +3752,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -3800,8 +3776,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -4434,8 +4410,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaau",
+            "initial": "ng",
+            "final": "aau",
             "tone": "5"
         }
     },
@@ -6013,8 +5989,8 @@ const duplicates = [
             "tone": "2"
         },
         "w2": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w3": {
@@ -6600,54 +6576,6 @@ const duplicates = [
         }
     },
     {
-        "idiom": "閒情逸緻",
-        "idiom2": "閑情逸致",
-        "w0": {
-            "initial": "h",
-            "final": "aan",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "c",
-            "final": "ing",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "at",
-            "tone": "6"
-        },
-        "w3": {
-            "initial": "z",
-            "final": "i",
-            "tone": "3"
-        }
-    },
-    {
-        "idiom": "閒情逸致",
-        "idiom2": "閑情逸致",
-        "w0": {
-            "initial": "h",
-            "final": "aan",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "c",
-            "final": "ing",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "at",
-            "tone": "6"
-        },
-        "w3": {
-            "initial": "z",
-            "final": "i",
-            "tone": "3"
-        }
-    },
-    {
         "idiom": "閒情逸致",
         "idiom2": "閒情逸緻",
         "w0": {
@@ -7122,8 +7050,8 @@ const duplicates = [
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -8288,8 +8216,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaam",
+            "initial": "ng",
+            "final": "aam",
             "tone": "4"
         },
         "w2": {
@@ -8528,8 +8456,8 @@ const duplicates = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w2": {
@@ -8538,8 +8466,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         }
     },
@@ -8552,8 +8480,8 @@ const duplicates = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w2": {
@@ -8562,8 +8490,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         }
     },
@@ -8576,8 +8504,8 @@ const duplicates = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w2": {
@@ -8586,8 +8514,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         }
     },
@@ -9032,8 +8960,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9056,8 +8984,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9080,8 +9008,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9104,8 +9032,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9128,8 +9056,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9152,8 +9080,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -9181,13 +9109,13 @@ const duplicates = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         }
     },
@@ -9944,8 +9872,8 @@ const duplicates = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -9968,8 +9896,8 @@ const duplicates = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -11384,8 +11312,8 @@ const duplicates = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -13611,8 +13539,8 @@ const duplicates = [
         "idiom": "枒手枒腳",
         "idiom2": "掗手掗腳",
         "w0": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "6"
         },
         "w1": {
@@ -13621,8 +13549,8 @@ const duplicates = [
             "tone": "2"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "6"
         },
         "w3": {
@@ -13635,8 +13563,8 @@ const duplicates = [
         "idiom": "捱更抵夜",
         "idiom2": "挨更抵夜",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -13659,8 +13587,8 @@ const duplicates = [
         "idiom": "捱飢抵餓",
         "idiom2": "挨飢抵餓",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -13674,8 +13602,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         }
     },
@@ -13683,8 +13611,8 @@ const duplicates = [
         "idiom": "捱饑抵餓",
         "idiom2": "挨飢抵餓",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -13698,8 +13626,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         }
     },
@@ -13707,8 +13635,8 @@ const duplicates = [
         "idiom": "捱饑抵餓",
         "idiom2": "捱飢抵餓",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -13722,8 +13650,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         }
     },
@@ -13731,8 +13659,8 @@ const duplicates = [
         "idiom": "捱生捱死",
         "idiom2": "挨生挨死",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -13741,8 +13669,8 @@ const duplicates = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w3": {
@@ -13755,13 +13683,13 @@ const duplicates = [
         "idiom": "巖巖巉巉",
         "idiom2": "岩岩巉巉",
         "w0": {
-            "initial": "n",
-            "final": "gaam",
+            "initial": "ng",
+            "final": "aam",
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaam",
+            "initial": "ng",
+            "final": "aam",
             "tone": "4"
         },
         "w2": {
@@ -13779,13 +13707,13 @@ const duplicates = [
         "idiom": "吟吟沉沉",
         "idiom2": "吟吟尋尋",
         "w0": {
-            "initial": "n",
-            "final": "gam",
+            "initial": "ng",
+            "final": "am",
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gam",
+            "initial": "ng",
+            "final": "am",
             "tone": "4"
         },
         "w2": {
@@ -13803,8 +13731,8 @@ const duplicates = [
         "idiom": "鉤心鬥角",
         "idiom2": "勾心鬥角",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "1"
         },
         "w1": {
@@ -13827,13 +13755,13 @@ const duplicates = [
         "idiom": "吽吽竇竇",
         "idiom2": "吽吽哣哣",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13851,13 +13779,13 @@ const duplicates = [
         "idiom": "吽吽豆豆",
         "idiom2": "吽吽哣哣",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13875,13 +13803,13 @@ const duplicates = [
         "idiom": "吽吽豆豆",
         "idiom2": "吽吽竇竇",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13899,13 +13827,13 @@ const duplicates = [
         "idiom": "吽吽逗逗",
         "idiom2": "吽吽哣哣",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13923,13 +13851,13 @@ const duplicates = [
         "idiom": "吽吽逗逗",
         "idiom2": "吽吽竇竇",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13947,13 +13875,13 @@ const duplicates = [
         "idiom": "吽吽逗逗",
         "idiom2": "吽吽豆豆",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "6"
         },
         "w2": {
@@ -13971,8 +13899,8 @@ const duplicates = [
         "idiom": "外部鏈接",
         "idiom2": "外部連接",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w1": {
@@ -14178,8 +14106,8 @@ const duplicates = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaak",
+            "initial": "ng",
+            "final": "aak",
             "tone": "6"
         }
     },
@@ -15325,8 +15253,8 @@ const duplicates = [
             "tone": "2"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -16256,8 +16184,8 @@ const duplicates = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaak",
+            "initial": "ng",
+            "final": "aak",
             "tone": "1"
         },
         "w2": {
@@ -16904,8 +16832,8 @@ const duplicates = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w2": {
@@ -17173,13 +17101,13 @@ const duplicates = [
             "tone": "6"
         },
         "w2": {
-            "initial": "n",
-            "final": "gok",
+            "initial": "ng",
+            "final": "ok",
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gok",
+            "initial": "ng",
+            "final": "ok",
             "tone": "6"
         }
     },
@@ -18253,8 +18181,8 @@ const duplicates = [
             "tone": "5"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -18277,8 +18205,8 @@ const duplicates = [
             "tone": "5"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -18301,8 +18229,8 @@ const duplicates = [
             "tone": "5"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -18330,8 +18258,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -18354,8 +18282,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -18378,8 +18306,8 @@ const duplicates = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -19704,665 +19632,809 @@ const duplicates = [
         }
     },
     {
-        "idiom": "作育英才",
-        "idiom2": "作育英纔",
+        "idiom": "亞保亞勝",
+        "idiom2": "阿保阿勝",
         "w0": {
-            "initial": "z",
-            "final": "ok",
+            "initial": "a",
+            "final": "a",
             "tone": "3"
         },
         "w1": {
-            "initial": "j",
-            "final": "uk",
-            "tone": "6"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "ing",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "c",
-            "final": "oi",
-            "tone": "4"
-        }
-    },
-    {
-        "idiom": "自討苦吃",
-        "idiom2": "自討苦喫",
-        "w0": {
-            "initial": "z",
-            "final": "i",
-            "tone": "6"
-        },
-        "w1": {
-            "initial": "t",
+            "initial": "b",
             "final": "ou",
             "tone": "2"
         },
         "w2": {
-            "initial": "f",
-            "final": "u",
-            "tone": "2"
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
         },
         "w3": {
-            "initial": "h",
-            "final": "ek",
+            "initial": "s",
+            "final": "ing",
             "tone": "3"
         }
     },
     {
-        "idiom": "志大才疏",
-        "idiom2": "志大纔疏",
+        "idiom": "阿德萊德",
+        "idiom2": "阿得萊德",
         "w0": {
-            "initial": "z",
-            "final": "i",
+            "initial": "a",
+            "final": "a",
             "tone": "3"
         },
         "w1": {
             "initial": "d",
-            "final": "aai",
-            "tone": "6"
+            "final": "ak",
+            "tone": "1"
         },
         "w2": {
-            "initial": "c",
+            "initial": "l",
             "final": "oi",
             "tone": "4"
         },
         "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "阿拉巴馬",
+        "idiom2": "亞拉巴馬",
+        "w0": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "aai",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "阿斯伯格",
+        "idiom2": "亞斯伯格",
+        "w0": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        },
+        "w1": {
             "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "aak",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "阿支阿左",
+        "idiom2": "阿吱阿咗",
+        "w0": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "z",
             "final": "o",
             "tone": "1"
         }
     },
     {
-        "idiom": "指手畫腳",
-        "idiom2": "指手劃腳",
+        "idiom": "暗渡陳倉",
+        "idiom2": "暗度陳倉",
         "w0": {
-            "initial": "z",
-            "final": "i",
-            "tone": "2"
+            "initial": "a",
+            "final": "m",
+            "tone": "3"
         },
         "w1": {
-            "initial": "s",
-            "final": "au",
+            "initial": "d",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ong",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "歐幾里得",
+        "idiom2": "歐幾里德",
+        "w0": {
+            "initial": "a",
+            "final": "u",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ei",
             "tone": "2"
         },
         "w2": {
-            "initial": "w",
+            "initial": "l",
+            "final": "ei",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "吧唧吧唧",
+        "idiom2": "巴唧巴唧",
+        "w0": {
+            "initial": "b",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ik",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "百屌成才",
+        "idiom2": "百屌成材",
+        "w0": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "百屌成才",
+        "idiom2": "百屌成纔",
+        "w0": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "白費唇舌",
+        "idiom2": "白費脣舌",
+        "w0": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "白吃白喝",
+        "idiom2": "白喫白喝",
+        "w0": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "b",
             "final": "aak",
             "tone": "6"
         },
         "w3": {
-            "initial": "g",
-            "final": "oek",
+            "initial": "h",
+            "final": "ot",
             "tone": "3"
         }
     },
     {
-        "idiom": "追根究柢",
-        "idiom2": "追根究底",
+        "idiom": "白裡透紅",
+        "idiom2": "白裏透紅",
         "w0": {
-            "initial": "z",
-            "final": "eoi",
-            "tone": "1"
+            "initial": "b",
+            "final": "aak",
+            "tone": "6"
         },
         "w1": {
-            "initial": "g",
-            "final": "an",
-            "tone": "1"
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
         },
         "w2": {
-            "initial": "g",
+            "initial": "t",
             "final": "au",
             "tone": "3"
         },
         "w3": {
-            "initial": "d",
-            "final": "ai",
-            "tone": "2"
+            "initial": "h",
+            "final": "ung",
+            "tone": "4"
         }
     },
     {
-        "idiom": "爭風吃醋",
-        "idiom2": "爭風喫醋",
+        "idiom": "扮呢扮路",
+        "idiom2": "扮呢扮嚕",
         "w0": {
-            "initial": "z",
-            "final": "ang",
-            "tone": "1"
+            "initial": "b",
+            "final": "aan",
+            "tone": "6"
         },
         "w1": {
-            "initial": "f",
-            "final": "ung",
+            "initial": "n",
+            "final": "i",
             "tone": "1"
         },
         "w2": {
-            "initial": "h",
-            "final": "ek",
-            "tone": "3"
+            "initial": "b",
+            "final": "aan",
+            "tone": "6"
         },
         "w3": {
-            "initial": "c",
+            "initial": "l",
             "final": "ou",
             "tone": "3"
         }
     },
     {
-        "idiom": "振振有辭",
-        "idiom2": "振振有詞",
+        "idiom": "苞藏禍心",
+        "idiom2": "包藏禍心",
         "w0": {
-            "initial": "z",
-            "final": "an",
-            "tone": "3"
+            "initial": "b",
+            "final": "aau",
+            "tone": "1"
         },
         "w1": {
-            "initial": "z",
-            "final": "an",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "au",
-            "tone": "5"
-        },
-        "w3": {
             "initial": "c",
-            "final": "i",
-            "tone": "4"
-        }
-    },
-    {
-        "idiom": "烏煙瘴氣",
-        "idiom2": "污菸障氣",
-        "w0": {
-            "initial": "w",
-            "final": "u",
-            "tone": "1"
-        },
-        "w1": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "z",
-            "final": "oeng",
-            "tone": "3"
-        },
-        "w3": {
-            "initial": "h",
-            "final": "ei",
-            "tone": "3"
-        }
-    },
-    {
-        "idiom": "烏煙瘴氣",
-        "idiom2": "烏菸瘴氣",
-        "w0": {
-            "initial": "w",
-            "final": "u",
-            "tone": "1"
-        },
-        "w1": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "z",
-            "final": "oeng",
-            "tone": "3"
-        },
-        "w3": {
-            "initial": "h",
-            "final": "ei",
-            "tone": "3"
-        }
-    },
-    {
-        "idiom": "維妙維肖",
-        "idiom2": "惟妙惟肖",
-        "w0": {
-            "initial": "w",
-            "final": "ai",
+            "final": "ong",
             "tone": "4"
         },
-        "w1": {
-            "initial": "m",
-            "final": "iu",
+        "w2": {
+            "initial": "w",
+            "final": "o",
             "tone": "6"
         },
+        "w3": {
+            "initial": "s",
+            "final": "am",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "北京週報",
+        "idiom2": "北京周報",
+        "w0": {
+            "initial": "b",
+            "final": "ak",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ing",
+            "tone": "1"
+        },
         "w2": {
-            "initial": "w",
-            "final": "ai",
-            "tone": "4"
+            "initial": "z",
+            "final": "au",
+            "tone": "1"
         },
         "w3": {
-            "initial": "c",
-            "final": "iu",
+            "initial": "b",
+            "final": "ou",
             "tone": "3"
         }
     },
     {
-        "idiom": "懷才不遇",
-        "idiom2": "懷纔不遇",
+        "idiom": "不辯菽麥",
+        "idiom2": "不辨菽麥",
         "w0": {
-            "initial": "w",
-            "final": "aai",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "c",
-            "final": "oi",
-            "tone": "4"
-        },
-        "w2": {
             "initial": "b",
             "final": "at",
             "tone": "1"
         },
+        "w1": {
+            "initial": "b",
+            "final": "in",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "uk",
+            "tone": "6"
+        },
         "w3": {
-            "initial": "j",
-            "final": "yu",
+            "initial": "m",
+            "final": "ak",
             "tone": "6"
         }
     },
     {
-        "idiom": "尚方寶劍",
-        "idiom2": "上方寶劍",
+        "idiom": "不服燒埋",
+        "idiom2": "不伏燒埋",
         "w0": {
-            "initial": "s",
-            "final": "oeng",
-            "tone": "6"
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
         },
         "w1": {
             "initial": "f",
-            "final": "ong",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "b",
-            "final": "ou",
-            "tone": "2"
-        },
-        "w3": {
-            "initial": "g",
-            "final": "im",
-            "tone": "3"
-        }
-    },
-    {
-        "idiom": "盛氣凌人",
-        "idiom2": "盛氣淩人",
-        "w0": {
-            "initial": "s",
-            "final": "ing",
-            "tone": "6"
-        },
-        "w1": {
-            "initial": "h",
-            "final": "ei",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "l",
-            "final": "ing",
-            "tone": "4"
-        },
-        "w3": {
-            "initial": "j",
-            "final": "an",
-            "tone": "4"
-        }
-    },
-    {
-        "idiom": "食慾不振",
-        "idiom2": "食欲不振",
-        "w0": {
-            "initial": "s",
-            "final": "ik",
-            "tone": "6"
-        },
-        "w1": {
-            "initial": "j",
             "final": "uk",
             "tone": "6"
         },
         "w2": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "aai",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "篳門閨竇",
+        "idiom2": "蓽門圭竇",
+        "w0": {
             "initial": "b",
             "final": "at",
             "tone": "1"
         },
-        "w3": {
-            "initial": "z",
-            "final": "an",
-            "tone": "3"
-        }
-    },
-    {
-        "idiom": "五勞七傷",
-        "idiom2": "五癆七傷",
-        "w0": {
-            "initial": "",
-            "final": "ng",
-            "tone": "5"
-        },
-        "w1": {
-            "initial": "l",
-            "final": "ou",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "c",
-            "final": "at",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "s",
-            "final": "oeng",
-            "tone": "1"
-        }
-    },
-    {
-        "idiom": "杳無人煙",
-        "idiom2": "杳無人菸",
-        "w0": {
-            "initial": "m",
-            "final": "iu",
-            "tone": "5"
-        },
         "w1": {
             "initial": "m",
-            "final": "ou",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "an",
-            "tone": "4"
-        },
-        "w3": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        }
-    },
-    {
-        "idiom": "杳無人煙",
-        "idiom2": "渺無人菸",
-        "w0": {
-            "initial": "m",
-            "final": "iu",
-            "tone": "5"
-        },
-        "w1": {
-            "initial": "m",
-            "final": "ou",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "an",
-            "tone": "4"
-        },
-        "w3": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        }
-    },
-    {
-        "idiom": "狼煙四起",
-        "idiom2": "狼菸四起",
-        "w0": {
-            "initial": "l",
-            "final": "ong",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "s",
-            "final": "ei",
-            "tone": "3"
-        },
-        "w3": {
-            "initial": "h",
-            "final": "ei",
-            "tone": "2"
-        }
-    },
-    {
-        "idiom": "郎才女貌",
-        "idiom2": "郎纔女貌",
-        "w0": {
-            "initial": "l",
-            "final": "ong",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "c",
-            "final": "oi",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "yu",
-            "tone": "5"
-        },
-        "w3": {
-            "initial": "m",
-            "final": "aau",
-            "tone": "6"
-        }
-    },
-    {
-        "idiom": "紈褲子弟",
-        "idiom2": "紈絝子弟",
-        "w0": {
-            "initial": "j",
-            "final": "yun",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "f",
-            "final": "u",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "z",
-            "final": "i",
-            "tone": "2"
-        },
-        "w3": {
-            "initial": "d",
-            "final": "ai",
-            "tone": "6"
-        }
-    },
-    {
-        "idiom": "有鑑於此",
-        "idiom2": "有鑒於此",
-        "w0": {
-            "initial": "j",
-            "final": "au",
-            "tone": "5"
-        },
-        "w1": {
-            "initial": "g",
-            "final": "aam",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "j",
-            "final": "yu",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "c",
-            "final": "i",
-            "tone": "2"
-        }
-    },
-    {
-        "idiom": "一箭雙雕",
-        "idiom2": "一箭雙鵰",
-        "w0": {
-            "initial": "j",
-            "final": "at",
-            "tone": "1"
-        },
-        "w1": {
-            "initial": "z",
-            "final": "in",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "s",
-            "final": "oeng",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "d",
-            "final": "iu",
-            "tone": "1"
-        }
-    },
-    {
-        "idiom": "一飛沖天",
-        "idiom2": "一飛衝天",
-        "w0": {
-            "initial": "j",
-            "final": "at",
-            "tone": "1"
-        },
-        "w1": {
-            "initial": "f",
-            "final": "ei",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "c",
-            "final": "ung",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "t",
-            "final": "in",
-            "tone": "1"
-        }
-    },
-    {
-        "idiom": "人煙稀少",
-        "idiom2": "人菸稀少",
-        "w0": {
-            "initial": "j",
-            "final": "an",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
-        },
-        "w2": {
-            "initial": "h",
-            "final": "ei",
-            "tone": "1"
-        },
-        "w3": {
-            "initial": "s",
-            "final": "iu",
-            "tone": "2"
-        }
-    },
-    {
-        "idiom": "人才濟濟",
-        "idiom2": "人纔濟濟",
-        "w0": {
-            "initial": "j",
-            "final": "an",
-            "tone": "4"
-        },
-        "w1": {
-            "initial": "c",
-            "final": "oi",
-            "tone": "4"
-        },
-        "w2": {
-            "initial": "z",
-            "final": "ai",
-            "tone": "2"
-        },
-        "w3": {
-            "initial": "z",
-            "final": "ai",
-            "tone": "2"
-        }
-    },
-    {
-        "idiom": "吃喝玩樂",
-        "idiom2": "喫喝玩樂",
-        "w0": {
-            "initial": "h",
-            "final": "ek",
-            "tone": "3"
-        },
-        "w1": {
-            "initial": "h",
-            "final": "ot",
-            "tone": "3"
-        },
-        "w2": {
-            "initial": "w",
             "final": "un",
-            "tone": "6"
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "ai",
+            "tone": "1"
         },
         "w3": {
-            "initial": "l",
-            "final": "ok",
+            "initial": "d",
+            "final": "au",
             "tone": "6"
         }
     },
     {
-        "idiom": "見風使舵",
-        "idiom2": "見風駛舵",
+        "idiom": "彼倡此和",
+        "idiom2": "彼唱此和",
         "w0": {
-            "initial": "g",
-            "final": "in",
-            "tone": "3"
+            "initial": "b",
+            "final": "ei",
+            "tone": "2"
         },
         "w1": {
-            "initial": "f",
-            "final": "ung",
-            "tone": "1"
+            "initial": "c",
+            "final": "oeng",
+            "tone": "3"
         },
         "w2": {
-            "initial": "s",
-            "final": "ai",
+            "initial": "c",
+            "final": "i",
             "tone": "2"
         },
         "w3": {
-            "initial": "t",
+            "initial": "w",
             "final": "o",
             "tone": "4"
         }
     },
     {
-        "idiom": "灰飛煙滅",
-        "idiom2": "灰飛菸滅",
+        "idiom": "鼻針療法",
+        "idiom2": "鼻鍼療法",
         "w0": {
+            "initial": "b",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "am",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w3": {
             "initial": "f",
-            "final": "ui",
+            "final": "aat",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "表裡不一",
+        "idiom2": "表裏不一",
+        "w0": {
+            "initial": "b",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "佈爾喬亞",
+        "idiom2": "布爾喬亞",
+        "w0": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "i",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "步步高升",
+        "idiom2": "步步高昇",
+        "w0": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "步步高陞",
+        "idiom2": "步步高昇",
+        "w0": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "步步高陞",
+        "idiom2": "步步高升",
+        "w0": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "搬唇遞舌",
+        "idiom2": "搬脣遞舌",
+        "w0": {
+            "initial": "b",
+            "final": "un",
             "tone": "1"
         },
         "w1": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "齊大非耦",
+        "idiom2": "齊大非偶",
+        "w0": {
+            "initial": "c",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w2": {
             "initial": "f",
             "final": "ei",
             "tone": "1"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "au",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "七步奇才",
+        "idiom2": "七步奇纔",
+        "w0": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "k",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "七步之才",
+        "idiom2": "七步之纔",
+        "w0": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "七竅冒煙",
+        "idiom2": "七竅冒菸",
+        "w0": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "七竅生煙",
+        "idiom2": "七竅生菸",
+        "w0": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "七孔生煙",
+        "idiom2": "七孔生菸",
+        "w0": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "抽油煙機",
+        "idiom2": "抽油菸機",
+        "w0": {
+            "initial": "c",
+            "final": "au",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
         },
         "w2": {
             "initial": "j",
@@ -20370,9 +20442,609 @@ const duplicates = [
             "tone": "1"
         },
         "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "春光乍洩",
+        "idiom2": "春光乍泄",
+        "w0": {
+            "initial": "c",
+            "final": "eon",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "gw",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "aa",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "千祈唔好",
+        "idiom2": "千其唔好",
+        "w0": {
+            "initial": "c",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
             "initial": "m",
+            "final": "",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ou",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "情有獨鐘",
+        "idiom2": "情有獨鍾",
+        "w0": {
+            "initial": "c",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "uk",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "朝鮮核談",
+        "idiom2": "朝鮮覈談",
+        "w0": {
+            "initial": "c",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "aam",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "潮州粉果",
+        "idiom2": "潮州粉粿",
+        "w0": {
+            "initial": "c",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "au",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "an",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "o",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "初露才華",
+        "idiom2": "初露纔華",
+        "w0": {
+            "initial": "c",
+            "final": "o",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "aa",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "才兼文武",
+        "idiom2": "纔兼文武",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "im",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "才高八斗",
+        "idiom2": "纔高八斗",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "au",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "才氣過人",
+        "idiom2": "纔氣過人",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "o",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "才藝技能",
+        "idiom2": "纔藝技能",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ang",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "才識過人",
+        "idiom2": "纔識過人",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "o",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "才華出衆",
+        "idiom2": "纔華出衆",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "eot",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "才華蓋世",
+        "idiom2": "纔華蓋世",
+        "w0": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "oi",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "藏污納垢",
+        "idiom2": "藏汙納垢",
+        "w0": {
+            "initial": "c",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "u",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "aap",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "au",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "打遊戲機",
+        "idiom2": "打游戲機",
+        "w0": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "打天才波",
+        "idiom2": "打天纔波",
+        "w0": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "t",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "o",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "大才小用",
+        "idiom2": "大材小用",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "大才小用",
+        "idiom2": "大纔小用",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "大吉利市",
+        "idiom2": "大吉利事",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "at",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "大吉利市",
+        "idiom2": "大吉利是",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "at",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "大吃大喝",
+        "idiom2": "大喫大喝",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "大吃特吃",
+        "idiom2": "大喫特喫",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "大吃苦頭",
+        "idiom2": "大喫苦頭",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "au",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "大熱倒灶",
+        "idiom2": "大熱倒竈",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "j",
             "final": "it",
             "tone": "6"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "大力透氣",
+        "idiom2": "大力唞氣",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ik",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
         }
     },
     {
@@ -20448,12 +21120,2460 @@ const duplicates = [
         }
     },
     {
-        "idiom": "才高八斗",
-        "idiom2": "纔高八斗",
+        "idiom": "大殺風景",
+        "idiom2": "大煞風景",
         "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ing",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "大小通吃",
+        "idiom2": "大小通喫",
+        "w0": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "單核細胞",
+        "idiom2": "單覈細胞",
+        "w0": {
+            "initial": "d",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "aau",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "搭橋舖路",
+        "idiom2": "搭橋鋪路",
+        "w0": {
+            "initial": "d",
+            "final": "aap",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "德才兼備",
+        "idiom2": "德纔兼備",
+        "w0": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "1"
+        },
+        "w1": {
             "initial": "c",
             "final": "oi",
             "tone": "4"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "im",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "ei",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "得克薩斯",
+        "idiom2": "德克薩斯",
+        "w0": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ak",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "登峯造極",
+        "idiom2": "登峰造極",
+        "w0": {
+            "initial": "d",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ik",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "登庸人才",
+        "idiom2": "登庸人纔",
+        "w0": {
+            "initial": "d",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "丟橋扭擰",
+        "idiom2": "刁僑扭擰",
+        "w0": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ing",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "丟橋扭擰",
+        "idiom2": "刁喬扭擰",
+        "w0": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ing",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "丟橋扭擰",
+        "idiom2": "刁橋扭擰",
+        "w0": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ing",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "調查核實",
+        "idiom2": "調查覈實",
+        "w0": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "多才多藝",
+        "idiom2": "多纔多藝",
+        "w0": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "ai",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "多吃多佔",
+        "idiom2": "多喫多佔",
+        "w0": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "im",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "代代平安",
+        "idiom2": "袋袋平安",
+        "w0": {
+            "initial": "d",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "o",
+            "final": "n",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "獨辟蹊徑",
+        "idiom2": "獨闢蹊徑",
+        "w0": {
+            "initial": "d",
+            "final": "uk",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "p",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ing",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "反唇相譏",
+        "idiom2": "反脣相譏",
+        "w0": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "費盡唇舌",
+        "idiom2": "費盡脣舌",
+        "w0": {
+            "initial": "f",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eon",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "分竈吃飯",
+        "idiom2": "分竈喫飯",
+        "w0": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "憤憤不平",
+        "idiom2": "忿忿不平",
+        "w0": {
+            "initial": "f",
+            "final": "an",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "p",
+            "final": "ing",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "弗洛伊德",
+        "idiom2": "弗落伊德",
+        "w0": {
+            "initial": "f",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ok",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "蜚短流長",
+        "idiom2": "飛短留長",
+        "w0": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "yun",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "飛短流長",
+        "idiom2": "飛短留長",
+        "w0": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "yun",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "飛短流長",
+        "idiom2": "蜚短流長",
+        "w0": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "yun",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "非核地帶",
+        "idiom2": "非覈地帶",
+        "w0": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "非核國家",
+        "idiom2": "非覈國家",
+        "w0": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "ok",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "aa",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "荒淫無道",
+        "idiom2": "荒淫無度",
+        "w0": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "am",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "荒無人煙",
+        "idiom2": "荒無人菸",
+        "w0": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "放煙幕彈",
+        "idiom2": "放菸幕彈",
+        "w0": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ok",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "aan",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "苦口苦麪",
+        "idiom2": "苦口苦面",
+        "w0": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "苦口苦麪",
+        "idiom2": "虎口虎面",
+        "w0": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "灰飛煙滅",
+        "idiom2": "灰飛菸滅",
+        "w0": {
+            "initial": "f",
+            "final": "ui",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "it",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "烽煙四起",
+        "idiom2": "烽菸四起",
+        "w0": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "烽煙節目",
+        "idiom2": "烽菸節目",
+        "w0": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "it",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "uk",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "瘋言瘋語",
+        "idiom2": "風言風語",
+        "w0": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "佳人才子",
+        "idiom2": "佳人纔子",
+        "w0": {
+            "initial": "g",
+            "final": "aai",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "隔離飯香",
+        "idiom2": "隔籬飯香",
+        "w0": {
+            "initial": "g",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "oeng",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "隔三差五",
+        "idiom2": "隔三叉五",
+        "w0": {
+            "initial": "g",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "aam",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "",
+            "final": "ng",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "隔山賣牛",
+        "idiom2": "隔山買牛",
+        "w0": {
+            "initial": "g",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "aai",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "au",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "鑑往知來",
+        "idiom2": "鑒往知來",
+        "w0": {
+            "initial": "g",
+            "final": "aam",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "ong",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "合份送禮",
+        "idiom2": "佮份送禮",
+        "w0": {
+            "initial": "g",
+            "final": "aap",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ung",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "合份送禮",
+        "idiom2": "敆份送禮",
+        "w0": {
+            "initial": "g",
+            "final": "aap",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ung",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "搞是攪非",
+        "idiom2": "搞是搞非",
+        "w0": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "搞是攪非",
+        "idiom2": "攪是攪非",
+        "w0": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "鷄手鴨腳",
+        "idiom2": "雞手鴨腳",
+        "w0": {
+            "initial": "g",
+            "final": "ai",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "a",
+            "final": "ap",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "oek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "金櫃石室",
+        "idiom2": "金匱石室",
+        "w0": {
+            "initial": "g",
+            "final": "am",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "gw",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ek",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "at",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "吉普塞人",
+        "idiom2": "吉普賽人",
+        "w0": {
+            "initial": "g",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "p",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "吃口吃舌",
+        "idiom2": "喫口喫舌",
+        "w0": {
+            "initial": "g",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "it",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "九支孖碌",
+        "idiom2": "鳩之媽碌",
+        "w0": {
+            "initial": "g",
+            "final": "au",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "uk",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "九支孖碌",
+        "idiom2": "鳩之孖碌",
+        "w0": {
+            "initial": "g",
+            "final": "au",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "uk",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "激進分子",
+        "idiom2": "激進份子",
+        "w0": {
+            "initial": "g",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eon",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "an",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "見風使舵",
+        "idiom2": "見風駛舵",
+        "w0": {
+            "initial": "g",
+            "final": "in",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "o",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "結核桿菌",
+        "idiom2": "結覈桿菌",
+        "w0": {
+            "initial": "g",
+            "final": "it",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "on",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "kw",
+            "final": "an",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "結核菌素",
+        "idiom2": "結覈菌素",
+        "w0": {
+            "initial": "g",
+            "final": "it",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "kw",
+            "final": "an",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "各色各樣",
+        "idiom2": "各式各樣",
+        "w0": {
+            "initial": "g",
+            "final": "ok",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ok",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "oeng",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "乾淨利落",
+        "idiom2": "乾淨俐落",
+        "w0": {
+            "initial": "g",
+            "final": "on",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eng",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ok",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "崗仁波齊",
+        "idiom2": "岡仁波齊",
+        "w0": {
+            "initial": "g",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "o",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ai",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "高爾基體",
+        "idiom2": "高爾機體",
+        "w0": {
+            "initial": "g",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "i",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "歸根到底",
+        "idiom2": "歸根到柢",
+        "w0": {
+            "initial": "gw",
+            "final": "ai",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "歸根究底",
+        "idiom2": "歸根究柢",
+        "w0": {
+            "initial": "gw",
+            "final": "ai",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "au",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "君臨天下",
+        "idiom2": "君林天下",
+        "w0": {
+            "initial": "gw",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "am",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "in",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "aa",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "骨瘦如豺",
+        "idiom2": "骨瘦如柴",
+        "w0": {
+            "initial": "gw",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "au",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "aai",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "過眼雲煙",
+        "idiom2": "過眼雲菸",
+        "w0": {
+            "initial": "gw",
+            "final": "o",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "aan",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "蝦人蝦物",
+        "idiom2": "㗇人㗇物",
+        "w0": {
+            "initial": "h",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "鹹魚翻身",
+        "idiom2": "鹹魚返身",
+        "w0": {
+            "initial": "h",
+            "final": "aam",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "烤面包機",
+        "idiom2": "烤麪包機",
+        "w0": {
+            "initial": "h",
+            "final": "aau",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aau",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "喺口唇邊",
+        "idiom2": "喺口脣邊",
+        "w0": {
+            "initial": "h",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "行動計劃",
+        "idiom2": "行動計畫",
+        "w0": {
+            "initial": "h",
+            "final": "ang",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "ung",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "aak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "恒生銀行",
+        "idiom2": "恆生銀行",
+        "w0": {
+            "initial": "h",
+            "final": "ang",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "ng",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "恒生指數",
+        "idiom2": "恆生指數",
+        "w0": {
+            "initial": "h",
+            "final": "ang",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "恰如其份",
+        "idiom2": "恰如其分",
+        "w0": {
+            "initial": "h",
+            "final": "ap",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "k",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "an",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "核查小組",
+        "idiom2": "覈查小組",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "核對帳目",
+        "idiom2": "覈對帳目",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "eoi",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "uk",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "核電荷數",
+        "idiom2": "覈電荷數",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "in",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "o",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "核工業部",
+        "idiom2": "覈工業部",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "ip",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "核轟炸機",
+        "idiom2": "覈轟炸機",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "gw",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "aa",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "核試驗堆",
+        "idiom2": "覈試驗堆",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "im",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "eoi",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "核子潛艇",
+        "idiom2": "覈子潛艇",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "im",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ing",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "核子彈頭",
+        "idiom2": "覈子彈頭",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aan",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "au",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "核子武器",
+        "idiom2": "覈子武器",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "核子試爆",
+        "idiom2": "覈子試爆",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "aau",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "核子戰爭",
+        "idiom2": "覈子戰爭",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "in",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ang",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "核戰斗部",
+        "idiom2": "覈戰斗部",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "in",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "核證模型",
+        "idiom2": "覈證模型",
+        "w0": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "希耳伯特",
+        "idiom2": "希爾伯特",
+        "w0": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "i",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "希奇古怪",
+        "idiom2": "稀奇古怪",
+        "w0": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "k",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "u",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "aai",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "嘻皮笑臉",
+        "idiom2": "嬉皮笑臉",
+        "w0": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "p",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "im",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "器宇軒昂",
+        "idiom2": "氣宇軒昂",
+        "w0": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "in",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "吃啞巴虧",
+        "idiom2": "喫啞巴虧",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "a",
+            "final": "a",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "kw",
+            "final": "ai",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "吃飽撐着",
+        "idiom2": "喫飽撐着",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "aau",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "aang",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "oek",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃後悔藥",
+        "idiom2": "喫後悔藥",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "au",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "ui",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "oek",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃香喝辣",
+        "idiom2": "喫香喝辣",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "aat",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃喝嫖賭",
+        "idiom2": "喫喝嫖賭",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "吃喝玩樂",
+        "idiom2": "喫喝玩樂",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "un",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ok",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃虧上當",
+        "idiom2": "喫虧上當",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "kw",
+            "final": "ai",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ong",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "吃裏扒外",
+        "idiom2": "喫裏扒外",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃裏扒外",
+        "idiom2": "喫裏爬外",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃裏爬外",
+        "idiom2": "喫裏扒外",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃裏爬外",
+        "idiom2": "喫裏爬外",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃裏爬外",
+        "idiom2": "吃裏扒外",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "吃奶之力",
+        "idiom2": "喫奶之力",
+        "w0": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "n",
+            "final": "aai",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ik",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "氫原子核",
+        "idiom2": "氫原子覈",
+        "w0": {
+            "initial": "h",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "興高彩烈",
+        "idiom2": "興高采烈",
+        "w0": {
+            "initial": "h",
+            "final": "ing",
+            "tone": "3"
         },
         "w1": {
             "initial": "g",
@@ -20461,51 +23581,75 @@ const duplicates = [
             "tone": "1"
         },
         "w2": {
-            "initial": "b",
-            "final": "aat",
+            "initial": "c",
+            "final": "oi",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "it",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "慶尚北道",
+        "idiom2": "慶尙北道",
+        "w0": {
+            "initial": "h",
+            "final": "ing",
             "tone": "3"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "ak",
+            "tone": "1"
         },
         "w3": {
             "initial": "d",
-            "final": "au",
-            "tone": "2"
+            "final": "ou",
+            "tone": "6"
         }
     },
     {
-        "idiom": "七孔生煙",
-        "idiom2": "七孔生菸",
+        "idiom": "慶尚南道",
+        "idiom2": "慶尙南道",
         "w0": {
-            "initial": "c",
-            "final": "at",
-            "tone": "1"
+            "initial": "h",
+            "final": "ing",
+            "tone": "3"
         },
         "w1": {
-            "initial": "h",
-            "final": "ung",
-            "tone": "2"
+            "initial": "s",
+            "final": "oeng",
+            "tone": "6"
         },
         "w2": {
-            "initial": "s",
-            "final": "ang",
-            "tone": "1"
+            "initial": "n",
+            "final": "aam",
+            "tone": "4"
         },
         "w3": {
-            "initial": "j",
-            "final": "in",
-            "tone": "1"
+            "initial": "d",
+            "final": "ou",
+            "tone": "6"
         }
     },
     {
-        "idiom": "七竅生煙",
-        "idiom2": "七竅生菸",
+        "idiom": "可再生原",
+        "idiom2": "可再生源",
         "w0": {
-            "initial": "c",
-            "final": "at",
-            "tone": "1"
+            "initial": "h",
+            "final": "o",
+            "tone": "2"
         },
         "w1": {
-            "initial": "h",
-            "final": "iu",
+            "initial": "z",
+            "final": "oi",
             "tone": "3"
         },
         "w2": {
@@ -20515,21 +23659,333 @@ const duplicates = [
         },
         "w3": {
             "initial": "j",
-            "final": "in",
+            "final": "yun",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "開誠布公",
+        "idiom2": "開誠佈公",
+        "w0": {
+            "initial": "h",
+            "final": "oi",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ung",
             "tone": "1"
         }
     },
     {
-        "idiom": "七步奇才",
-        "idiom2": "七步奇纔",
+        "idiom": "看菜吃飯",
+        "idiom2": "看菜喫飯",
         "w0": {
+            "initial": "h",
+            "final": "on",
+            "tone": "3"
+        },
+        "w1": {
             "initial": "c",
-            "final": "at",
+            "final": "oi",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "好吃懶做",
+        "idiom2": "好喫懶做",
+        "w0": {
+            "initial": "h",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "aan",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "皓齒硃唇",
+        "idiom2": "皓齒硃脣",
+        "w0": {
+            "initial": "h",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "yu",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "兇多吉少",
+        "idiom2": "凶多吉少",
+        "w0": {
+            "initial": "h",
+            "final": "ung",
             "tone": "1"
         },
         "w1": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "雄才大略",
+        "idiom2": "雄纔大略",
+        "w0": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "oek",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "雄才偉略",
+        "idiom2": "雄纔偉略",
+        "w0": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "oek",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "殷鑒不遠",
+        "idiom2": "殷鑑不遠",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "aam",
+            "tone": "3"
+        },
+        "w2": {
             "initial": "b",
-            "final": "ou",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "甄選人才",
+        "idiom2": "甄選人纔",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "yun",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "人才外流",
+        "idiom2": "人纔外流",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "au",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "人才濟濟",
+        "idiom2": "人纔濟濟",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "人工授精",
+        "idiom2": "人工受精",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "au",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "人煙稀少",
+        "idiom2": "人菸稀少",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "人盡其才",
+        "idiom2": "人盡其材",
+        "w0": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eon",
             "tone": "6"
         },
         "w2": {
@@ -20544,22 +24000,22 @@ const duplicates = [
         }
     },
     {
-        "idiom": "步步高陞",
-        "idiom2": "步步高昇",
+        "idiom": "人造衞星",
+        "idiom2": "人造衛星",
         "w0": {
-            "initial": "b",
-            "final": "ou",
-            "tone": "6"
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
         },
         "w1": {
-            "initial": "b",
+            "initial": "z",
             "final": "ou",
             "tone": "6"
         },
         "w2": {
-            "initial": "g",
-            "final": "ou",
-            "tone": "1"
+            "initial": "w",
+            "final": "ai",
+            "tone": "6"
         },
         "w3": {
             "initial": "s",
@@ -20568,17 +24024,953 @@ const duplicates = [
         }
     },
     {
-        "idiom": "表裡不一",
-        "idiom2": "表裏不一",
+        "idiom": "一表人才",
+        "idiom2": "一表人纔",
         "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
             "initial": "b",
             "final": "iu",
             "tone": "2"
         },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "一表人材",
+        "idiom2": "一表人纔",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "一表人材",
+        "idiom2": "一表人才",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "一槌定音",
+        "idiom2": "一錘定音",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "eoi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ing",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "am",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "一飛沖天",
+        "idiom2": "一飛衝天",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "一技旁身",
+        "idiom2": "一技傍身",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "一見鐘情",
+        "idiom2": "一見鍾情",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "in",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ing",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "一股腦兒",
+        "idiom2": "一古腦兒",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "u",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "i",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "一箭雙雕",
+        "idiom2": "一箭雙鵰",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "in",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "逸事遺聞",
+        "idiom2": "軼事遺聞",
+        "w0": {
+            "initial": "j",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "遊行示威",
+        "idiom2": "游行示威",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ang",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "悠悠蕩蕩",
+        "idiom2": "遊遊蕩蕩",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ong",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ong",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "遊牧民族",
+        "idiom2": "游牧民族",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "uk",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "uk",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "有辦你睇",
+        "idiom2": "有板你睇",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "aan",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "ei",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "有鑑於此",
+        "idiom2": "有鑒於此",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "aam",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "i",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "有核國家",
+        "idiom2": "有覈國家",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "ok",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "aa",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "有緣無分",
+        "idiom2": "有緣無份",
+        "w0": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "an",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "耶酥會士",
+        "idiom2": "耶穌會士",
+        "w0": {
+            "initial": "j",
+            "final": "e",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "ui",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "惹是惹非",
+        "idiom2": "惹事惹非",
+        "w0": {
+            "initial": "j",
+            "final": "e",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "e",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "惹是生非",
+        "idiom2": "惹事生非",
+        "w0": {
+            "initial": "j",
+            "final": "e",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "依洛瓦底",
+        "idiom2": "伊洛瓦底",
+        "w0": {
+            "initial": "j",
+            "final": "i",
+            "tone": "1"
+        },
         "w1": {
             "initial": "l",
-            "final": "eoi",
+            "final": "ok",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "衣衣哎哎",
+        "idiom2": "咿咿哎哎",
+        "w0": {
+            "initial": "j",
+            "final": "i",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "a",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "a",
+            "final": "ai",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "煙塵滾滾",
+        "idiom2": "菸塵滾滾",
+        "w0": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "gw",
+            "final": "an",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "an",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "煙花風月",
+        "idiom2": "菸花風月",
+        "w0": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yut",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "煙燻火燎",
+        "idiom2": "菸燻火燎",
+        "w0": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "o",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "iu",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "躽胸突肚",
+        "idiom2": "躽胸凸肚",
+        "w0": {
+            "initial": "j",
+            "final": "in",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "熱核反應",
+        "idiom2": "熱覈反應",
+        "w0": {
+            "initial": "j",
+            "final": "it",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "aan",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "熱核武器",
+        "idiom2": "熱覈武器",
+        "w0": {
+            "initial": "j",
+            "final": "it",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "夭心夭肺",
+        "idiom2": "么心么肺",
+        "w0": {
+            "initial": "j",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "am",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ai",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "夭心夭肺",
+        "idiom2": "扷心扷肺",
+        "w0": {
+            "initial": "j",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "am",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ai",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "饒舌調唇",
+        "idiom2": "饒舌調脣",
+        "w0": {
+            "initial": "j",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "it",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "約翰參書",
+        "idiom2": "約翰三書",
+        "w0": {
+            "initial": "j",
+            "final": "oek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "on",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aam",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "yu",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "用戶界面",
+        "idiom2": "用戶介面",
+        "w0": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "u",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "aai",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "如墮煙霧",
+        "idiom2": "如墮菸霧",
+        "w0": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "o",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "紈褲子弟",
+        "idiom2": "紈絝子弟",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "u",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "原核細胞",
+        "idiom2": "原覈細胞",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "aau",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "元元本本",
+        "idiom2": "源源本本",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "原原本本",
+        "idiom2": "源源本本",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "原原本本",
+        "idiom2": "元元本本",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "un",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "軟硬不吃",
+        "idiom2": "軟硬不喫",
+        "w0": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "aang",
+            "tone": "6"
         },
         "w2": {
             "initial": "b",
@@ -20586,17 +24978,1217 @@ const duplicates = [
             "tone": "1"
         },
         "w3": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "卡布奇諾",
+        "idiom2": "卡布其諾",
+        "w0": {
+            "initial": "k",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "k",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ok",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "求才若渴",
+        "idiom2": "求纔若渴",
+        "w0": {
+            "initial": "k",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
             "initial": "j",
+            "final": "oek",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "抗核加固",
+        "idiom2": "抗覈加固",
+        "w0": {
+            "initial": "k",
+            "final": "ong",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
             "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "u",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "窮兇極惡",
+        "idiom2": "窮凶極惡",
+        "w0": {
+            "initial": "k",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ik",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "o",
+            "final": "k",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "躝屍䞘路",
+        "idiom2": "躝屍趌路",
+        "w0": {
+            "initial": "l",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "躝屍䞘路",
+        "idiom2": "躝屍趷路",
+        "w0": {
+            "initial": "l",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "厲埋片面",
+        "idiom2": "戾埋片面",
+        "w0": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aai",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "in",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "捩埋片面",
+        "idiom2": "戾埋片面",
+        "w0": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aai",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "in",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "捩埋片面",
+        "idiom2": "厲埋片面",
+        "w0": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aai",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "p",
+            "final": "in",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "in",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "禮教吃人",
+        "idiom2": "禮教喫人",
+        "w0": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "利利市市",
+        "idiom2": "利利是是",
+        "w0": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "琳琅滿目",
+        "idiom2": "琳瑯滿目",
+        "w0": {
+            "initial": "l",
+            "final": "am",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "un",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "uk",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "臨危授命",
+        "idiom2": "臨危受命",
+        "w0": {
+            "initial": "l",
+            "final": "am",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "au",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ing",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "柳煙花霧",
+        "idiom2": "柳菸花霧",
+        "w0": {
+            "initial": "l",
+            "final": "au",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "離行離列",
+        "idiom2": "離行離迾",
+        "w0": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "aat",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "裡應外合",
+        "idiom2": "裏應外合",
+        "w0": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ap",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "撩是逗非",
+        "idiom2": "撩是鬥非",
+        "w0": {
+            "initial": "l",
+            "final": "iu",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "au",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "ei",
             "tone": "1"
         }
     },
     {
-        "idiom": "白吃白喝",
-        "idiom2": "白喫白喝",
+        "idiom": "瞭若指掌",
+        "idiom2": "了若指掌",
         "w0": {
+            "initial": "l",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "oek",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "羅徹斯特",
+        "idiom2": "羅切斯特",
+        "w0": {
+            "initial": "l",
+            "final": "o",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "it",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "囉曼帶克",
+        "idiom2": "羅曼帶克",
+        "w0": {
+            "initial": "l",
+            "final": "o",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aan",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "落雨斯溼",
+        "idiom2": "落雨絲溼",
+        "w0": {
+            "initial": "l",
+            "final": "ok",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ap",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "郎才女貌",
+        "idiom2": "郎纔女貌",
+        "w0": {
+            "initial": "l",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "aau",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "鋃鐺入獄",
+        "idiom2": "琅璫入獄",
+        "w0": {
+            "initial": "l",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "ap",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "uk",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "狼煙四起",
+        "idiom2": "狼菸四起",
+        "w0": {
+            "initial": "l",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "老年癡獃",
+        "idiom2": "老年癡呆",
+        "w0": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "n",
+            "final": "in",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "曼徹斯特",
+        "idiom2": "曼切斯特",
+        "w0": {
+            "initial": "m",
+            "final": "aan",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "it",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "物色人才",
+        "idiom2": "物色人纔",
+        "w0": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "貿易夥伴",
+        "idiom2": "貿易伙伴",
+        "w0": {
+            "initial": "m",
+            "final": "au",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ik",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "o",
+            "tone": "2"
+        },
+        "w3": {
             "initial": "b",
-            "final": "aak",
+            "final": "un",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "氼水銅人",
+        "idiom2": "昧水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "氼水銅人",
+        "idiom2": "未水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "氼水銅人",
+        "idiom2": "沒水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "氼水銅人",
+        "idiom2": "沬水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "氼水銅人",
+        "idiom2": "眛水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "昧水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "未水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "沒水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "沬水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "眛水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "汆水銅人",
+        "idiom2": "氼水銅人",
+        "w0": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "明艷照人",
+        "idiom2": "明豔照人",
+        "w0": {
+            "initial": "m",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "im",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "杳無人煙",
+        "idiom2": "杳無人菸",
+        "w0": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "杳無人煙",
+        "idiom2": "渺無人菸",
+        "w0": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "渺無人煙",
+        "idiom2": "杳無人菸",
+        "w0": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "渺無人煙",
+        "idiom2": "渺無人菸",
+        "w0": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "渺無人煙",
+        "idiom2": "杳無人煙",
+        "w0": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "無煙大炮",
+        "idiom2": "無菸大炮",
+        "w0": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "p",
+            "final": "au",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "無業遊民",
+        "idiom2": "無業游民",
+        "w0": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ip",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "無厘頭鳩",
+        "idiom2": "無厘頭尻",
+        "w0": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "au",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "毛里求斯",
+        "idiom2": "毛里裘斯",
+        "w0": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "k",
+            "final": "au",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "無精打彩",
+        "idiom2": "無精打采",
+        "w0": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "沒吃沒穿",
+        "idiom2": "沒喫沒穿",
+        "w0": {
+            "initial": "m",
+            "final": "ut",
             "tone": "6"
         },
         "w1": {
@@ -20605,14 +26197,2750 @@ const duplicates = [
             "tone": "3"
         },
         "w2": {
+            "initial": "m",
+            "final": "ut",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "yun",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "沒有甚麼",
+        "idiom2": "沒有什麼",
+        "w0": {
+            "initial": "m",
+            "final": "ut",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "am",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "o",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "沒精打彩",
+        "idiom2": "沒精打采",
+        "w0": {
+            "initial": "m",
+            "final": "ut",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "沒精打釆",
+        "idiom2": "沒精打采",
+        "w0": {
+            "initial": "m",
+            "final": "ut",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "沒精打釆",
+        "idiom2": "沒精打彩",
+        "w0": {
+            "initial": "m",
+            "final": "ut",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aa",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "南方人才",
+        "idiom2": "南方人纔",
+        "w0": {
+            "initial": "n",
+            "final": "aam",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "你早抖啦",
+        "idiom2": "你早唞啦",
+        "w0": {
+            "initial": "n",
+            "final": "ei",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "t",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "aa",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "五勞七傷",
+        "idiom2": "五癆七傷",
+        "w0": {
+            "initial": "",
+            "final": "ng",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "眼見工夫",
+        "idiom2": "眼見功夫",
+        "w0": {
+            "initial": "ng",
+            "final": "aan",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "in",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "u",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "峨眉山市",
+        "idiom2": "峨嵋山市",
+        "w0": {
+            "initial": "ng",
+            "final": "o",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ei",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "餓莩載道",
+        "idiom2": "餓殍載道",
+        "w0": {
+            "initial": "ng",
+            "final": "o",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "p",
+            "final": "iu",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "oi",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "臥薪嘗膽",
+        "idiom2": "臥薪嚐膽",
+        "w0": {
+            "initial": "ng",
+            "final": "o",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "aam",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "念念有詞",
+        "idiom2": "唸唸有詞",
+        "w0": {
+            "initial": "n",
+            "final": "im",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "n",
+            "final": "im",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "i",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "安營扎寨",
+        "idiom2": "安營紮寨",
+        "w0": {
+            "initial": "o",
+            "final": "n",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "aai",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "瀕危物種",
+        "idiom2": "頻危物種",
+        "w0": {
+            "initial": "p",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "娉婷倓定",
+        "idiom2": "娉婷淡定",
+        "w0": {
+            "initial": "p",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "t",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "aam",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ing",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "破釜沈舟",
+        "idiom2": "破釜沉舟",
+        "w0": {
+            "initial": "p",
+            "final": "o",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "am",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "au",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "盤滿鉢滿",
+        "idiom2": "盆滿鉢滿",
+        "w0": {
+            "initial": "p",
+            "final": "un",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "un",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "ut",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "un",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "蓬篳生光",
+        "idiom2": "蓬蓽生光",
+        "w0": {
+            "initial": "p",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "ong",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "蓬門篳戶",
+        "idiom2": "蓬門蓽戶",
+        "w0": {
+            "initial": "p",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "un",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "u",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "沙塵白攉",
+        "idiom2": "沙塵白霍",
+        "w0": {
+            "initial": "s",
+            "final": "aa",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
             "initial": "b",
             "final": "aak",
             "tone": "6"
         },
         "w3": {
+            "initial": "f",
+            "final": "ok",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "殺一警百",
+        "idiom2": "殺一儆百",
+        "w0": {
+            "initial": "s",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "ing",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "勢凶夾狼",
+        "idiom2": "勢兇夾狼",
+        "w0": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "aap",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "深海煙囪",
+        "idiom2": "深海菸囪",
+        "w0": {
+            "initial": "s",
+            "final": "am",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "oi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ung",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "甚麼時候",
+        "idiom2": "什麼時候",
+        "w0": {
+            "initial": "s",
+            "final": "am",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "o",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "au",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "新婚燕爾",
+        "idiom2": "新婚宴爾",
+        "w0": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "in",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "i",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "新畿內亞",
+        "idiom2": "新幾內亞",
+        "w0": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "a",
+            "final": "a",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "新聞周刊",
+        "idiom2": "新聞週刊",
+        "w0": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "an",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "au",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "on",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "新仇舊恨",
+        "idiom2": "新愁舊恨",
+        "w0": {
+            "initial": "s",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "au",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "au",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "an",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "神鵰俠侶",
+        "idiom2": "神雕俠侶",
+        "w0": {
+            "initial": "s",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "iu",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ap",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "eoi",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "蹭吃蹭喝",
+        "idiom2": "蹭喫蹭喝",
+        "w0": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "3"
+        },
+        "w3": {
             "initial": "h",
             "final": "ot",
             "tone": "3"
+        }
+    },
+    {
+        "idiom": "溼水欖核",
+        "idiom2": "溼水欖覈",
+        "w0": {
+            "initial": "s",
+            "final": "ap",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "aam",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "手板葫蘆",
+        "idiom2": "手扳葫蘆",
+        "w0": {
+            "initial": "s",
+            "final": "au",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "b",
+            "final": "aan",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "秀才手巾",
+        "idiom2": "秀纔手巾",
+        "w0": {
+            "initial": "s",
+            "final": "au",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "an",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "秀外惠中",
+        "idiom2": "秀外慧中",
+        "w0": {
+            "initial": "s",
+            "final": "au",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "ng",
+            "final": "oi",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "蛇齋餅糭",
+        "idiom2": "蛇齋餅糉",
+        "w0": {
+            "initial": "s",
+            "final": "e",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "aai",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "eng",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "社交才能",
+        "idiom2": "社交纔能",
+        "w0": {
+            "initial": "s",
+            "final": "e",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "aau",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "n",
+            "final": "ang",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "石嘴山區",
+        "idiom2": "石咀山區",
+        "w0": {
+            "initial": "s",
+            "final": "ek",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "k",
+            "final": "eoi",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "石嘴山市",
+        "idiom2": "石咀山市",
+        "w0": {
+            "initial": "s",
+            "final": "ek",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "水洩不通",
+        "idiom2": "水泄不通",
+        "w0": {
+            "initial": "s",
+            "final": "eoi",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "唇齒相依",
+        "idiom2": "脣齒相依",
+        "w0": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "i",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "唇槍舌劍",
+        "idiom2": "脣槍舌劍",
+        "w0": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "im",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "唇槍舌戰",
+        "idiom2": "脣槍舌戰",
+        "w0": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "it",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "in",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "唇紅齒白",
+        "idiom2": "脣紅齒白",
+        "w0": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ung",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "aak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "唇亡齒寒",
+        "idiom2": "脣亡齒寒",
+        "w0": {
+            "initial": "s",
+            "final": "eon",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "i",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "on",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "司法覆核",
+        "idiom2": "司法覆覈",
+        "w0": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "uk",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "斯芬克斯",
+        "idiom2": "斯芬克司",
+        "w0": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ak",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "屍位素餐",
+        "idiom2": "尸位素餐",
+        "w0": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "aan",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "識才尊賢",
+        "idiom2": "識纔尊賢",
+        "w0": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "yun",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "識多才廣",
+        "idiom2": "識多纔廣",
+        "w0": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "o",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "ong",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "食慾不振",
+        "idiom2": "食欲不振",
+        "w0": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "uk",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "an",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "盛氣凌人",
+        "idiom2": "盛氣淩人",
+        "w0": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "an",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "少安無躁",
+        "idiom2": "少安毋躁",
+        "w0": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "o",
+            "final": "n",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "ou",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "笑到碌地",
+        "idiom2": "笑到轆地",
+        "w0": {
+            "initial": "s",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "uk",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ei",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "雙鏈核酸",
+        "idiom2": "雙鏈覈酸",
+        "w0": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "in",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "yun",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "常態分佈",
+        "idiom2": "常態分布",
+        "w0": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "t",
+            "final": "aai",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "尚方寶劍",
+        "idiom2": "上方寶劍",
+        "w0": {
+            "initial": "s",
+            "final": "oeng",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "im",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "貪媁識食",
+        "idiom2": "貪威識食",
+        "w0": {
+            "initial": "t",
+            "final": "aam",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ik",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "頭頂出煙",
+        "idiom2": "頭頂出菸",
+        "w0": {
+            "initial": "t",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "eng",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "eot",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "頭昏腦脹",
+        "idiom2": "頭昏腦漲",
+        "w0": {
+            "initial": "t",
+            "final": "au",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "n",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "甜言密語",
+        "idiom2": "甜言蜜語",
+        "w0": {
+            "initial": "t",
+            "final": "im",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "5"
+        }
+    },
+    {
+        "idiom": "天妒英才",
+        "idiom2": "天妒英纔",
+        "w0": {
+            "initial": "t",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "天皇巨星",
+        "idiom2": "天王巨星",
+        "w0": {
+            "initial": "t",
+            "final": "in",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "eoi",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "挺而走險",
+        "idiom2": "鋌而走險",
+        "w0": {
+            "initial": "t",
+            "final": "ing",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "i",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "au",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "im",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "跳蝨市場",
+        "idiom2": "跳虱市場",
+        "w0": {
+            "initial": "t",
+            "final": "iu",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "at",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oeng",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "通用電氣",
+        "idiom2": "通用電器",
+        "w0": {
+            "initial": "t",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "in",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "脫氧核糖",
+        "idiom2": "脫氧覈糖",
+        "w0": {
+            "initial": "t",
+            "final": "yut",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "oeng",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "懷才不遇",
+        "idiom2": "懷纔不遇",
+        "w0": {
+            "initial": "w",
+            "final": "aai",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "橫段山脈",
+        "idiom2": "橫斷山脈",
+        "w0": {
+            "initial": "w",
+            "final": "aang",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "yun",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "aan",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "唯才是用",
+        "idiom2": "唯纔是用",
+        "w0": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "ung",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "惟利是圖",
+        "idiom2": "唯利是圖",
+        "w0": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "i",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "維妙維肖",
+        "idiom2": "惟妙惟肖",
+        "w0": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "iu",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "iu",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "衞生麻雀",
+        "idiom2": "衛生麻雀",
+        "w0": {
+            "initial": "w",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "oek",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "雲煙氤氳",
+        "idiom2": "雲菸氤氳",
+        "w0": {
+            "initial": "w",
+            "final": "an",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "an",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "w",
+            "final": "an",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "永誌不忘",
+        "idiom2": "永志不忘",
+        "w0": {
+            "initial": "w",
+            "final": "ing",
+            "tone": "5"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "黃粱一夢",
+        "idiom2": "黃梁一夢",
+        "w0": {
+            "initial": "w",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "oeng",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ung",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "黃粱一夢",
+        "idiom2": "黃樑一夢",
+        "w0": {
+            "initial": "w",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "oeng",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "at",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "ung",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "烏煙瘴氣",
+        "idiom2": "污菸障氣",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "烏煙瘴氣",
+        "idiom2": "烏菸瘴氣",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "in",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ei",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "烏孜別克",
+        "idiom2": "烏滋別克",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "it",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "烏孜別克",
+        "idiom2": "烏茲別克",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "it",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ak",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "胡吃海喝",
+        "idiom2": "胡喫海喝",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "oi",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ot",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "胡裡胡塗",
+        "idiom2": "糊哩糊塗",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "胡裡胡塗",
+        "idiom2": "糊裏糊塗",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "胡裡胡塗",
+        "idiom2": "糊里糊塗",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "胡裡胡塗",
+        "idiom2": "胡裏胡塗",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "胡裡胡塗",
+        "idiom2": "胡里胡塗",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "ei",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "鬍鬚簕特",
+        "idiom2": "鬍鬚勒特",
+        "w0": {
+            "initial": "w",
+            "final": "u",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ou",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ak",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ak",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "回轉壽司",
+        "idiom2": "迴轉壽司",
+        "w0": {
+            "initial": "w",
+            "final": "ui",
+            "tone": "4"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "yun",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "au",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "滙豐銀行",
+        "idiom2": "匯豐銀行",
+        "w0": {
+            "initial": "w",
+            "final": "ui",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "ng",
+            "final": "an",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ong",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "紮馬剌丁",
+        "idiom2": "札馬剌丁",
+        "w0": {
+            "initial": "z",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "aat",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "札馬魯丁",
+        "idiom2": "紮馬魯丁",
+        "w0": {
+            "initial": "z",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "m",
+            "final": "aa",
+            "tone": "5"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ou",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ing",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "真才實學",
+        "idiom2": "真材實學",
+        "w0": {
+            "initial": "z",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "at",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ok",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "真系火滾",
+        "idiom2": "真係火滾",
+        "w0": {
+            "initial": "z",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "o",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "gw",
+            "final": "an",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "真係有心",
+        "idiom2": "真繫有心",
+        "w0": {
+            "initial": "z",
+            "final": "an",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "am",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "振振有辭",
+        "idiom2": "振振有詞",
+        "w0": {
+            "initial": "z",
+            "final": "an",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "an",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "au",
+            "tone": "5"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "i",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "爭風吃醋",
+        "idiom2": "爭風喫醋",
+        "w0": {
+            "initial": "z",
+            "final": "ang",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "f",
+            "final": "ung",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "ou",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "追根究柢",
+        "idiom2": "追根究底",
+        "w0": {
+            "initial": "z",
+            "final": "eoi",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "an",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "g",
+            "final": "au",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ai",
+            "tone": "2"
+        }
+    },
+    {
+        "idiom": "趦趄囁嚅",
+        "idiom2": "趑趄囁嚅",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "eoi",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "ip",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "j",
+            "final": "yu",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "指手畫腳",
+        "idiom2": "指手劃腳",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "au",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "w",
+            "final": "aak",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "oek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "紙紮下扒",
+        "idiom2": "紙扎下巴",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "aa",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "紙紮下扒",
+        "idiom2": "紙紮下巴",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "2"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "aat",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "aa",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "p",
+            "final": "aa",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "志大才疏",
+        "idiom2": "志大纔疏",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "d",
+            "final": "aai",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "s",
+            "final": "o",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "自學成才",
+        "idiom2": "自學成纔",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ok",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "s",
+            "final": "ing",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "自討苦吃",
+        "idiom2": "自討苦喫",
+        "w0": {
+            "initial": "z",
+            "final": "i",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "t",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "u",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "積穀防饑",
+        "idiom2": "積穀防飢",
+        "w0": {
+            "initial": "z",
+            "final": "ik",
+            "tone": "1"
+        },
+        "w1": {
+            "initial": "g",
+            "final": "uk",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "ong",
+            "tone": "4"
+        },
+        "w3": {
+            "initial": "g",
+            "final": "ei",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "戰略夥伴",
+        "idiom2": "戰略伙伴",
+        "w0": {
+            "initial": "z",
+            "final": "in",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "l",
+            "final": "oek",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "f",
+            "final": "o",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "b",
+            "final": "un",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "節肢動物",
+        "idiom2": "節支動物",
+        "w0": {
+            "initial": "z",
+            "final": "it",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "d",
+            "final": "ung",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "坐吃享福",
+        "idiom2": "坐喫享福",
+        "w0": {
+            "initial": "z",
+            "final": "o",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ek",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "oeng",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "f",
+            "final": "uk",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "著鴛鴦襪",
+        "idiom2": "着鴛鴦襪",
+        "w0": {
+            "initial": "z",
+            "final": "oek",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "yun",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "m",
+            "final": "at",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "作育英才",
+        "idiom2": "作育英纔",
+        "w0": {
+            "initial": "z",
+            "final": "ok",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "j",
+            "final": "uk",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "j",
+            "final": "ing",
+            "tone": "1"
+        },
+        "w3": {
+            "initial": "c",
+            "final": "oi",
+            "tone": "4"
+        }
+    },
+    {
+        "idiom": "做張做致",
+        "idiom2": "做張做智",
+        "w0": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "z",
+            "final": "oeng",
+            "tone": "1"
+        },
+        "w2": {
+            "initial": "z",
+            "final": "ou",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "i",
+            "tone": "3"
+        }
+    },
+    {
+        "idiom": "綜合報道",
+        "idiom2": "綜合報導",
+        "w0": {
+            "initial": "z",
+            "final": "ung",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "h",
+            "final": "ap",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "b",
+            "final": "ou",
+            "tone": "3"
+        },
+        "w3": {
+            "initial": "d",
+            "final": "ou",
+            "tone": "6"
+        }
+    },
+    {
+        "idiom": "啜核荔枝",
+        "idiom2": "啜覈荔枝",
+        "w0": {
+            "initial": "z",
+            "final": "yut",
+            "tone": "3"
+        },
+        "w1": {
+            "initial": "w",
+            "final": "at",
+            "tone": "6"
+        },
+        "w2": {
+            "initial": "l",
+            "final": "ai",
+            "tone": "6"
+        },
+        "w3": {
+            "initial": "z",
+            "final": "i",
+            "tone": "1"
+        }
+    },
+    {
+        "idiom": "絕世好橋",
+        "idiom2": "絕世好竅",
+        "w0": {
+            "initial": "z",
+            "final": "yut",
+            "tone": "6"
+        },
+        "w1": {
+            "initial": "s",
+            "final": "ai",
+            "tone": "3"
+        },
+        "w2": {
+            "initial": "h",
+            "final": "ou",
+            "tone": "2"
+        },
+        "w3": {
+            "initial": "k",
+            "final": "iu",
+            "tone": "2"
         }
     }
 ]

@@ -168,8 +168,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w2": {
@@ -1075,8 +1075,8 @@ const dictionary = [
             "tone": "3"
         },
         "w3": {
-            "initial": "",
-            "final": "aa",
+            "initial": "a",
+            "final": "a",
             "tone": "2"
         }
     },
@@ -2146,8 +2146,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -3697,8 +3697,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "6"
         }
     },
@@ -4134,8 +4134,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -4226,8 +4226,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -6664,8 +6664,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -6733,8 +6733,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -7308,8 +7308,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gon",
+            "initial": "ng",
+            "final": "on",
             "tone": "6"
         }
     },
@@ -7745,8 +7745,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "",
-            "final": "on",
+            "initial": "o",
+            "final": "n",
             "tone": "1"
         }
     },
@@ -7965,8 +7965,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w2": {
@@ -8310,8 +8310,8 @@ const dictionary = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaau",
+            "initial": "ng",
+            "final": "aau",
             "tone": "4"
         },
         "w2": {
@@ -8550,8 +8550,8 @@ const dictionary = [
             "tone": "5"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
         }
     },
@@ -8655,8 +8655,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w2": {
@@ -10477,8 +10477,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
         },
         "w3": {
@@ -11162,8 +11162,8 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w2": {
@@ -12271,8 +12271,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -13784,8 +13784,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w2": {
@@ -14341,8 +14341,8 @@ const dictionary = [
             "tone": "6"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w3": {
@@ -14479,8 +14479,8 @@ const dictionary = [
             "tone": "3"
         },
         "w2": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w3": {
@@ -14737,8 +14737,8 @@ const dictionary = [
             "tone": "3"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -14967,8 +14967,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -15813,8 +15813,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         },
         "w3": {
@@ -17004,8 +17004,8 @@ const dictionary = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -18095,8 +18095,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -19079,8 +19079,8 @@ const dictionary = [
             "tone": "4"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w3": {
@@ -19879,8 +19879,8 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -21121,8 +21121,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -23076,8 +23076,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "",
-            "final": "on",
+            "initial": "o",
+            "final": "n",
             "tone": "1"
         },
         "w2": {
@@ -23651,8 +23651,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "",
-            "final": "on",
+            "initial": "o",
+            "final": "n",
             "tone": "3"
         },
         "w2": {
@@ -24190,8 +24190,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -24369,8 +24369,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w3": {
@@ -24704,8 +24704,8 @@ const dictionary = [
     {
         "idiom": "岸然道貌",
         "w0": {
-            "initial": "n",
-            "final": "gon",
+            "initial": "ng",
+            "final": "on",
             "tone": "6"
         },
         "w1": {
@@ -24727,8 +24727,8 @@ const dictionary = [
     {
         "idiom": "礙手礙腳",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w1": {
@@ -24737,8 +24737,8 @@ const dictionary = [
             "tone": "2"
         },
         "w2": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w3": {
@@ -24750,8 +24750,8 @@ const dictionary = [
     {
         "idiom": "外柔內剛",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w1": {
@@ -24773,8 +24773,8 @@ const dictionary = [
     {
         "idiom": "外剛內柔",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w1": {
@@ -24796,8 +24796,8 @@ const dictionary = [
     {
         "idiom": "外寬內忌",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w1": {
@@ -24819,8 +24819,8 @@ const dictionary = [
     {
         "idiom": "呆若木雞",
         "w0": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "4"
         },
         "w1": {
@@ -24865,8 +24865,8 @@ const dictionary = [
     {
         "idiom": "臥虎藏龍",
         "w0": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         },
         "w1": {
@@ -24888,8 +24888,8 @@ const dictionary = [
     {
         "idiom": "我行我素",
         "w0": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w1": {
@@ -24898,8 +24898,8 @@ const dictionary = [
             "tone": "4"
         },
         "w2": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w3": {
@@ -24911,8 +24911,8 @@ const dictionary = [
     {
         "idiom": "牛頭馬面",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w1": {
@@ -24957,8 +24957,8 @@ const dictionary = [
     {
         "idiom": "牛鬼蛇神",
         "w0": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w1": {
@@ -24980,8 +24980,8 @@ const dictionary = [
     {
         "idiom": "危在旦夕",
         "w0": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w1": {
@@ -25003,8 +25003,8 @@ const dictionary = [
     {
         "idiom": "危如累卵",
         "w0": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w1": {
@@ -25026,8 +25026,8 @@ const dictionary = [
     {
         "idiom": "危言聳聽",
         "w0": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w1": {
@@ -25049,8 +25049,8 @@ const dictionary = [
     {
         "idiom": "危機四伏",
         "w0": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w1": {
@@ -25072,13 +25072,13 @@ const dictionary = [
     {
         "idiom": "咬牙切齒",
         "w0": {
-            "initial": "n",
-            "final": "gaau",
+            "initial": "ng",
+            "final": "aau",
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -25095,8 +25095,8 @@ const dictionary = [
     {
         "idiom": "咬文嚼字",
         "w0": {
-            "initial": "n",
-            "final": "gaau",
+            "initial": "ng",
+            "final": "aau",
             "tone": "5"
         },
         "w1": {
@@ -25118,8 +25118,8 @@ const dictionary = [
     {
         "idiom": "眼明手快",
         "w0": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w1": {
@@ -25141,8 +25141,8 @@ const dictionary = [
     {
         "idiom": "眼高手低",
         "w0": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w1": {
@@ -25164,8 +25164,8 @@ const dictionary = [
     {
         "idiom": "眼花繚亂",
         "w0": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w1": {
@@ -25187,8 +25187,8 @@ const dictionary = [
     {
         "idiom": "挨打受罵",
         "w0": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w1": {
@@ -25210,8 +25210,8 @@ const dictionary = [
     {
         "idiom": "雅俗共賞",
         "w0": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
         },
         "w1": {
@@ -25399,8 +25399,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w2": {
@@ -25772,8 +25772,8 @@ const dictionary = [
             "tone": "2"
         },
         "w2": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w3": {
@@ -26950,8 +26950,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "4"
         }
     },
@@ -27180,8 +27180,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "4"
         }
     },
@@ -28596,8 +28596,8 @@ const dictionary = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -30464,8 +30464,8 @@ const dictionary = [
             "tone": "4"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -30487,8 +30487,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -32644,8 +32644,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -32999,8 +32999,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         }
     },
@@ -34185,8 +34185,8 @@ const dictionary = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -34277,8 +34277,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -35151,8 +35151,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w2": {
@@ -35174,8 +35174,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w2": {
@@ -36002,8 +36002,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w2": {
@@ -36932,8 +36932,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -37198,8 +37198,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaang",
+            "initial": "ng",
+            "final": "aang",
             "tone": "6"
         },
         "w2": {
@@ -37267,8 +37267,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "4"
         },
         "w2": {
@@ -40142,8 +40142,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w2": {
@@ -41269,8 +41269,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         },
         "w2": {
@@ -41279,8 +41279,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "4"
         }
     },
@@ -41315,8 +41315,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -41325,8 +41325,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         }
     },
@@ -41504,8 +41504,8 @@ const dictionary = [
             "tone": "4"
         },
         "w2": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         },
         "w3": {
@@ -42061,8 +42061,8 @@ const dictionary = [
             "tone": "3"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "5"
         }
     },
@@ -42465,8 +42465,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -42935,8 +42935,8 @@ const dictionary = [
             "tone": "5"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -46265,8 +46265,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "1"
         },
         "w3": {
@@ -47305,8 +47305,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -47834,8 +47834,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "go",
+            "initial": "ng",
+            "final": "o",
             "tone": "6"
         }
     },
@@ -48744,8 +48744,8 @@ const dictionary = [
             "tone": "2"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "4"
         },
         "w2": {
@@ -48905,8 +48905,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w2": {
@@ -51238,8 +51238,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -51527,8 +51527,8 @@ const dictionary = [
             "tone": "5"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "4"
         },
         "w2": {
@@ -53855,8 +53855,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "1"
         },
         "w3": {
@@ -54274,8 +54274,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -54872,8 +54872,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "",
-            "final": "o",
+            "initial": "o",
+            "final": "",
             "tone": "1"
         }
     },
@@ -56505,8 +56505,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -56551,8 +56551,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gou",
+            "initial": "ng",
+            "final": "ou",
             "tone": "6"
         }
     },
@@ -56873,8 +56873,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -57783,8 +57783,8 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "",
-            "final": "uk",
+            "initial": "u",
+            "final": "k",
             "tone": "1"
         },
         "w2": {
@@ -58483,8 +58483,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         }
     },
@@ -58496,8 +58496,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "n",
-            "final": "gon",
+            "initial": "ng",
+            "final": "on",
             "tone": "6"
         },
         "w2": {
@@ -59794,8 +59794,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -59863,8 +59863,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
         }
     },
@@ -59968,8 +59968,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         },
         "w2": {
@@ -60272,8 +60272,8 @@ const dictionary = [
             "tone": "2"
         },
         "w2": {
-            "initial": "",
-            "final": "oi",
+            "initial": "o",
+            "final": "i",
             "tone": "1"
         },
         "w3": {
@@ -60382,8 +60382,8 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w2": {
@@ -60829,8 +60829,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaai",
+            "initial": "ng",
+            "final": "aai",
             "tone": "6"
         }
     },
@@ -60980,8 +60980,8 @@ const dictionary = [
             "tone": "2"
         },
         "w1": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w2": {
@@ -63221,8 +63221,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -63405,8 +63405,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "1"
         }
     },
@@ -63837,8 +63837,8 @@ const dictionary = [
             "tone": "4"
         },
         "w2": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w3": {
@@ -64095,8 +64095,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -64522,8 +64522,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w2": {
@@ -64614,8 +64614,8 @@ const dictionary = [
             "tone": "6"
         },
         "w1": {
-            "initial": "n",
-            "final": "gau",
+            "initial": "ng",
+            "final": "au",
             "tone": "4"
         },
         "w2": {
@@ -66321,8 +66321,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         },
         "w3": {
@@ -71110,8 +71110,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         }
     },
@@ -72025,8 +72025,8 @@ const dictionary = [
             "tone": "6"
         },
         "w2": {
-            "initial": "",
-            "final": "on",
+            "initial": "o",
+            "final": "n",
             "tone": "1"
         },
         "w3": {
@@ -72301,8 +72301,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "goi",
+            "initial": "ng",
+            "final": "oi",
             "tone": "6"
         },
         "w3": {
@@ -73065,8 +73065,8 @@ const dictionary = [
             "tone": "1"
         },
         "w3": {
-            "initial": "n",
-            "final": "gai",
+            "initial": "ng",
+            "final": "ai",
             "tone": "4"
         }
     },
@@ -73272,8 +73272,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "",
-            "final": "on",
+            "initial": "o",
+            "final": "n",
             "tone": "1"
         }
     },
@@ -73732,8 +73732,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -75061,8 +75061,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "n",
-            "final": "gaa",
+            "initial": "ng",
+            "final": "aa",
             "tone": "5"
         },
         "w3": {
@@ -78608,8 +78608,8 @@ const dictionary = [
             "tone": "3"
         },
         "w3": {
-            "initial": "n",
-            "final": "gaan",
+            "initial": "ng",
+            "final": "aan",
             "tone": "5"
         }
     },
@@ -79329,8 +79329,8 @@ const dictionary = [
     {
         "idiom": "暗渡陳倉",
         "w0": {
-            "initial": "",
-            "final": "am",
+            "initial": "a",
+            "final": "m",
             "tone": "3"
         },
         "w1": {
@@ -79352,8 +79352,8 @@ const dictionary = [
     {
         "idiom": "黯然失色",
         "w0": {
-            "initial": "",
-            "final": "am",
+            "initial": "a",
+            "final": "m",
             "tone": "2"
         },
         "w1": {
@@ -79375,8 +79375,8 @@ const dictionary = [
     {
         "idiom": "啞然失笑",
         "w0": {
-            "initial": "",
-            "final": "ak",
+            "initial": "a",
+            "final": "k",
             "tone": "1"
         },
         "w1": {
@@ -79421,8 +79421,8 @@ const dictionary = [
     {
         "idiom": "挨家挨戶",
         "w0": {
-            "initial": "",
-            "final": "aai",
+            "initial": "a",
+            "final": "ai",
             "tone": "1"
         },
         "w1": {
@@ -79431,8 +79431,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "",
-            "final": "aai",
+            "initial": "a",
+            "final": "ai",
             "tone": "1"
         },
         "w3": {
