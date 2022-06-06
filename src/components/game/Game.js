@@ -125,7 +125,7 @@ function Game({
                     }
     
                     if (savedStatus === 'win') {
-                        winningRow.current = row - 1
+                        winningRow.current = (row === 0) ? savedProgress.length - 1 : row - 1
                     }
                 }
             } else {
