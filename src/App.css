@@ -479,23 +479,23 @@ input:focus {
   position: absolute;
   top: 0%;
   width: 100%;
-  height: 40%;
+  height: 45%;
 }
 
 .sepleftbox {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 0%;
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
 }
 
 .seprightbox {
   position: absolute;
-  top: 60%;
-  left: 60%;
-  width: 40%;
-  height: 40%;
+  top: 55%;
+  left: 55%;
+  width: 45%;
+  height: 45%;
 }
 
 .textbox {

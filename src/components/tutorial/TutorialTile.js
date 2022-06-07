@@ -13,6 +13,8 @@ function TutorialTile({
     status,
     pronounce,
     sameWord,
+    hasWord,
+    hasSameWord,
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
 
@@ -20,6 +22,13 @@ function TutorialTile({
     // const backgroundColor = useMemo(() => {
     //     return colour.getColourData(status, isContrast)
     // }, [status, isContrast])
+
+    const partSeparate = useMemo(() => {
+        if (!status) return false
+        if (status !== 'yyy') return false
+        if (hasWord || hasSameWord) return false
+        return true
+    }, [status, hasWord, hasSameWord])
 
     const topColor = useMemo(() => {
         return colour.getSingleColourData(status, 'top', isContrast)
@@ -46,14 +55,16 @@ function TutorialTile({
     const dimension = useMemo(() => {
         if (!status) return '32px'
         if (status === 'ggg' && !sameWord) return '30px'
+        if (status === 'yyy' && !hasSameWord && hasWord) return '30px'
         return '32px'
-    }, [status, sameWord])
+    }, [status, hasSameWord, hasWord])
 
     const backborderColor = useMemo(() => {
         if (!status) return ''
         if (status === 'ggg' && !sameWord) return `1px solid ${colour.getNonSameWordColour(isContrast)}`
+        if (status === 'yyy' && !hasSameWord && hasWord) return `1px solid ${colour.getNonSameWordColour(isContrast)}`
         return ''
-    }, [status, sameWord, isContrast])
+    }, [status, sameWord, isContrast, hasSameWord, hasWord])
     
     return (
         <animated.div
@@ -85,24 +96,48 @@ function TutorialTile({
                         width: dimension,
                     }}
                 >
-                    <div
-                        className={'topbox'}
-                        style={{
-                            backgroundColor: topColor,
-                        }}
-                    />
-                    <div
-                        className={'leftbox'}
-                        style={{
-                            backgroundColor: leftColor,
-                        }}
-                    />
-                    <div
-                        className={'rightbox'}
-                        style={{
-                            backgroundColor: rightColor,
-                        }}
-                    />
+                    {partSeparate ? (
+                        <>
+                            <div className={'septopbox'}
+                                style={{
+                                    backgroundColor: topColor,
+                                }}
+                            />
+                            <div
+                                className={'sepleftbox'}
+                                style={{
+                                    backgroundColor: leftColor,
+                                }}
+                            />
+                            <div
+                                className={'seprightbox'}
+                                style={{
+                                    backgroundColor: rightColor,
+                                }}
+                            />
+                        </>
+                    ) : (
+                        <>
+                            <div
+                                className={'topbox'}
+                                style={{
+                                    backgroundColor: topColor,
+                                }}
+                            />
+                            <div
+                                className={'leftbox'}
+                                style={{
+                                    backgroundColor: leftColor,
+                                }}
+                            />
+                            <div
+                                className={'rightbox'}
+                                style={{
+                                    backgroundColor: rightColor,
+                                }}
+                            />
+                        </>
+                    )}
 
                     <div className={'textbox'}>
                         {word ? <>{word}</> : <>&nbsp;</>}

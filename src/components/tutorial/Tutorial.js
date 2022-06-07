@@ -28,6 +28,28 @@ function Tutorial({
         return setting.rand_tutorial()
     }, [])
 
+    const tutorialYellow = useMemo(() => {
+        return setting.yellow_tutorial()
+    }, [])
+
+    const yellowTutorialLine = useMemo(() => {
+        let yyyIndex = ''
+        for (let i = 0; i < 4; i++) {
+            if (tutorialYellow.status[`w${i}`] === 'yyy') {
+                yyyIndex = i
+            }
+        }
+        const targetWord = tutorialYellow.guess.idiom.charAt(yyyIndex)
+        const ansInitial = tutorialYellow.answer[`w${tutorialYellow.yellowStatus.initial}`]
+        const ansFinal = tutorialYellow.answer[`w${tutorialYellow.yellowStatus.final}`]
+        const ansTone = tutorialYellow.answer[`w${tutorialYellow.yellowStatus.tone}`]
+        const ansInitialPro = ansInitial.initial + ansInitial.final + ansInitial.tone
+        const ansFinalPro = ansFinal.initial + ansFinal.final + ansFinal.tone
+        const ansTonePro = ansTone.initial + ansTone.final + ansTone.tone
+
+        return `當聲母，韻母同聲調都有出現係四個字之中，但係唔係同一個字入面嘅話，我地會分開黃色嘅格仔黎顯示。係上面嘅例子，答案係「${tutorialYellow.answer.idiom}」，估計中嘅「${targetWord}」字有「${ansInitial.word}」（${ansInitialPro}）中嘅聲母，「${ansFinal.word}」（${ansFinalPro}）中嘅韻母，同「${ansTone.word}」（${ansTonePro}）中嘅聲調。為左分開同音字以及唔同部份嘅錯位，我地想有特別啲嘅顯示方法。`
+    }, [tutorialYellow])
+
     return (
         <Dialog
             className={'notpaste'}
@@ -119,6 +141,8 @@ function Tutorial({
                                     info={tutorialWords[0]}
                                     sampleStatus={'gxx'}
                                     sameWord={true}
+                                    hasWord={false}
+                                    hasSameWord={false}
                                     explain={'格仔入面有呢隻色，就代表答案入面「{target}」聲母嘅位置正確'}
                                 />
                             </Grid>
@@ -129,29 +153,11 @@ function Tutorial({
                                     info={tutorialWords[1]}
                                     sampleStatus={'xyx'}
                                     sameWord={false}
+                                    hasWord={false}
+                                    hasSameWord={false}
                                     explain={'格仔入面有呢隻色，就代表答案入面「{target}」韻母存在係呢個答案度，但係位置唔正確'}
                                 />
                             </Grid>
-                            {/* <Grid item xs={12} md={6} lg={6}
-                                className={'tutorial-row'}
-                            >
-                                <TutorialRow 
-                                    info={tutorialWords[2]}
-                                    sampleStatus={'xxg'}
-                                    sameWord={false}
-                                    explain={'格仔入面呢個位置出現顏色，代表「{target}」呢個嘅聲調正確'}
-                                />
-                            </Grid>
-                            <Grid item xs={12} md={6} lg={6}
-                                className={'tutorial-row'}
-                            >
-                                <TutorialRow 
-                                    info={tutorialWords[3]}
-                                    sampleStatus={'gxx'}
-                                    sameWord={false}
-                                    explain={'「{target}」呢個字只有聲母相同，如果顏色喺右邊，就代表韻母相同'}
-                                />
-                            </Grid> */}
                             <Grid item xs={12} md={6} lg={6}
                                 className={'tutorial-row-end'}
                             >
@@ -159,6 +165,8 @@ function Tutorial({
                                     info={tutorialWords[4]}
                                     sampleStatus={'xxx'}
                                     sameWord={false}
+                                    hasWord={false}
+                                    hasSameWord={false}
                                     explain={'「{target}」呢度聲母同韻母都唔正確'}
                                 />
                             </Grid>
@@ -169,7 +177,33 @@ function Tutorial({
                                     info={tutorialWords[5]}
                                     sampleStatus={'ggg'}
                                     sameWord={false}
+                                    hasWord={false}
+                                    hasSameWord={false}
                                     explain={'特別啲嘅情況就係呢種，「{target}」聲母，韻母，聲調，同位置都正確，不過唔係呢個字'}
+                                />
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={6}
+                                className={'tutorial-row'}
+                            >
+                                <TutorialRow 
+                                    info={tutorialWords[6]}
+                                    sampleStatus={'yyy'}
+                                    sameWord={false}
+                                    hasWord={true}
+                                    hasSameWord={false}
+                                    explain={'同上面情況相似，「{target}」聲母，韻母，聲調都正確，不過唔係呢個字，都唔係呢個位置'}
+                                />
+                            </Grid>
+                            <Grid item xs={12} md={6} lg={6}
+                                className={'tutorial-row'}
+                            >
+                                <TutorialRow 
+                                    info={tutorialYellow.guess}
+                                    statusList={tutorialYellow.status}
+                                    sameWord={false}
+                                    hasWord={false}
+                                    hasSameWord={false}
+                                    explain={yellowTutorialLine}
                                 />
                             </Grid>
                         </Grid>

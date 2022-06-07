@@ -56,7 +56,7 @@ function GameTile({
         if (!info) return false
         if (!info.status) return false
         if (info.status !== 'yyy') return false
-        if (info.sameWord || info.hasSameWord) return false
+        if (info.hasWord || info.hasSameWord) return false
         return true
     }, [info])
 
