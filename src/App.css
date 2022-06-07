@@ -475,6 +475,29 @@ input:focus {
   height: 50%;
 }
 
+.septopbox {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 40%;
+}
+
+.sepleftbox {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  width: 40%;
+  height: 40%;
+}
+
+.seprightbox {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  width: 40%;
+  height: 40%;
+}
+
 .textbox {
   position: absolute;
   top: 0;

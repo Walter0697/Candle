@@ -25,14 +25,14 @@ const wordListReducer = (state, action) => {
         case 'add': {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
-            currentRowList.push({ word: action.word, status: 'inactive', pronounce: '', sameWord: false })
+            currentRowList.push({ word: action.word, status: 'inactive', pronounce: '', sameWord: false, hasWord: false, hasSameWord: false })
             return list
         }
         case 'addmulti': {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
             for (let i = 0; i < action.words.length; i++) {
-                currentRowList.push({ word: action.words[i], status: 'inactive', pronounce: '', sameWord: false })
+                currentRowList.push({ word: action.words[i], status: 'inactive', pronounce: '', sameWord: false, hasWord: false, hasSameWord: false  })
             }
             return list
         }
@@ -46,7 +46,7 @@ const wordListReducer = (state, action) => {
             const list = Object.assign([], state)
             const currentRowList = list[action.row]
             const word = currentRowList[action.index].word
-            currentRowList[action.index] = { word: word, status: action.status, pronounce: action.pronounce, sameWord: action.sameWord }
+            currentRowList[action.index] = { word: word, status: action.status, pronounce: action.pronounce, sameWord: action.sameWord, hasWord: action.hasWord, hasSameWord: action.hasSameWord  }
             return list
         }
         case 'win': {
@@ -231,6 +231,8 @@ function Game({
             status: first.status,
             pronounce: first.pronounce,
             sameWord: first.sameWord,
+            hasWord: first.hasWord,
+            hasSameWord: first.hasSameWord,
         })
         window.setTimeout(() => {
             setWordStatus(index + 1, resultList)

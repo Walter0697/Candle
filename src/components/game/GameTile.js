@@ -52,6 +52,14 @@ function GameTile({
         return ''
     }, [info, wordHint])
 
+    const partSeparate = useMemo(() => {
+        if (!info) return false
+        if (!info.status) return false
+        if (info.status !== 'yyy') return false
+        if (info.sameWord || info.hasSameWord) return false
+        return true
+    }, [info])
+
     const wordColor = useMemo(() => {
         if (info && info.word) return 'white'
         return 'gray'
@@ -86,6 +94,7 @@ function GameTile({
         if (!info) return '54px'
         if (!info.status) return ''
         if (info.status === 'ggg' && !info.sameWord) return '50px'
+        if (info.status === 'yyy' && !info.hasSameWord && info.hasWord) return '50px'
         return '54px'
     }, [info])
 
@@ -93,6 +102,7 @@ function GameTile({
         if (!info) return ''
         if (!info.status) return ''
         if (info.status === 'ggg' && !info.sameWord) return `2px solid ${colour.getNonSameWordColour(isContrast)}`
+        if (info.status === 'yyy' && !info.hasSameWord && info.hasWord) return `2px solid ${colour.getNonSameWordColour(isContrast)}`
         return ''
     }, [info, isContrast])
 
@@ -156,25 +166,49 @@ function GameTile({
                         width: dimension,
                     }}
                 >
-                    <div
-                        className={'topbox'}
-                        style={{
-                            backgroundColor: topColor,
-                        }}
-                    />
-                    <div
-                        className={'leftbox'}
-                        style={{
-                            backgroundColor: leftColor,
-                        }}
-                    />
-                    <div
-                        className={'rightbox'}
-                        style={{
-                            backgroundColor: rightColor,
-                        }}
-                    />
-
+                    {partSeparate ? (
+                        <>
+                            <div className={'septopbox'}
+                                style={{
+                                    backgroundColor: topColor,
+                                }}
+                            />
+                            <div
+                                className={'sepleftbox'}
+                                style={{
+                                    backgroundColor: leftColor,
+                                }}
+                            />
+                            <div
+                                className={'seprightbox'}
+                                style={{
+                                    backgroundColor: rightColor,
+                                }}
+                            />
+                        </>
+                    ) : (
+                        <>
+                            <div
+                                className={'topbox'}
+                                style={{
+                                    backgroundColor: topColor,
+                                }}
+                            />
+                            <div
+                                className={'leftbox'}
+                                style={{
+                                    backgroundColor: leftColor,
+                                }}
+                            />
+                            <div
+                                className={'rightbox'}
+                                style={{
+                                    backgroundColor: rightColor,
+                                }}
+                            />
+                        </>
+                    )}
+                    
                     <div className={'textbox'}>
                         {(info && info.word) ? <>{info.word}</> : <>&nbsp;</>}
                     </div>

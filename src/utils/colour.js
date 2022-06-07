@@ -19,7 +19,7 @@ const toneColour = {
 
 const notSameWordColour = {
     normal: '#ff1a1a',
-    contrast: '#3af5eb',
+    contrast: '#ff00f8',
 }
 
 const getSingleColourData = (data, position, isContrast) => {

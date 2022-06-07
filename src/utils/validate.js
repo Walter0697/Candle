@@ -12,9 +12,22 @@ const getTodayIndex = (dateIndex) => {
     return Math.floor(rng() * max)
 }
 
+const getYesterdayIndex = (dateIndex) => {
+    const token = config.seedToken
+    const yesterday = dateIndex - 1
+    const rng = seedrandom(`${token}-${yesterday}`)
+    const max = dictionary.length
+    return Math.floor(rng() * max)
+}
+
 const getCurrentWord = (dateIndex) => {
     const todayIndex = getTodayIndex(dateIndex)
     const currentWord = dictionary[todayIndex].idiom
+}
+
+const getYesterdayWord = (dateIndex) => {
+    const yesterdayIndex = getYesterdayIndex(dateIndex)
+    const currentWord = dictionary[yesterdayIndex].idiom
     return currentWord
 }
 
@@ -69,6 +82,34 @@ const allInitial = (dateIndex) => {
 const sameWordChecking = (guessObj, answerObj, resultObj) => {
     resultObj.result.forEach((r, index) => {
         r.sameWord = (guessObj.idiom.charAt(index) == answerObj.idiom.charAt(index))
+    })
+}
+
+const hasWordChecking = (guessObj, answerObj, resultObj) => {
+    resultObj.result.forEach((r, index) => {
+        let hasWord = false
+        const pronounce = r.pronounce.initial + r.pronounce.final + r.pronounce.tone
+        for (let i = 0; i < 4; i++) {
+            const check = answerObj[`w${i}`]
+            const checkpronounce = check.initial + check.final + check.tone
+            if (checkpronounce === pronounce) {
+                hasWord = true
+            }
+        }
+        r.hasWord = hasWord
+    })
+}
+
+const hasSameWordChecking = (guessObj, answerObj, resultObj) => {
+    resultObj.result.forEach((r, index) => {
+        let hasWord = false
+        for (let i = 0; i < 4; i++) {
+            hasWord = (guessObj.idiom.charAt(index) === answerObj.idiom.charAt(i))
+            if (hasWord) {
+                r.hasSameWord = hasWord
+                break
+            } 
+        }
     })
 }
 
@@ -147,7 +188,7 @@ const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, status
     // Check green
     for (let i = 0; i < 4; i++) {
         const pronouncePartMatched = (guessObj[`w${i}`][compareType] == answerObj[`w${i}`][compareType])
-        if (!isChecked[`w${i}`] && pronouncePartMatched) {
+        if (!givenHints[`w${i}`] && pronouncePartMatched) {
             givenHints[`w${i}`] = true
             isChecked[`w${i}`] = true
             resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "g")]
@@ -175,10 +216,10 @@ const guessValidator = (guess, answer) => {
         valid: false,
         win: false,
         result: [
-            { status: constant["xxx"], pronounce: null, sameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
         ]
     }
 
@@ -227,10 +268,13 @@ const guessValidator = (guess, answer) => {
         }
     }
     sameWordChecking(guessObj, answerObj, resultObj)
-    //allGreenYellowCheck(guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject)
+    hasWordChecking(guessObj, answerObj, resultObj)
+    hasSameWordChecking(guessObj, answerObj, resultObj)
+    allGreenYellowCheck(guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 0, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 1, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 2, resultObj, statusObject, allGreenYellowCheckObject)
+    
     return resultObj
 }
 
