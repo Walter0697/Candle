@@ -15,6 +15,7 @@ import dayjs from 'dayjs'
 
 import Emoji from './Emoji'
 import About from './About'
+import UpdateLog from './UpdateLog'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from '../../store/slice/colourSlice'
@@ -109,6 +110,7 @@ function Settings({
 
     const [ openEmoji, setOpenEmoji ] = useState(false)
     const [ openAbout, setOpenAbout ] = useState(false)
+    const [ openUpdate, setOpenUpdate ] = useState(false)
 
     const difficultyInfo = useMemo(() => {
         const info = display.difficulty()
@@ -224,8 +226,8 @@ function Settings({
                         className={'setting-item-wrap'}
                     >
                         <SettingLink 
-                            label={`分享訊息`}
-                            linkLabel={'關於'}
+                            label={`關於分享訊息`}
+                            linkLabel={'按此'}
                             onClick={() => setOpenEmoji(true)}
                         />
                     </Grid>
@@ -236,6 +238,15 @@ function Settings({
                             label={`關於粵道`}
                             linkLabel={'按此'}
                             onClick={() => setOpenAbout(true)}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingLink 
+                            label={`更新資訊`}
+                            linkLabel={'關於'}
+                            onClick={() => setOpenUpdate(true)}
                         />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}
@@ -269,6 +280,12 @@ function Settings({
                 open={openAbout}
                 handleClose={() => {
                     setOpenAbout(false)
+                }}
+            />
+            <UpdateLog
+                open={openUpdate}
+                handleClose={() => {
+                    setOpenUpdate(false)
                 }}
             />
         </Dialog>

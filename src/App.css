@@ -345,6 +345,7 @@ input:focus {
   text-align: left;
   font-weight: 500;
   padding-bottom: 20px;
+  padding: 10px;
 }
 
 .tutorial-container {
