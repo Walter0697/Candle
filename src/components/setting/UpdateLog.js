@@ -117,7 +117,7 @@ function UpdateLog({
                     >
                         <UpdateItem
                             version={'v1.1.0'}
-                            content={'可以遊玩遊戲'}
+                            content={'增加拼音查字功能'}
                         />
                     </Grid>
                 </Grid>
