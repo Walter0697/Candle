@@ -5,6 +5,11 @@ import wordbank from '../dictionaries/wordbank'
 import config from './configuration'
 import * as seedrandom from 'seedrandom'
 
+const zeroPad = (num, places) => {
+    const zero = places - num.toString().length + 1;
+    return Array(+(zero > 0 && zero)).join('0') + num;
+}
+
 const getTodayIndex = (dateIndex) => {
     const token = config.seedToken
     const rng = seedrandom(`${token}-${dateIndex}`)
@@ -15,7 +20,8 @@ const getTodayIndex = (dateIndex) => {
 const getYesterdayIndex = (dateIndex) => {
     const token = config.seedToken
     const yesterday = dateIndex - 1
-    const rng = seedrandom(`${token}-${yesterday}`)
+    const dayStr = zeroPad(yesterday, 3)
+    const rng = seedrandom(`${token}-${dayStr}`)
     const max = dictionary.length
     return Math.floor(rng() * max)
 }
@@ -23,6 +29,7 @@ const getYesterdayIndex = (dateIndex) => {
 const getCurrentWord = (dateIndex) => {
     const todayIndex = getTodayIndex(dateIndex)
     const currentWord = dictionary[todayIndex].idiom
+    return currentWord
 }
 
 const getYesterdayWord = (dateIndex) => {
@@ -49,6 +56,18 @@ const guess = (words, dateIndex) => {
 
 const correct = (dateIndex) => {
     const answer = getCurrentWord(dateIndex)
+    const duplicatedAns = duplicates.find(dup => dup.idiom2 === answer)
+
+    let answerString = `${answer}`
+    if (duplicatedAns) {
+        answerString += ` / ${duplicatedAns.idiom}`
+    }
+
+    return answerString
+}
+
+const yesterday_correct = (dateIndex) => {
+    const answer = getYesterdayWord(dateIndex)
     const duplicatedAns = duplicates.find(dup => dup.idiom2 === answer)
 
     let answerString = `${answer}`
@@ -410,6 +429,7 @@ const validate = {
     exist,
     guess,
     correct,
+    yesterday_correct,
     guessValidatorOld,
     guessValidator,
     first,

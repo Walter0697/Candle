@@ -183,6 +183,21 @@ input:focus {
   justify-content: center;
 }
 
+.today-answer {
+  font-size: 15px;
+  color: rgb(4, 196, 4);
+  margin-top: 10px !important; 
+  margin-bottom: 5px !important;
+}
+
+.statistic-answer {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+  font-weight: normal;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
 .statitem-container {
   margin: 8px;
 }

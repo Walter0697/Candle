@@ -11,6 +11,7 @@ import { useSnackbar } from 'notistack'
 import record from '../../utils/record'
 import colour from '../../utils/colour'
 import display from '../../utils/display'
+import share from '../../utils/share'
 
 function ShareButton() {
     const isContrast = useSelector((state) => state.colour.isContrast)
@@ -36,51 +37,32 @@ function ShareButton() {
     
     const { enqueueSnackbar } = useSnackbar()
 
+    const copyCallback = () => {
+        enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
+    }
+
     const copySharableToClipboard = async () => {
         const progress = record.load()
         const date = record.get_date()
-
-        let winning_row = 'X'
-        let progress_row = []
-        for (let i = 0; i < progress.length; i++) {
-            const row = progress[i]
-            let is_winning_row = true
-            let current_progress = ''
-            for (let j = 0; j < row.length; j++) {
-                if (row[j].status !== 'ggg') {
-                    is_winning_row = false
-                }
-
-                if (row[j].status === 'ggg') {
-                    current_progress += correctColor
-                } else if (row[j].status === 'xxx') {
-                    current_progress += incorrectColor
-                } else {
-                    current_progress += placeColor
-                }
-            }
-            progress_row.push(current_progress)
-            if (is_winning_row) {
-                winning_row = i + 1
-                break
-            }
-        }
-        
         const difficultyInfo = display.difficulty()
         const difficultyText = difficultyInfo[difficulty].label
-        let shareStr = `粵道 ${date} ${difficultyText} ${winning_row}/9\n\n`
-        shareStr += progress_row.join('\n')
 
-        if (navigator.share) {
-            await navigator.share({
-                text: shareStr,
-            })
-        } else {
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(shareStr)
-            }
-            enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
-        }
+        const shareStr = share.generate_text(progress, date, difficultyText, {
+            correctColor, placeColor, incorrectColor
+        })
+
+        share.share_text(shareStr, copyCallback)
+    }
+
+    const generateSharableImage = async () => {
+        const progress = record.load()
+        const date = record.get_date()
+        const difficultyInfo = display.difficulty()
+        const difficultyText = difficultyInfo[difficulty].label
+        const colourInfo = colour.allColor(isContrast)
+
+        const dataURL = share.generate_image(progress, date, difficultyText, colourInfo)
+        share.save_image('testing.png', dataURL)
     }
 
     return (

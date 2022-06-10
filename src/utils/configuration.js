@@ -1,5 +1,5 @@
 const config = {
-    version: 'v1.6.0',
+    version: 'v1.7.0',
     gameLaunchTime: '2022-03-28 00:00:00',
     seedToken: 'wordle',
     maxLength: 4,

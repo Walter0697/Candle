@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -12,6 +12,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import Distribution from './Distribution'
 import BottomInfo from './BottomInfo'
 
+import validate from '../../utils/validate'
 import record from '../../utils/record'
 import config from '../../utils/configuration'
 
@@ -50,6 +51,17 @@ function Statistics({
 
     // sharable content
     const [ isGameFinished, setGameFinished ] = useState(false)
+
+    const todayAns = useMemo(() => {
+        if (isGameFinished) {
+            return validate.correct(date)
+        }
+        return ''
+    }, [isGameFinished, date])
+
+    const yesterdayAns = useMemo(() => {
+        return validate.yesterday_correct(date)
+    }, [date])
 
     useEffect(() => {
         if (record.is_today(date)) {
@@ -155,6 +167,23 @@ function Statistics({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
+                <Grid item xs={12} md={12} lg={12}
+                        className={'statistic-title'}
+                    >
+                        答案
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'today-answer'}
+                    >
+                        {isGameFinished && (
+                            <div>今日嘅答案係 {todayAns} </div>
+                        )}
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'statistic-answer'}
+                    >
+                        <div>琴日嘅答案係 {yesterdayAns} </div>
+                    </Grid>
                     <Grid item xs={12} md={12} lg={12}
                         className={'statistic-title'}
                     >

@@ -12,11 +12,6 @@ const wrongPlaceColour = {
     normal: '#b59f3b',
     contrast: '#85c0f9',
 }
-const toneColour = {
-    normal: '#994dad',
-    contrast: '#cc00ff',
-}
-
 const notSameWordColour = {
     normal: '#ff1a1a',
     contrast: '#ff00f8',
@@ -141,6 +136,24 @@ const getIncorrectColour = (isContrast) => {
     return incorrectColour.normal
 }
 
+const allColor = (isContrast) => {
+    if (isContrast) {
+        return {
+            incorrect: incorrectColour.contrast,
+            correct: correctColour.contrast,
+            wrongPlace: wrongPlaceColour.contrast,
+            notSameWord: notSameWordColour.contrast,
+        }
+    }
+    
+    return {
+        incorrect: incorrectColour.normal,
+        correct: correctColour.normal,
+        wrongPlace: wrongPlaceColour.normal,
+        notSameWord: notSameWordColour.normal,
+    }
+}
+
 const colour = {
     getSingleColourData,
     getColourData,
@@ -148,6 +161,7 @@ const colour = {
     getNonSameWordColour,
     getCorrectColour,
     getIncorrectColour,
+    allColor,
 }
 
 export default colour
