@@ -255,7 +255,16 @@ function Settings({
                         <SettingLink 
                             label={'提出建議'}
                             linkLabel={'Email'}
-                            link={'mailto:wallywai.walter@gmail.com'}
+                            link={'mailto:playcandlegame@gmail.com'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <SettingLink 
+                            label={'社交媒體'}
+                            linkLabel={'Twitter'}
+                            link={'https://twitter.com/Candle71923409'}
                         />
                     </Grid>
                 </Grid>
