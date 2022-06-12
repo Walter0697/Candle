@@ -84,8 +84,8 @@ function ShareButton({
                 style={{
                     marginTop: '5px',
                     backgroundColor: buttonColor,
-                    fontSize: '20px',
-                    width: '80%',
+                    fontSize: '18px',
+                    width: '85%',
                     fontWeight: '700',
                 }}
                 onClick={shareButtonClick}
