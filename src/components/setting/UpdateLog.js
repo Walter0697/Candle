@@ -76,6 +76,14 @@ function UpdateLog({
                         className={'setting-item-wrap'}
                     >
                         <UpdateItem
+                            version={'v1.7.0'}
+                            content={'新增圖片分享訊息，昨天及今天答案顯示'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <UpdateItem
                             version={'v1.6.0'}
                             content={'新增全黃顯示方法，增加更新資訊'}
                         />

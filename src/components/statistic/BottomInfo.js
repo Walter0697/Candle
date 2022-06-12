@@ -3,7 +3,6 @@ import {
     Grid,
 } from '@mui/material'
 
-import NextWordle from './NextWordle'
 import ShareButton from './ShareButton'
 
 function BottomInfo({
@@ -14,10 +13,10 @@ function BottomInfo({
             <Grid item xs={6} md={6} lg={6}
                 className={'bottombar-seperate'}
             >
-                <NextWordle />
+                <ShareButton imageShare={true} />
             </Grid>
             <Grid item xs={6} md={6} lg={6}>
-                <ShareButton />
+                <ShareButton imageShare={false} />
             </Grid>
         </Grid>
     )

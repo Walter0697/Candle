@@ -4,7 +4,8 @@ import {
 } from '@mui/material'
 import { useSelector } from 'react-redux'
 
-import ShareIcon from '@mui/icons-material/Share'
+import ImageAspectRatioIcon from '@mui/icons-material/ImageAspectRatio'
+import TextFieldsIcon from '@mui/icons-material/TextFields'
 
 import { useSnackbar } from 'notistack'
 
@@ -13,7 +14,9 @@ import colour from '../../utils/colour'
 import display from '../../utils/display'
 import share from '../../utils/share'
 
-function ShareButton() {
+function ShareButton({
+    imageShare,
+}) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const difficulty = useSelector((state) => state.setting.difficulty)
     const testingSetting = useSelector((state) => state.setting.testing)
@@ -67,7 +70,7 @@ function ShareButton() {
     }
 
     const shareButtonClick = () => {
-        if (testingSetting) {
+        if (imageShare) {
             generateSharableImage()
         } else {
             copySharableToClipboard()
@@ -87,7 +90,16 @@ function ShareButton() {
                 }}
                 onClick={shareButtonClick}
             >
-                分享<ShareIcon sx={{ marginLeft: '8px' }} />
+                {imageShare ? (
+                    <>
+                        圖片<ImageAspectRatioIcon sx={{ marginLeft: '8px' }} />
+                    </>
+                ) : (
+                    <>
+                        文字<TextFieldsIcon sx={{ marginLeft: '8px' }} />
+                    </>
+                )}
+                
             </Button>
         </div>
     )

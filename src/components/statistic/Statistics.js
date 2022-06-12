@@ -9,8 +9,14 @@ import {
 } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 
+import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects'
+import ShareIcon from '@mui/icons-material/Share'
+import BarChartIcon from '@mui/icons-material/BarChart'
+import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered'
+
 import Distribution from './Distribution'
 import BottomInfo from './BottomInfo'
+import NextWordle from './NextWordle'
 
 import validate from '../../utils/validate'
 import record from '../../utils/record'
@@ -167,10 +173,10 @@ function Statistics({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
-                <Grid item xs={12} md={12} lg={12}
+                    <Grid item xs={12} md={12} lg={12}
                         className={'statistic-title'}
                     >
-                        答案
+                        答案 <EmojiObjectsIcon sx={{ marginLeft: '8px' }} />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}
                         className={'today-answer'}
@@ -184,10 +190,29 @@ function Statistics({
                     >
                         <div>琴日嘅答案係 {yesterdayAns} </div>
                     </Grid>
+                    {isGameFinished && open && (
+                        <>
+                            <Grid item xs={12} md={12} lg={12}
+                            className={'statistic-title'}
+                            >
+                                分享 <ShareIcon sx={{ marginLeft: '8px' }} />
+                            </Grid>
+                            <Grid item xs={12} md={12} lg={12}
+                                style={{
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    marginTop: '10px',
+                                    marginBottom: '10px',
+                                }}
+                            >
+                                <BottomInfo />
+                            </Grid>
+                        </>
+                    )}
                     <Grid item xs={12} md={12} lg={12}
                         className={'statistic-title'}
                     >
-                        統計
+                        統計 <BarChartIcon sx={{ marginLeft: '8px' }} />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}
                         className={'statistic-info'}
@@ -212,7 +237,7 @@ function Statistics({
                     <Grid item xs={12} md={12} lg={12}
                         className={'statistic-title'}
                     >
-                        估中次數
+                        估中次數 <FormatListNumberedIcon sx={{ marginLeft: '8px' }} />
                     </Grid>
                     {(highestGuess !== 0) ? (
                         <Grid item xs={12} md={12} lg={12}
@@ -234,18 +259,12 @@ function Statistics({
                             無資料，贏左舖先再睇啦
                         </Grid>
                     )}
-                    {isGameFinished && open && (
-                        <Grid item xs={12} md={12} lg={12}
-                            style={{
-                                display: 'flex',
-                                justifyContent: 'center',
-                                marginTop: '10px',
-                            }}
-                        >
-                            <BottomInfo />
-                        </Grid>
-                    )}
                 </Grid>
+                {isGameFinished && (
+                    <Grid item xs={12} md={12} lg={12}>
+                        <NextWordle />
+                    </Grid>
+                )}
             </DialogContent>
         </Dialog>
     )
