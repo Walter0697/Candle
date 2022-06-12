@@ -6,6 +6,7 @@ export const settingSlice = createSlice({
         difficulty: '',
         autoScroll: true,
         smoothInput: false,
+        testing: false,
     },
     reducers: {
         setAutoScroll: (state, action) => {
@@ -16,10 +17,13 @@ export const settingSlice = createSlice({
         },
         setDifficulty: (state, action) => {
             state.difficulty = action.payload.value
+        },
+        setTesting: (state, action) => {
+            state.testing = action.payload.value
         }
     },
 })
 
-export const { setAutoScroll, setSmoothInput, setDifficulty } = settingSlice.actions
+export const { setAutoScroll, setSmoothInput, setDifficulty, setTesting } = settingSlice.actions
 
 export default settingSlice.reducer

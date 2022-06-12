@@ -184,6 +184,28 @@ const save_image = (filename, dataURL) => {
     el.remove()
 }
 
+const share_image = async (filename, dataURL) => {
+    if (navigator.share) {
+        const blob = await (await fetch(dataURL)).blob()
+        const filesArray = [
+            new File(
+                [blob],
+                filename,
+                {
+                    type: blob.type,
+                    lastModified: new Date().getTime()
+                }
+            )
+        ]
+        const shareData = {
+            files: filesArray,
+        }
+        navigator.share(shareData)
+    } else {
+        save_image(filename, dataURL)
+    }
+}
+
 const share_text = async (shareStr, copyCallback) => {
     if (navigator.share) {
         await navigator.share({
@@ -201,6 +223,7 @@ const share = {
     generate_text,
     generate_image,
     save_image,
+    share_image,
     share_text,
 }
 

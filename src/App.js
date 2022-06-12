@@ -5,7 +5,7 @@ import {
 
 import { useSelector, useDispatch } from 'react-redux'
 import { setContrast } from './store/slice/colourSlice'
-import { setAutoScroll, setSmoothInput, setDifficulty } from './store/slice/settingSlice'
+import { setAutoScroll, setSmoothInput, setDifficulty, setTesting } from './store/slice/settingSlice'
 
 import Header from './components/Header'
 import Game from './components/game/Game'
@@ -51,6 +51,9 @@ function App() {
       dispatch(setDifficulty({ value: s.difficulty }))
     } else {
       setOpenDifficulty(true)
+    }
+    if (s.testing) {
+      dispatch(setTesting({ value: s.testing }))
     }
 
     const hasHistory = record.history()

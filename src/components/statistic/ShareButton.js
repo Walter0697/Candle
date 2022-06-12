@@ -16,6 +16,7 @@ import share from '../../utils/share'
 function ShareButton() {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const difficulty = useSelector((state) => state.setting.difficulty)
+    const testingSetting = useSelector((state) => state.setting.testing)
 
     const correctColor = useMemo(() => {
         if (isContrast) return '🟧'
@@ -62,7 +63,15 @@ function ShareButton() {
         const colourInfo = colour.allColor(isContrast)
 
         const dataURL = share.generate_image(progress, date, difficultyText, colourInfo)
-        share.save_image('testing.png', dataURL)
+        share.share_image(`candle-${date}.png`, dataURL)
+    }
+
+    const shareButtonClick = () => {
+        if (testingSetting) {
+            generateSharableImage()
+        } else {
+            copySharableToClipboard()
+        }
     }
 
     return (
@@ -76,7 +85,7 @@ function ShareButton() {
                     width: '80%',
                     fontWeight: '700',
                 }}
-                onClick={copySharableToClipboard}
+                onClick={shareButtonClick}
             >
                 分享<ShareIcon sx={{ marginLeft: '8px' }} />
             </Button>
