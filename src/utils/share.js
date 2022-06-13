@@ -1,19 +1,21 @@
-const imageWidth = 180
+const imageScale = 3
 
-const titleFontStyle = 'bold 16px serif'
-const titleMarginTop = 15
-const titleHeight = 16
-const titleMarginBottom = 2
+const imageWidth = 180 * imageScale
 
-const linkFontStyle = '10px serif'
-const linkHeight = 10
-const linkMarginBottom = 10
+const titleHeight = 16 * imageScale
+const titleFontStyle = `bold ${titleHeight}px serif`
+const titleMarginTop = 15 * imageScale
+const titleMarginBottom = 2 * imageScale
 
-const textMarginLeft = 10
-const endMarginBottom = 5
+const linkHeight = 10 * imageScale
+const linkFontStyle = `${linkHeight}px serif`
+const linkMarginBottom = 10 * imageScale
 
-const boxSize = 30
-const boxBetween = 5
+const textMarginLeft = 10 * imageScale
+const endMarginBottom = 5 * imageScale
+
+const boxSize = 30 * imageScale
+const boxBetween = 5 * imageScale
 const link = 'https://Walter0697.github.io/Candle'
 
 const get_winning_row = (progress) => {
@@ -206,16 +208,22 @@ const share_image = async (filename, dataURL) => {
     }
 }
 
-const share_text = async (shareStr, copyCallback) => {
+const share_text = async (shareStr, copyCallback, failCallback) => {
     if (navigator.share) {
         await navigator.share({
             text: shareStr,
         })
     } else {
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(shareStr)
-        }
+        copy_text(shareStr, copyCallback, failCallback)
+    }
+}
+
+const copy_text = async (shareStr, copyCallback, failCallback) => {
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(shareStr)
         copyCallback()
+    } else {
+        failCallback()
     }
 }
 
@@ -223,6 +231,7 @@ const share = {
     generate_text,
     generate_image,
     save_image,
+    copy_text,
     share_image,
     share_text,
 }

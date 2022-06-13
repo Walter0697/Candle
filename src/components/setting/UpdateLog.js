@@ -72,6 +72,14 @@ function UpdateLog({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
+                <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <UpdateItem
+                            version={'v1.7.5'}
+                            content={'改善電腦分享問題，改善圖片分享解像度'}
+                        />
+                    </Grid>
                     <Grid item xs={12} md={12} lg={12}
                         className={'setting-item-wrap'}
                     >

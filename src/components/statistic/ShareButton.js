@@ -3,6 +3,7 @@ import {
     Button,
 } from '@mui/material'
 import { useSelector } from 'react-redux'
+import { isMobile } from 'react-device-detect'
 
 import ImageAspectRatioIcon from '@mui/icons-material/ImageAspectRatio'
 import TextFieldsIcon from '@mui/icons-material/TextFields'
@@ -19,7 +20,6 @@ function ShareButton({
 }) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const difficulty = useSelector((state) => state.setting.difficulty)
-    const testingSetting = useSelector((state) => state.setting.testing)
 
     const correctColor = useMemo(() => {
         if (isContrast) return '🟧'
@@ -45,7 +45,11 @@ function ShareButton({
         enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
     }
 
-    const copySharableToClipboard = async () => {
+    const failCallback = () => {
+        enqueueSnackbar('復製失敗左～', { autoHideDuration: 1000 })
+    }
+
+    const generateTextAndShare = async () => {
         const progress = record.load()
         const date = record.get_date()
         const difficultyInfo = display.difficulty()
@@ -55,10 +59,15 @@ function ShareButton({
             correctColor, placeColor, incorrectColor
         })
 
-        share.share_text(shareStr, copyCallback)
+        if (isMobile) {
+            share.share_text(shareStr, copyCallback, failCallback)
+        } else {
+            share.copy_text(shareStr, copyCallback, failCallback)
+        }
+       
     }
 
-    const generateSharableImage = async () => {
+    const generateImageAndShare = async () => {
         const progress = record.load()
         const date = record.get_date()
         const difficultyInfo = display.difficulty()
@@ -66,14 +75,19 @@ function ShareButton({
         const colourInfo = colour.allColor(isContrast)
 
         const dataURL = share.generate_image(progress, date, difficultyText, colourInfo)
-        share.share_image(`candle-${date}.png`, dataURL)
+
+        if (isMobile) {
+            share.share_image(`candle-${date}.png`, dataURL)
+        } else {
+            share.save_image(`candle-${date}.png`, dataURL)
+        }
     }
 
     const shareButtonClick = () => {
         if (imageShare) {
-            generateSharableImage()
+            generateImageAndShare()
         } else {
-            copySharableToClipboard()
+            generateTextAndShare()
         }
     }
 
