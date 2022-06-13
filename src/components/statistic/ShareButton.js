@@ -42,11 +42,11 @@ function ShareButton({
     const { enqueueSnackbar } = useSnackbar()
 
     const copyCallback = () => {
-        enqueueSnackbar('復製左啦～', { autoHideDuration: 1000 })
+        enqueueSnackbar('複製左啦～', { autoHideDuration: 1000 })
     }
 
     const failCallback = () => {
-        enqueueSnackbar('復製失敗左～', { autoHideDuration: 1000 })
+        enqueueSnackbar('複製失敗左～', { autoHideDuration: 1000 })
     }
 
     const generateTextAndShare = async () => {
