@@ -623,3 +623,29 @@ input:focus {
   color: rgb(172, 172, 172);
   font-size: 12px;
 }
+
+.share-message-buttons {
+  margin-bottom: 10px !important;
+}
+
+.share-button-style {
+  margin-top: 5px;
+  font-size: 18px;
+  width: 85%;
+  font-weight: 700;
+}
+
+.share-preview-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-text-preview {
+  width: 60%;
+  line-break: anywhere;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
+  white-space: pre-line;;
+}

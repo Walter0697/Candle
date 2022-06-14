@@ -76,8 +76,8 @@ function UpdateLog({
                         className={'setting-item-wrap'}
                     >
                         <UpdateItem
-                            version={'v1.7.5'}
-                            content={'改善電腦分享問題，改善圖片分享解像度'}
+                            version={'v1.7.7'}
+                            content={'新增分享訊息預覽'}
                         />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}
