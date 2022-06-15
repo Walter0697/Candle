@@ -217,14 +217,12 @@ const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, status
 
     // Check yellow
     for (let i = 0; i < 4; i++) {
-        if (!givenHints[`w${i}`]) {
-            for (let j = 0; j < 4; j++) {
-                if (!isChecked[`w${j}`] && (answerObj[`w${j}`][compareType] == guessObj[`w${i}`][compareType])) {
-                    givenHints[`w${i}`] = true
-                    isChecked[`w${j}`] = true
-                    resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "y")]
-                    statusObject.array[i] = setCharAt(statusObject.array[i], pronounceIndex, "y")
-                }
+        for (let j = 0; j < 4; j++) {
+            if (!givenHints[`w${i}`] && !isChecked[`w${j}`] && (answerObj[`w${j}`][compareType] == guessObj[`w${i}`][compareType])) {
+                givenHints[`w${i}`] = true
+                isChecked[`w${j}`] = true
+                resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "y")]
+                statusObject.array[i] = setCharAt(statusObject.array[i], pronounceIndex, "y")
             }
         }
     }
