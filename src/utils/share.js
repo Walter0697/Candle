@@ -1,3 +1,5 @@
+import config from './configuration'
+
 const imageScale = 3
 
 const imageWidth = 180 * imageScale
@@ -93,6 +95,7 @@ const generate_text = (progress, date, difficulty, colorTile) => {
 
 const generate_image = (progress, date, difficulty, colorInfo) => {
     const winning_row = get_winning_row(progress)
+
     const title = share_title(winning_row, date, difficulty)
 
     const canvas = document.createElement('canvas')
@@ -100,7 +103,8 @@ const generate_image = (progress, date, difficulty, colorInfo) => {
     let imageHeight = 
         titleMarginTop + titleHeight + titleMarginBottom + 
         linkHeight + linkMarginBottom + endMarginBottom
-    imageHeight += ( boxBetween + boxSize ) * winning_row
+    const total_row = winning_row === 'X' ? config.maxRow : winning_row
+    imageHeight += ( boxBetween + boxSize ) * total_row
 
     canvas.width = imageWidth
     canvas.height = imageHeight
