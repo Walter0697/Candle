@@ -771,8 +771,8 @@ const dictionary = [
             "tone": "1"
         },
         "w2": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         },
         "w3": {
@@ -2123,8 +2123,8 @@ const dictionary = [
             "tone": "3"
         },
         "w1": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w2": {
@@ -7942,8 +7942,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "2"
         },
         "w2": {
@@ -12828,8 +12828,8 @@ const dictionary = [
             "tone": "3"
         },
         "w3": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         }
     },
@@ -19130,8 +19130,8 @@ const dictionary = [
             "tone": "2"
         },
         "w3": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         }
     },
@@ -23945,8 +23945,8 @@ const dictionary = [
     {
         "idiom": "愛屋及烏",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         },
         "w1": {
@@ -23968,8 +23968,8 @@ const dictionary = [
     {
         "idiom": "愛莫能助",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         },
         "w1": {
@@ -23991,8 +23991,8 @@ const dictionary = [
     {
         "idiom": "愛人如己",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         },
         "w1": {
@@ -24014,8 +24014,8 @@ const dictionary = [
     {
         "idiom": "愛不釋手",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         },
         "w1": {
@@ -24037,8 +24037,8 @@ const dictionary = [
     {
         "idiom": "藹然可親",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "2"
         },
         "w1": {
@@ -24060,8 +24060,8 @@ const dictionary = [
     {
         "idiom": "哀鴻遍野",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w1": {
@@ -24083,8 +24083,8 @@ const dictionary = [
     {
         "idiom": "哀兵必勝",
         "w0": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w1": {
@@ -26467,8 +26467,8 @@ const dictionary = [
             "tone": "5"
         },
         "w3": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         }
     },
@@ -47443,8 +47443,8 @@ const dictionary = [
             "tone": "4"
         },
         "w3": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         }
     },
@@ -51118,8 +51118,8 @@ const dictionary = [
             "tone": "6"
         },
         "w2": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w3": {
@@ -51711,8 +51711,8 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w2": {
@@ -55608,8 +55608,8 @@ const dictionary = [
             "tone": "6"
         },
         "w3": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "3"
         }
     },
@@ -60272,8 +60272,8 @@ const dictionary = [
             "tone": "2"
         },
         "w2": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w3": {
@@ -72963,8 +72963,8 @@ const dictionary = [
             "tone": "4"
         },
         "w1": {
-            "initial": "o",
-            "final": "i",
+            "initial": "",
+            "final": "oi",
             "tone": "1"
         },
         "w2": {

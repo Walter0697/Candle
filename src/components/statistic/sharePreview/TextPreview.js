@@ -4,20 +4,25 @@ import {
 } from '@mui/material'
 import { useSelector } from 'react-redux'
 import { useSnackbar } from 'notistack'
+import { isMobile } from 'react-device-detect'
 
 import IconButton from '@mui/material/IconButton'
 
 import ContentCopyIcon from '@mui/icons-material/ContentCopy'
 import IosShareIcon from '@mui/icons-material/IosShare'
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
 
 import record from '../../../utils/record'
 import colour from '../../../utils/colour'
 import display from '../../../utils/display'
 import share from '../../../utils/share'
 
-function TextPreview() {
+function TextPreview({
+    openExplain,
+}) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const difficulty = useSelector((state) => state.setting.difficulty)
+    const ordering = isMobile ? [ 'share', 'copy' ] : [ 'copy', 'share' ]
 
     const correctColor = useMemo(() => {
         if (isContrast) return '🟧'
@@ -70,9 +75,29 @@ function TextPreview() {
         share.share_text(shareStr, copyCallback, failCallback)
     }
 
+    const getShareButton = (type) => {
+        if (type === 'copy') {
+            return (
+                <IconButton onClick={copyText} style={{ color: buttonColor }}>
+                    <ContentCopyIcon />
+                </IconButton>
+            )
+        } else if (type === 'share') {
+            return (
+                <IconButton onClick={shareText} style={{ color: buttonColor }}>
+                    <IosShareIcon />
+                </IconButton>
+            )
+        }
+    }
+
     return (
         <Grid container>
-            <Grid item xs={2}></Grid>
+            <Grid item xs={2}>
+                <IconButton onClick={openExplain} style={{ color: buttonColor }}>
+                    <QuestionMarkIcon />
+                </IconButton>
+            </Grid>
             <Grid item xs={8}
                 className={'share-preview-wrap'}
             >
@@ -81,12 +106,7 @@ function TextPreview() {
                 )}
             </Grid>
             <Grid item xs={2}>
-                <IconButton onClick={copyText} style={{ color: buttonColor }}>
-                    <ContentCopyIcon />
-                </IconButton>
-                <IconButton onClick={shareText} style={{ color: buttonColor }}>
-                    <IosShareIcon />
-                </IconButton>
+                {ordering.map((item_type, _) => getShareButton(item_type))}
             </Grid>
         </Grid>
     )

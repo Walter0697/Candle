@@ -4,21 +4,26 @@ import {
 } from '@mui/material'
 import { useSelector } from 'react-redux'
 import { useSnackbar } from 'notistack'
+import { isMobile } from 'react-device-detect'
 
 import IconButton from '@mui/material/IconButton'
 
 import ContentCopyIcon from '@mui/icons-material/ContentCopy'
 import SaveAltIcon from '@mui/icons-material/SaveAlt'
 import IosShareIcon from '@mui/icons-material/IosShare'
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark'
 
 import record from '../../../utils/record'
 import colour from '../../../utils/colour'
 import display from '../../../utils/display'
 import share from '../../../utils/share'
 
-function ImagePreview() {
+function ImagePreview({
+    openExplain,
+}) {
     const isContrast = useSelector((state) => state.colour.isContrast)
     const difficulty = useSelector((state) => state.setting.difficulty)
+    const ordering = isMobile ? [ 'share', 'save', 'copy' ] : [ 'save', 'copy', 'share' ]
 
     const [ imageDataURL, setDataURL ] = useState(null)
 
@@ -70,9 +75,35 @@ function ImagePreview() {
         share.share_image(`candle-${date}.png`, imageDataURL)
     }
 
+    const getShareButton = (type) => {
+        if (type === 'copy') {
+            return (
+                <IconButton onClick={copyURL} style={{ color: buttonColor }}>
+                    <ContentCopyIcon />
+                </IconButton>
+            )
+        } else if (type === 'save') {
+            return (
+                <IconButton onClick={saveImage} style={{ color: buttonColor }}>
+                    <SaveAltIcon />
+                </IconButton>
+            )
+        } else if (type === 'share') {
+            return (
+                <IconButton onClick={shareImage} style={{ color: buttonColor }}>
+                    <IosShareIcon />
+                </IconButton>
+            )
+        }
+    }
+
     return (
         <Grid container>
-            <Grid item xs={2}></Grid>
+            <Grid item xs={2}>
+                <IconButton onClick={openExplain} style={{ color: buttonColor }}>
+                    <QuestionMarkIcon />
+                </IconButton>
+            </Grid>
             <Grid item xs={8}
                 className={'share-preview-wrap'}
             >
@@ -88,15 +119,7 @@ function ImagePreview() {
                 )}
             </Grid>
             <Grid item xs={2}>
-                <IconButton onClick={copyURL} style={{ color: buttonColor }}>
-                    <ContentCopyIcon />
-                </IconButton>
-                <IconButton onClick={saveImage} style={{ color: buttonColor }}>
-                    <SaveAltIcon />
-                </IconButton>
-                <IconButton onClick={shareImage} style={{ color: buttonColor }}>
-                    <IosShareIcon />
-                </IconButton>
+                {ordering.map((item_type, _) => getShareButton(item_type))}
             </Grid>
         </Grid>
     )

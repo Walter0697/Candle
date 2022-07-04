@@ -6,9 +6,11 @@ import {
 import ShareButton from './ShareButton'
 import ImagePreview from './sharePreview/ImagePreview'
 import TextPreview from './sharePreview/TextPreview'
+import ShareExplain from './ShareExplain'
 
 function BottomInfo() {
     const [ currentShareDisplay, setShareDisplay ] = useState('image')
+    const [ explainOpen, setExplainOpen ] = useState(false)
 
     const setCurrentDisplay = (isImage) => {
         if (isImage) {
@@ -26,18 +28,28 @@ function BottomInfo() {
                 <Grid item xs={6} md={6} lg={6}
                     className={'bottombar-seperate'}
                 >
-                    <ShareButton imageShare={true} onClick={setCurrentDisplay} />
+                    <ShareButton 
+                        imageShare={true} 
+                        onClick={setCurrentDisplay} 
+                    />
                 </Grid>
                 <Grid item xs={6} md={6} lg={6}>
-                    <ShareButton imageShare={false} onClick={setCurrentDisplay} />
+                    <ShareButton 
+                        imageShare={false} 
+                        onClick={setCurrentDisplay}
+                    />
                 </Grid>
             </Grid>
             {currentShareDisplay === 'image' ? (
-                <ImagePreview />
+                <ImagePreview openExplain={() => setExplainOpen(true)} />
             ) : (
-                <TextPreview />
+                <TextPreview openExplain={() => setExplainOpen(true)} />
             )}
-            
+            <ShareExplain 
+                shareDisplay={currentShareDisplay}
+                open={explainOpen}
+                handleClose={() => setExplainOpen(false)}
+            />
         </Grid>
     )
 }
