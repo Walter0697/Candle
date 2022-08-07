@@ -9,6 +9,7 @@ import GameTile from './GameTile'
 import { useSelector } from 'react-redux'
 
 import validate from '../../utils/validate'
+import config from '../../utils/configuration'
 
 function GameRow({ 
     list,
@@ -17,26 +18,41 @@ function GameRow({
     setShake,
     currentDate,
     shouldGiveHint,
+    rowNumber,
 }) {
+    const hintStartRow = config.hintStartRow
+
     const difficulty = useSelector((state) => state.setting.difficulty)
 
     const firstWordHint = useMemo(() => {
         if (difficulty !== 'easy') return false
-        if (!shouldGiveHint) return false
+        if (!shouldGiveHint) {
+            if (rowNumber >= hintStartRow) {
+                return '?'
+            }
+            return false
+        }
         const word = validate.first(currentDate)
         return word
     }, [shouldGiveHint, difficulty, currentDate])
 
     const initialHint = useMemo(() => {
         if (difficulty !== 'middle') return false
-        if (!shouldGiveHint) return false
+        if (!shouldGiveHint) {
+            if (rowNumber >= hintStartRow) {
+                return '?'
+            }
+            return false
+        }
         const initials = validate.allInitial(currentDate)
         return initials
     }, [shouldGiveHint, difficulty, currentDate])
 
     const getInitial = useCallback((index) => {
         if (!initialHint) return false
-        if (initialHint.length < index) return false
+        if (rowNumber >= hintStartRow) {
+            return '?'
+        }
         return initialHint[index] 
     }, [initialHint])
 

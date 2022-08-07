@@ -31,6 +31,7 @@
 }
 
 .title {
+  position: relative;
   color: white;
   font-size: 23px;
   padding-left: 25px;
@@ -648,4 +649,13 @@ input:focus {
   font-size: 12px;
   text-align: left;
   white-space: pre-line;;
+}
+
+.difficulty-header-label {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  width: 100px;
+  font-size: 12px;
+  transform: rotate(344deg);
 }
