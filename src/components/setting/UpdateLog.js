@@ -76,8 +76,8 @@ function UpdateLog({
                         className={'setting-item-wrap'}
                     >
                         <UpdateItem
-                            version={'v1.7.10'}
-                            content={'修正部份詞語的聲母韻母錯誤顯示問題'}
+                            version={'v1.7.11'}
+                            content={'難易度會在頂層顯示，聲母及韻母間會有空格以免不必要的誤會'}
                         />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}

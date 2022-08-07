@@ -218,12 +218,12 @@ function GameTile({
                         <span
                             style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}
                         >
-                            {info.pronounce.initial}
+                            {info.pronounce.initial}&nbsp;
                         </span>
                         <span 
                             style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}
                         >
-                            {info.pronounce.final}
+                            {info.pronounce.final}&nbsp;
                         </span>
                         <span 
                             style={{ color: topColor === incorrectColour ? 'white' : topColor }}
