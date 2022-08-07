@@ -77,7 +77,7 @@ function UpdateLog({
                     >
                         <UpdateItem
                             version={'v1.7.11'}
-                            content={'難易度會在頂層顯示，聲母及韻母間會有空格以免不必要的誤會'}
+                            content={'難易度會在頂層顯示；聲母會有底線以免不必要的誤會'}
                         />
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}

@@ -105,7 +105,12 @@ function BigTile({
                                 {word ? <>{word}</> : <>&nbsp;</>}
                             </div>
                             <div className={'bigtile-pronounce'}>
-                                <span style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}>{initial}</span>
+                                <span 
+                                    style={{ 
+                                        color: leftColor === incorrectColour ? 'white' : leftColor ,
+                                        borderBottom: `solid 1px ${leftColor === incorrectColour ? 'white' : leftColor}`
+                                    }}
+                                >{initial}</span>
                                 <span style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}>{final}</span>
                                 <span style={{ color: topColor === incorrectColour ? 'white' : topColor }}>{tone}</span>
                             </div>

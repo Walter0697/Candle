@@ -147,7 +147,10 @@ function TutorialTile({
                 <div className={'tutorialbox-pronounce flipbox-pronounce-display'}>
                     {pronounce ? <>
                         <span
-                            style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}
+                            style={{ 
+                                color: leftColor === incorrectColour ? 'white' : leftColor,
+                                borderBottom: `solid 1px ${leftColor === incorrectColour ? 'white' : leftColor}`
+                            }}
                         >
                             {pronounce.initial}
                         </span>

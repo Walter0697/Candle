@@ -216,14 +216,17 @@ function GameTile({
                 <div className={'flipbox-pronounce flipbox-pronounce-display'}>
                     {(info && info.pronounce) ? <>
                         <span
-                            style={{ color: leftColor === incorrectColour ? 'white' : leftColor }}
+                            style={{ 
+                                color: leftColor === incorrectColour ? 'white' : leftColor,
+                                borderBottom: `solid 1px ${leftColor === incorrectColour ? 'white' : leftColor}`
+                            }}
                         >
-                            {info.pronounce.initial}&nbsp;
+                            {info.pronounce.initial}
                         </span>
                         <span 
                             style={{ color: rightColor === incorrectColour ? 'white' : rightColor }}
                         >
-                            {info.pronounce.final}&nbsp;
+                            {info.pronounce.final}
                         </span>
                         <span 
                             style={{ color: topColor === incorrectColour ? 'white' : topColor }}
