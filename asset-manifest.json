@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Candle/static/css/main.3231151a.css",
-    "main.js": "/Candle/static/js/main.e98aede8.js",
+    "main.js": "/Candle/static/js/main.a18ab438.js",
     "static/js/377.2bd88bb0.chunk.js": "/Candle/static/js/377.2bd88bb0.chunk.js",
     "service-worker.js": "/Candle/service-worker.js",
     "index.html": "/Candle/index.html",
     "main.3231151a.css.map": "/Candle/static/css/main.3231151a.css.map",
-    "main.e98aede8.js.map": "/Candle/static/js/main.e98aede8.js.map",
+    "main.a18ab438.js.map": "/Candle/static/js/main.a18ab438.js.map",
     "377.2bd88bb0.chunk.js.map": "/Candle/static/js/377.2bd88bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3231151a.css",
-    "static/js/main.e98aede8.js"
+    "static/js/main.a18ab438.js"
   ]
 }
