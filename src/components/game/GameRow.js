@@ -40,7 +40,7 @@ function GameRow({
         if (difficulty !== 'middle') return false
         if (!shouldGiveHint) {
             if (rowNumber >= hintStartRow) {
-                return '?'
+                return ['?', '?', '?', '?']
             }
             return false
         }
@@ -50,9 +50,6 @@ function GameRow({
 
     const getInitial = useCallback((index) => {
         if (!initialHint) return false
-        if (rowNumber >= hintStartRow) {
-            return '?'
-        }
         return initialHint[index] 
     }, [initialHint])
 

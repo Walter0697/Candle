@@ -76,6 +76,14 @@ function UpdateLog({
                         className={'setting-item-wrap'}
                     >
                         <UpdateItem
+                            version={'v1.7.12'}
+                            content={'修正中等難易度第三行後仍顯示問號的錯誤'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <UpdateItem
                             version={'v1.7.11'}
                             content={'難易度會在頂層顯示；聲母會有底線以免不必要的誤會'}
                         />
