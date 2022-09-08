@@ -100,7 +100,7 @@ const allInitial = (dateIndex) => {
 
 const sameWordChecking = (guessObj, answerObj, resultObj) => {
     resultObj.result.forEach((r, index) => {
-        r.sameWord = (guessObj.idiom.charAt(index) == answerObj.idiom.charAt(index))
+        r.sameWord = (guessObj.idiom.charAt(index) === answerObj.idiom.charAt(index))
     })
 }
 
@@ -132,13 +132,51 @@ const hasSameWordChecking = (guessObj, answerObj, resultObj) => {
     })
 }
 
+const belongsSameWordChecking = (guessObj, answerObj, resultObj) => {
+    let comparedObj = {}
+    resultObj.result.forEach((r, index) => {
+        const initialCheck = r.status.charAt(0) === 'y'
+        const finalCheck = r.status.charAt(1) === 'y'
+        const toneCheck = r.status.charAt(2) === 'y'
+        
+        let checkingCounter = 0
+        if (initialCheck) checkingCounter++
+        if (finalCheck) checkingCounter++
+        if (toneCheck) checkingCounter++
+
+        if (checkingCounter === 2) {
+            const checkingObj = guessObj[`w${index}`]
+
+            let validStr = initialCheck ? 'o' : 'x'
+            validStr += finalCheck ? 'o' : 'x'
+            validStr += toneCheck ? 'o' : 'x'
+
+            let shouldSplit = true
+            for (let i = 0; i < 4; i++) {
+                if (comparedObj[`w${i}`]) continue  // if this word had been compared to should split, we shouldn't do it again
+                const compareObj = answerObj[`w${i}`]
+                let compareStr = ''
+                compareStr += initialCheck ? (compareObj.initial === checkingObj.initial ? 'o' : 'x') : 'x'
+                compareStr += finalCheck ? (compareObj.final === checkingObj.final ? 'o' : 'x') : 'x'
+                compareStr += toneCheck ? (compareObj.tone === checkingObj.tone ? 'o' : 'x') : 'x'
+                if (compareStr === validStr) {
+                    shouldSplit = false
+                    comparedObj[`w${i}`] = true
+                    break
+                }
+            }
+            r.shouldSplit = shouldSplit
+        }
+    })
+}
+
 const allGreenYellowCheck = (guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject) => {
     // Check all green
     for (let i = 0; i < 4; i++) {
         const pronouncePartMatched = (
-            (guessObj[`w${i}`].initial == answerObj[`w${i}`].initial) &&
-            (guessObj[`w${i}`].final == answerObj[`w${i}`].final) &&
-            (guessObj[`w${i}`].tone == answerObj[`w${i}`].tone)
+            (guessObj[`w${i}`].initial === answerObj[`w${i}`].initial) &&
+            (guessObj[`w${i}`].final === answerObj[`w${i}`].final) &&
+            (guessObj[`w${i}`].tone === answerObj[`w${i}`].tone)
         )
         if (pronouncePartMatched) {
             allGreenYellowCheckObject.givenHints[`w${i}`] = true
@@ -153,9 +191,9 @@ const allGreenYellowCheck = (guessObj, answerObj, resultObj, statusObject, allGr
         if (!allGreenYellowCheckObject.givenHints[`w${i}`]) {
             for (let j = 0; j < 4; j++) {
                 if (!allGreenYellowCheckObject.isChecked[`w${j}`] && (
-                        (answerObj[`w${j}`].initial == guessObj[`w${i}`].initial) &&
-                        (answerObj[`w${j}`].final == guessObj[`w${i}`].final) &&
-                        (answerObj[`w${j}`].tone == guessObj[`w${i}`].tone)
+                        (answerObj[`w${j}`].initial === guessObj[`w${i}`].initial) &&
+                        (answerObj[`w${j}`].final === guessObj[`w${i}`].final) &&
+                        (answerObj[`w${j}`].tone === guessObj[`w${i}`].tone)
                     ))
                 {
                     allGreenYellowCheckObject.givenHints[`w${i}`] = true
@@ -206,7 +244,7 @@ const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, status
     
     // Check green
     for (let i = 0; i < 4; i++) {
-        const pronouncePartMatched = (guessObj[`w${i}`][compareType] == answerObj[`w${i}`][compareType])
+        const pronouncePartMatched = (guessObj[`w${i}`][compareType] === answerObj[`w${i}`][compareType])
         if (!givenHints[`w${i}`] && pronouncePartMatched) {
             givenHints[`w${i}`] = true
             isChecked[`w${i}`] = true
@@ -218,7 +256,7 @@ const comparePronounce = (guessObj, answerObj, pronounceIndex, resultObj, status
     // Check yellow
     for (let i = 0; i < 4; i++) {
         for (let j = 0; j < 4; j++) {
-            if (!givenHints[`w${i}`] && !isChecked[`w${j}`] && (answerObj[`w${j}`][compareType] == guessObj[`w${i}`][compareType])) {
+            if (!givenHints[`w${i}`] && !isChecked[`w${j}`] && (answerObj[`w${j}`][compareType] === guessObj[`w${i}`][compareType])) {
                 givenHints[`w${i}`] = true
                 isChecked[`w${j}`] = true
                 resultObj.result[i].status = constant[setCharAt(statusObject.array[i], pronounceIndex, "y")]
@@ -233,10 +271,10 @@ const guessValidator = (guess, answer) => {
         valid: false,
         win: false,
         result: [
-            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
-            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false, belongSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false, belongSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false, belongSameWord: false },
+            { status: constant["xxx"], pronounce: null, sameWord: false, hasWord: false, hasSameWord: false, belongSameWord: false },
         ]
     }
 
@@ -291,7 +329,8 @@ const guessValidator = (guess, answer) => {
     comparePronounce(guessObj, answerObj, 0, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 1, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 2, resultObj, statusObject, allGreenYellowCheckObject)
-    
+    belongsSameWordChecking(guessObj, answerObj, resultObj)
+
     return resultObj
 }
 

@@ -55,6 +55,7 @@ function GameTile({
     const partSeparate = useMemo(() => {
         if (!info) return false
         if (!info.status) return false
+        if (info.shouldSplit) return true
         if (info.status !== 'yyy') return false
         if (info.hasWord || info.hasSameWord) return false
         return true
