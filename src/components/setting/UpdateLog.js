@@ -72,7 +72,15 @@ function UpdateLog({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
-                <Grid item xs={12} md={12} lg={12}
+                    <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <UpdateItem
+                            version={'v1.7.13'}
+                            content={'半黃若果不屬於同一個字，也會分開顯示'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={12} lg={12}
                         className={'setting-item-wrap'}
                     >
                         <UpdateItem
