@@ -138,7 +138,11 @@ const generate_image = (progress, date, difficulty, colorInfo) => {
             const finalColour = get_colour_from_info(colorInfo, finalStatus)
             const toneColour = get_colour_from_info(colorInfo, toneStatus)
 
-            if (row[j].status === 'yyy' && !row[j].hasWord && !row[j].hasSameWord) {
+            let shouldSplit = false
+            if (row[j].status === 'yyy' && !row[j].hasWord && !row[j].hasSameWord) shouldSplit = true
+            if (row[j].shouldSplit) shouldSplit = true
+
+            if (shouldSplit) {
                 const xStart = parseInt(xAxisCurrent)
                 const yStart = parseInt(yAxisCurrent)
                 const boxSmallSize = parseInt((boxSize / 2) * 0.8)
