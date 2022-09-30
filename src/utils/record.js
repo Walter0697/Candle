@@ -35,6 +35,7 @@ const parseCurrentRecord = (data, currentIndex, pending) => {
         const hasWord = pending[i].hasWord
         const hasSameWord = pending[i].hasSameWord
         const shouldSplit = pending[i].shouldSplit
+        const shouldJoin = pending[i].shouldJoin
         const pronounce = pending[i].pronounce
         currentRowList[i] = { 
             word: word, 
@@ -43,6 +44,7 @@ const parseCurrentRecord = (data, currentIndex, pending) => {
             sameWord: sameWord,
             hasWord: hasWord,
             shouldSplit: shouldSplit,
+            shouldJoin: shouldJoin,
             hasSameWord: hasSameWord, 
         }
     }

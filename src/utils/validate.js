@@ -170,6 +170,28 @@ const belongsSameWordChecking = (guessObj, answerObj, resultObj) => {
     })
 }
 
+const partBelongsSameWordChecking = (guessObj, answerObj, resultObj) => {
+    resultObj.result.forEach((r, index) => {
+        if (r.status === 'yyy' && !r.hasSameWord) {
+            // if all yellow but not same word
+            // then we should check if partially belongs to same word
+
+            const checkingObj = guessObj[`w${index}`]
+            for (let i = 0; i < 4; i++) {
+                const compareObj = answerObj[`w${i}`]
+                let sameWordStr = ''
+                sameWordStr += (checkingObj.initial === compareObj.initial) ? 'i' : ''
+                sameWordStr += (checkingObj.final === compareObj.final) ? 'f' : ''
+                sameWordStr += (checkingObj.tone === compareObj.tone) ? 't' : ''
+
+                if (sameWordStr.length === 2) {
+                    r.shouldJoin = sameWordStr
+                }
+            }
+        }
+    })
+}
+
 const allGreenYellowCheck = (guessObj, answerObj, resultObj, statusObject, allGreenYellowCheckObject) => {
     // Check all green
     for (let i = 0; i < 4; i++) {
@@ -330,6 +352,7 @@ const guessValidator = (guess, answer) => {
     comparePronounce(guessObj, answerObj, 1, resultObj, statusObject, allGreenYellowCheckObject)
     comparePronounce(guessObj, answerObj, 2, resultObj, statusObject, allGreenYellowCheckObject)
     belongsSameWordChecking(guessObj, answerObj, resultObj)
+    partBelongsSameWordChecking(guessObj, answerObj, resultObj)
 
     return resultObj
 }

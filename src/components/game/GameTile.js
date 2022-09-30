@@ -64,7 +64,7 @@ function GameTile({
     const wordColor = useMemo(() => {
         if (info && info.word) return 'white'
         return 'gray'
-    }, [info, wordHint])
+    }, [info])
 
     const topColor = useMemo(() => {
         if (!info) return ''
@@ -106,6 +106,22 @@ function GameTile({
         if (info.status === 'yyy' && !info.hasSameWord && info.hasWord) return `2px solid ${colour.getNonSameWordColour(isContrast)}`
         return ''
     }, [info, isContrast])
+
+    // initial, final, tone
+    const ifJoin = useMemo(() => {
+        if (info && info.shouldJoin && info.shouldJoin === 'if') return true
+        return false
+    }, [info])
+
+    const ftJoin = useMemo(() => {
+        if (info && info.shouldJoin && info.shouldJoin === 'ft') return true
+        return false
+    }, [info])
+
+    const itJoin = useMemo(() => {
+        if (info && info.shouldJoin && info.shouldJoin === 'it') return true
+        return false
+    }, [info])
 
     const { transform } = useSpring({
         config: config.slow,
@@ -175,13 +191,13 @@ function GameTile({
                                 }}
                             />
                             <div
-                                className={'sepleftbox'}
+                                className={itJoin ? 'leftboxit' : (ifJoin ? 'leftboxif' : 'sepleftbox')}
                                 style={{
                                     backgroundColor: leftColor,
                                 }}
                             />
                             <div
-                                className={'seprightbox'}
+                                className={ftJoin ? 'rightboxft' : 'seprightbox'}
                                 style={{
                                     backgroundColor: rightColor,
                                 }}
