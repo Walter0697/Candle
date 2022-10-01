@@ -78,19 +78,19 @@ function ImagePreview({
     const getShareButton = (type) => {
         if (type === 'copy') {
             return (
-                <IconButton onClick={copyURL} style={{ color: buttonColor }}>
+                <IconButton onClick={copyURL} style={{ color: buttonColor }} key={type}>
                     <ContentCopyIcon />
                 </IconButton>
             )
         } else if (type === 'save') {
             return (
-                <IconButton onClick={saveImage} style={{ color: buttonColor }}>
+                <IconButton onClick={saveImage} style={{ color: buttonColor }} key={type}>
                     <SaveAltIcon />
                 </IconButton>
             )
         } else if (type === 'share') {
             return (
-                <IconButton onClick={shareImage} style={{ color: buttonColor }}>
+                <IconButton onClick={shareImage} style={{ color: buttonColor }} key={type}>
                     <IosShareIcon />
                 </IconButton>
             )

@@ -149,12 +149,25 @@ const generate_image = (progress, date, difficulty, colorInfo) => {
                 const xMid = parseInt(xStart + boxSize - boxSmallSize)
                 const yMid = parseInt(yStart + boxSize - boxSmallSize)
 
+                const fillGapSize = ((boxSize / 2) * 0.2) * 2
+
                 ctx.fillStyle = toneColour
                 ctx.fillRect(xStart, yStart, boxSize, boxSmallSize)
                 ctx.fillStyle = initialColour
-                ctx.fillRect(xStart, yMid, boxSmallSize, boxSmallSize)
+                if (row[j].shouldJoin && row[j].shouldJoin === 'if') {
+                    ctx.fillRect(xStart, yMid, boxSmallSize + fillGapSize, boxSmallSize)
+                } else if (row[j].shouldJoin && row[j].shouldJoin === 'it') {
+                    ctx.fillRect(xStart, yMid - fillGapSize, boxSmallSize, boxSmallSize + fillGapSize)
+                } else {
+                    ctx.fillRect(xStart, yMid, boxSmallSize, boxSmallSize)
+                }
+                
                 ctx.fillStyle = finalColour
-                ctx.fillRect(xMid, yMid, boxSmallSize, boxSmallSize)
+                if (row[j].shouldJoin && row[j].shouldJoin === 'ft') {
+                    ctx.fillRect(xMid, yMid - fillGapSize, boxSmallSize, boxSmallSize + fillGapSize)
+                } else {
+                    ctx.fillRect(xMid, yMid, boxSmallSize, boxSmallSize)
+                }
             } else {
                 const xStart = parseInt(xAxisCurrent)
                 const xMid = parseInt(xAxisCurrent + boxSize / 2)

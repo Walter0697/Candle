@@ -60,7 +60,7 @@ function Header({
                 </div>
                 <div className='title notpaste'>
                     粵道
-                    <div class='difficulty-header-label' style={{
+                    <div className='difficulty-header-label' style={{
                         color: difficultyColor,
                     }}>
                         {difficultLabel}

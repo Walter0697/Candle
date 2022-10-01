@@ -78,13 +78,13 @@ function TextPreview({
     const getShareButton = (type) => {
         if (type === 'copy') {
             return (
-                <IconButton onClick={copyText} style={{ color: buttonColor }}>
+                <IconButton onClick={copyText} style={{ color: buttonColor }} key={type}>
                     <ContentCopyIcon />
                 </IconButton>
             )
         } else if (type === 'share') {
             return (
-                <IconButton onClick={shareText} style={{ color: buttonColor }}>
+                <IconButton onClick={shareText} style={{ color: buttonColor }} key={type}>
                     <IosShareIcon />
                 </IconButton>
             )
