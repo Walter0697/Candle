@@ -5861,7 +5861,7 @@ const dictionary = [
         "w3": {
             "initial": "f",
             "final": "at",
-            "tone": "1"
+            "tone": "6"
         }
     },
     {
@@ -8167,8 +8167,8 @@ const dictionary = [
     {
         "idiom": "鷸蚌相爭",
         "w0": {
-            "initial": "w",
-            "final": "at",
+            "initial": "n",
+            "final": "eot",
             "tone": "6"
         },
         "w1": {
@@ -20971,7 +20971,7 @@ const dictionary = [
         },
         "w3": {
             "initial": "h",
-            "final": "aang",
+            "final": "ang",
             "tone": "4"
         }
     },
@@ -35462,7 +35462,7 @@ const dictionary = [
         "w3": {
             "initial": "f",
             "final": "at",
-            "tone": "1"
+            "tone": "6"
         }
     },
     {
@@ -45961,7 +45961,7 @@ const dictionary = [
             "tone": "1"
         },
         "w1": {
-            "initial": "z",
+            "initial": "c",
             "final": "uk",
             "tone": "1"
         },
@@ -69163,9 +69163,9 @@ const dictionary = [
     {
         "idiom": "坐井觀天",
         "w0": {
-            "initial": "c",
+            "initial": "z",
             "final": "o",
-            "tone": "5"
+            "tone": "6"
         },
         "w1": {
             "initial": "z",
@@ -74989,7 +74989,7 @@ const dictionary = [
         "w1": {
             "initial": "w",
             "final": "u",
-            "tone": "2"
+            "tone": "4"
         },
         "w2": {
             "initial": "c",

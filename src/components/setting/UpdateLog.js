@@ -72,6 +72,14 @@ function UpdateLog({
             </DialogTitle>
             <DialogContent>
                 <Grid container>
+                <Grid item xs={12} md={12} lg={12}
+                        className={'setting-item-wrap'}
+                    >
+                        <UpdateItem
+                            version={'v1.7.15'}
+                            content={'更新字庫'}
+                        />
+                    </Grid>
                     <Grid item xs={12} md={12} lg={12}
                         className={'setting-item-wrap'}
                     >

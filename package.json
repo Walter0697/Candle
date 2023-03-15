@@ -1,7 +1,7 @@
 {
   "name": "candle",
   "homepage": "https://Walter0697.github.io/Candle/",
-  "version": "1.0.0",
+  "version": "1.7.15",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
