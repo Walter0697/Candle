@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/Walter0697/Candle/compare/v1.0.6...v1.0.7) (2025-09-10)
+
+
+### Bug Fixes
+
+* attempt ([d12c1ce](https://github.com/Walter0697/Candle/commit/d12c1ce7196aaa4cd13ac60c1e07c0887116b3d7))
+
 ## [1.0.6](https://github.com/Walter0697/Candle/compare/v1.0.5...v1.0.6) (2025-09-10)
 
 
