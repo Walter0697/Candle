@@ -93,7 +93,7 @@ jobs:
               repo: context.repo.repo,
               title: `🔄 Update Dictionary - ${new Date().toISOString().split('T')[0]}`,
               head: process.env.BRANCH_NAME,
-              base: 'develop',
+              base: 'shumai',
               body: `## Dictionary Update
 
               This PR updates the dictionary with the latest entries from the rime-cantonese source.
