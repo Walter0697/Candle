@@ -24,7 +24,9 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --save-dev @semantic-release/changelog @semantic-release/git
 
       - name: Configure Git
         run: |
