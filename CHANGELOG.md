@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Walter0697/Candle/compare/v1.0.0...v1.0.1) (2025-09-10)
+
+
+### Bug Fixes
+
+* release trigger deploy ([92c3858](https://github.com/Walter0697/Candle/commit/92c3858d75952f5805c29be6dbc3c64fb1fa9d60))
+
 # 1.0.0 (2025-09-10)
 
 
