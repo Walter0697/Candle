@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Walter0697/Candle/compare/v1.0.3...v1.0.4) (2025-09-10)
+
+
+### Bug Fixes
+
+* changing memory size in runner level ([1612317](https://github.com/Walter0697/Candle/commit/1612317ae710d9a10f6abf8cc59ac71e55cb0c4a))
+
 ## [1.0.3](https://github.com/Walter0697/Candle/compare/v1.0.2...v1.0.3) (2025-09-10)
 
 
