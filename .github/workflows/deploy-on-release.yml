@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     env:
-      NODE_OPTIONS: --max-old-space-size=6656
+      NODE_OPTIONS: --max_old_space_size=6144
 
     steps:
       - name: Debug workflow run info
@@ -49,5 +49,5 @@ jobs:
           echo "✅ Successfully deployed to GitHub Pages"
           echo "🌐 Site URL: https://Walter0697.github.io/Candle/"
           echo "📅 Deployed at: $(date)"
-          echo "📦 Version: ${{ github.event.release.tag_name }}"
-          echo "📝 Release: ${{ github.event.release.name }}"
+          echo "📦 Triggered by: ${{ github.event.workflow_run.name }}"
+          echo "🔗 Workflow URL: ${{ github.event.workflow_run.html_url }}"
