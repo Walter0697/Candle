@@ -1,0 +1,134 @@
+name: Version Bump and Deploy
+
+on:
+  push:
+    branches:
+      - shumai
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: "Version bump type (patch, minor, major)"
+        required: true
+        default: "patch"
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+jobs:
+  check-commit:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.check.outputs.should_deploy }}
+      should_version_bump: ${{ steps.check.outputs.should_version_bump }}
+      version_type: ${{ steps.check.outputs.version_type }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check commit message
+        id: check
+        run: |
+          # Get the latest commit message
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          echo "Latest commit: $COMMIT_MSG"
+
+          # Check if it's a version bump commit
+          if [[ "$COMMIT_MSG" =~ ^version\s+(patch|minor|major) ]]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+            echo "should_version_bump=false" >> $GITHUB_OUTPUT
+            VERSION_TYPE=$(echo "$COMMIT_MSG" | grep -oE "(patch|minor|major)")
+            echo "version_type=$VERSION_TYPE" >> $GITHUB_OUTPUT
+            echo "✅ Version bump detected: $VERSION_TYPE"
+          elif [[ "$COMMIT_MSG" =~ ^(feat|fix|docs|style|refactor|perf|test|chore|dictionary) ]]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+            echo "should_version_bump=true" >> $GITHUB_OUTPUT
+            echo "version_type=patch" >> $GITHUB_OUTPUT
+            echo "✅ Regular commit detected, will bump patch version"
+          else
+            echo "should_deploy=false" >> $GITHUB_OUTPUT
+            echo "should_version_bump=false" >> $GITHUB_OUTPUT
+            echo "version_type=" >> $GITHUB_OUTPUT
+            echo "❌ No deployment needed"
+          fi
+
+  version-bump:
+    needs: check-commit
+    if: needs.check-commit.outputs.should_version_bump == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Bump version
+        run: |
+          VERSION_TYPE="${{ needs.check-commit.outputs.version_type }}"
+          echo "Bumping $VERSION_TYPE version..."
+
+          # Bump version
+          npm version $VERSION_TYPE --no-git-tag-version
+
+          # Get new version
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          echo "New version: $NEW_VERSION"
+
+          # Commit version bump
+          git add package.json
+          git commit -m "version $VERSION_TYPE: $NEW_VERSION"
+
+          # Push the version bump
+          git push origin shumai
+
+          echo "✅ Version bumped to $NEW_VERSION"
+
+  deploy:
+    needs: check-commit
+    if: needs.check-commit.outputs.should_deploy == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+
+      - name: Log deployment
+        run: |
+          echo "✅ Successfully deployed to GitHub Pages"
+          echo "🌐 Site URL: https://Walter0697.github.io/Candle/"
+          echo "📅 Deployed at: $(date)"
+          echo "📦 Version: $(node -p "require('./package.json').version")"
