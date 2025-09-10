@@ -11,6 +11,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    env:
+      NODE_OPTIONS: --max-old-space-size=6656
 
     steps:
       - name: Debug workflow run info
