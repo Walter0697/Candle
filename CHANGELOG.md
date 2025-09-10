@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/Walter0697/Candle/compare/v1.0.4...v1.0.5) (2025-09-10)
+
+
+### Bug Fixes
+
+* attempt on fixing ci issue ([d2a5a50](https://github.com/Walter0697/Candle/commit/d2a5a50629a0423ad97e2b7f9d4b7b2d20f6fc94))
+* node version ([d90b652](https://github.com/Walter0697/Candle/commit/d90b65274a38a936d3b0b9c05dac075456b0ce8a))
+
 ## [1.0.4](https://github.com/Walter0697/Candle/compare/v1.0.3...v1.0.4) (2025-09-10)
 
 
