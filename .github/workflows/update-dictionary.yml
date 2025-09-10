@@ -62,8 +62,7 @@ jobs:
           BRANCH_NAME="update-dictionary-$(date +%Y%m%d-%H%M%S)"
           git checkout -b $BRANCH_NAME
 
-          # Add and commit changes
-          git add output/
+          # Add and commit changes (only the 4 dictionary files)
           git add src/dictionaries/dictionary.js
           git add src/dictionaries/wordbank.js
           git add src/dictionaries/duplicates.js
@@ -111,14 +110,6 @@ jobs:
               - \`src/dictionaries/wordbank.js\` - Complete word bank
               - \`src/dictionaries/duplicates.js\` - Duplicate entries
               - \`src/dictionaries/pronunciation.js\` - Pronunciation mappings
-
-              ### Generated JSON Files:
-              - \`output/wordbank.json\` - Complete word bank
-              - \`output/dictionary.json\` - Dictionary entries
-              - \`output/pronunciation.json\` - Pronunciation mappings
-              - \`output/initial.json\` - Initial sounds
-              - \`output/final.json\` - Final sounds
-              - \`output/duplicates.json\` - Duplicate entries
 
               ### Source:
               - **Candle Dictionary**: https://raw.githubusercontent.com/Walter0697/Candle/develop/src/dictionaries/dictionary.js
