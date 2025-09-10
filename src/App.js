@@ -3,7 +3,7 @@ import {
   Grid,
 } from '@mui/material'
 
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { setContrast } from './store/slice/colourSlice'
 import { setAutoScroll, setSmoothInput, setDifficulty, setTesting } from './store/slice/settingSlice'
 
@@ -60,7 +60,7 @@ function App() {
     if (hasHistory.length === 0) {
       setOpenTutorial(true)
     }
-  }, [])
+  }, [dispatch])
 
   useEffect(() => {
     if (played) {

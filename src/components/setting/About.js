@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React from 'react'
 import {
     Dialog,
     DialogContent,
@@ -7,7 +7,6 @@ import {
     IconButton,
     Grid,
 } from '@mui/material'
-import { useSelector } from 'react-redux'
 
 import CloseIcon from '@mui/icons-material/Close'
 

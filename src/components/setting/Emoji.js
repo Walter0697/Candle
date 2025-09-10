@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -15,30 +15,30 @@ const TransitionUp = (props) => {
     return <Grow {...props} />
 }
 
-function EmojiChoice({
-    value,
-    selected,
-    setValue,
-}) {
-    return (
-        <Grid item xs={12} md={12} lg={12}
-            style={{
-                letterSpacing: '15px',
-                backgroundColor: (value === selected) ? '#51c4fbd1' : '#7a797987',
-                borderRadius: '10px',
-                height: '40px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                margin: '10px',
-                cursor: 'pointer',
-            }}
-            onClick={() => setValue(value)}
-        >
-            {value}
-        </Grid>
-    )
-}
+// function EmojiChoice({
+//     value,
+//     selected,
+//     setValue,
+// }) {
+//     return (
+//         <Grid item xs={12} md={12} lg={12}
+//             style={{
+//                 letterSpacing: '15px',
+//                 backgroundColor: (value === selected) ? '#51c4fbd1' : '#7a797987',
+//                 borderRadius: '10px',
+//                 height: '40px',
+//                 display: 'flex',
+//                 alignItems: 'center',
+//                 justifyContent: 'center',
+//                 margin: '10px',
+//                 cursor: 'pointer',
+//             }}
+//             onClick={() => setValue(value)}
+//         >
+//             {value}
+//         </Grid>
+//     )
+// }
 
 function Emoji({
     open,

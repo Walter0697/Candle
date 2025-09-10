@@ -34,7 +34,7 @@ function GameRow({
         }
         const word = validate.first(currentDate)
         return word
-    }, [shouldGiveHint, difficulty, currentDate])
+    }, [shouldGiveHint, difficulty, currentDate, hintStartRow, rowNumber])
 
     const initialHint = useMemo(() => {
         if (difficulty !== 'middle') return false
@@ -46,7 +46,7 @@ function GameRow({
         }
         const initials = validate.allInitial(currentDate)
         return initials
-    }, [shouldGiveHint, difficulty, currentDate])
+    }, [shouldGiveHint, difficulty, currentDate, hintStartRow, rowNumber])
 
     const getInitial = useCallback((index) => {
         if (!initialHint) return false

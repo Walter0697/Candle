@@ -55,7 +55,7 @@ function TextPreview({
         })
         
         setShareStr(resultStr)
-    }, [isContrast, difficulty])
+    }, [isContrast, difficulty, correctColor, placeColor, incorrectColor])
 
     const { enqueueSnackbar } = useSnackbar()
 

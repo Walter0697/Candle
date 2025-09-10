@@ -1,6 +1,6 @@
 module.exports = {
   // Increase the maximum file size for precaching
-  maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10MB
+  maximumFileSizeToCacheInBytes: 8 * 1024 * 1024, // 8MB (7.43MB bundle)
   
   // Configure which files to precache
   globPatterns: [

@@ -39,7 +39,7 @@ function Header({
         if (!current) return ''
 
         return current.color
-    })
+    }, [difficultinfo])
 
     return (
         <Grid container>

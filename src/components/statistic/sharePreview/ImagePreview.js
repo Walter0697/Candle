@@ -114,7 +114,8 @@ function ImagePreview({
                             width: '70%',
                             cursor: 'pointer',
                         }} 
-                        src={imageDataURL} 
+                        src={imageDataURL}
+                        alt="Game result preview"
                     />
                 )}
             </Grid>

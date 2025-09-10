@@ -57,7 +57,7 @@ function TutorialTile({
         if (status === 'ggg' && !sameWord) return '30px'
         if (status === 'yyy' && !hasSameWord && hasWord) return '30px'
         return '32px'
-    }, [status, hasSameWord, hasWord])
+    }, [status, sameWord, hasSameWord, hasWord])
 
     const backborderColor = useMemo(() => {
         if (!status) return ''

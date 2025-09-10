@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useRef, useReducer } from 'react'
+import React, { useState, useEffect, useMemo, useRef, useReducer, useCallback } from 'react'
 import {
     Grid, 
 } from '@mui/material'
@@ -88,16 +88,32 @@ function Game({
 
     const [ rowShake, setRowShake ] = useState(false)
 
+    const setWinAnimation = useCallback((index) => {
+        if (index === maxLength) {
+            setFinished()
+            return
+        }
+
+        manipulateList({
+            type: 'win',
+            row: winningRow.current,
+            index: index,
+        })
+        window.setTimeout(() => {
+            setWinAnimation(index + 1)
+        }, 500)
+    }, [setFinished])
+
     const canInput = useMemo(() => {
         if (validating.current) return false
         if (gameStatus.current === 'win' || gameStatus.current === 'loss') return false
         return true
-    }, [validating.current, gameStatus.current])
+    }, [])
 
     const shouldGiveHint = useMemo(() => {
         if (currentRow.current >= hintStartRow) return true
         return false
-    }, [currentRow.current])
+    }, [])
 
     useEffect(() => {
         if (date) {
@@ -132,7 +148,7 @@ function Game({
                 record.reset_status()
             }
         }
-    }, [date])
+    }, [date, setFinished])
 
     useEffect(() => {
         if (!validating.current) {
@@ -149,7 +165,7 @@ function Game({
                 }, 1000)
             }
         }
-    }, [validating.current, gameStatus.current])
+    }, [date, enqueueSnackbar, setFinished, setWinAnimation])
 
     const guess = () => {
         // if the game is finished, then don't do anything
@@ -241,21 +257,6 @@ function Game({
         }, 500)
     }
 
-    const setWinAnimation = (index) => {
-        if (index === maxLength) {
-            setFinished()
-            return
-        }
-
-        manipulateList({
-            type: 'win',
-            row: winningRow.current,
-            index: index,
-        })
-        window.setTimeout(() => {
-            setWinAnimation(index + 1)
-        }, 500)
-    }
     
     const setNextGuess = (data) => {
         let inserted = false

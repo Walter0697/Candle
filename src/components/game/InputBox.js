@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 const maxLength = 4
 
@@ -36,34 +36,35 @@ function InputBox({
         }
     }
 
-    const onCompsitionStart = (e) => {
-        if (currentIndex === maxLength) return
-        if (!canInput) return
-        setComposition(true)
-    }
-
-    const onCompositionEnd = (e) => {
-        if (currentIndex === maxLength) return
-        if (!canInput) return
-        setComposition(false)
-        setValue(e.data)
-        setText('')
-    }
-
     useEffect(() => {
-        if (inputRef && inputRef.current) {
-            inputRef.current.addEventListener('compositionstart', onCompsitionStart)
-            inputRef.current.addEventListener('compositionend', onCompositionEnd)
-            inputRef.current.focus()
+        const onCompsitionStart = (e) => {
+            if (currentIndex === maxLength) return
+            if (!canInput) return
+            setComposition(true)
+        }
+
+        const onCompositionEnd = (e) => {
+            if (currentIndex === maxLength) return
+            if (!canInput) return
+            setComposition(false)
+            setValue(e.data)
+            setText('')
+        }
+
+        const inputElement = inputRef.current
+        if (inputElement) {
+            inputElement.addEventListener('compositionstart', onCompsitionStart)
+            inputElement.addEventListener('compositionend', onCompositionEnd)
+            inputElement.focus()
         }
 
         return () => {
-            if (inputRef && inputRef.current) {
-                inputRef.current.removeEventListener('compositionstart', onCompsitionStart)
-                inputRef.current.removeEventListener('compositionend', onCompositionEnd)
+            if (inputElement) {
+                inputElement.removeEventListener('compositionstart', onCompsitionStart)
+                inputElement.removeEventListener('compositionend', onCompositionEnd)
             }
         }
-    }, [inputRef])
+    }, [currentIndex, canInput, setValue])
 
     useEffect(() => {
         if (canInput) {
