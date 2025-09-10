@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/Walter0697/Candle/compare/v1.0.2...v1.0.3) (2025-09-10)
+
+
+### Bug Fixes
+
+* fixing script to allow more memory limits ([ace1d29](https://github.com/Walter0697/Candle/commit/ace1d29e5ef89e74175373fc7386ec2512bebff7))
+* increase memory size for building to production ([0009f93](https://github.com/Walter0697/Candle/commit/0009f93272371f3b41472cf6311f4b919859d993))
+
 ## [1.0.2](https://github.com/Walter0697/Candle/compare/v1.0.1...v1.0.2) (2025-09-10)
 
 
