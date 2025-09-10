@@ -137,10 +137,19 @@ jobs:
             let autoMerge = false;
 
             try {
-              // Read the generated files to get new stats
-              const wordbank = JSON.parse(fs.readFileSync('output/wordbank.json', 'utf8'));
-              const dictionary = JSON.parse(fs.readFileSync('output/dictionary.json', 'utf8'));
-              const duplicates = JSON.parse(fs.readFileSync('output/duplicates.json', 'utf8'));
+              // Read the JS files to get new stats
+              const dictContent = fs.readFileSync('src/dictionaries/dictionary.js', 'utf8');
+              const wordbankContent = fs.readFileSync('src/dictionaries/wordbank.js', 'utf8');
+              const duplicatesContent = fs.readFileSync('src/dictionaries/duplicates.js', 'utf8');
+              
+              // Parse the JS files
+              const dictMatch = dictContent.match(/const dictionary = (\[[\s\S]*?\]);/);
+              const wordbankMatch = wordbankContent.match(/const wordbank = (\[[\s\S]*?\]);/);
+              const duplicatesMatch = duplicatesContent.match(/const duplicates = (\[[\s\S]*?\]);/);
+              
+              const dictionary = dictMatch ? JSON.parse(dictMatch[1]) : [];
+              const wordbank = wordbankMatch ? JSON.parse(wordbankMatch[1]) : [];
+              const duplicates = duplicatesMatch ? JSON.parse(duplicatesMatch[1]) : [];
               
               const newDict = dictionary.length;
               const newWordbank = wordbank.length;
@@ -248,8 +257,16 @@ jobs:
             let shouldAutoMerge = false;
 
             try {
-              const wordbank = JSON.parse(fs.readFileSync('output/wordbank.json', 'utf8'));
-              const dictionary = JSON.parse(fs.readFileSync('output/dictionary.json', 'utf8'));
+              // Read the JS files to get new stats
+              const dictContent = fs.readFileSync('src/dictionaries/dictionary.js', 'utf8');
+              const wordbankContent = fs.readFileSync('src/dictionaries/wordbank.js', 'utf8');
+              
+              // Parse the JS files
+              const dictMatch = dictContent.match(/const dictionary = (\[[\s\S]*?\]);/);
+              const wordbankMatch = wordbankContent.match(/const wordbank = (\[[\s\S]*?\]);/);
+              
+              const dictionary = dictMatch ? JSON.parse(dictMatch[1]) : [];
+              const wordbank = wordbankMatch ? JSON.parse(wordbankMatch[1]) : [];
               
               const newDict = dictionary.length;
               const newWordbank = wordbank.length;
@@ -317,9 +334,19 @@ jobs:
               let stats = '';
               
               try {
-                const wordbank = JSON.parse(fs.readFileSync('output/wordbank.json', 'utf8'));
-                const dictionary = JSON.parse(fs.readFileSync('output/dictionary.json', 'utf8'));
-                const duplicates = JSON.parse(fs.readFileSync('output/duplicates.json', 'utf8'));
+                // Read the JS files to get new stats
+                const dictContent = fs.readFileSync('src/dictionaries/dictionary.js', 'utf8');
+                const wordbankContent = fs.readFileSync('src/dictionaries/wordbank.js', 'utf8');
+                const duplicatesContent = fs.readFileSync('src/dictionaries/duplicates.js', 'utf8');
+                
+                // Parse the JS files
+                const dictMatch = dictContent.match(/const dictionary = (\[[\s\S]*?\]);/);
+                const wordbankMatch = wordbankContent.match(/const wordbank = (\[[\s\S]*?\]);/);
+                const duplicatesMatch = duplicatesContent.match(/const duplicates = (\[[\s\S]*?\]);/);
+                
+                const dictionary = dictMatch ? JSON.parse(dictMatch[1]) : [];
+                const wordbank = wordbankMatch ? JSON.parse(wordbankMatch[1]) : [];
+                const duplicates = duplicatesMatch ? JSON.parse(duplicatesMatch[1]) : [];
                 
                 const newDict = dictionary.length;
                 const newWordbank = wordbank.length;

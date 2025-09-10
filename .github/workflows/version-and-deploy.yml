@@ -44,6 +44,12 @@ jobs:
             VERSION_TYPE=$(echo "$COMMIT_MSG" | grep -oE "(patch|minor|major)")
             echo "version_type=$VERSION_TYPE" >> $GITHUB_OUTPUT
             echo "✅ Version bump detected: $VERSION_TYPE"
+          # Check if it's a merge commit from PR
+          elif [[ "$COMMIT_MSG" =~ ^Merge\s+pull\s+request\s+#[0-9]+ ]]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+            echo "should_version_bump=true" >> $GITHUB_OUTPUT
+            echo "version_type=minor" >> $GITHUB_OUTPUT
+            echo "✅ Merge commit detected, will bump minor version"
           elif [[ "$COMMIT_MSG" =~ ^(feat|fix|docs|style|refactor|perf|test|chore|dictionary) ]]; then
             echo "should_deploy=true" >> $GITHUB_OUTPUT
             echo "should_version_bump=true" >> $GITHUB_OUTPUT
