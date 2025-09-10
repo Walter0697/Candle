@@ -110,7 +110,7 @@ jobs:
           git add src/dictionaries/wordbank.js
           git add src/dictionaries/duplicates.js
           git add src/dictionaries/pronunciation.js
-          git commit -m "Update dictionary from rime-cantonese source
+          git commit -m "chore(dictionary): update from rime-cantonese source
 
           - Updated dictionary.js with latest entries
           - Updated wordbank.js with complete word bank
@@ -163,17 +163,9 @@ jobs:
               const wordbankDiff = newWordbank - parseInt(oldWordbank);
               const duplicatesDiff = newDuplicates - parseInt(oldDuplicates);
               
-              // Determine if this is a major update (lots of new words)
-              if (wordbankDiff > 100 || dictDiff > 50) {
-                prTitle = `🚀 Major Dictionary Update - ${new Date().toISOString().split('T')[0]}`;
-                autoMerge = false; // Manual review for major updates
-              } else if (wordbankDiff > 0 || dictDiff > 0) {
-                prTitle = `📚 Dictionary Update - ${new Date().toISOString().split('T')[0]}`;
-                autoMerge = true; // Auto-merge minor updates
-              } else {
-                prTitle = `🔧 Dictionary Maintenance - ${new Date().toISOString().split('T')[0]}`;
-                autoMerge = true; // Auto-merge maintenance updates
-              }
+              // All dictionary updates are treated as maintenance
+              prTitle = `🔧 Dictionary Maintenance - ${new Date().toISOString().split('T')[0]}`;
+              autoMerge = true; // Auto-merge all dictionary updates
               
               const { data: pr } = await github.rest.pulls.create({
                 owner: context.repo.owner,
@@ -277,10 +269,8 @@ jobs:
               const dictDiff = newDict - parseInt(oldDict);
               const wordbankDiff = newWordbank - parseInt(oldWordbank);
               
-              // Auto-merge for minor updates (not major ones)
-              if (wordbankDiff <= 100 && dictDiff <= 50 && (wordbankDiff > 0 || dictDiff > 0)) {
-                shouldAutoMerge = true;
-              }
+              // Auto-merge all dictionary updates
+              shouldAutoMerge = true;
             } catch (error) {
               console.log('Error checking auto-merge conditions:', error);
             }

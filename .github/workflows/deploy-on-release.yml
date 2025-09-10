@@ -1,0 +1,39 @@
+name: Deploy on Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+
+      - name: Log deployment
+        run: |
+          echo "✅ Successfully deployed to GitHub Pages"
+          echo "🌐 Site URL: https://Walter0697.github.io/Candle/"
+          echo "📅 Deployed at: $(date)"
+          echo "📦 Version: ${{ github.event.release.tag_name }}"
+          echo "📝 Release: ${{ github.event.release.name }}"
