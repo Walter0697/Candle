@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/Walter0697/Candle/compare/v1.0.7...v1.0.8) (2025-09-11)
+
+
+### Bug Fixes
+
+* using library to build app ([29387be](https://github.com/Walter0697/Candle/commit/29387be89187866a3689deaa9c617d4249a8392f))
+
 ## [1.0.7](https://github.com/Walter0697/Candle/compare/v1.0.6...v1.0.7) (2025-09-10)
 
 
