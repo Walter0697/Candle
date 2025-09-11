@@ -23,6 +23,7 @@ import { setAutoScroll, setSmoothInput } from '../../store/slice/settingSlice'
 
 import setting from '../../utils/setting'
 import config from '../../utils/configuration'
+import packageJson from '../../../package.json'
 import display from '../../utils/display'
 
 const TransitionUp = (props) => {
@@ -272,7 +273,7 @@ function Settings({
             <DialogActions>
                 <div className={'credit-container'}>
                     <div className={'credit-item'}>
-                        #{dateIndex} version {config.version}
+                        #{dateIndex} version v{packageJson.version}
                     </div>
                     <div className={'credit-item'}>
                         Copyright Josh Wardle 2021-{dayjs().format('YYYY')}, the original creator for Wordle! All Rights Reserved.
