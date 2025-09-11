@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/Walter0697/Candle/compare/v1.0.9...v1.0.10) (2025-09-11)
+
+
+### Bug Fixes
+
+* configure git before deploy ([e79cb13](https://github.com/Walter0697/Candle/commit/e79cb1314713c34bfd1665b7a9694428b36ba787))
+
 ## [1.0.9](https://github.com/Walter0697/Candle/compare/v1.0.8...v1.0.9) (2025-09-11)
 
 
