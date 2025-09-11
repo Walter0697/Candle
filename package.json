@@ -40,9 +40,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "PORT=9090 react-scripts start",
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 GENERATE_SOURCEMAP=false react-scripts build",
-    "test": "react-scripts test",
+    "start": "PORT=9090 react-app-rewired start",
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 GENERATE_SOURCEMAP=false react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "release": "semantic-release"
   },
@@ -67,6 +67,9 @@
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1",
+    "workbox-webpack-plugin": "^7.3.0"
   }
 }
