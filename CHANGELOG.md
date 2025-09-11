@@ -1,3 +1,10 @@
+## [1.7.16](https://github.com/Walter0697/Candle/compare/v1.7.15...v1.7.16) (2025-09-11)
+
+
+### Bug Fixes
+
+* using package.json to define the version ([04014e0](https://github.com/Walter0697/Candle/commit/04014e086860f3eeefd8c422972f28eb609184c6))
+
 # [1.1.0](https://github.com/Walter0697/Candle/compare/v1.0.11...v1.1.0) (2025-09-11)
 
 
