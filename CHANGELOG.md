@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Walter0697/Candle/compare/v1.0.11...v1.1.0) (2025-09-11)
+
+
+### Features
+
+* using our existing structure for version number ([d6bd964](https://github.com/Walter0697/Candle/commit/d6bd96451d0f2e8e490fe25c2580b974e21001b7))
+
 ## [1.0.11](https://github.com/Walter0697/Candle/compare/v1.0.10...v1.0.11) (2025-09-11)
 
 
