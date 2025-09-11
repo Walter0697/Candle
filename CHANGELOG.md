@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/Walter0697/Candle/compare/v1.0.8...v1.0.9) (2025-09-11)
+
+
+### Bug Fixes
+
+* realized npm run deploy is the error one ([6c3855b](https://github.com/Walter0697/Candle/commit/6c3855b8b8c12f0af66c0e0ce8781bb3101acfd9))
+
 ## [1.0.8](https://github.com/Walter0697/Candle/compare/v1.0.7...v1.0.8) (2025-09-11)
 
 
