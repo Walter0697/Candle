@@ -84,6 +84,27 @@ jobs:
           cd scripts
           node update-dictionary.js
 
+      - name: Bump version in configuration.js
+        run: |
+          # Read current version from configuration.js
+          CURRENT_VERSION=$(grep -o "version: 'v[^']*'" src/utils/configuration.js | sed "s/version: 'v//" | sed "s/'//")
+          echo "Current version: $CURRENT_VERSION"
+
+          # Parse version parts (assuming semantic versioning)
+          IFS='.' read -r major minor patch <<< "$CURRENT_VERSION"
+
+          # Bump patch version
+          NEW_PATCH=$((patch + 1))
+          NEW_VERSION="v${major}.${minor}.${NEW_PATCH}"
+          echo "New version: $NEW_VERSION"
+
+          # Update configuration.js
+          sed -i "s/version: 'v[^']*'/version: '$NEW_VERSION'/" src/utils/configuration.js
+
+          # Verify the change
+          echo "Updated configuration.js:"
+          grep "version:" src/utils/configuration.js
+
       - name: Check for changes
         id: changes
         run: |
@@ -105,11 +126,12 @@ jobs:
           BRANCH_NAME="update-dictionary-$(date +%Y%m%d-%H%M%S)"
           git checkout -b $BRANCH_NAME
 
-          # Add and commit changes (only the 4 dictionary files)
+          # Add and commit changes (dictionary files + configuration.js)
           git add src/dictionaries/dictionary.js
           git add src/dictionaries/wordbank.js
           git add src/dictionaries/duplicates.js
           git add src/dictionaries/pronunciation.js
+          git add src/utils/configuration.js
           git commit -m "chore(dictionary): update from rime-cantonese source
 
           - Updated dictionary.js with latest entries
@@ -117,6 +139,7 @@ jobs:
           - Updated duplicates.js with duplicate entries
           - Updated pronunciation.js with pronunciation mappings
           - Updated initial and final sound lists
+          - Bumped version in configuration.js
 
           Generated on: $(date)"
 

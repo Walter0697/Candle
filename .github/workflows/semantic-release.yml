@@ -33,7 +33,34 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+      - name: Sync version from configuration.js to package.json
+        run: |
+          # Read version from configuration.js
+          CONFIG_VERSION=$(grep -o "version: 'v[^']*'" src/utils/configuration.js | sed "s/version: 'v//" | sed "s/'//")
+          echo "Configuration version: $CONFIG_VERSION"
+
+          # Update package.json version (remove 'v' prefix for npm)
+          npm version $CONFIG_VERSION --no-git-tag-version
+
+          # Verify the sync
+          echo "Package.json version after sync:"
+          grep '"version"' package.json
+
       - name: Run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+
+      - name: Update configuration.js with new version
+        if: success()
+        run: |
+          # Get the new version from package.json (semantic-release updates it)
+          NEW_VERSION=$(grep '"version"' package.json | sed 's/.*"version": "\([^"]*\)".*/\1/')
+          echo "New version from semantic-release: $NEW_VERSION"
+
+          # Update configuration.js with the new version (add 'v' prefix)
+          sed -i "s/version: 'v[^']*'/version: 'v$NEW_VERSION'/" src/utils/configuration.js
+
+          # Verify the update
+          echo "Updated configuration.js:"
+          grep "version:" src/utils/configuration.js
