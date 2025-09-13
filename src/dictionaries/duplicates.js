@@ -18432,6 +18432,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "芝麻綠豆",
+    "idiom2": "脂麻綠豆",
+    "w0": {
+      "initial": "z",
+      "final": "i",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "m",
+      "final": "aa",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "uk",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "d",
+      "final": "au",
+      "tone": "2"
+    }
+  },
+  {
     "idiom": "知識分子",
     "idiom2": "知識份子",
     "w0": {
@@ -27716,30 +27740,6 @@ const duplicates = [
     "w3": {
       "initial": "d",
       "final": "ai",
-      "tone": "2"
-    }
-  },
-  {
-    "idiom": "芝麻綠豆",
-    "idiom2": "脂麻綠豆",
-    "w0": {
-      "initial": "z",
-      "final": "i",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "m",
-      "final": "aa",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "uk",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "au",
       "tone": "2"
     }
   },
