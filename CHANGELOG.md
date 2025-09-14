@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/Walter0697/Candle/compare/v1.7.16...v1.8.0) (2025-09-14)
+
+
+### Features
+
+* stop auto merge ([2236e8e](https://github.com/Walter0697/Candle/commit/2236e8e7b031baeee82b8a88623e33014bae768b))
+
 ## [1.7.16](https://github.com/Walter0697/Candle/compare/v1.7.15...v1.7.16) (2025-09-11)
 
 
