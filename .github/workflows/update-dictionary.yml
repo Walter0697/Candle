@@ -165,8 +165,7 @@ jobs:
               
               // All dictionary updates are treated as maintenance
               prTitle = `🔧 Dictionary Maintenance - ${new Date().toISOString().split('T')[0]}`;
-              autoMerge = true; // Auto-merge all dictionary updates
-              
+
               const { data: pr } = await github.rest.pulls.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -237,70 +236,6 @@ jobs:
               });
               
               console.log(`Created fallback PR #${pr.number}: ${pr.html_url}`);
-            }
-
-      - name: Auto-merge PR if applicable
-        if: steps.changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            // Check if this PR should be auto-merged
-            const fs = require('fs');
-            let shouldAutoMerge = false;
-
-            try {
-              // Read the JS files to get new stats
-              const dictContent = fs.readFileSync('src/dictionaries/dictionary.js', 'utf8');
-              const wordbankContent = fs.readFileSync('src/dictionaries/wordbank.js', 'utf8');
-              
-              // Parse the JS files
-              const dictMatch = dictContent.match(/const dictionary = (\[[\s\S]*?\]);/);
-              const wordbankMatch = wordbankContent.match(/const wordbank = (\[[\s\S]*?\]);/);
-              
-              const dictionary = dictMatch ? JSON.parse(dictMatch[1]) : [];
-              const wordbank = wordbankMatch ? JSON.parse(wordbankMatch[1]) : [];
-              
-              const newDict = dictionary.length;
-              const newWordbank = wordbank.length;
-              
-              const oldDict = process.env.CURRENT_DICT || '0';
-              const oldWordbank = process.env.CURRENT_WORDBANK || '0';
-              
-              const dictDiff = newDict - parseInt(oldDict);
-              const wordbankDiff = newWordbank - parseInt(oldWordbank);
-              
-              // Auto-merge all dictionary updates
-              shouldAutoMerge = true;
-            } catch (error) {
-              console.log('Error checking auto-merge conditions:', error);
-            }
-
-            if (shouldAutoMerge) {
-              // Get the PR number
-              const { data: prs } = await github.rest.pulls.list({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                head: `${context.repo.owner}:${process.env.BRANCH_NAME}`,
-                state: 'open'
-              });
-
-              if (prs.length > 0) {
-                const pr = prs[0];
-                
-                // Enable auto-merge
-                await github.rest.pulls.merge({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: pr.number,
-                  merge_method: 'squash',
-                  commit_title: `Auto-merge: ${pr.title}`,
-                  commit_message: 'Automatically merged dictionary update'
-                });
-                
-                console.log(`✅ Auto-merged PR #${pr.number}`);
-              }
-            } else {
-              console.log('❌ PR requires manual review - not auto-merging');
             }
 
       - name: Comment on PR with detailed stats
