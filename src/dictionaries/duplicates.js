@@ -18144,30 +18144,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "輯頭輯尾",
-    "idiom2": "執頭執尾",
-    "w0": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "t",
-      "final": "au",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ei",
-      "tone": "5"
-    }
-  },
-  {
     "idiom": "疾惡如仇",
     "idiom2": "嫉惡如仇",
     "w0": {
@@ -22992,30 +22968,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "慶尚北道",
-    "idiom2": "慶尙北道",
-    "w0": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "oeng",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ak",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "慶尚南道",
     "idiom2": "慶尙南道",
     "w0": {
@@ -27717,6 +27669,30 @@ const duplicates = [
       "initial": "c",
       "final": "ou",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "執頭執尾",
+    "idiom2": "輯頭輯尾",
+    "w0": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "t",
+      "final": "au",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ei",
+      "tone": "5"
     }
   },
   {
