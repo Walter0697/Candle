@@ -3912,30 +3912,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "戙徛水魚",
-    "idiom2": "戙企水魚",
-    "w0": {
-      "initial": "d",
-      "final": "ung",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "k",
-      "final": "ei",
-      "tone": "5"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "eoi",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "yu",
-      "tone": "2"
-    }
-  },
-  {
     "idiom": "花哩花碌",
     "idiom2": "花呢花碌",
     "w0": {
@@ -20829,6 +20805,30 @@ const duplicates = [
       "initial": "g",
       "final": "ing",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "戙企水魚",
+    "idiom2": "戙徛水魚",
+    "w0": {
+      "initial": "d",
+      "final": "ung",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "k",
+      "final": "ei",
+      "tone": "5"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "eoi",
+      "tone": "2"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "yu",
+      "tone": "2"
     }
   },
   {
