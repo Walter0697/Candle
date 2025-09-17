@@ -5472,30 +5472,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "羹藜唅糗",
-    "idiom2": "羹藜含糗",
-    "w0": {
-      "initial": "g",
-      "final": "ang",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "ai",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "h",
-      "final": "am",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "c",
-      "final": "au",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "九龍城砦",
     "idiom2": "九龍城寨",
     "w0": {
@@ -21552,6 +21528,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "羹藜含糗",
+    "idiom2": "羹藜唅糗",
+    "w0": {
+      "initial": "g",
+      "final": "ang",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "l",
+      "final": "ai",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "h",
+      "final": "am",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "c",
+      "final": "au",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "吉普塞人",
     "idiom2": "吉普賽人",
     "w0": {
@@ -22988,30 +22988,6 @@ const duplicates = [
     "w3": {
       "initial": "l",
       "final": "it",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "慶尚北道",
-    "idiom2": "慶尙北道",
-    "w0": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "oeng",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ak",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "ou",
       "tone": "6"
     }
   },
