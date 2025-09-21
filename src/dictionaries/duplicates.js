@@ -8040,6 +8040,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "一棟都冇",
+    "idiom2": "一戙都冇",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ung",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ou",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ou",
+      "tone": "5"
+    }
+  },
+  {
     "idiom": "一拮就穿",
     "idiom2": "一㓤就穿",
     "w0": {
@@ -20880,30 +20904,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "分竈吃飯",
-    "idiom2": "分竈喫飯",
-    "w0": {
-      "initial": "f",
-      "final": "an",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "ou",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "h",
-      "final": "ek",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "f",
-      "final": "aan",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "憤憤不平",
     "idiom2": "忿忿不平",
     "w0": {
@@ -23325,30 +23325,6 @@ const duplicates = [
       "initial": "j",
       "final": "am",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "一棟都冇",
-    "idiom2": "一戙都冇",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ung",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ou",
-      "tone": "5"
     }
   },
   {
