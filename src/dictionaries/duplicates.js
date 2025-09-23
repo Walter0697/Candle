@@ -5016,54 +5016,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "監人賴厚",
-    "idiom2": "監人勑厚",
-    "w0": {
-      "initial": "g",
-      "final": "aam",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "an",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "aai",
-      "tone": "5"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "au",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "監人賴逅",
-    "idiom2": "監人勑厚",
-    "w0": {
-      "initial": "g",
-      "final": "aam",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "an",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "aai",
-      "tone": "5"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "au",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "監人賴逅",
     "idiom2": "監人賴厚",
     "w0": {
@@ -8037,6 +7989,30 @@ const duplicates = [
       "initial": "l",
       "final": "ang",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "一棟都冇",
+    "idiom2": "一戙都冇",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ung",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ou",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ou",
+      "tone": "5"
     }
   },
   {
@@ -21360,6 +21336,54 @@ const duplicates = [
     }
   },
   {
+    "idiom": "監人勑厚",
+    "idiom2": "監人賴厚",
+    "w0": {
+      "initial": "g",
+      "final": "aam",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "an",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "aai",
+      "tone": "5"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "au",
+      "tone": "6"
+    }
+  },
+  {
+    "idiom": "監人勑厚",
+    "idiom2": "監人賴逅",
+    "w0": {
+      "initial": "g",
+      "final": "aam",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "an",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "aai",
+      "tone": "5"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "au",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "鑑往知來",
     "idiom2": "鑒往知來",
     "w0": {
@@ -23325,30 +23349,6 @@ const duplicates = [
       "initial": "j",
       "final": "am",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "一棟都冇",
-    "idiom2": "一戙都冇",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ung",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ou",
-      "tone": "5"
     }
   },
   {
