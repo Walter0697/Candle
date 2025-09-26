@@ -6312,30 +6312,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "鬼哭狼嚎",
-    "idiom2": "鬼哭狼嗥",
-    "w0": {
-      "initial": "gw",
-      "final": "ai",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "h",
-      "final": "uk",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "ong",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "ou",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "滾水熝腳",
     "idiom2": "滾水淥腳",
     "w0": {
@@ -8037,6 +8013,30 @@ const duplicates = [
       "initial": "l",
       "final": "ang",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "一棟都冇",
+    "idiom2": "一戙都冇",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ung",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ou",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ou",
+      "tone": "5"
     }
   },
   {
@@ -16608,30 +16608,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "惟我獨尊",
-    "idiom2": "唯我獨尊",
-    "w0": {
-      "initial": "w",
-      "final": "ai",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "ng",
-      "final": "o",
-      "tone": "5"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "uk",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "z",
-      "final": "yun",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "渾渾沌沌",
     "idiom2": "昏昏沌沌",
     "w0": {
@@ -21888,6 +21864,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "鬼哭狼嗥",
+    "idiom2": "鬼哭狼嚎",
+    "w0": {
+      "initial": "gw",
+      "final": "ai",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "uk",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "ong",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "ou",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "君臨天下",
     "idiom2": "君林天下",
     "w0": {
@@ -23325,30 +23325,6 @@ const duplicates = [
       "initial": "j",
       "final": "am",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "一棟都冇",
-    "idiom2": "一戙都冇",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ung",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ou",
-      "tone": "5"
     }
   },
   {
@@ -27117,6 +27093,30 @@ const duplicates = [
       "initial": "c",
       "final": "iu",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "惟我獨尊",
+    "idiom2": "唯我獨尊",
+    "w0": {
+      "initial": "w",
+      "final": "ai",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "ng",
+      "final": "o",
+      "tone": "5"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "uk",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "z",
+      "final": "yun",
+      "tone": "1"
     }
   },
   {

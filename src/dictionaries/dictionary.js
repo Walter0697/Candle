@@ -74757,7 +74757,7 @@ const dictionary = [
       "tone": "1"
     },
     "w1": {
-      "initial": "k",
+      "initial": "g",
       "final": "ei",
       "tone": "4"
     },
