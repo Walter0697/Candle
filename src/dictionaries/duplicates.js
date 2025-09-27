@@ -8040,6 +8040,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "一棟都冇",
+    "idiom2": "一戙都冇",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ung",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ou",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ou",
+      "tone": "5"
+    }
+  },
+  {
     "idiom": "一拮就穿",
     "idiom2": "一㓤就穿",
     "w0": {
@@ -21816,8 +21840,8 @@ const duplicates = [
     }
   },
   {
-    "idiom": "高爾基體",
-    "idiom2": "高爾機體",
+    "idiom": "高爾機體",
+    "idiom2": "高爾基體",
     "w0": {
       "initial": "g",
       "final": "ou",
@@ -23325,30 +23349,6 @@ const duplicates = [
       "initial": "j",
       "final": "am",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "一棟都冇",
-    "idiom2": "一戙都冇",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ung",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ou",
-      "tone": "5"
     }
   },
   {
