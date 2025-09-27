@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Candle/static/css/main.1a374973.css",
-    "main.js": "/Candle/static/js/main.ef64a01c.js",
+    "main.js": "/Candle/static/js/main.0ef995cf.js",
     "static/js/385.9b026357.chunk.js": "/Candle/static/js/385.9b026357.chunk.js",
     "service-worker.js": "/Candle/service-worker.js",
     "index.html": "/Candle/index.html"
   },
   "entrypoints": [
     "static/css/main.1a374973.css",
-    "static/js/main.ef64a01c.js"
+    "static/js/main.0ef995cf.js"
   ]
 }
