@@ -3,7 +3,7 @@ name: Update Dictionary
 on:
   schedule:
     # Run every day at 2 AM UTC
-    - cron: "0 2 * * *"
+    - cron: "0 2 * * 5"
   workflow_dispatch:
     inputs:
       force_update:
