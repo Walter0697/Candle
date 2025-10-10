@@ -20904,30 +20904,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "分竈吃飯",
-    "idiom2": "分竈喫飯",
-    "w0": {
-      "initial": "f",
-      "final": "an",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "ou",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "h",
-      "final": "ek",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "f",
-      "final": "aan",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "憤憤不平",
     "idiom2": "忿忿不平",
     "w0": {
@@ -21840,8 +21816,8 @@ const duplicates = [
     }
   },
   {
-    "idiom": "高爾機體",
-    "idiom2": "高爾基體",
+    "idiom": "高爾基體",
+    "idiom2": "高爾機體",
     "w0": {
       "initial": "g",
       "final": "ou",
