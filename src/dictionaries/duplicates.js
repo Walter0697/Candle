@@ -21840,8 +21840,8 @@ const duplicates = [
     }
   },
   {
-    "idiom": "高爾機體",
-    "idiom2": "高爾基體",
+    "idiom": "高爾基體",
+    "idiom2": "高爾機體",
     "w0": {
       "initial": "g",
       "final": "ou",
