@@ -22992,30 +22992,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "慶尚北道",
-    "idiom2": "慶尙北道",
-    "w0": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "oeng",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ak",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "ou",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "慶尚南道",
     "idiom2": "慶尙南道",
     "w0": {
