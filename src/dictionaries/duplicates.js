@@ -18144,30 +18144,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "輯頭輯尾",
-    "idiom2": "執頭執尾",
-    "w0": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "t",
-      "final": "au",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ei",
-      "tone": "5"
-    }
-  },
-  {
     "idiom": "疾惡如仇",
     "idiom2": "嫉惡如仇",
     "w0": {
@@ -27717,6 +27693,30 @@ const duplicates = [
       "initial": "c",
       "final": "ou",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "執頭執尾",
+    "idiom2": "輯頭輯尾",
+    "w0": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "t",
+      "final": "au",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ei",
+      "tone": "5"
     }
   },
   {
