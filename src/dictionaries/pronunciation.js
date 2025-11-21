@@ -462,11 +462,11 @@ const pronunciation = {
   ],
   "lik1": [
     "力",
-    "瀝",
     "靂",
     "礫",
     "歷",
-    "櫪"
+    "櫪",
+    "瀝"
   ],
   "gaau1": [
     "膠",
@@ -579,6 +579,7 @@ const pronunciation = {
     "梅",
     "媒",
     "酶",
+    "莓",
     "煤",
     "脢",
     "玫"
@@ -730,7 +731,6 @@ const pronunciation = {
     "輸",
     "舒",
     "樞",
-    "紆",
     "紓",
     "抒"
   ],
@@ -1661,6 +1661,7 @@ const pronunciation = {
   "jyu1": [
     "於",
     "迂",
+    "紆",
     "竽",
     "于"
   ],
@@ -1852,12 +1853,6 @@ const pronunciation = {
     "躁",
     "糙",
     "操"
-  ],
-  "au2": [
-    "嘔"
-  ],
-  "hyut3": [
-    "血"
   ],
   "bai3": [
     "閉",
@@ -2774,7 +2769,8 @@ const pronunciation = {
   "haak1": [
     "赫",
     "黑",
-    "刻"
+    "刻",
+    "克"
   ],
   "tang4": [
     "騰",
@@ -3944,6 +3940,11 @@ const pronunciation = {
     "倡",
     "悵"
   ],
+  "song1": [
+    "桑",
+    "喪",
+    "嗓"
+  ],
   "waan6": [
     "患",
     "幻",
@@ -4578,7 +4579,8 @@ const pronunciation = {
   ],
   "fei4": [
     "肥",
-    "腓"
+    "腓",
+    "淝"
   ],
   "zaak3": [
     "責",
@@ -5098,6 +5100,9 @@ const pronunciation = {
     "俊",
     "雋"
   ],
+  "hyut3": [
+    "血"
+  ],
   "hoeng2": [
     "響",
     "行",
@@ -5166,8 +5171,8 @@ const pronunciation = {
     "慰",
     "尉",
     "喂",
-    "蔚",
     "餵",
+    "蔚",
     "慧"
   ],
   "ngaa5": [
@@ -5946,7 +5951,6 @@ const pronunciation = {
   "bong2": [
     "綁",
     "榜",
-    "縛",
     "膀"
   ],
   "bong6": [
@@ -7294,11 +7298,6 @@ const pronunciation = {
     "剒",
     "擉"
   ],
-  "song1": [
-    "桑",
-    "喪",
-    "嗓"
-  ],
   "cong2": [
     "闖",
     "廠",
@@ -8625,8 +8624,7 @@ const pronunciation = {
   ],
   "hong2": [
     "慷",
-    "行",
-    "巷"
+    "行"
   ],
   "goe3": [
     "鋸"
@@ -8718,9 +8716,6 @@ const pronunciation = {
   ],
   "dip2": [
     "碟"
-  ],
-  "mou3": [
-    "無"
   ],
   "to5": [
     "妥",
@@ -9135,6 +9130,9 @@ const pronunciation = {
   "pun1": [
     "番",
     "潘"
+  ],
+  "au2": [
+    "嘔"
   ],
   "ou3": [
     "澳",
