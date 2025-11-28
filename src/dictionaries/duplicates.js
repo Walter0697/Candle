@@ -7944,30 +7944,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "一搊一掕",
-    "idiom2": "一抽一掕",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "c",
-      "final": "au",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "ang",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "一抽二褦",
     "idiom2": "一抽二掕",
     "w0": {
@@ -10965,30 +10941,6 @@ const duplicates = [
       "initial": "d",
       "final": "ou",
       "tone": "2"
-    }
-  },
-  {
-    "idiom": "流離浪蕩",
-    "idiom2": "流離朗蕩",
-    "w0": {
-      "initial": "l",
-      "final": "au",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "ei",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "ong",
-      "tone": "5"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "ong",
-      "tone": "6"
     }
   },
   {
@@ -16872,30 +16824,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "渾水摸魚",
-    "idiom2": "混水摸魚",
-    "w0": {
-      "initial": "w",
-      "final": "an",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "eoi",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "m",
-      "final": "o",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "yu",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "渾渾噩噩",
     "idiom2": "混混噩噩",
     "w0": {
@@ -18141,6 +18069,30 @@ const duplicates = [
       "initial": "m",
       "final": "eng",
       "tone": "6"
+    }
+  },
+  {
+    "idiom": "輯頭輯尾",
+    "idiom2": "執頭執尾",
+    "w0": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "t",
+      "final": "au",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "z",
+      "final": "ap",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "ei",
+      "tone": "5"
     }
   },
   {
@@ -23304,6 +23256,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "一抽一掕",
+    "idiom2": "一搊一掕",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "c",
+      "final": "au",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "ang",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "一槌定音",
     "idiom2": "一錘定音",
     "w0": {
@@ -24524,6 +24500,30 @@ const duplicates = [
     "w3": {
       "initial": "m",
       "final": "ing",
+      "tone": "6"
+    }
+  },
+  {
+    "idiom": "流離浪蕩",
+    "idiom2": "流離朗蕩",
+    "w0": {
+      "initial": "l",
+      "final": "au",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "l",
+      "final": "ei",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "ong",
+      "tone": "5"
+    },
+    "w3": {
+      "initial": "d",
+      "final": "ong",
       "tone": "6"
     }
   },
@@ -27144,6 +27144,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "混水摸魚",
+    "idiom2": "渾水摸魚",
+    "w0": {
+      "initial": "w",
+      "final": "an",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "eoi",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "m",
+      "final": "o",
+      "tone": "2"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "yu",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "永誌不忘",
     "idiom2": "永志不忘",
     "w0": {
@@ -27693,30 +27717,6 @@ const duplicates = [
       "initial": "c",
       "final": "ou",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "執頭執尾",
-    "idiom2": "輯頭輯尾",
-    "w0": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "t",
-      "final": "au",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "ap",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "ei",
-      "tone": "5"
     }
   },
   {

@@ -1191,8 +1191,8 @@ const dictionary = [
     },
     "w3": {
       "initial": "b",
-      "final": "ong",
-      "tone": "2"
+      "final": "ok",
+      "tone": "3"
     }
   },
   {
@@ -12232,7 +12232,7 @@ const dictionary = [
     "w3": {
       "initial": "h",
       "final": "ou",
-      "tone": "2"
+      "tone": "3"
     }
   },
   {
@@ -38504,7 +38504,7 @@ const dictionary = [
   {
     "idiom": "紆尊降貴",
     "w0": {
-      "initial": "s",
+      "initial": "j",
       "final": "yu",
       "tone": "1"
     },
@@ -42656,7 +42656,7 @@ const dictionary = [
     "w2": {
       "initial": "m",
       "final": "ou",
-      "tone": "3"
+      "tone": "4"
     },
     "w3": {
       "initial": "l",
