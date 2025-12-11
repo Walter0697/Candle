@@ -129,6 +129,10 @@ jobs:
       - name: Create Pull Request
         if: steps.changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
         uses: actions/github-script@v7
+        env:
+          CURRENT_DICT: ${{ steps.before_stats.outputs.current_dict }}
+          CURRENT_WORDBANK: ${{ steps.before_stats.outputs.current_wordbank }}
+          CURRENT_DUPLICATES: ${{ steps.before_stats.outputs.current_duplicates }}
         with:
           script: |
             // Determine PR title and auto-merge based on changes
@@ -236,80 +240,4 @@ jobs:
               });
               
               console.log(`Created fallback PR #${pr.number}: ${pr.html_url}`);
-            }
-
-      - name: Comment on PR with detailed stats
-        if: steps.changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            // Get the PR number from the previous step
-            const { data: prs } = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              head: `${context.repo.owner}:${process.env.BRANCH_NAME}`,
-              state: 'open'
-            });
-
-            if (prs.length > 0) {
-              const pr = prs[0];
-              
-              // Read the generated files to get detailed stats
-              const fs = require('fs');
-              let stats = '';
-              
-              try {
-                // Read the JS files to get new stats
-                const dictContent = fs.readFileSync('src/dictionaries/dictionary.js', 'utf8');
-                const wordbankContent = fs.readFileSync('src/dictionaries/wordbank.js', 'utf8');
-                const duplicatesContent = fs.readFileSync('src/dictionaries/duplicates.js', 'utf8');
-                
-                // Parse the JS files
-                const dictMatch = dictContent.match(/const dictionary = (\[[\s\S]*?\]);/);
-                const wordbankMatch = wordbankContent.match(/const wordbank = (\[[\s\S]*?\]);/);
-                const duplicatesMatch = duplicatesContent.match(/const duplicates = (\[[\s\S]*?\]);/);
-                
-                const dictionary = dictMatch ? JSON.parse(dictMatch[1]) : [];
-                const wordbank = wordbankMatch ? JSON.parse(wordbankMatch[1]) : [];
-                const duplicates = duplicatesMatch ? JSON.parse(duplicatesMatch[1]) : [];
-                
-                const newDict = dictionary.length;
-                const newWordbank = wordbank.length;
-                const newDuplicates = duplicates.length;
-                
-                const oldDict = process.env.CURRENT_DICT || '0';
-                const oldWordbank = process.env.CURRENT_WORDBANK || '0';
-                const oldDuplicates = process.env.CURRENT_DUPLICATES || '0';
-                
-                const dictDiff = newDict - parseInt(oldDict);
-                const wordbankDiff = newWordbank - parseInt(oldWordbank);
-                const duplicatesDiff = newDuplicates - parseInt(oldDuplicates);
-                
-                stats = `## 📊 Detailed Update Statistics
-                
-                ### Before vs After:
-                | File | Before | After | Change |
-                |------|--------|-------|--------|
-                | Dictionary | ${oldDict} | ${newDict} | ${dictDiff > 0 ? '+' : ''}${dictDiff} |
-                | Wordbank | ${oldWordbank} | ${newWordbank} | ${wordbankDiff > 0 ? '+' : ''}${wordbankDiff} |
-                | Duplicates | ${oldDuplicates} | ${newDuplicates} | ${duplicatesDiff > 0 ? '+' : ''}${duplicatesDiff} |
-                
-                ### Summary:
-                - **Total Words**: ${newWordbank} (${wordbankDiff > 0 ? '+' : ''}${wordbankDiff})
-                - **Dictionary Entries**: ${newDict} (${dictDiff > 0 ? '+' : ''}${dictDiff})
-                - **Duplicates Found**: ${newDuplicates} (${duplicatesDiff > 0 ? '+' : ''}${duplicatesDiff})
-                
-                ### 🕒 Generated at: ${new Date().toISOString()}`;
-              } catch (error) {
-                stats = `## 📊 Update Statistics
-                
-                *Unable to read detailed statistics due to: ${error.message}*`;
-              }
-              
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: pr.number,
-                body: stats
-              });
             }
