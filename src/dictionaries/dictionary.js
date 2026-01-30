@@ -17034,7 +17034,7 @@ const dictionary = [
     "w2": {
       "initial": "s",
       "final": "ong",
-      "tone": "3"
+      "tone": "1"
     },
     "w3": {
       "initial": "h",
@@ -67118,7 +67118,7 @@ const dictionary = [
     "w0": {
       "initial": "d",
       "final": "aa",
-      "tone": "1"
+      "tone": "2"
     },
     "w1": {
       "initial": "s",
