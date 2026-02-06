@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -11040,30 +11064,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "廉正公署",
-    "idiom2": "廉政公署",
-    "w0": {
-      "initial": "l",
-      "final": "im",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "g",
-      "final": "ung",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "c",
-      "final": "yu",
-      "tone": "5"
-    }
-  },
-  {
     "idiom": "連珠砲發",
     "idiom2": "連珠炮發",
     "w0": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
