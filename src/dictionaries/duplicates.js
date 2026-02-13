@@ -192,27 +192,27 @@ const duplicates = [
     }
   },
   {
-    "idiom": "阿豬阿狗",
-    "idiom2": "亞豬亞狗",
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
     "w0": {
       "initial": "a",
-      "final": "a",
-      "tone": "3"
+      "final": "ai",
+      "tone": "1"
     },
     "w1": {
-      "initial": "z",
-      "final": "yu",
+      "initial": "a",
+      "final": "ai",
       "tone": "1"
     },
     "w2": {
-      "initial": "a",
-      "final": "a",
-      "tone": "3"
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
     },
     "w3": {
-      "initial": "g",
-      "final": "au",
-      "tone": "2"
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
     }
   },
   {
@@ -2328,30 +2328,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "大隻纍纍",
-    "idiom2": "大隻累累",
-    "w0": {
-      "initial": "d",
-      "final": "aai",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "ek",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "eoi",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "eoi",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "擔擔擡擡",
     "idiom2": "担担擡擡",
     "w0": {
@@ -2757,30 +2733,6 @@ const duplicates = [
       "initial": "w",
       "final": "aa",
       "tone": "4"
-    }
-  },
-  {
-    "idiom": "的的骰骰",
-    "idiom2": "的的式式",
-    "w0": {
-      "initial": "d",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "s",
-      "final": "ik",
-      "tone": "1"
     }
   },
   {
@@ -19464,27 +19416,27 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
+    "idiom": "阿豬阿狗",
+    "idiom2": "亞豬亞狗",
     "w0": {
       "initial": "a",
-      "final": "ai",
-      "tone": "1"
+      "final": "a",
+      "tone": "3"
     },
     "w1": {
-      "initial": "a",
-      "final": "ai",
+      "initial": "z",
+      "final": "yu",
       "tone": "1"
     },
     "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
+      "initial": "a",
+      "final": "a",
+      "tone": "3"
     },
     "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
+      "initial": "g",
+      "final": "au",
+      "tone": "2"
     }
   },
   {
@@ -20544,6 +20496,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "大隻累累",
+    "idiom2": "大隻纍纍",
+    "w0": {
+      "initial": "d",
+      "final": "aai",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "z",
+      "final": "ek",
+      "tone": "3"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "eoi",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "eoi",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "單核細胞",
     "idiom2": "單覈細胞",
     "w0": {
@@ -20661,6 +20637,30 @@ const duplicates = [
       "initial": "m",
       "final": "i",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "的的骰骰",
+    "idiom2": "的的式式",
+    "w0": {
+      "initial": "d",
+      "final": "ik",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ik",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "ik",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "s",
+      "final": "ik",
+      "tone": "1"
     }
   },
   {
