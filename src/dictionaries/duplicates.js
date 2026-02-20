@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -16464,30 +16488,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "畫花口面",
-    "idiom2": "劃花口面",
-    "w0": {
-      "initial": "w",
-      "final": "aak",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "f",
-      "final": "aa",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "h",
-      "final": "au",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "m",
-      "final": "in",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "橫徵暴斂",
     "idiom2": "橫征暴斂",
     "w0": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
@@ -27045,6 +27021,30 @@ const duplicates = [
       "initial": "t",
       "final": "ong",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "畫花口面",
+    "idiom2": "劃花口面",
+    "w0": {
+      "initial": "w",
+      "final": "aak",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "f",
+      "final": "aa",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "h",
+      "final": "au",
+      "tone": "2"
+    },
+    "w3": {
+      "initial": "m",
+      "final": "in",
+      "tone": "6"
     }
   },
   {
