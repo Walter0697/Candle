@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -5290,30 +5314,6 @@ const duplicates = [
     "w1": {
       "initial": "n",
       "final": "ei",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "g",
-      "final": "aau",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "ou",
-      "tone": "3"
-    }
-  },
-  {
-    "idiom": "攪呢攪路",
-    "idiom2": "搞呢搞路",
-    "w0": {
-      "initial": "g",
-      "final": "aau",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "n",
-      "final": "i",
       "tone": "1"
     },
     "w2": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
