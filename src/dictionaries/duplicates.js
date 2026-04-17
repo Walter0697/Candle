@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -15816,30 +15840,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "肇慶地區",
-    "idiom2": "紹興地區",
-    "w0": {
-      "initial": "s",
-      "final": "iu",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ei",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "k",
-      "final": "eoi",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "鎖鎖碎碎",
     "idiom2": "瑣瑣碎碎",
     "w0": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
@@ -26760,6 +26736,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "肇慶地區",
+    "idiom2": "紹興地區",
+    "w0": {
+      "initial": "s",
+      "final": "iu",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "ing",
+      "tone": "3"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ei",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "k",
+      "final": "eoi",
+      "tone": "1"
+    }
+  },
+  {
     "idiom": "雙鏈核酸",
     "idiom2": "雙鏈覈酸",
     "w0": {
@@ -27768,30 +27768,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "指手畫腳",
-    "idiom2": "指手劃腳",
-    "w0": {
-      "initial": "z",
-      "final": "i",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "au",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "w",
-      "final": "aak",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "oek",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "紙紮下扒",
     "idiom2": "紙扎下巴",
     "w0": {
@@ -28149,6 +28125,30 @@ const duplicates = [
       "initial": "k",
       "final": "iu",
       "tone": "2"
+    }
+  },
+  {
+    "idiom": "指手畫腳",
+    "idiom2": "指手劃腳",
+    "w0": {
+      "initial": "z",
+      "final": "i",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "au",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "w",
+      "final": "aak",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "oek",
+      "tone": "3"
     }
   }
 ];
