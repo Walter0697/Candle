@@ -1725,6 +1725,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "挨挨擠擠",
     "w0": {
       "initial": "a",
@@ -56465,6 +56488,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "程序設計",
+    "w0": {
+      "initial": "c",
+      "final": "ing",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "z",
+      "final": "eoi",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "c",
+      "final": "it",
+      "tone": "3"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "ai",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "程序控制",
     "w0": {
       "initial": "c",
@@ -67298,6 +67344,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "處理垃圾",
+    "w0": {
+      "initial": "c",
+      "final": "yu",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "l",
+      "final": "ei",
+      "tone": "5"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "aap",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "s",
+      "final": "aap",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "處世原則",
     "w0": {
       "initial": "c",
@@ -70058,29 +70127,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "打成一片",
-    "w0": {
-      "initial": "d",
-      "final": "aa",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "ing",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "p",
-      "final": "in",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "打白鴿轉",
     "w0": {
       "initial": "d",
@@ -71527,6 +71573,29 @@ const wordbank = [
       "initial": "s",
       "final": "an",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "打成一片",
+    "w0": {
+      "initial": "d",
+      "final": "aa",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "ing",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "p",
+      "final": "in",
+      "tone": "3"
     }
   },
   {
@@ -92322,29 +92391,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "丁骨牛排",
-    "w0": {
-      "initial": "d",
-      "final": "ing",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "gw",
-      "final": "at",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "ng",
-      "final": "au",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "p",
-      "final": "aai",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "丁蟹效應",
     "w0": {
       "initial": "d",
@@ -104788,6 +104834,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "花月佳期",
+    "w0": {
+      "initial": "f",
+      "final": "aa",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "yut",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "g",
+      "final": "aai",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "k",
+      "final": "ei",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "花呢花碌",
     "w0": {
       "initial": "f",
@@ -114191,29 +114260,6 @@ const wordbank = [
     "w3": {
       "initial": "l",
       "final": "ou",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "復康巴士",
-    "w0": {
-      "initial": "f",
-      "final": "au",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "h",
-      "final": "ong",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "aa",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "s",
-      "final": "i",
       "tone": "6"
     }
   },
@@ -137724,6 +137770,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "金碧熒煌",
+    "w0": {
+      "initial": "g",
+      "final": "am",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "b",
+      "final": "ik",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "ing",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "w",
+      "final": "ong",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "金翅噪鶥",
     "w0": {
       "initial": "g",
@@ -158306,29 +158375,6 @@ const wordbank = [
       "initial": "f",
       "final": "aat",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "角色扮演",
-    "w0": {
-      "initial": "g",
-      "final": "ok",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "aan",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "in",
-      "tone": "2"
     }
   },
   {
@@ -191038,29 +191084,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "希伯萊語",
-    "w0": {
-      "initial": "h",
-      "final": "ei",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "b",
-      "final": "aak",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "oi",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "yu",
-      "tone": "5"
-    }
-  },
-  {
     "idiom": "希伯萊文",
     "w0": {
       "initial": "h",
@@ -192576,6 +192599,29 @@ const wordbank = [
       "initial": "h",
       "final": "eoi",
       "tone": "1"
+    }
+  },
+  {
+    "idiom": "氣定神閒",
+    "w0": {
+      "initial": "h",
+      "final": "ei",
+      "tone": "3"
+    },
+    "w1": {
+      "initial": "d",
+      "final": "ing",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "an",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "aan",
+      "tone": "4"
     }
   },
   {
@@ -202006,29 +202052,6 @@ const wordbank = [
       "initial": "h",
       "final": "aam",
       "tone": "4"
-    }
-  },
-  {
-    "idiom": "海陸船舶",
-    "w0": {
-      "initial": "h",
-      "final": "oi",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "uk",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "yun",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ok",
-      "tone": "6"
     }
   },
   {
@@ -212977,29 +213000,6 @@ const wordbank = [
       "initial": "g",
       "final": "oek",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "擪高衫袖",
-    "w0": {
-      "initial": "j",
-      "final": "aap",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "g",
-      "final": "ou",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "aam",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "z",
-      "final": "au",
-      "tone": "6"
     }
   },
   {
@@ -235195,29 +235195,6 @@ const wordbank = [
       "initial": "m",
       "final": "in",
       "tone": "2"
-    }
-  },
-  {
-    "idiom": "遊街示衆",
-    "w0": {
-      "initial": "j",
-      "final": "au",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "g",
-      "final": "aai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "i",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "z",
-      "final": "ung",
-      "tone": "3"
     }
   },
   {
@@ -290099,29 +290076,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "離離喇喇",
-    "w0": {
-      "initial": "l",
-      "final": "ei",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "ei",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "l",
-      "final": "aa",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "aa",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "離晒大譜",
     "w0": {
       "initial": "l",
@@ -312156,29 +312110,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "唔使唔該",
-    "w0": {
-      "initial": "m",
-      "final": "",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "ai",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "m",
-      "final": "",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "oi",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "唔使面靑",
     "w0": {
       "initial": "m",
@@ -313786,6 +313717,29 @@ const wordbank = [
       "initial": "g",
       "final": "ung",
       "tone": "1"
+    }
+  },
+  {
+    "idiom": "馬房文化",
+    "w0": {
+      "initial": "m",
+      "final": "aa",
+      "tone": "5"
+    },
+    "w1": {
+      "initial": "f",
+      "final": "ong",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "m",
+      "final": "an",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "f",
+      "final": "aa",
+      "tone": "3"
     }
   },
   {
@@ -335797,6 +335751,29 @@ const wordbank = [
       "initial": "z",
       "final": "aak",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "無孔不入",
+    "w0": {
+      "initial": "m",
+      "final": "ou",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "ung",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "ap",
+      "tone": "6"
     }
   },
   {
@@ -389873,6 +389850,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "殺人遊戲",
+    "w0": {
+      "initial": "s",
+      "final": "aat",
+      "tone": "3"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "an",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "au",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "ei",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "殺人如麻",
     "w0": {
       "initial": "s",
@@ -412018,6 +412018,29 @@ const wordbank = [
     "w3": {
       "initial": "g",
       "final": "u",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "死而不僵",
+    "w0": {
+      "initial": "s",
+      "final": "ei",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "i",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "oeng",
       "tone": "1"
     }
   },
@@ -444797,6 +444820,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "選舉法庭",
+    "w0": {
+      "initial": "s",
+      "final": "yun",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "g",
+      "final": "eoi",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "f",
+      "final": "aat",
+      "tone": "3"
+    },
+    "w3": {
+      "initial": "t",
+      "final": "ing",
+      "tone": "4"
+    }
+  },
+  {
     "idiom": "損公肥私",
     "w0": {
       "initial": "s",
@@ -455604,6 +455650,29 @@ const wordbank = [
       "initial": "z",
       "final": "i",
       "tone": "6"
+    }
+  },
+  {
+    "idiom": "天命難違",
+    "w0": {
+      "initial": "t",
+      "final": "in",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "m",
+      "final": "ing",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "n",
+      "final": "aan",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "w",
+      "final": "ai",
+      "tone": "4"
     }
   },
   {
@@ -466574,6 +466643,29 @@ const wordbank = [
     "w3": {
       "initial": "w",
       "final": "aa",
+      "tone": "6"
+    }
+  },
+  {
+    "idiom": "話唔倒事",
+    "w0": {
+      "initial": "w",
+      "final": "aa",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "m",
+      "final": "",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "d",
+      "final": "ou",
+      "tone": "2"
+    },
+    "w3": {
+      "initial": "s",
+      "final": "i",
       "tone": "6"
     }
   },
@@ -488543,6 +488635,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "真係嗍氣",
+    "w0": {
+      "initial": "z",
+      "final": "an",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "ai",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "ok",
+      "tone": "3"
+    },
+    "w3": {
+      "initial": "h",
+      "final": "ei",
+      "tone": "3"
+    }
+  },
+  {
     "idiom": "真係調皮",
     "w0": {
       "initial": "z",
@@ -497924,29 +498039,6 @@ const wordbank = [
       "initial": "gw",
       "final": "o",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "知慳識儉",
-    "w0": {
-      "initial": "z",
-      "final": "i",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "h",
-      "final": "aan",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "im",
-      "tone": "6"
     }
   },
   {
@@ -536061,29 +536153,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "埃布羅河",
     "w0": {
       "initial": "a",
@@ -541420,29 +541489,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "濱田靖一",
-    "w0": {
-      "initial": "b",
-      "final": "an",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "t",
-      "final": "in",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "ing",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "濱州地區",
     "w0": {
       "initial": "b",
@@ -546477,6 +546523,29 @@ const wordbank = [
       "initial": "g",
       "final": "ei",
       "tone": "1"
+    }
+  },
+  {
+    "idiom": "玻璃幕牆",
+    "w0": {
+      "initial": "b",
+      "final": "o",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "l",
+      "final": "ei",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "m",
+      "final": "ok",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "c",
+      "final": "oeng",
+      "tone": "4"
     }
   },
   {
@@ -555930,29 +555999,6 @@ const wordbank = [
       "initial": "j",
       "final": "in",
       "tone": "4"
-    }
-  },
-  {
-    "idiom": "程序設計",
-    "w0": {
-      "initial": "c",
-      "final": "ing",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "eoi",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "c",
-      "final": "it",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "ai",
-      "tone": "3"
     }
   },
   {
@@ -571041,6 +571087,29 @@ const wordbank = [
       "initial": "m",
       "final": "in",
       "tone": "6"
+    }
+  },
+  {
+    "idiom": "丁骨牛排",
+    "w0": {
+      "initial": "d",
+      "final": "ing",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "gw",
+      "final": "at",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "ng",
+      "final": "au",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "p",
+      "final": "aai",
+      "tone": "4"
     }
   },
   {
@@ -589996,29 +590065,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "金碧熒煌",
-    "w0": {
-      "initial": "g",
-      "final": "am",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "b",
-      "final": "ik",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "ing",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "w",
-      "final": "ong",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "金榜題名",
     "w0": {
       "initial": "g",
@@ -607568,29 +607614,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "國民議會",
-    "w0": {
-      "initial": "gw",
-      "final": "ok",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "m",
-      "final": "an",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "i",
-      "tone": "5"
-    },
-    "w3": {
-      "initial": "w",
-      "final": "ui",
-      "tone": "2"
-    }
-  },
-  {
     "idiom": "國民生產",
     "w0": {
       "initial": "gw",
@@ -615089,6 +615112,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "希伯萊語",
+    "w0": {
+      "initial": "h",
+      "final": "ei",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "b",
+      "final": "aak",
+      "tone": "3"
+    },
+    "w2": {
+      "initial": "l",
+      "final": "oi",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "yu",
+      "tone": "5"
+    }
+  },
+  {
     "idiom": "稀有金屬",
     "w0": {
       "initial": "h",
@@ -615706,29 +615752,6 @@ const wordbank = [
     "w3": {
       "initial": "ng",
       "final": "au",
-      "tone": "4"
-    }
-  },
-  {
-    "idiom": "氣定神閒",
-    "w0": {
-      "initial": "h",
-      "final": "ei",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "d",
-      "final": "ing",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "an",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "aan",
       "tone": "4"
     }
   },
@@ -624496,6 +624519,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "擪高衫袖",
+    "w0": {
+      "initial": "j",
+      "final": "aap",
+      "tone": "3"
+    },
+    "w1": {
+      "initial": "g",
+      "final": "ou",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "aam",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "z",
+      "final": "au",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "陰差陽錯",
     "w0": {
       "initial": "j",
@@ -631166,29 +631212,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "日常工作",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "oeng",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "g",
-      "final": "ung",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "z",
-      "final": "ok",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "日常用品",
     "w0": {
       "initial": "j",
@@ -631715,6 +631738,29 @@ const wordbank = [
       "initial": "h",
       "final": "aap",
       "tone": "6"
+    }
+  },
+  {
+    "idiom": "遊街示衆",
+    "w0": {
+      "initial": "j",
+      "final": "au",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "g",
+      "final": "aai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "i",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "z",
+      "final": "ung",
+      "tone": "3"
     }
   },
   {
@@ -648140,6 +648186,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "孑影孤單",
+    "w0": {
+      "initial": "k",
+      "final": "it",
+      "tone": "3"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "ing",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "g",
+      "final": "u",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "d",
+      "final": "aan",
+      "tone": "1"
+    }
+  },
+  {
     "idiom": "孑立無依",
     "w0": {
       "initial": "k",
@@ -661710,6 +661779,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "唔使唔該",
+    "w0": {
+      "initial": "m",
+      "final": "",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "ai",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "m",
+      "final": "",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "oi",
+      "tone": "1"
+    }
+  },
+  {
     "idiom": "唔爲得過",
     "w0": {
       "initial": "m",
@@ -661960,29 +662052,6 @@ const wordbank = [
       "initial": "z",
       "final": "i",
       "tone": "2"
-    }
-  },
-  {
-    "idiom": "馬房文化",
-    "w0": {
-      "initial": "m",
-      "final": "aa",
-      "tone": "5"
-    },
-    "w1": {
-      "initial": "f",
-      "final": "ong",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "m",
-      "final": "an",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "f",
-      "final": "aa",
-      "tone": "3"
     }
   },
   {
@@ -671022,29 +671091,6 @@ const wordbank = [
       "initial": "ng",
       "final": "au",
       "tone": "4"
-    }
-  },
-  {
-    "idiom": "無孔不入",
-    "w0": {
-      "initial": "m",
-      "final": "ou",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "h",
-      "final": "ung",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "ap",
-      "tone": "6"
     }
   },
   {
@@ -699775,29 +699821,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "死而不僵",
-    "w0": {
-      "initial": "s",
-      "final": "ei",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "i",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "oeng",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "死亡筆記",
     "w0": {
       "initial": "s",
@@ -713828,29 +713851,6 @@ const wordbank = [
     }
   },
   {
-    "idiom": "選舉法庭",
-    "w0": {
-      "initial": "s",
-      "final": "yun",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "g",
-      "final": "eoi",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "f",
-      "final": "aat",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "t",
-      "final": "ing",
-      "tone": "4"
-    }
-  },
-  {
     "idiom": "損人利己",
     "w0": {
       "initial": "s",
@@ -717873,29 +717873,6 @@ const wordbank = [
       "initial": "g",
       "final": "aa",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "天命難違",
-    "w0": {
-      "initial": "t",
-      "final": "in",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "m",
-      "final": "ing",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "n",
-      "final": "aan",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "w",
-      "final": "ai",
-      "tone": "4"
     }
   },
   {
@@ -733010,6 +732987,29 @@ const wordbank = [
     }
   },
   {
+    "idiom": "知慳識儉",
+    "w0": {
+      "initial": "z",
+      "final": "i",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "aan",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "ik",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "im",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "知恩圖報",
     "w0": {
       "initial": "z",
@@ -734041,29 +734041,6 @@ const wordbank = [
     "w3": {
       "initial": "j",
       "final": "im",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "智力低下",
-    "w0": {
-      "initial": "z",
-      "final": "i",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "ik",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "d",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "aa",
       "tone": "6"
     }
   },
