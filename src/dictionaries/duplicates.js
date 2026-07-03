@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -16320,30 +16344,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "土耳其玉",
-    "idiom2": "土耳其浴",
-    "w0": {
-      "initial": "t",
-      "final": "ou",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "i",
-      "tone": "5"
-    },
-    "w2": {
-      "initial": "k",
-      "final": "ei",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "uk",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "通風報訊",
     "idiom2": "通風報信",
     "w0": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
@@ -22988,30 +22964,6 @@ const duplicates = [
     "w3": {
       "initial": "l",
       "final": "it",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "慶尚北道",
-    "idiom2": "慶尙北道",
-    "w0": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "oeng",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ak",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "d",
-      "final": "ou",
       "tone": "6"
     }
   },
@@ -26997,6 +26949,30 @@ const duplicates = [
       "initial": "c",
       "final": "oeng",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "土耳其玉",
+    "idiom2": "土耳其浴",
+    "w0": {
+      "initial": "t",
+      "final": "ou",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "i",
+      "tone": "5"
+    },
+    "w2": {
+      "initial": "k",
+      "final": "ei",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "uk",
+      "tone": "6"
     }
   },
   {
