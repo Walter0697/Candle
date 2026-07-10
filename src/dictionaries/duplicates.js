@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -19464,30 +19488,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -27768,30 +27768,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "指手畫腳",
-    "idiom2": "指手劃腳",
-    "w0": {
-      "initial": "z",
-      "final": "i",
-      "tone": "2"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "au",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "w",
-      "final": "aak",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "g",
-      "final": "oek",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "紙紮下扒",
     "idiom2": "紙扎下巴",
     "w0": {
@@ -28149,6 +28125,30 @@ const duplicates = [
       "initial": "k",
       "final": "iu",
       "tone": "2"
+    }
+  },
+  {
+    "idiom": "指手畫腳",
+    "idiom2": "指手劃腳",
+    "w0": {
+      "initial": "z",
+      "final": "i",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "au",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "w",
+      "final": "aak",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "g",
+      "final": "oek",
+      "tone": "3"
     }
   }
 ];
