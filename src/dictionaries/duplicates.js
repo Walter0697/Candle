@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -9068,30 +9092,6 @@ const duplicates = [
     "w3": {
       "initial": "ng",
       "final": "o",
-      "tone": "4"
-    }
-  },
-  {
-    "idiom": "宜咿哦哦",
-    "idiom2": "依依哦哦",
-    "w0": {
-      "initial": "j",
-      "final": "i",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "i",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "o",
-      "final": "",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "o",
-      "final": "",
       "tone": "4"
     }
   },
@@ -19464,30 +19464,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -23088,30 +23064,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "看菜吃飯",
-    "idiom2": "看菜喫飯",
-    "w0": {
-      "initial": "h",
-      "final": "on",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "c",
-      "final": "oi",
-      "tone": "3"
-    },
-    "w2": {
-      "initial": "h",
-      "final": "ek",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "f",
-      "final": "aan",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "好吃懶做",
     "idiom2": "好喫懶做",
     "w0": {
@@ -23804,6 +23756,30 @@ const duplicates = [
     "w3": {
       "initial": "a",
       "final": "ng",
+      "tone": "4"
+    }
+  },
+  {
+    "idiom": "宜咿哦哦",
+    "idiom2": "依依哦哦",
+    "w0": {
+      "initial": "j",
+      "final": "i",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "j",
+      "final": "i",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "o",
+      "final": "",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "o",
+      "final": "",
       "tone": "4"
     }
   },
