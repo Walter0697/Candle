@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -5061,30 +5085,6 @@ const duplicates = [
       "initial": "h",
       "final": "au",
       "tone": "6"
-    }
-  },
-  {
-    "idiom": "敆錢送禮",
-    "idiom2": "合錢送禮",
-    "w0": {
-      "initial": "g",
-      "final": "aap",
-      "tone": "3"
-    },
-    "w1": {
-      "initial": "c",
-      "final": "in",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "ung",
-      "tone": "3"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "ai",
-      "tone": "5"
     }
   },
   {
@@ -19464,30 +19464,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -21405,6 +21381,30 @@ const duplicates = [
       "initial": "l",
       "final": "oi",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "合錢送禮",
+    "idiom2": "敆錢送禮",
+    "w0": {
+      "initial": "g",
+      "final": "aap",
+      "tone": "3"
+    },
+    "w1": {
+      "initial": "c",
+      "final": "in",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "ung",
+      "tone": "3"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "ai",
+      "tone": "5"
     }
   },
   {
