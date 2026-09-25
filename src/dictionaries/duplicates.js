@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -18048,30 +18072,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "鏨亂歌柄",
-    "idiom2": "暫亂歌柄",
-    "w0": {
-      "initial": "z",
-      "final": "aam",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "l",
-      "final": "yun",
-      "tone": "6"
-    },
-    "w2": {
-      "initial": "g",
-      "final": "o",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "eng",
-      "tone": "3"
-    }
-  },
-  {
     "idiom": "爭返啖氣",
     "idiom2": "爭番啖氣",
     "w0": {
@@ -19461,30 +19461,6 @@ const duplicates = [
       "initial": "z",
       "final": "o",
       "tone": "1"
-    }
-  },
-  {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
     }
   },
   {
@@ -27549,6 +27525,30 @@ const duplicates = [
       "initial": "h",
       "final": "ong",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "鏨亂歌柄",
+    "idiom2": "暫亂歌柄",
+    "w0": {
+      "initial": "z",
+      "final": "aam",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "l",
+      "final": "yun",
+      "tone": "6"
+    },
+    "w2": {
+      "initial": "g",
+      "final": "o",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "eng",
+      "tone": "3"
     }
   },
   {
