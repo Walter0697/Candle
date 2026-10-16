@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -1917,30 +1941,6 @@ const duplicates = [
       "initial": "z",
       "final": "yu",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "大材小用",
-    "idiom2": "大才小用",
-    "w0": {
-      "initial": "d",
-      "final": "aai",
-      "tone": "6"
-    },
-    "w1": {
-      "initial": "c",
-      "final": "oi",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "iu",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "j",
-      "final": "ung",
-      "tone": "6"
     }
   },
   {
@@ -10509,30 +10509,6 @@ const duplicates = [
       "initial": "s",
       "final": "au",
       "tone": "2"
-    }
-  },
-  {
-    "idiom": "群星拱照",
-    "idiom2": "羣星拱照",
-    "w0": {
-      "initial": "kw",
-      "final": "an",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "ing",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "g",
-      "final": "ung",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "z",
-      "final": "iu",
-      "tone": "3"
     }
   },
   {
@@ -19464,30 +19440,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -20253,6 +20205,30 @@ const duplicates = [
       "initial": "g",
       "final": "ei",
       "tone": "1"
+    }
+  },
+  {
+    "idiom": "大材小用",
+    "idiom2": "大才小用",
+    "w0": {
+      "initial": "d",
+      "final": "aai",
+      "tone": "6"
+    },
+    "w1": {
+      "initial": "c",
+      "final": "oi",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "iu",
+      "tone": "2"
+    },
+    "w3": {
+      "initial": "j",
+      "final": "ung",
+      "tone": "6"
     }
   },
   {
@@ -22940,30 +22916,6 @@ const duplicates = [
     "w3": {
       "initial": "l",
       "final": "ik",
-      "tone": "6"
-    }
-  },
-  {
-    "idiom": "氫原子核",
-    "idiom2": "氫原子覈",
-    "w0": {
-      "initial": "h",
-      "final": "ing",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "j",
-      "final": "yun",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "i",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "h",
-      "final": "at",
       "tone": "6"
     }
   },
