@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -8184,30 +8208,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "一仆一趢",
-    "idiom2": "一仆一碌",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "p",
-      "final": "uk",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "uk",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "一仆一轆",
     "idiom2": "一仆一碌",
     "w0": {
@@ -8232,56 +8232,8 @@ const duplicates = [
     }
   },
   {
-    "idiom": "一仆一轆",
-    "idiom2": "一仆一趢",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "p",
-      "final": "uk",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "uk",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "一僕一碌",
     "idiom2": "一仆一碌",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "p",
-      "final": "uk",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "uk",
-      "tone": "1"
-    }
-  },
-  {
-    "idiom": "一僕一碌",
-    "idiom2": "一仆一趢",
     "w0": {
       "initial": "j",
       "final": "at",
@@ -19464,30 +19416,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -23445,6 +23373,78 @@ const duplicates = [
       "initial": "j",
       "final": "i",
       "tone": "4"
+    }
+  },
+  {
+    "idiom": "一仆一趢",
+    "idiom2": "一仆一碌",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "p",
+      "final": "uk",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "uk",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "一仆一趢",
+    "idiom2": "一仆一轆",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "p",
+      "final": "uk",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "uk",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "一仆一趢",
+    "idiom2": "一僕一碌",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "p",
+      "final": "uk",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "l",
+      "final": "uk",
+      "tone": "1"
     }
   },
   {
