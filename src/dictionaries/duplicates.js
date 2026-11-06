@@ -216,6 +216,30 @@ const duplicates = [
     }
   },
   {
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
+    "w0": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
+    }
+  },
+  {
     "idiom": "把口唔收",
     "idiom2": "把口唔修",
     "w0": {
@@ -549,30 +573,6 @@ const duplicates = [
       "initial": "g",
       "final": "aa",
       "tone": "3"
-    }
-  },
-  {
-    "idiom": "砰砰嘭嘭",
-    "idiom2": "乒乒嘭嘭",
-    "w0": {
-      "initial": "b",
-      "final": "ing",
-      "tone": "4"
-    },
-    "w1": {
-      "initial": "b",
-      "final": "ing",
-      "tone": "4"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "aang",
-      "tone": "4"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "aang",
-      "tone": "4"
     }
   },
   {
@@ -8037,30 +8037,6 @@ const duplicates = [
       "initial": "m",
       "final": "ou",
       "tone": "5"
-    }
-  },
-  {
-    "idiom": "一拮就穿",
-    "idiom2": "一㓤就穿",
-    "w0": {
-      "initial": "j",
-      "final": "at",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "g",
-      "final": "at",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "z",
-      "final": "au",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "c",
-      "final": "yun",
-      "tone": "1"
     }
   },
   {
@@ -19464,30 +19440,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -19821,6 +19773,30 @@ const duplicates = [
       "initial": "f",
       "final": "aat",
       "tone": "3"
+    }
+  },
+  {
+    "idiom": "乒乒嘭嘭",
+    "idiom2": "砰砰嘭嘭",
+    "w0": {
+      "initial": "b",
+      "final": "ing",
+      "tone": "4"
+    },
+    "w1": {
+      "initial": "b",
+      "final": "ing",
+      "tone": "4"
+    },
+    "w2": {
+      "initial": "b",
+      "final": "aang",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "b",
+      "final": "aang",
+      "tone": "4"
     }
   },
   {
@@ -23372,6 +23348,30 @@ const duplicates = [
     "w3": {
       "initial": "t",
       "final": "in",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "一㓤就穿",
+    "idiom2": "一拮就穿",
+    "w0": {
+      "initial": "j",
+      "final": "at",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "g",
+      "final": "at",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "z",
+      "final": "au",
+      "tone": "6"
+    },
+    "w3": {
+      "initial": "c",
+      "final": "yun",
       "tone": "1"
     }
   },
