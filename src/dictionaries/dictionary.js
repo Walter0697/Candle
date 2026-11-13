@@ -8322,7 +8322,7 @@ const dictionary = [
     "w3": {
       "initial": "t",
       "final": "ing",
-      "tone": "3"
+      "tone": "1"
     }
   },
   {
@@ -67118,7 +67118,7 @@ const dictionary = [
     "w0": {
       "initial": "d",
       "final": "aa",
-      "tone": "1"
+      "tone": "2"
     },
     "w1": {
       "initial": "s",

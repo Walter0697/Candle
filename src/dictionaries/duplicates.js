@@ -216,27 +216,27 @@ const duplicates = [
     }
   },
   {
-    "idiom": "把口唔收",
-    "idiom2": "把口唔修",
+    "idiom": "挨挨憑憑",
+    "idiom2": "挨挨凭凭",
     "w0": {
-      "initial": "b",
-      "final": "aa",
-      "tone": "2"
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
     },
     "w1": {
-      "initial": "h",
-      "final": "au",
-      "tone": "2"
+      "initial": "a",
+      "final": "ai",
+      "tone": "1"
     },
     "w2": {
-      "initial": "m",
-      "final": "",
-      "tone": "4"
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
     },
     "w3": {
-      "initial": "s",
-      "final": "au",
-      "tone": "1"
+      "initial": "b",
+      "final": "ang",
+      "tone": "6"
     }
   },
   {
@@ -15240,30 +15240,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "私私縮縮",
-    "idiom2": "思思縮縮",
-    "w0": {
-      "initial": "s",
-      "final": "i",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "s",
-      "final": "i",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "s",
-      "final": "uk",
-      "tone": "1"
-    },
-    "w3": {
-      "initial": "s",
-      "final": "uk",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "思華力腸",
     "idiom2": "司華力腸",
     "w0": {
@@ -19464,30 +19440,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "挨挨憑憑",
-    "idiom2": "挨挨凭凭",
-    "w0": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w1": {
-      "initial": "a",
-      "final": "ai",
-      "tone": "1"
-    },
-    "w2": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    },
-    "w3": {
-      "initial": "b",
-      "final": "ang",
-      "tone": "6"
-    }
-  },
-  {
     "idiom": "暗渡陳倉",
     "idiom2": "暗度陳倉",
     "w0": {
@@ -19556,6 +19508,30 @@ const duplicates = [
     "w3": {
       "initial": "z",
       "final": "ik",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "把口唔修",
+    "idiom2": "把口唔收",
+    "w0": {
+      "initial": "b",
+      "final": "aa",
+      "tone": "2"
+    },
+    "w1": {
+      "initial": "h",
+      "final": "au",
+      "tone": "2"
+    },
+    "w2": {
+      "initial": "m",
+      "final": "",
+      "tone": "4"
+    },
+    "w3": {
+      "initial": "s",
+      "final": "au",
       "tone": "1"
     }
   },
@@ -25560,30 +25536,6 @@ const duplicates = [
     }
   },
   {
-    "idiom": "你早抖啦",
-    "idiom2": "你早唞啦",
-    "w0": {
-      "initial": "n",
-      "final": "ei",
-      "tone": "5"
-    },
-    "w1": {
-      "initial": "z",
-      "final": "ou",
-      "tone": "2"
-    },
-    "w2": {
-      "initial": "t",
-      "final": "au",
-      "tone": "2"
-    },
-    "w3": {
-      "initial": "l",
-      "final": "aa",
-      "tone": "1"
-    }
-  },
-  {
     "idiom": "五勞七傷",
     "idiom2": "五癆七傷",
     "w0": {
@@ -26636,6 +26588,30 @@ const duplicates = [
     "w3": {
       "initial": "s",
       "final": "i",
+      "tone": "1"
+    }
+  },
+  {
+    "idiom": "私私縮縮",
+    "idiom2": "思思縮縮",
+    "w0": {
+      "initial": "s",
+      "final": "i",
+      "tone": "1"
+    },
+    "w1": {
+      "initial": "s",
+      "final": "i",
+      "tone": "1"
+    },
+    "w2": {
+      "initial": "s",
+      "final": "uk",
+      "tone": "1"
+    },
+    "w3": {
+      "initial": "s",
+      "final": "uk",
       "tone": "1"
     }
   },
